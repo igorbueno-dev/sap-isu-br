@@ -15,12 +15,12 @@
 
 | Preciso de                                              | Transação                  |
 | --------------------------------------------------------- | ------------------------------ |
-| Criar / modificar / exibir**Parceiro de Negócios**     | `FPP1` `FPP2` `FPP3` ou `BP` |
-| Criar / modificar / exibir**Conta Contrato**            | `CAA1` `CAA2` `CAA3`         |
-| Modificar / exibir**Contrato**                          | `ES21` `ES22`                |
-| Criar / modificar / exibir**Objeto de Ligação**       | `ES55` `ES56` `ES57`         |
-| Criar / modificar / exibir**Local de Consumo**          | `ES60` `ES61` `ES62`         |
-| Criar / modificar / exibir**Instalação**              | `ES30` `ES31` `ES32`         |
+| Criar / modificar / exibir **Parceiro de Negócios**     | `FPP1` `FPP2` `FPP3` ou `BP` |
+| Criar / modificar / exibir **Conta Contrato**            | `CAA1` `CAA2` `CAA3`         |
+| Modificar / exibir **Contrato**                          | `ES21` `ES22`                |
+| Criar / modificar / exibir **Objeto de Ligação**       | `ES55` `ES56` `ES57`         |
+| Criar / modificar / exibir **Local de Consumo**          | `ES60` `ES61` `ES62`         |
+| Criar / modificar / exibir **Instalação**              | `ES30` `ES31` `ES32`         |
 | Criar / modificar / exibir **Local de Instal. Equip.** | `ES65` `ES66` `ES67`         |
 | **Instalar equipamento** (total / técnica / cálculo)  | `EG31` `EG33` `EG34`         |
 | Parametrizar qualquer coisa                             | `SPRO`                       |
@@ -104,7 +104,7 @@
 
 | Transação       | O que faz                                                                             |
 | ------------------- | --------------------------------------------------------------------------------------- |
-| `SE16N` ou `SE16` | Exibe o conteúdo de qualquer tabela.**Sua ferramenta mais usada como júnior**       |
+| `SE16N` ou `SE16` | Exibe o conteúdo de qualquer tabela. **Sua ferramenta mais usada como júnior**       |
 | `SE11`            | Dicionário de dados: ver a estrutura e os campos de uma tabela                       |
 | `SE93`            | Pesquisar transações por descrição                                                |
 | `SM37`            | Monitorar processamentos em background. Os jobs de faturamento e cobrança rodam aqui |
@@ -147,10 +147,10 @@
 
 | Transação              | O que faz                                                          |
 | -------------------------- | -------------------------------------------------------------------- |
-| `ES55`&nbsp;/&nbsp;`ES56`&nbsp;/&nbsp;`ES57` | Criar / modificar / exibir**Objeto de Ligação**                  |
+| `ES55`&nbsp;/&nbsp;`ES56`&nbsp;/&nbsp;`ES57` | Criar / modificar / exibir **Objeto de Ligação**                  |
 | `ES60`&nbsp;/&nbsp;`ES61`&nbsp;/&nbsp;`ES62` | Criar / modificar / exibir Local de Consumo                        |
 | `ES30`&nbsp;/&nbsp;`ES31`&nbsp;/&nbsp;`ES32` | Criar / modificar / exibir Instalação                            |
-| `ES65`&nbsp;/&nbsp;`ES66`&nbsp;/&nbsp;`ES67` | Criar / modificar / exibir**Local de Instalação de Equipamento** |
+| `ES65`&nbsp;/&nbsp;`ES66`&nbsp;/&nbsp;`ES67` | Criar / modificar / exibir **Local de Instalação de Equipamento** |
 
 > **Vocabulário.** Em português o sistema usa **Objeto de Ligação** (traduzido
 > em alguns materiais como "Objeto de Conexão") e **Equipamento** ("Dispositivo"
@@ -184,7 +184,7 @@ padrão · `BUC0` formas de tratamento · `BUCM` tipos de legitimação ·
 | -------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
 | Move-In / Move-Out                   | **(confirmar)**. É o processo que cria o Contrato. **Lacuna prioritária a fechar**                                    |
 | Visão geral do cliente              | **(confirmar)**. A transação que mostra a hierarquia inteira numa tela                                                |
-| Nós `Ligação` e `Ponto de entrega` | Aparecem no menu de dados mestre técnicos e ainda não explorei.**(confirmar)**                                        |
+| Nós `Ligação` e `Ponto de entrega` | Aparecem no menu de dados mestre técnicos e ainda não explorei. **(confirmar)**                                        |
 
 ## Move-In / Move-Out
 
@@ -207,9 +207,9 @@ padrão · `BUC0` formas de tratamento · `BUCM` tipos de legitimação ·
 
 | Transação | O que faz                                                                  |
 | ------------- | ---------------------------------------------------------------------------- |
-| `EG31`      | Instalação**Total** (técnica **e** com efeito no faturamento)           |
-| `EG33`      | Instalação**Técnica** (coloca o aparelho, **sem** mexer no faturamento) |
-| `EG34`      | Instalação**com efeito no cálculo da fatura**                           |
+| `EG31`      | Instalação **Total** (técnica **e** com efeito no faturamento)           |
+| `EG33`      | Instalação **Técnica** (coloca o aparelho, **sem** mexer no faturamento) |
+| `EG34`      | Instalação **com efeito no cálculo da fatura**                           |
 | `EG51`      | **Estorno técnico**                                                       |
 
 > **A pegadinha mais útil do módulo.** Medidor trocado no campo e conta
@@ -224,14 +224,14 @@ padrão · `BUC0` formas de tratamento · `BUCM` tipos de legitimação ·
 
 | Transação   | O que faz                                                                                                                                                                                                                                         |
 | --------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Família `EL*` | Criação de ordem de leitura, entrada de resultado, correção de leitura implausível, upload e download de arquivo, monitoramento.**(confirmar)** os códigos. Os três que importam: **criar ordem, informar resultado, corrigir leitura** |
+| Família `EL*` | Criação de ordem de leitura, entrada de resultado, correção de leitura implausível, upload e download de arquivo, monitoramento. **(confirmar)** os códigos. Os três que importam: **criar ordem, informar resultado, corrigir leitura** |
 
 ## Faturamento e emissão
 
 
 | Transação          | O que faz                                                                                                                                                                                                                         |
 | ---------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Família `EA*`        | Simulação de faturamento, faturamento individual, exibição do documento, emissão de fatura, estorno.**(confirmar)** os códigos. Os cinco que importam: **simular, faturar, exibir documento, emitir a fatura, estornar** |
+| Família `EA*`        | Simulação de faturamento, faturamento individual, exibição do documento, emissão de fatura, estorno. **(confirmar)** os códigos. Os cinco que importam: **simular, faturar, exibir documento, emitir a fatura, estornar** |
 | Faturamento em massa | Roda como atividade em massa, não como transação individual. Monitorada por `SM37`. **(confirmar)** o monitor específico                                                                                                       |
 
 ## Finanças e cobranças (FI-CA)
@@ -282,10 +282,10 @@ padrão · `BUC0` formas de tratamento · `BUCM` tipos de legitimação ·
 | `EANLH`                | Histórico da instalação (versões com validade)                                                   |
 | `EVBS`                 | Local de Consumo                                                                                     |
 | `EABL`                 | Resultados de leitura                                                                                |
-| `EABLG`                | Documento de leitura, cabeçalho.**(confirmar)** o papel exato desta versus `EABL`                   |
+| `EABLG`                | Documento de leitura, cabeçalho. **(confirmar)** o papel exato desta versus `EABL`                   |
 | `EQUI`                 | Equipamento (a base de ativo do dispositivo)                                                         |
 | `ERCH`                 | **Documento de faturamento, cabeçalho**                                                             |
-| `DBERCHZ`              | Linhas do documento de faturamento. Em versões recentes existem variantes numeradas.**(confirmar)** |
+| `DBERCHZ`              | Linhas do documento de faturamento. Em versões recentes existem variantes numeradas. **(confirmar)** |
 | `ERDK`                 | **Documento de impressão (a fatura), cabeçalho**                                                   |
 | `DFKKKO`               | Documento FI-CA, cabeçalho                                                                          |
 | `DFKKOP`               | **Partidas do documento FI-CA. A tabela do contas a receber**                                        |
@@ -494,11 +494,11 @@ O peso está em **entender fluxo e relação entre objetos**, não em decorar c�
 
 | Erro conceitual                                    | Correção                                                                                                                                                           |
 | ---------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| "IS-U é um sistema separado do SAP"               | É uma solução setorial**dentro** do ERP, que reutiliza contabilidade, custos, materiais e manutenção                                                            |
-| "Billing e Invoicing são a mesma coisa"           | Billing calcula por contrato. Invoicing consolida, define vencimento, gera a conta e**cria a dívida**                                                               |
+| "IS-U é um sistema separado do SAP"               | É uma solução setorial **dentro** do ERP, que reutiliza contabilidade, custos, materiais e manutenção                                                            |
+| "Billing e Invoicing são a mesma coisa"           | Billing calcula por contrato. Invoicing consolida, define vencimento, gera a conta e **cria a dívida**                                                               |
 | "A instalação pertence ao cliente"               | Pertence ao imóvel. O cliente se liga a ela pelo Contrato, que tem início e fim                                                                                    |
 | "Local de Consumo e Instalação são sinônimos"  | Local de Consumo é o espaço. Instalação é o serviço faturável naquele espaço                                                                                 |
-| "FI-CA é o módulo financeiro da empresa"         | É o razão**auxiliar**. A contabilidade oficial é o FI, que recebe totais                                                                                          |
+| "FI-CA é o módulo financeiro da empresa"         | É o razão **auxiliar**. A contabilidade oficial é o FI, que recebe totais                                                                                          |
 | "Instalei o medidor, então ele vai faturar"       | Instalação técnica ≠ instalação para faturamento. Sem a segunda, não fatura                                                                                   |
 | "MRU e Portion são a mesma coisa"                 | MRU é geografia. Portion é calendário                                                                                                                             |
 | "Documento segregado por outsorting é erro"       | É a rede de segurança funcionando. O cálculo está certo, só foi retido para revisão                                                                            |
@@ -512,7 +512,7 @@ O peso está em **entender fluxo e relação entre objetos**, não em decorar c�
 | "Estimativa é falha de processo"                  | É processo padrão e previsto, com regularização. O problema é estimar demais ou não regularizar                                                                |
 | "Se o cliente pagou, o sistema sabe"               | Só se a compensação ocorreu. Pagamento não compensado é o incidente mais grave da operação                                                                    |
 | "Data retroativa é só um detalhe"                | É uma das operações mais caras do sistema. Força estorno, refaturamento em cascata e impacto fiscal                                                              |
-| "Como júnior preciso resolver tudo sozinho"       | O valor do júnior é**isolar a causa com precisão** e escalar cedo o que tem impacto em massa ou risco. Escalar bem é competência                                |
+| "Como júnior preciso resolver tudo sozinho"       | O valor do júnior é **isolar a causa com precisão** e escalar cedo o que tem impacto em massa ou risco. Escalar bem é competência                                |
 
 ---
 
