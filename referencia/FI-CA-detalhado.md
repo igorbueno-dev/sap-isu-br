@@ -207,7 +207,7 @@ Ver a seção 4.
 | Ferramenta | Uso |
 |---|---|
 | `FPL9` | **A sua transação principal.** A conta do cliente, com todas as partidas, abertas e compensadas. Você vai abrir isso dezenas de vezes por dia |
-| `FPE1` / `FPE2` / `FPE3` | Criar, alterar e exibir documento FI-CA |
+| `FPE1`&nbsp;/&nbsp;`FPE2`&nbsp;/&nbsp;`FPE3` | Criar, alterar e exibir documento FI-CA |
 | `SE16N` | Extrair em massa. É aqui que a sua base de análise mora |
 | `SM37` | Conferir se os jobs da noite rodaram, e como terminaram |
 | `SLG1` | O log de aplicação, onde está o motivo real do erro |

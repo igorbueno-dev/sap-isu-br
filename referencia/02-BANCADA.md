@@ -88,7 +88,7 @@
 
 | O que fazer                               | Como                                                                                                                    |
 | ------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
-| **Pesquisar transação por descrição** | Transação`SE93`. Digite parte do nome e veja os códigos                                                              |
+| **Pesquisar transação por descrição** | Transação `SE93`. Digite parte do nome e veja os códigos                                                              |
 | **Navegar pelo menu**                     | O SAP Easy Access tem a árvore inteira em Utilities Industry. É o caminho oficial e sempre correto para a sua versão |
 | **Ver onde você está**                  | O código da transação atual costuma aparecer no rodapé ou no campo de comando                                       |
 | **Perguntar a quem já roda o módulo**      | O melhor método. Peça a lista das transações que o time usa no dia a dia                                            |
@@ -129,10 +129,10 @@
 | `FPP1` ou `BP`           | **Criar** Parceiro de Negócios                  |
 | `FPP2` ou `BP`           | **Modificar** Parceiro de Negócios              |
 | `FPP3` ou `BP`           | **Exibir** Parceiro de Negócios                 |
-| `FPCR1` / `FPCR2`        | Exibir / modificar solvência (creditworthiness) |
+| `FPCR1`&nbsp;/&nbsp;`FPCR2`        | Exibir / modificar solvência (creditworthiness) |
 | `FP05BNKD`               | Copiar dados bancários                          |
 | `FPP2A`                  | Ativar modificações planejadas                 |
-| `CAA1` / `CAA2` / `CAA3` | Criar / modificar / exibir Conta Contrato        |
+| `CAA1`&nbsp;/&nbsp;`CAA2`&nbsp;/&nbsp;`CAA3` | Criar / modificar / exibir Conta Contrato        |
 | `ES21`                   | **Modificar** Contrato                           |
 | `ES22`                   | **Exibir** Contrato                              |
 | `ES27`                   | Modificar todos os contratos                     |
@@ -147,10 +147,10 @@
 
 | Transação              | O que faz                                                          |
 | -------------------------- | -------------------------------------------------------------------- |
-| `ES55` / `ES56` / `ES57` | Criar / modificar / exibir**Objeto de Ligação**                  |
-| `ES60` / `ES61` / `ES62` | Criar / modificar / exibir Local de Consumo                        |
-| `ES30` / `ES31` / `ES32` | Criar / modificar / exibir Instalação                            |
-| `ES65` / `ES66` / `ES67` | Criar / modificar / exibir**Local de Instalação de Equipamento** |
+| `ES55`&nbsp;/&nbsp;`ES56`&nbsp;/&nbsp;`ES57` | Criar / modificar / exibir**Objeto de Ligação**                  |
+| `ES60`&nbsp;/&nbsp;`ES61`&nbsp;/&nbsp;`ES62` | Criar / modificar / exibir Local de Consumo                        |
+| `ES30`&nbsp;/&nbsp;`ES31`&nbsp;/&nbsp;`ES32` | Criar / modificar / exibir Instalação                            |
+| `ES65`&nbsp;/&nbsp;`ES66`&nbsp;/&nbsp;`ES67` | Criar / modificar / exibir**Local de Instalação de Equipamento** |
 
 > **Vocabulário.** Em português o sistema usa **Objeto de Ligação** (traduzido
 > em alguns materiais como "Objeto de Conexão") e **Equipamento** ("Dispositivo"
@@ -184,7 +184,7 @@ padrão · `BUC0` formas de tratamento · `BUCM` tipos de legitimação ·
 | -------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
 | Move-In / Move-Out                   | **(confirmar)**. É o processo que cria o Contrato. **Lacuna prioritária a fechar**                                    |
 | Visão geral do cliente              | **(confirmar)**. A transação que mostra a hierarquia inteira numa tela                                                |
-| Nós`Ligação` e `Ponto de entrega` | Aparecem no menu de dados mestre técnicos e ainda não explorei.**(confirmar)**                                        |
+| Nós `Ligação` e `Ponto de entrega` | Aparecem no menu de dados mestre técnicos e ainda não explorei.**(confirmar)**                                        |
 
 ## Move-In / Move-Out
 
@@ -198,7 +198,7 @@ padrão · `BUC0` formas de tratamento · `BUCM` tipos de legitimação ·
 
 | Transação              | O que faz                                                           |
 | -------------------------- | --------------------------------------------------------------------- |
-| `IQ01` / `IQ02` / `IQ03` | Criar / alterar / exibir Equipamento (a camada de ativo do medidor) |
+| `IQ01`&nbsp;/&nbsp;`IQ02`&nbsp;/&nbsp;`IQ03` | Criar / alterar / exibir Equipamento (a camada de ativo do medidor) |
 | `IE03`                   | Exibir equipamento pela visão de manutenção                      |
 
 > **Verificado.** Caminho:
@@ -224,15 +224,15 @@ padrão · `BUC0` formas de tratamento · `BUCM` tipos de legitimação ·
 
 | Transação   | O que faz                                                                                                                                                                                                                                         |
 | --------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Família`EL*` | Criação de ordem de leitura, entrada de resultado, correção de leitura implausível, upload e download de arquivo, monitoramento.**(confirmar)** os códigos. Os três que importam: **criar ordem, informar resultado, corrigir leitura** |
+| Família `EL*` | Criação de ordem de leitura, entrada de resultado, correção de leitura implausível, upload e download de arquivo, monitoramento.**(confirmar)** os códigos. Os três que importam: **criar ordem, informar resultado, corrigir leitura** |
 
 ## Faturamento e emissão
 
 
 | Transação          | O que faz                                                                                                                                                                                                                         |
 | ---------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Família`EA*`        | Simulação de faturamento, faturamento individual, exibição do documento, emissão de fatura, estorno.**(confirmar)** os códigos. Os cinco que importam: **simular, faturar, exibir documento, emitir a fatura, estornar** |
-| Faturamento em massa | Roda como atividade em massa, não como transação individual. Monitorada por`SM37`. **(confirmar)** o monitor específico                                                                                                       |
+| Família `EA*`        | Simulação de faturamento, faturamento individual, exibição do documento, emissão de fatura, estorno.**(confirmar)** os códigos. Os cinco que importam: **simular, faturar, exibir documento, emitir a fatura, estornar** |
+| Faturamento em massa | Roda como atividade em massa, não como transação individual. Monitorada por `SM37`. **(confirmar)** o monitor específico                                                                                                       |
 
 ## Finanças e cobranças (FI-CA)
 
@@ -240,9 +240,9 @@ padrão · `BUC0` formas de tratamento · `BUCM` tipos de legitimação ·
 | Transação                      | O que faz                                                                                                                                |
 | ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
 | `FPL9`                           | **Exibir a conta do cliente:** todas as partidas, abertas e compensadas. **A transação mais importante de toda a trilha de cobrança** |
-| `FPE1` / `FPE2` / `FPE3`         | Criar / alterar / exibir documento FI-CA                                                                                                 |
-| Lote de pagamento                | Família`FP0*`. **(confirmar)**                                                                                                          |
-| Cobrança: proposta e execução | Família`FPV*`. **(confirmar)** qual é a proposta e qual é a execução                                                                |
+| `FPE1`&nbsp;/&nbsp;`FPE2`&nbsp;/&nbsp;`FPE3`         | Criar / alterar / exibir documento FI-CA                                                                                                 |
+| Lote de pagamento                | Família `FP0*`. **(confirmar)**                                                                                                          |
+| Cobrança: proposta e execução | Família `FPV*`. **(confirmar)** qual é a proposta e qual é a execução                                                                |
 | Plano de parcelamento            | **(confirmar)**                                                                                                                          |
 
 ## Campo (Work Management)
@@ -250,11 +250,11 @@ padrão · `BUC0` formas de tratamento · `BUCM` tipos de legitimação ·
 
 | Transação                              | O que faz                                             |
 | ------------------------------------------ | ------------------------------------------------------- |
-| `IW21` / `IW22` / `IW23`                 | Criar / alterar / exibir Nota                         |
-| `IW31` / `IW32` / `IW33`                 | Criar / alterar / exibir Ordem                        |
+| `IW21`&nbsp;/&nbsp;`IW22`&nbsp;/&nbsp;`IW23`                 | Criar / alterar / exibir Nota                         |
+| `IW31`&nbsp;/&nbsp;`IW32`&nbsp;/&nbsp;`IW33`                 | Criar / alterar / exibir Ordem                        |
 | `IW41`                                   | Confirmar execução da ordem                         |
 | `IL03`                                   | Exibir Local de Instalação (visão de manutenção) |
-| Documentos de desligamento e religação | Família`EC8*`. **(confirmar)**                       |
+| Documentos de desligamento e religação | Família `EC8*`. **(confirmar)**                       |
 
 ## BW e analytics
 
@@ -263,7 +263,7 @@ padrão · `BUC0` formas de tratamento · `BUCM` tipos de legitimação ·
 | ----------------- | ---------------------------------------------------------------------------------------- |
 | `RSA1`          | Data Warehousing Workbench: onde vive toda a modelagem do BW                           |
 | `RSA3`          | Extractor Checker: testar um extrator no sistema de origem e ver os dados que ele traz |
-| `RSA5` / `RSA6` | Ativar e visualizar DataSources de conteúdo padrão                                   |
+| `RSA5`&nbsp;/&nbsp;`RSA6` | Ativar e visualizar DataSources de conteúdo padrão                                   |
 
 ---
 
@@ -290,7 +290,7 @@ padrão · `BUC0` formas de tratamento · `BUCM` tipos de legitimação ·
 | `DFKKKO`               | Documento FI-CA, cabeçalho                                                                          |
 | `DFKKOP`               | **Partidas do documento FI-CA. A tabela do contas a receber**                                        |
 | `DFKKOPK`              | Partidas de razão do documento FI-CA                                                                |
-| Tarifa, preço e fatos | Famílias`E*` e `ET*`. **(confirmar)** os nomes exatos, variam conforme o objeto                     |
+| Tarifa, preço e fatos | Famílias `E*` e `ET*`. **(confirmar)** os nomes exatos, variam conforme o objeto                     |
 | Perfis do EDM          | **(confirmar)**                                                                                      |
 | Ponto de Entrega (PoD) | **(confirmar)**                                                                                      |
 
