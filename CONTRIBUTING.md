@@ -82,7 +82,7 @@ Se for mexer em nota:
   de projeto, nome de sistema interno.
 - **Print de tela de sistema produtivo.**
 
-Exemplo se escreve inventado. O prédio da `MD-02` não existe, e é por isso que
+Exemplo se escreve inventado. O prédio da `MD‑02` não existe, e é por isso que
 ele pode estar aqui.
 
 ---

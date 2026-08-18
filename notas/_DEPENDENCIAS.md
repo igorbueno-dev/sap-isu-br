@@ -63,18 +63,18 @@ não entende, o problema está em algum nó acima dele, não nele.
 
 ## Ordem de estudo derivada
 
-`GE-01` → `MD-01` → `MD-02` → então os dois ramos em paralelo:
+`GE‑01` → `MD‑01` → `MD‑02` → então os dois ramos em paralelo:
 
 | Ramo comercial | Ramo técnico |
 |---|---|
-| `MD-03` Parceiro de Negócios | `ST-01` Objeto de Ligação |
-| `MD-04` PN, dados | `ST-02` Local de Consumo |
-| `MD-05` Conta Contrato | `ST-03` Instalação |
-| | `ST-04` Equipamento |
+| `MD‑03` Parceiro de Negócios | `ST‑01` Objeto de Ligação |
+| `MD‑04` PN, dados | `ST‑02` Local de Consumo |
+| `MD‑05` Conta Contrato | `ST‑03` Instalação |
+| | `ST‑04` Equipamento |
 
-E os dois convergem em **`MD-06` Contrato**.
+E os dois convergem em **`MD‑06` Contrato**.
 
-`GE-02` (evolução do produto) é folha solta: útil, sem dependente.
+`GE‑02` (evolução do produto) é folha solta: útil, sem dependente.
 
 ---
 
