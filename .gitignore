@@ -1,0 +1,16 @@
+# Obsidian
+.obsidian/workspace*
+.obsidian/cache
+.trash/
+
+# Imagens: este repositorio e so texto
+*.jpeg
+*.jpg
+*.png
+*.heic
+*.pdf
+
+# Windows
+Thumbs.db
+desktop.ini
+~$*
