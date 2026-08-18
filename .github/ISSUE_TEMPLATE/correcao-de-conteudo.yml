@@ -1,0 +1,73 @@
+name: Correção de conteúdo
+description: Algo está errado, incompleto ou confuso
+title: "[correção] "
+labels: ["correção"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Obrigado por apontar. Erro que fica no material vira erro na cabeça de
+        quem estuda por ele.
+
+        **Se você leu e não entendeu, isso também é um erro** e cabe aqui: use
+        o tipo "está confuso".
+
+  - type: input
+    id: onde
+    attributes:
+      label: Onde está
+      description: Arquivo e, se souber, a linha ou o nome da seção
+      placeholder: notas/MD-06-contrato.md, seção "As oito regras"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: tipo
+    attributes:
+      label: Que tipo de problema
+      options:
+        - Está errado
+        - Está incompleto, falta uma parte
+        - Está confuso, li e não entendi
+        - Vale nos dois sentidos mas o material afirma só um
+        - Mudou entre ECC e S/4HANA
+    validations:
+      required: true
+
+  - type: textarea
+    id: oquediz
+    attributes:
+      label: O que o material diz hoje
+      description: Pode colar o trecho
+    validations:
+      required: true
+
+  - type: textarea
+    id: oquedeveria
+    attributes:
+      label: O que deveria dizer
+      description: Se for o tipo "está confuso", pode deixar em branco e só dizer onde travou
+    validations:
+      required: false
+
+  - type: dropdown
+    id: fonte
+    attributes:
+      label: Como você sabe
+      description: Isto decide como a correção é marcada. Experiência de projeto vale, só precisa estar identificada como tal
+      options:
+        - Experiência de projeto
+        - Documentação SAP
+        - Vi no sistema
+        - Fórum, blog ou nota SAP
+        - Não sei explicar, mas soa errado
+    validations:
+      required: true
+
+  - type: input
+    id: referencia
+    attributes:
+      label: Link ou referência
+      description: Se tiver
+    validations:
+      required: false

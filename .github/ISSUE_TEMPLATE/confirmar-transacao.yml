@@ -1,0 +1,81 @@
+name: Confirmar transação
+description: Você sabe um código marcado como (confirmar) no material
+title: "[transação] "
+labels: ["confirmar", "transação"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Obrigado. Fechar um `(confirmar)` é a contribuição mais útil que existe aqui.
+
+        Não precisa preencher tudo: **o código e como você sabe já bastam.**
+
+  - type: input
+    id: onde
+    attributes:
+      label: Onde está o (confirmar)
+      description: Arquivo e, se souber, a linha ou o nome da seção
+      placeholder: 02-BANCADA.md, seção de leitura, família EL*
+    validations:
+      required: true
+
+  - type: input
+    id: codigo
+    attributes:
+      label: O código correto
+      description: Um por issue, quando der. Se forem vários da mesma família, pode listar
+      placeholder: EL01
+    validations:
+      required: true
+
+  - type: input
+    id: oquefaz
+    attributes:
+      label: O que a transação faz
+      placeholder: Criar ordem de leitura
+    validations:
+      required: true
+
+  - type: dropdown
+    id: fonte
+    attributes:
+      label: Como você sabe
+      description: Isto decide como a informação é marcada no material. Nenhuma opção é ruim, só precisam ser distinguíveis
+      options:
+        - Uso no dia a dia
+        - Vi no menu do sistema
+        - Está na documentação SAP
+        - Vi em fórum, blog ou nota SAP
+        - Lembro, mas não tenho certeza
+    validations:
+      required: true
+
+  - type: input
+    id: referencia
+    attributes:
+      label: Link ou referência
+      description: Se tiver. Nota SAP, página da documentação, caminho do menu
+      placeholder: Serviços públicos > Leitura > Ordem de leitura > Criar
+    validations:
+      required: false
+
+  - type: dropdown
+    id: versao
+    attributes:
+      label: Em qual versão
+      description: Alguns códigos mudaram entre ECC e S/4HANA
+      options:
+        - ECC
+        - S/4HANA Utilities
+        - Vale nos dois
+        - Não sei
+    validations:
+      required: false
+
+  - type: textarea
+    id: observacao
+    attributes:
+      label: Alguma armadilha
+      description: Pegadinha, pré-requisito, algo que costuma dar errado com essa transação
+    validations:
+      required: false
