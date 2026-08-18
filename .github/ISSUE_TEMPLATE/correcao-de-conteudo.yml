@@ -1,7 +1,7 @@
 name: Correção de conteúdo
 description: Algo está errado, incompleto ou confuso
 title: "[correção] "
-labels: ["correção"]
+labels: ["correcao"]
 body:
   - type: markdown
     attributes:

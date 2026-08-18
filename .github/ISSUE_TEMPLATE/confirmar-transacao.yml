@@ -1,7 +1,7 @@
 name: Confirmar transação
 description: Você sabe um código marcado como (confirmar) no material
 title: "[transação] "
-labels: ["confirmar", "transação"]
+labels: ["confirmar", "transacao"]
 body:
   - type: markdown
     attributes:
