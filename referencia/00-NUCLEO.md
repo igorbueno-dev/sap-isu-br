@@ -65,8 +65,8 @@ Nada mais mora aqui.
 | Quando | Onde ir | Frequência |
 |---|---|---|
 | Revisar rápido | O cartão acima | **todo dia, 2 min** |
-| Estudar um tema | [`notas/_INDICE.md`](notas/_INDICE.md) | semanal |
-| Saber em que ordem estudar | [`notas/_DEPENDENCIAS.md`](notas/_DEPENDENCIAS.md) | ao começar |
+| Estudar um tema | [as 15 notas](../README.md#as-15-notas) | semanal |
+| Saber em que ordem estudar | [`notas/_DEPENDENCIAS.md`](../notas/_DEPENDENCIAS.md) | ao começar |
 | Achar transação ou tabela | [`02-BANCADA.md`](02-BANCADA.md) | sob demanda |
 | Detalhar FI-CA | [`FI-CA-detalhado.md`](FI-CA-detalhado.md) | sob demanda |
 
@@ -75,25 +75,25 @@ Nada mais mora aqui.
 ## As 15 notas
 
 **Geral**
-[`GE-03` A concessionária](notas/GE-03-a-concessionaria.md) ·
-[`GE-01` O que é o IS-U CCS](notas/GE-01-o-que-e-is-u-ccs.md) ·
-[`GE-02` Evolução do produto](notas/GE-02-evolucao-do-produto.md) ·
-[`GE-04` Os três setores](notas/GE-04-os-tres-setores.md)
+[`GE-03` A concessionária](../notas/GE-03-a-concessionaria.md) ·
+[`GE-01` O que é o IS-U CCS](../notas/GE-01-o-que-e-is-u-ccs.md) ·
+[`GE-02` Evolução do produto](../notas/GE-02-evolucao-do-produto.md) ·
+[`GE-04` Os três setores](../notas/GE-04-os-tres-setores.md)
 
 **Dados mestres comerciais**
-[`MD-01` O mapa](notas/MD-01-mapa-dos-dados-mestres.md) ·
-[`MD-02` A tradução do prédio](notas/MD-02-a-traducao-do-predio.md) ·
-[`MD-03` Parceiro de Negócios](notas/MD-03-parceiro-de-negocios.md) ·
-[`MD-04` PN, dados](notas/MD-04-parceiro-de-negocios-dados.md) ·
-[`MD-05` Conta Contrato](notas/MD-05-conta-contrato.md) ·
-[`MD-06` Contrato](notas/MD-06-contrato.md) ·
-[`MD-07` Move-In e Move-Out](notas/MD-07-move-in-move-out.md)
+[`MD-01` O mapa](../notas/MD-01-mapa-dos-dados-mestres.md) ·
+[`MD-02` A tradução do prédio](../notas/MD-02-a-traducao-do-predio.md) ·
+[`MD-03` Parceiro de Negócios](../notas/MD-03-parceiro-de-negocios.md) ·
+[`MD-04` PN, dados](../notas/MD-04-parceiro-de-negocios-dados.md) ·
+[`MD-05` Conta Contrato](../notas/MD-05-conta-contrato.md) ·
+[`MD-06` Contrato](../notas/MD-06-contrato.md) ·
+[`MD-07` Move-In e Move-Out](../notas/MD-07-move-in-move-out.md)
 
 **Dados mestres técnicos**
-[`ST-01` Objeto de Ligação](notas/ST-01-objeto-de-ligacao.md) ·
-[`ST-02` Local de Consumo](notas/ST-02-local-de-consumo.md) ·
-[`ST-03` Instalação](notas/ST-03-instalacao.md) ·
-[`ST-04` Equipamento](notas/ST-04-equipamento.md)
+[`ST-01` Objeto de Ligação](../notas/ST-01-objeto-de-ligacao.md) ·
+[`ST-02` Local de Consumo](../notas/ST-02-local-de-consumo.md) ·
+[`ST-03` Instalação](../notas/ST-03-instalacao.md) ·
+[`ST-04` Equipamento](../notas/ST-04-equipamento.md)
 
 ---
 
@@ -101,8 +101,8 @@ Nada mais mora aqui.
 
 | Conteúdo | Foi para |
 |---|---|
-| A concessionária em 5 parágrafos | nota [`GE-03`](notas/GE-03-a-concessionaria.md) |
-| O que é o SAP for Utilities | nota [`GE-01`](notas/GE-01-o-que-e-is-u-ccs.md) |
-| Os três setores | nota [`GE-04`](notas/GE-04-os-tres-setores.md) |
-| A hierarquia, camada por camada | notas [`MD-02`](notas/MD-02-a-traducao-do-predio.md) e `ST-01` a `ST-04` |
-| A Dona Marta, o prédio | dentro de [`MD-02`](notas/MD-02-a-traducao-do-predio.md) |
+| A concessionária em 5 parágrafos | nota [`GE-03`](../notas/GE-03-a-concessionaria.md) |
+| O que é o SAP for Utilities | nota [`GE-01`](../notas/GE-01-o-que-e-is-u-ccs.md) |
+| Os três setores | nota [`GE-04`](../notas/GE-04-os-tres-setores.md) |
+| A hierarquia, camada por camada | notas [`MD-02`](../notas/MD-02-a-traducao-do-predio.md) e `ST-01` a `ST-04` |
+| A Dona Marta, o prédio | dentro de [`MD-02`](../notas/MD-02-a-traducao-do-predio.md) |

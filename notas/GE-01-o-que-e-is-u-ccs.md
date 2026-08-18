@@ -84,7 +84,7 @@ parte do produto, ele lê o produto.
 ## Na prática
 
 Não há transação desta nota. Ela é conceitual.
-Ver [02-BANCADA](../02-BANCADA.md) para as transações.
+Ver [02-BANCADA](../referencia/02-BANCADA.md) para as transações.
 
 ---
 

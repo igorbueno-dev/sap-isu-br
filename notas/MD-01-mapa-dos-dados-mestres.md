@@ -98,7 +98,7 @@ prédio para o medidor. **Não confunda a ordem do desenho com a hierarquia.**
 
 ## Na prática
 
-Ver [02-BANCADA](../02-BANCADA.md) para as transações. Regra geral que se repete:
+Ver [02-BANCADA](../referencia/02-BANCADA.md) para as transações. Regra geral que se repete:
 cada objeto tem **uma transação de uso** e **uma de customizing**.
 
 ---

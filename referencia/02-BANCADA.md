@@ -140,7 +140,7 @@
 
 > **Não existe transação de criar Contrato.** Ele nasce do **Move In**.
 > Quem procura "criar contrato" no menu não acha, e conclui errado que falta
-> autorização. Ver [MD-06-contrato](notas/MD-06-contrato.md).
+> autorização. Ver [MD-06-contrato](../notas/MD-06-contrato.md).
 
 ### Técnicos
 
@@ -214,7 +214,7 @@ padrão · `BUC0` formas de tratamento · `BUCM` tipos de legitimação ·
 
 > **A pegadinha mais útil do módulo.** Medidor trocado no campo e conta
 > ainda vindo com o antigo? Quase sempre alguém fez `EG33` (técnica) e não
-> fez `EG34` (efeito no cálculo). Ver [ST-04-equipamento](notas/ST-04-equipamento.md).
+> fez `EG34` (efeito no cálculo). Ver [ST-04-equipamento](../notas/ST-04-equipamento.md).
 >
 > **Equipamento não é só o medidor.** O Transformador de Corrente (TC)
 > também é cadastrado como Equipamento.
@@ -516,4 +516,4 @@ O peso está em **entender fluxo e relação entre objetos**, não em decorar c�
 
 ---
 
-> **Voltar para:** [`00-NUCLEO.md`](00-NUCLEO.md), o mapa, ou [`notas/_INDICE.md`](notas/_INDICE.md), as notas.
+> **Voltar para:** [`00-NUCLEO.md`](00-NUCLEO.md), o mapa, ou [as 15 notas](../README.md#as-15-notas).

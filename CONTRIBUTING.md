@@ -42,8 +42,8 @@ Abra uma issue dizendo onde travou.
 
 | Marca | Significa |
 |---|---|
-| `verificado` no índice | Conferido contra o sistema ou material de produto |
-| `a confirmar` no índice | Escrito por raciocínio e leitura, não conferido |
+| `verificado` no README | Conferido contra o sistema ou material de produto |
+| `a confirmar` no README | Escrito por raciocínio e leitura, não conferido |
 | `(confirmar)` no texto | Código ou detalhe específico de que não tenho certeza |
 
 Quando você contribui, **não remova a marca sem dizer no que se apoiou.** Um
@@ -67,8 +67,9 @@ Se for mexer em nota:
   nunca na própria nota.
 - **Links são markdown relativo** (`[MD-06](MD-06-contrato.md)`), não wikilink.
   Assim funcionam no GitHub e num vault de Obsidian.
-- **Nota nova entra no índice e no grafo** de `notas/_DEPENDENCIAS.md`, ligada
-  ao pré-requisito dela. Nota que não está no índice não existe.
+- **Nota nova entra na tabela do [README](README.md) e no grafo** de
+  `notas/_DEPENDENCIAS.md`, ligada ao pré-requisito dela. Nota fora do
+  README não existe.
 
 ---
 
