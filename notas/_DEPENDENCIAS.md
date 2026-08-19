@@ -17,6 +17,7 @@ flowchart TD
     GE01["GE-01<br/>O que é o CCS"]
     GE02["GE-02<br/>Evolução do produto"]
     MD01["MD-01<br/>Mapa dos dados mestres"]
+    MD08["MD-08<br/>Os dois mundos"]
     MD02["MD-02<br/>A tradução do prédio"]
     MD03["MD-03<br/>Parceiro de Negócios"]
     MD04["MD-04<br/>PN, dados e customizing"]
@@ -29,7 +30,8 @@ flowchart TD
 
     GE01 --> GE02
     GE01 --> MD01
-    MD01 --> MD02
+    MD01 --> MD08
+    MD08 --> MD02
     MD02 --> MD03
     MD02 --> ST01
     MD03 --> MD04

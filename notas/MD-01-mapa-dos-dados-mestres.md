@@ -1,9 +1,10 @@
-# MD-01: O mapa dos dados mestres
-> Os cadastros sem os quais nada acontece, divididos em dois mundos que se
-> encontram num ponto só.
+# MD-01: As quatro divisões dos dados mestres
+> Antes de comparar qualquer coisa, saber o que é cada uma. São quatro
+> divisões, não duas, e a que quase ninguém explica é a primeira.
 
 **Onde entra:** é o coração dos dados mestres.
 **Antes disto:** [GE-01-o-que-e-is-u-ccs](GE-01-o-que-e-is-u-ccs.md)
+**Depois disto:** [MD-08-os-dois-mundos](MD-08-os-dois-mundos.md)
 
 ---
 
@@ -12,102 +13,102 @@
 > "Dados Mestre para o CCS são os cadastros necessários para o funcionamento
 > do sistema."
 
-## As quatro divisões
-
-São **quatro**, não duas:
+São **quatro** divisões, não duas:
 
 1. Estrutura Postal
 2. Dados Mestre Técnicos
 3. Dados Mestre Comercial
 4. Dados Transacionais
 
-**Objetivo declarado:** entender como esses dados estão representados no
-sistema, e como eles se relacionam.
+Repare que a quarta **não** é dado mestre, e mesmo assim está na lista. É
+proposital: ela está ali para servir de contraste.
 
 ---
 
-## Dado mestre x dado transacional
+# As quatro, uma a uma
+
+## 1. Estrutura Postal
+
+**Onde os endereços moram, antes de qualquer cliente existir.**
+
+É o cadastro de país, estado, município, bairro, logradouro e CEP, montado uma
+vez e reaproveitado pelos outros objetos. Quando o Objeto de Ligação recebe um
+endereço, ele não digita texto livre: **aponta para uma entrada desta
+estrutura.** Por isso vem primeiro. É a fundação embaixo da fundação.
+
+> **Status: escrito por mim, a confirmar.** Esta divisão é quase sempre
+> listada e quase nunca explicada. O que está acima é o funcionamento padrão
+> de estrutura regional em IS-U, montado por leitura, não conferido.
+>
+> **Em aberto:** se "Estrutura Postal" e "Estrutura Regional" são a mesma
+> coisa ou duas metades, postal e política, e quais as transações.
+
+**Na prática:** endereço errado é erro de estrutura, não de digitação. E como ela
+alimenta rota de leitura, bairro mal cadastrado vira leiturista rodando errado.
+
+## 2. Dados Mestres Técnicos
+
+**Onde se consome.** Descrevem o imóvel e a rede: o prédio, o apartamento, o
+ponto que mede, o medidor pendurado nele.
+
+Objetos: Objeto de Ligação, Local de Consumo, Instalação, Equipamento, Local de Instalação de Equipamento.
+
+**Não têm dono:** existem mesmo com o imóvel vazio.
+
+## 3. Dados Mestres Comerciais
+
+**Quem paga.** Descrevem a pessoa, a bolsa de dinheiro dela e o vínculo entre
+ela e o que consome.
+
+Objetos: Parceiro de Negócio, Conta Contrato e Contrato.
+
+**Não têm lugar.** O Parceiro de Negócio existe sem endereço de fornecimento.
+
+## 4. Dados Transacionais
+
+**O que aconteceu.** Nascem da execução dos processos: a leitura de agosto, a
+conta de agosto, o pagamento de setembro. São o **movimento** que corre por
+cima dos três cadastros anteriores.
+
+---
+
+# Agora sim, as comparações
+
+## Mestre x transacional
 
 | | **Dados Mestres** | **Dados Transacionais** |
 |---|---|---|
-| O que são | Cadastros que serão usados pelo sistema (cliente, endereços) | Criados na execução dos processos comerciais (leitura, faturamento, instalação de equipamento, recebíveis) |
+| O que são | Cadastros usados pelo sistema (cliente, endereços) | Criados na execução dos processos (leitura, faturamento, recebíveis) |
 | Duração | **Inalterados por longo período**, e nesse período são a única versão válida | **Dinâmicos**, válidos por curto período |
 | Exemplo | O cadastro da Dona Marta | A leitura de agosto e a conta de agosto |
 
 **O critério é duração de validade, não importância.**
 
----
+## Comercial x técnico
 
-## Dado mestre tem validade no tempo
+| | **Comerciais** | **Técnicos** |
+|---|---|---|
+| Pergunta que respondem | **Quem paga** | **Onde se consome** |
+| Objetos | Parceiro de Negócio, Conta Contrato, Contrato | Objeto de Ligação, Local de Consumo, Instalação, Equipamento, Local de Instalação |
+| Nascem de | Um cliente chegar | Uma obra ficar pronta |
+| Mudam quando | A pessoa muda: mudança, titularidade, forma de pagamento | O imóvel ou a rede muda: obra, troca de medidor |
+| Acompanham | **A pessoa** | **O imóvel** |
+| Quem mexe no dia a dia | Atendimento, `CS + CRM` | Campo e operação, `WM` e `DM` |
+| Se sumissem | O imóvel continua ligado e ninguém é cobrado | O cliente existe e não há o que faturar |
+| Ponto de encontro | O **Contrato** | A **Instalação** |
 
-> **Status: escrito por mim**, a confirmar na documentação SAP.
-
-No IS-U, muita coisa **não é simplesmente alterada**. Ela ganha uma **nova
-versão com data de validade**, e as versões coexistem.
-
-A Instalação pode ter tarifa A de 2019 a 2025 e tarifa B de 2026 em diante,
-as duas no mesmo cadastro.
-
-**Por que isso importa:** se você alterar um dado hoje sem prestar atenção na
-data, **você pode ter alterado o passado**, e o sistema vai querer refaturar
-meses já fechados.
-
-É a mesma família de perigo da data de Move-In. Ver [MD-07-move-in-move-out](MD-07-move-in-move-out.md).
-
----
-
-## Os dois mundos
-
-```mermaid
-flowchart TB
-    subgraph COM["DADOS MESTRES COMERCIAIS: quem paga"]
-        direction TB
-        PN["Parceiro de Negócio"] --> CC["Conta Contrato"] --> CT["Contrato"]
-    end
-    subgraph TEC["DADOS MESTRES TÉCNICOS: onde consome"]
-        direction TB
-        INST["Instalação"]
-        LC["Local de Consumo"]
-        OL["Objeto de Ligação"]
-        EQ["Equipamento"]
-        LIE["Local de Instal. Eq."]
-        OL --> LC --> INST
-        INST --- EQ
-        INST --- LIE
-    end
-    CT ==>|"a ponte"| INST
-```
-
-**Equipamento e Local de Instalação de Equipamento fazem parte dos dados
-mestres técnicos**, ligados à Instalação.
-
----
-
-## O erro que todo mundo comete
-
-**Decorar a ordem errada.** O desenho padrão põe os técnicos de cima para baixo
-como *Instalação, Local de Consumo, Objeto de Ligação*.
-
-**Mas a hierarquia física é o inverso:** o Objeto de Ligação é o nível mais
-alto, e a Instalação é o nível mais baixo.
-
-A lista vai do mais específico para o mais genérico. A realidade vai do
-prédio para o medidor. **Não confunda a ordem do desenho com a hierarquia.**
-
----
-
-## Na prática
-
-Ver [02-BANCADA](../referencia/02-BANCADA.md) para as transações. Regra geral que se repete:
-cada objeto tem **uma transação de uso** e **uma de customizing**.
+**Leia a última linha duas vezes.** Os dois mundos se tocam num ponto só, e é disso que trata a [MD-08](MD-08-os-dois-mundos.md).
 
 ---
 
 ## Recall
 
-1. Quais são as quatro divisões dos dados mestres?
-2. Qual é o critério que separa dado mestre de dado transacional?
-3. Quem é o nível mais alto dos dados mestres técnicos?
+1. Quais são as quatro divisões, na ordem?
+2. Por que os dados transacionais aparecem numa lista de dados mestres?
+3. O que é a Estrutura Postal, e por que ela vem antes das outras?
+4. Qual o critério que separa dado mestre de dado transacional?
+5. Um imóvel foi construído e ninguém se mudou ainda. Quais divisões já têm
+   dado, e quais não?
 
 > **Gabarito:** [`_GABARITOS.md`](_GABARITOS.md#md-01)  ·  responda tudo antes de abrir.
 
@@ -115,5 +116,4 @@ cada objeto tem **uma transação de uso** e **uma de customizing**.
 
 ## Ligações
 
-[MD-02-a-traducao-do-predio](MD-02-a-traducao-do-predio.md) · [MD-03-parceiro-de-negocios](MD-03-parceiro-de-negocios.md) ·
-[ST-01-objeto-de-ligacao](ST-01-objeto-de-ligacao.md)
+[MD-08-os-dois-mundos](MD-08-os-dois-mundos.md) · [MD-02-a-traducao-do-predio](MD-02-a-traducao-do-predio.md) · [MD-03-parceiro-de-negocios](MD-03-parceiro-de-negocios.md) · [ST-01-objeto-de-ligacao](ST-01-objeto-de-ligacao.md)

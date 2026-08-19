@@ -14,7 +14,7 @@ metade da confusão inicial com dados mestres.
 
 ---
 
-# As 23 notas
+# As 24 notas
 
 Cada nota é um conceito só: 5 a 10 minutos, terminando em raciocínio fechado.
 
@@ -31,7 +31,8 @@ Cada nota é um conceito só: 5 a 10 minutos, terminando em raciocínio fechado.
 
 | Nota | Tema | Status | O gancho | Tempo |
 |---|---|---|---|---|
-| [`MD‑01`](notas/MD-01-mapa-dos-dados-mestres.md) | O mapa dos dados mestres | verificado | Quatro divisões, dois mundos, e validade no tempo | 7 min |
+| [`MD‑01`](notas/MD-01-mapa-dos-dados-mestres.md) | **As quatro divisões** | verificado | Cada uma explicada, e as duas comparações | 7 min |
+| [`MD‑08`](notas/MD-08-os-dois-mundos.md) | Os dois mundos e a validade no tempo | verificado | O diagrama, a ponte, e a armadilha da ordem invertida | 6 min |
 | [`MD‑02`](notas/MD-02-a-traducao-do-predio.md) | **A tradução do prédio** | verificado | O diagrama que converte o mundo real em SAP | 6 min |
 | [`MD‑03`](notas/MD-03-parceiro-de-negocios.md) | Parceiro de Negócios | verificado | Categoria é o que ele é, função é o papel. Sem Parceiro de Contrato, não fatura | 7 min |
 | [`MD‑04`](notas/MD-04-parceiro-de-negocios-dados.md) | PN, dados e customizing | verificado | Os seis blocos, os endereços, e as 17 transações de configuração | 8 min |
@@ -72,7 +73,7 @@ Cada nota é um conceito só: 5 a 10 minutos, terminando em raciocínio fechado.
 
 ## Em que ordem ler
 
-`GE‑03` → `GE‑01` → `MD‑01` → `MD‑02` → então os dois ramos em paralelo:
+`GE‑03` → `GE‑01` → `MD‑01` → `MD‑08` → `MD‑02` → então os dois ramos em paralelo:
 
 | Comercial | Técnico |
 |---|---|

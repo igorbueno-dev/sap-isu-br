@@ -9,7 +9,7 @@
 > **Como usar:** responda o recall inteiro na cabeça ou no papel, **depois**
 > venha aqui. Olhar antes de tentar não é revisão, é leitura.
 
-**Índice:** [GE-03](#ge-03)  ·  [GE-01](#ge-01)  ·  [GE-02](#ge-02)  ·  [GE-04](#ge-04)  ·  [MD-01](#md-01)  ·  [MD-02](#md-02)  ·  [MD-03](#md-03)  ·  [MD-04](#md-04)  ·  [MD-05](#md-05)  ·  [MD-06](#md-06)  ·  [MD-07](#md-07)  ·  [ST-01](#st-01)  ·  [ST-02](#st-02)  ·  [ST-03](#st-03)  ·  [ST-04](#st-04)
+**Índice:** [GE-03](#ge-03)  ·  [GE-01](#ge-01)  ·  [GE-02](#ge-02)  ·  [GE-04](#ge-04)  ·  [MD-01](#md-01)  ·  [MD-02](#md-02)  ·  [MD-03](#md-03)  ·  [MD-04](#md-04)  ·  [MD-05](#md-05)  ·  [MD-06](#md-06)  ·  [MD-07](#md-07)  ·  [MD-08](#md-08)  ·  [ST-01](#st-01)  ·  [ST-02](#st-02)  ·  [ST-03](#st-03)  ·  [ST-04](#st-04)
 
 **CRM e arquitetura:** [CS-01](#cs-01)  ·  [CS-02](#cs-02)  ·  [CS-03](#cs-03)  ·  [CS-04](#cs-04)  ·  [CS-05](#cs-05)  ·  [AR-01](#ar-01)  ·  [AR-02](#ar-02)  ·  [AR-03](#ar-03)
 
@@ -60,13 +60,20 @@
 ---
 
 ## MD-01
-**MD-01: O mapa dos dados mestres**  ·  [voltar para a nota](MD-01-mapa-dos-dados-mestres.md)
+**MD-01: As quatro divisões dos dados mestres**  ·  [voltar para a nota](MD-01-mapa-dos-dados-mestres.md)
 
 1. Estrutura Postal, Dados Mestre Técnicos, Dados Mestre Comercial, Dados
    Transacionais.
-2. **Duração da validade.** Mestre dura muito e é a única versão válida no
+2. Para servir de **contraste**. Ela não é dado mestre, e é justamente isso
+   que define os outros três por oposição.
+3. O cadastro de país, estado, município, bairro, logradouro e CEP. Vem antes
+   porque os outros objetos **apontam** para ela em vez de digitar endereço
+   livre. É a fundação embaixo da fundação.
+4. **Duração da validade.** Mestre dura muito e é a única versão válida no
    período. Transacional é dinâmico e vale pouco tempo.
-3. O **Objeto de Ligação**.
+5. Já têm dado: **Estrutura Postal** e **Dados Mestres Técnicos** (o prédio, o
+   local de consumo, a instalação existem sem morador). Não têm:
+   **Comerciais** e **Transacionais**, porque não há quem pague nem o que medir.
 
 ---
 
@@ -284,3 +291,16 @@
    no CRM.
 5. Porque encontrei **duas formas diferentes** (`EHAU` e `EHAUISU`) e nenhuma
    fonte boa o bastante para decidir. Prefiro a dúvida explícita.
+
+---
+
+## MD-08
+**MD-08: Os dois mundos e a validade no tempo**  ·  [voltar para a nota](MD-08-os-dois-mundos.md)
+
+1. No **Contrato indo para a Instalação**. É a única ligação entre os dois
+   lados; todo o resto desce dentro do próprio mundo.
+2. O **Objeto de Ligação**.
+3. Porque o desenho lista do **mais específico para o mais genérico**, e a
+   hierarquia física vai do **prédio para o medidor**. São ordens inversas.
+4. Você pode ter **alterado o passado**: se a nova tarifa valer desde uma data
+   antiga, o sistema vai querer refaturar meses já fechados.
