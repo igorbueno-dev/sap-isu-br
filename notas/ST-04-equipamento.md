@@ -2,6 +2,8 @@
 > O aparelho físico e o lugar onde ele está parafusado. E as três formas de
 > instalar, que explicam um chamado clássico.
 
+**Em inglês:** `Device`. Use o nome em inglês quando a tradução em
+português divergir entre materiais.
 **Onde entra:** a ponta física da cadeia.
 **Antes disto:** [ST-03-instalacao](ST-03-instalacao.md)
 

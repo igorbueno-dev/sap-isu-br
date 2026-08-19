@@ -1,6 +1,6 @@
 # GE-04: Os três setores, com peso igual
 > Energia, gás e saneamento rodam o mesmo núcleo. A diferença aparece em
-> pontos específicos, e o exercício da aula pode vir de qualquer um.
+> pontos específicos, e um exercício pode vir de qualquer um deles.
 
 **Onde entra:** contexto que muda a resposta de exercícios.
 **Antes disto:** [GE-01-o-que-e-is-u-ccs](GE-01-o-que-e-is-u-ccs.md)

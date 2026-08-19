@@ -39,6 +39,25 @@ flowchart TD
     ST03 --> ST04
     MD05 ==> MD06
     ST03 ==> MD06
+
+    GE01 --> CS04
+    CS01 --> CS02
+    CS02 --> CS03
+    CS03 --> CS04
+    CS04 --> CS05
+    CS04 --> AR01
+    AR01 --> AR02
+    AR02 --> AR03
+    MD06 -.-> AR03
+
+    CS01["CS-01<br/>O que e CRM"]
+    CS02["CS-02<br/>Ciclo de vida"]
+    CS03["CS-03<br/>Pilares do SAP CRM"]
+    CS04["CS-04<br/>CRM em Utilities"]
+    CS05["CS-05<br/>Processos e atividades"]
+    AR01["AR-01<br/>Landscape e camadas"]
+    AR02["AR-02<br/>Middleware"]
+    AR03["AR-03<br/>Objetos replicados"]
 ```
 
 ---
@@ -98,7 +117,7 @@ O método: procurar conceito **citado mas nunca desenvolvido**, ou nó de menu
 
 | Conceito | Evidência | Situação |
 |---|---|---|
-| **Ponto de Entrega (PoD)** | Nó no menu de dados mestres técnicos. **Fontes públicas listam como um dos 5 objetos técnicos padrão** | Modelo incompleto sem ele |
+| ~~**Ponto de Entrega (PoD)**~~ | Aparecia no menu de dados mestres técnicos e nunca era desenvolvido | **PARCIALMENTE COBERTO** por [AR-03-objetos-replicados](AR-03-objetos-replicados.md): tem posição na arquitetura e tabela `EUIHEAD` ⟨confirmar⟩. **Faltam as transações e a cardinalidade** |
 | **Ligação** | Nó no menu, entre Objeto de Ligação e Local de Consumo | Não explorado |
 | **Estrutura Postal** | Uma das 4 divisões dos dados mestres | Não desenvolvida |
 | **Estrutura Regional** | Nó no menu | Não desenvolvida |
@@ -111,6 +130,17 @@ O método: procurar conceito **citado mas nunca desenvolvido**, ou nó de menu
 | **Planejamento de datas** | MRU e porções |
 | **CIC** | Interface centralizada de atendimento, área de CS/CRM |
 | **EDM** | Gestão de dados de medição |
+
+---
+
+## Pontos em aberto de CRM e arquitetura
+
+| Conceito | Situação |
+|---|---|
+| **Prospect, Lead e Oportunidade** | Os três termos que mais se confundem em CRM, e ainda não escrevi a nota. **Contribuição muito bem-vinda** |
+| **`EHAUISU` x `EHAU`** | Duas formas para a tabela do Objeto de Ligação. Não sei qual é a correta |
+| **`FOP`** | Sigla que aparece em "Processos/FOPs" e que não consegui expandir |
+| **Webclient, modelagem de processos, validações, vínculos, estrutura organizacional** | Temas de CRM que este material ainda não cobre |
 
 ---
 

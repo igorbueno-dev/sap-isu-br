@@ -59,7 +59,7 @@ flowchart LR
 
 **Procurar a transação de criar contrato. Ela não existe.**
 
-Olhe a tabela resumo de transações da aula: há `ES21` modificar, `ES22`
+Olhe a lista de transações do Contrato: há `ES21` modificar, `ES22`
 exibir, `ES27` modificar todos, `ES28` exibir todos. **Nenhuma de criar.**
 
 Porque **o Contrato nasce do processo de Move In**, nunca de um cadastro

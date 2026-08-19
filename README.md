@@ -14,7 +14,7 @@ metade da confusão inicial com dados mestres.
 
 ---
 
-# As 15 notas
+# As 23 notas
 
 Cada nota é um conceito só: 5 a 10 minutos, terminando em raciocínio fechado.
 
@@ -48,7 +48,25 @@ Cada nota é um conceito só: 5 a 10 minutos, terminando em raciocínio fechado.
 | [`ST‑03`](notas/ST-03-instalacao.md) | **Instalação** | verificado | O objeto que fatura. Tarifa, unidade de leitura, validação | 6 min |
 | [`ST‑04`](notas/ST-04-equipamento.md) | Equipamento e Registrador | misto | O medidor, o TC, as três formas de instalar | 8 min |
 
-**Tudo: cerca de 91 minutos. Só os recalls: cerca de 15.**
+### Atendimento e relacionamento (CRM)
+
+| Nota | Tema | Status | O gancho | Tempo |
+|---|---|---|---|---|
+| [`CS-01`](notas/CS-01-o-que-e-crm.md) | O que é CRM | verificado | Práticas, estratégia e só então tecnologia | 5 min |
+| [`CS-02`](notas/CS-02-ciclo-de-vida-do-cliente.md) | Ciclo de vida do cliente | verificado | Seis etapas, três pilares, e onde a concessionária vive | 5 min |
+| [`CS-03`](notas/CS-03-sap-crm-e-os-pilares.md) | SAP CRM e os três pilares | verificado | A matriz funcional, e o S/4 Customer Engagement | 7 min |
+| [`CS-04`](notas/CS-04-crm-no-contexto-utilities.md) | **CRM no contexto Utilities** | verificado | O encaixe na cadeia das cinco áreas | 6 min |
+| [`CS-05`](notas/CS-05-processos-e-atividades.md) | Processos e atividades | verificado | Protocolo, atividade e os processos do dia a dia | 6 min |
+
+### Arquitetura e integração
+
+| Nota | Tema | Status | O gancho | Tempo |
+|---|---|---|---|---|
+| [`AR-01`](notas/AR-01-landscape-e-camadas.md) | O landscape e as cinco camadas | verificado | Onde cada sistema mora | 6 min |
+| [`AR-02`](notas/AR-02-middleware-e-replicacao.md) | **Middleware e replicação** | verificado | Como o dado atravessa, e as 4 transações que resolvem chamado | 7 min |
+| [`AR-03`](notas/AR-03-objetos-replicados.md) | Objetos replicados | verificado | O de-para CRM ↔ IS-U | 5 min |
+
+**Tudo: cerca de 138 minutos. Só os recalls: cerca de 25.**
 
 ---
 
@@ -65,6 +83,11 @@ E os dois convergem em **`MD‑06`**, seguido de **`MD‑07`**.
 `GE‑02` e `GE‑04` são folhas soltas: leia quando quiser. O porquê dessa ordem
 está em [`notas/_DEPENDENCIAS.md`](notas/_DEPENDENCIAS.md), que também lista o
 que ainda falta no material.
+
+**Trilha de CRM e arquitetura:** `CS‑01` → `CS‑02` → `CS‑03` → `CS‑04` → `CS‑05`, e depois `AR‑01` → `AR‑02` → `AR‑03`.
+
+A `CS‑04` é a que amarra CRM ao IS-U. Se quiser ver o encaixe cedo, leia
+logo depois da `GE‑01`.
 
 ## As quatro que mais valem
 

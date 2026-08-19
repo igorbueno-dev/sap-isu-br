@@ -24,6 +24,12 @@ uma conta. Se quer separar a casa da praia do apartamento, são duas.
 - Uma conta contrato é vinculada a **um** parceiro de negócio (por padrão)
 - **Um parceiro de negócio pode ter mais de uma conta contrato**
 - **Faturamento está vinculado à conta contrato**
+- **Um parceiro de negócios deve ter uma conta contrato por local de
+  consumo**
+- **Uma conta contrato pode ter vários contratos**
+
+> **Atenção.** Separar por imóvel não é preferência do cliente, é **regra de
+> modelagem**: uma conta contrato por local de consumo.
 
 ```mermaid
 flowchart TD

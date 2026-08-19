@@ -2,6 +2,8 @@
 > A unidade que recebe energia e é medida separadamente. O apartamento dentro
 > do prédio.
 
+**Em inglês:** `Premise`. Use o nome em inglês quando a tradução em
+português divergir entre materiais.
 **Onde entra:** o nível do meio do mundo técnico.
 **Antes disto:** [ST-01-objeto-de-ligacao](ST-01-objeto-de-ligacao.md)
 

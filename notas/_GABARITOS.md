@@ -11,6 +11,8 @@
 
 **Índice:** [GE-03](#ge-03)  ·  [GE-01](#ge-01)  ·  [GE-02](#ge-02)  ·  [GE-04](#ge-04)  ·  [MD-01](#md-01)  ·  [MD-02](#md-02)  ·  [MD-03](#md-03)  ·  [MD-04](#md-04)  ·  [MD-05](#md-05)  ·  [MD-06](#md-06)  ·  [MD-07](#md-07)  ·  [ST-01](#st-01)  ·  [ST-02](#st-02)  ·  [ST-03](#st-03)  ·  [ST-04](#st-04)
 
+**CRM e arquitetura:** [CS-01](#cs-01)  ·  [CS-02](#cs-02)  ·  [CS-03](#cs-03)  ·  [CS-04](#cs-04)  ·  [CS-05](#cs-05)  ·  [AR-01](#ar-01)  ·  [AR-02](#ar-02)  ·  [AR-03](#ar-03)
+
 ---
 
 ## GE-03
@@ -169,3 +171,116 @@
 2. **Transformador de Corrente (TC).**
 3. Foi feita instalação **técnica** (`EG33`) sem a parte **com efeito no
    cálculo** (`EG34`). Faltou completar a instalação.
+
+---
+
+## CS-01
+**CS-01: O que é CRM**  ·  [voltar para a nota](CS-01-o-que-e-crm.md)
+
+1. Não. É **práticas + estratégias de negócio + tecnologias**. A tecnologia
+   é a terceira camada, não a definição.
+2. Da **prospecção** até a **fidelização e retenção**. Ciclo inteiro, não só a venda.
+3. **Conhecer.** Conhecer comportamento e necessidades para antecipar desejos.
+   Vender é consequência.
+4. **Custo e qualidade do atendimento.** Num monopólio o cliente insatisfeito
+   não cancela, ele reclama, e reclamação tem preço com o regulador.
+
+---
+
+## CS-02
+**CS-02: Ciclo de vida do cliente**  ·  [voltar para a nota](CS-02-ciclo-de-vida-do-cliente.md)
+
+1. Prospecção, Qualificação, Conversão, Venda, Pós-venda, Fidelização.
+2. Marketing: prospecção e qualificação. Vendas: conversão e venda.
+   Serviços: pós-venda e fidelização.
+3. Porque **a fidelização realimenta a prospecção**: cliente fiel indica outro.
+4. Na etapa 5, **pós-venda**. Ele não foi prospectado nem convertido: mudou-se para um imóvel que já
+   tinha ligação. Entrou por Move-In.
+
+---
+
+## CS-03
+**CS-03: SAP CRM e os três pilares**  ·  [voltar para a nota](CS-03-sap-crm-e-os-pilares.md)
+
+1. **Marketing, Vendas (Sales) e Serviço (Service)**. Serviço carrega utilities.
+2. Pilar é **área de negócio** (linha da matriz). Faixa vertical é **canal**
+   (Web Channel, Interaction Center, Partner Channel Management) e atravessa
+   os três pilares.
+3. Exemplos: Marketing → Campaign Management. Sales → Opportunity Management.
+   Service → Customer Service & Support.
+4. Versão **simplificada do SAP CRM embutida no S/4HANA**, que aproveita a
+   tecnologia do CRM Web UI e entrega o **S/4HANA Interaction Center**.
+
+---
+
+## CS-04
+**CS-04: CRM no contexto Utilities**  ·  [voltar para a nota](CS-04-crm-no-contexto-utilities.md)
+
+1. Não. O material diz **camada** de atendimento **integrada** ao IS-U/CCS. É um
+   sistema por cima, não um módulo dentro.
+2. **A primeira.** `CS + CRM → WM → DM → BILL → FI-CA`.
+3. No **CS + CRM**, que oferece os serviços ao cliente (new connection,
+   reconnection).
+4. Porque aparece como **faixa única atravessando as cinco**, não como caixa
+   na fila. É camada de informação sobre todas.
+5. Que **pode existir mais de um CRM** na paisagem. Salesforce na ponta e SAP
+   CRM no meio é arranjo comum.
+
+---
+
+## CS-05
+**CS-05: Processos e atividades**  ·  [voltar para a nota](CS-05-processos-e-atividades.md)
+
+1. **Protocolo** é o número que o cliente recebe e acompanha; **atividade** é
+   o registro do que foi feito. **Um protocolo contém várias atividades.**
+2. Porque ele **prova prazo de atendimento perante o regulador**.
+3. Ligação Nova, Alteração de titularidade, Segundas Vias, Reclamações,
+   Cadastro, Modificações Contratuais.
+4. Provavelmente **Move-Out do antigo seguido de Move-In do novo**.
+   Ainda a confirmar.
+5. No campo **Status** do Parceiro de Negócios, com valores Cliente,
+   **Prospect**, Inativo.
+
+---
+
+## AR-01
+**AR-01: O landscape e as cinco camadas**  ·  [voltar para a nota](AR-01-landscape-e-camadas.md)
+
+1. **Back end.** O CRM fica no meio, o IS-U atrás dele.
+2. No quadrante **Analyses**, junto do back end. Confirma que BW é camada de
+   dados, não área funcional.
+3. Canais → Camada CRM → Middleware → Camada IS-U/CCS → Integrações externas.
+4. **ITS** conecta ao **WebClient**; **CTI** conecta ao **Call Center**.
+5. Porque **middleware só existe entre sistemas distintos**. Se fossem o mesmo
+   sistema, com a mesma base, replicar não faria sentido.
+
+---
+
+## AR-02
+**AR-02: Middleware e replicação**  ·  [voltar para a nota](AR-02-middleware-e-replicacao.md)
+
+1. Porque CRM e IS-U são sistemas separados com bases próprias, e o mesmo
+   cliente precisa existir nos dois.
+2. **BDoc** = Business Document, o envelope do dado. **qRFC** = queued Remote
+   Function Call, a fila que garante ordem.
+3. `CRM cria BP → SMW01 BDoc → SMQ1 fila qRFC → RFC comunicação → IS-U recebe
+   → BUT000 criado`.
+4. `SMW01` (o BDoc saiu?) → `SMQ1` e `SMQ2` (parou na fila?) → `SM58` (a
+   conexão caiu?) → `ST22` (deu dump?).
+5. `R3AS` é **carga inicial**, traz tudo na implantação. `R3AR2` é
+   **repetição de carga**, para o que não veio.
+
+---
+
+## AR-03
+**AR-03: Objetos replicados**  ·  [voltar para a nota](AR-03-objetos-replicados.md)
+
+1. O **Parceiro de Negócios**, `BUT000` dos dois lados. É objeto central
+   compartilhado do SAP, e o primeiro a replicar.
+2. Porque para o CRM o que existe naquele endereço é um **produto
+   contratado**. A estrutura física é problema do IS-U.
+3. **Installed Base**, a base instalada: o que o cliente tem instalado.
+4. De **Conta Contrato**. `CRMM_BUAG`, de Business Agreement, é o nome dela
+   no CRM.
+5. Porque encontrei **duas formas diferentes** (`EHAU` e `EHAUISU`) e nenhuma
+   fonte boa o bastante para decidir. Prefiro a dúvida explícita.

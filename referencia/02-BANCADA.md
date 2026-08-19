@@ -256,6 +256,63 @@ padrão · `BUC0` formas de tratamento · `BUCM` tipos de legitimação ·
 | `IL03`                                   | Exibir Local de Instalação (visão de manutenção) |
 | Documentos de desligamento e religação | Família `EC8*`. **(confirmar)**                       |
 
+## CRM e Middleware
+
+> **Verificado.** Estes códigos foram conferidos. O entendimento do fluxo está
+> em [`notas/AR‑02`](../notas/AR-02-middleware-e-replicacao.md).
+
+### Replicação e carga
+
+| Transação | O que faz |
+|---|---|
+| `SMW01` | **BDocs.** O envelope em que o dado viaja. Primeira parada de qualquer investigação |
+| `R3AS` | **Carga inicial.** Traz tudo de uma vez, na implantação |
+| `R3AR2` | **Repetição de carga.** Para o que não veio |
+| `SMOEAC` | Sites e conexões: quem fala com quem |
+| `SMOEACPR` | Sites, perfis |
+| `SMOEACLINK` | Sites, vínculos |
+
+### Monitoramento
+
+| Transação | O que faz |
+|---|---|
+| `SMQ1` | **Filas qRFC de entrada.** O que está parado chegando |
+| `SMQ2` | **Filas qRFC de saída.** O que está parado saindo |
+| `SM58` | **RFC Monitor.** Chamada remota travada |
+| `R3AM1` | Monitoramento geral do middleware |
+| `SM21` | Log do sistema |
+| `ST22` | **Dump.** Erro de programa no destino |
+
+### Business Partner no CRM
+
+| Transação | O que faz |
+|---|---|
+| `BUT000` | Parceiro de Negócio |
+| `BUPA_MAIN` | Dados complementares do parceiro |
+
+> **A sequência que resolve a maioria dos chamados de integração.**
+> "Criei no CRM e não apareceu no IS-U":
+>
+> `SMW01` (o BDoc saiu?) → `SMQ1` e `SMQ2` (parou na fila?) →
+> `SM58` (a conexão caiu?) → `ST22` (deu dump?)
+>
+> Quase nunca é bug. Quase sempre é fila.
+
+### O de-para de objetos entre os dois sistemas
+
+| Objeto | IS-U / CCS | CRM |
+|---|---|---|
+| Parceiro de Negócio | `BUT000` | `BUT000` |
+| Conta Contrato | `FKKVKP` | `CRMM_BUAG` |
+| Objeto de Ligação | `EHAUISU` **(confirmar)** | `COMM_PRODUCT` |
+| Ponto de Entrega (PoD) | `EUIHEAD` **(confirmar)** | `IBASE` / `COMM_PRODUCT` |
+
+> **As duas marcas `(confirmar)` acima são reais.** Encontrei `EHAU` e
+> `EHAUISU` para o Objeto de Ligação e não sei qual é a correta.
+> **Se você sabe, abra uma issue.**
+
+---
+
 ## BW e analytics
 
 

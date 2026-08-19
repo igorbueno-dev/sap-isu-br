@@ -2,6 +2,8 @@
 > A edificação conectada à rede. O nível mais alto dos dados mestres técnicos,
 > e onde mora o endereço.
 
+**Em inglês:** `Connection Object`. Use o nome em inglês quando a tradução em
+português divergir entre materiais.
 **Onde entra:** o topo do mundo técnico.
 **Antes disto:** [MD-01-mapa-dos-dados-mestres](MD-01-mapa-dos-dados-mestres.md)
 

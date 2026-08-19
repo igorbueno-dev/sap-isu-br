@@ -2,6 +2,8 @@
 > O objeto que efetivamente fatura. É aqui que moram a tarifa, a unidade de
 > leitura e as regras de cálculo.
 
+**Em inglês:** `Installation`. Use o nome em inglês quando a tradução em
+português divergir entre materiais.
 **Onde entra:** o nível mais baixo e mais importante do mundo técnico.
 **Antes disto:** [ST-02-local-de-consumo](ST-02-local-de-consumo.md)
 
