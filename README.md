@@ -22,7 +22,7 @@ Cada nota é um conceito só: 5 a 10 minutos, terminando em raciocínio fechado.
 
 | Nota | Tema | Status | O gancho | Tempo |
 |---|---|---|---|---|
-| [`GE‑03`](notas/GE-03-a-concessionaria.md) | **A concessionária em 5 parágrafos** | a confirmar | O problema de negócio. **Leia primeiro de tudo** | 5 min |
+| [`GE‑03`](notas/GE-03-do-problema-ao-modulo.md) | **Do problema ao módulo** | a confirmar | O negócio em 5 parágrafos, e o mapa para o CCS. **Leia primeiro** | 5 min |
 | [`GE‑01`](notas/GE-01-o-que-e-is-u-ccs.md) | O que é o SAP IS-U CCS | verificado | As duas siglas, as cinco áreas, e por que BW não é uma delas | 6 min |
 | [`GE‑02`](notas/GE-02-evolucao-do-produto.md) | A evolução do produto | verificado | Do R/3 ao SaaS, e a data de 2027 que gera projeto | 4 min |
 | [`GE‑04`](notas/GE-04-os-tres-setores.md) | Os três setores | a confirmar | Energia, gás e água. Muda a resposta do exercício | 5 min |
@@ -127,7 +127,7 @@ logo depois da `GE‑01`.
 
 ## As quatro que mais valem
 
-1. **[`GE‑03`](notas/GE-03-a-concessionaria.md)**, a concessionária. Sem o
+1. **[`GE‑03`](notas/GE-03-do-problema-ao-modulo.md)**, do problema ao módulo. Sem o
    problema de negócio, o resto vira decoreba.
 2. **[`MD‑02`](notas/MD-02-a-traducao-do-predio.md)**, a tradução do prédio.
 3. **[`MD‑06`](notas/MD-06-contrato.md)**, o Contrato. O mais denso em regra.

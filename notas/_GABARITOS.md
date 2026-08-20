@@ -18,7 +18,7 @@
 ---
 
 ## GE-03
-**GE-03: A concessionária em cinco parágrafos**  ·  [voltar para a nota](GE-03-a-concessionaria.md)
+**GE-03: Do problema ao módulo**  ·  [voltar para a nota](GE-03-do-problema-ao-modulo.md)
 
 1. **Onde** está ligado, **quanto** consumiu, **por quanto** é cobrado.
 2. Porque envolve deslocar uma pessoa, e cortar quem pagou vira processo

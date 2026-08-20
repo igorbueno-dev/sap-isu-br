@@ -75,7 +75,7 @@ Nada mais mora aqui.
 ## As 15 notas
 
 **Geral**
-[`GE‑03` A concessionária](../notas/GE-03-a-concessionaria.md) ·
+[`GE‑03` A concessionária](../notas/GE-03-do-problema-ao-modulo.md) ·
 [`GE‑01` O que é o IS-U CCS](../notas/GE-01-o-que-e-is-u-ccs.md) ·
 [`GE‑02` Evolução do produto](../notas/GE-02-evolucao-do-produto.md) ·
 [`GE‑04` Os três setores](../notas/GE-04-os-tres-setores.md)
@@ -101,7 +101,7 @@ Nada mais mora aqui.
 
 | Conteúdo | Foi para |
 |---|---|
-| A concessionária em 5 parágrafos | nota [`GE‑03`](../notas/GE-03-a-concessionaria.md) |
+| O negócio em 5 parágrafos, e o mapa para o CCS | nota [`GE‑03`](../notas/GE-03-do-problema-ao-modulo.md) |
 | O que é o SAP for Utilities | nota [`GE‑01`](../notas/GE-01-o-que-e-is-u-ccs.md) |
 | Os três setores | nota [`GE‑04`](../notas/GE-04-os-tres-setores.md) |
 | A hierarquia, camada por camada | notas [`MD‑02`](../notas/MD-02-a-traducao-do-predio.md) e `ST‑01` a `ST‑04` |

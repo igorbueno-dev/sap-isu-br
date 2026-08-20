@@ -1,19 +1,22 @@
-# GE-03: A concessionária em cinco parágrafos
-> O problema de negócio que o sistema inteiro existe para resolver.
-> Leia antes de qualquer sigla.
+# GE-03: Do problema ao módulo
+> Cinco parágrafos de negócio, e o mapa de qual pedaço do CCS resolve cada um.
+> Leia antes de qualquer sigla: é o "por quê" de todas elas.
 
 **Onde entra:** é o "por quê" de tudo. Anterior até ao [GE-01-o-que-e-is-u-ccs](GE-01-o-que-e-is-u-ccs.md).
-**Status:** contexto de negócio, escrito por mim. Material de produto não
-cobre isto.
-Contexto de negócio não é matéria de prova, é o que faz a matéria fazer sentido.
+**Status:** escrito por mim. Documentação de produto não cobre isto, porque
+não é sobre o produto: é sobre o negócio que o produto atende.
 
 ---
 
 ## 1. O produto é invisível e a venda é ao contrário
 
-**Uma distribuidora de energia entrega um produto invisível pelo ar e cobra por
-ele depois.** Não tem loja, não tem pedido, não tem vendedor. Tem fio, poste,
-medidor e uma conta que chega todo mês.
+**Uma concessionária de energia entrega um produto invisível pelo ar e cobra
+por ele depois.** Não tem loja, não tem pedido, não tem vendedor. Tem fio,
+poste, medidor e uma conta que chega todo mês.
+
+> **Concessionária** é a empresa que recebeu do poder público a concessão para
+> distribuir energia numa região. É o nome que o material inteiro usa para ela,
+> e daqui para a frente é sempre este.
 
 O cliente **consome primeiro e paga depois**, e ninguém autorizou nada: você
 liga o chuveiro e pronto, está comprando.
@@ -54,10 +57,10 @@ energia entrou na rede e sumiu no caminho.
 
 ---
 
-## Por que isto importa
+## O mapa: cada parágrafo vira um pedaço do CCS
 
-**Estes cinco parágrafos são o sistema inteiro.** Tudo o que vem depois é o
-nome que a SAP deu a cada pedaço disto.
+**Esta tabela é o produto da nota.** Os cinco parágrafos acima são o sistema
+inteiro; tudo o que vem depois é o nome que a SAP deu a cada pedaço deles.
 
 | O parágrafo | Vira, no SAP |
 |---|---|

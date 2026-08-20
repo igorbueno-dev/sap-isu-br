@@ -70,4 +70,4 @@ Antes de responder qualquer exercício, pergunte a si mesmo: **de qual setor
 
 ## Ligações
 
-[GE-03-a-concessionaria](GE-03-a-concessionaria.md) · [ST-03-instalacao](ST-03-instalacao.md)
+[GE-03-do-problema-ao-modulo](GE-03-do-problema-ao-modulo.md) · [ST-03-instalacao](ST-03-instalacao.md)

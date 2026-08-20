@@ -90,4 +90,4 @@ cancela, ele reclama, e reclamação tem preço.
 
 ## Ligações
 
-[CS-02-ciclo-de-vida-do-cliente](CS-02-ciclo-de-vida-do-cliente.md) · [CS-03-sap-crm-e-os-pilares](CS-03-sap-crm-e-os-pilares.md) · [GE-03-a-concessionaria](GE-03-a-concessionaria.md)
+[CS-02-ciclo-de-vida-do-cliente](CS-02-ciclo-de-vida-do-cliente.md) · [CS-03-sap-crm-e-os-pilares](CS-03-sap-crm-e-os-pilares.md) · [GE-03-do-problema-ao-modulo](GE-03-do-problema-ao-modulo.md)
