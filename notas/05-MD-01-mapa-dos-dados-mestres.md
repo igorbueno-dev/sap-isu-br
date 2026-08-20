@@ -115,4 +115,4 @@ cima dos cadastros anteriores.
 5. Um imóvel foi construído e ninguém se mudou ainda. Quais divisões já têm
    dado, e quais não?
 
-> **Gabarito:** [`_GABARITOS.md`](_GABARITOS.md#md-01)  ·  responda tudo antes de abrir.
+> **Gabarito:** [`_PISTAS.md`](_PISTAS.md#md-01)  ·  responda tudo antes de abrir.

@@ -85,4 +85,4 @@ Este é o ponto que a próxima nota desenvolve.
 5. Por que a existência de um middleware prova que CRM e IS-U são sistemas
    distintos?
 
-> **Gabarito:** [`_GABARITOS.md`](_GABARITOS.md#ar-01)  ·  responda tudo antes de abrir.
+> **Gabarito:** [`_PISTAS.md`](_PISTAS.md#ar-01)  ·  responda tudo antes de abrir.

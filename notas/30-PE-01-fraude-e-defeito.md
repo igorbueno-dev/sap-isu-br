@@ -101,4 +101,4 @@ o cliente for à justiça.** Ver [PE-02](31-PE-02-faturado-da-epoca.md).
 5. Por que classificar errado é o erro mais caro desta área, nos dois sentidos?
 6. Como um caso de Perdas nasce dentro de WM e de DM?
 
-> **Gabarito:** [`_GABARITOS.md`](_GABARITOS.md#pe-01)  ·  responda tudo antes de abrir.
+> **Gabarito:** [`_PISTAS.md`](_PISTAS.md#pe-01)  ·  responda tudo antes de abrir.

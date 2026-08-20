@@ -1,16 +1,18 @@
-# SAP IS-U CCS, referência em português
+# SAP IS-U CCS
 
-Notas sobre **SAP IS-U CCS** (*Industry Solutions for Utilities / Customer Care
-Service*), a solução setorial que roda o ciclo comercial de concessionárias de
-energia, água e gás. Quase não existe material estruturado de IS-U em
-português, e este repositório é uma tentativa de mudar isso, em aberto, com
-correção de quem conhece o módulo na prática.
+Notas de estudo sobre **SAP IS-U CCS** (*Industry Solutions for Utilities /
+Customer Care Service*), a solução setorial que roda o ciclo comercial de
+concessionárias de energia, água e gás.
+
+Material estruturado de IS-U é escasso, e o pouco que existe raramente sai do
+inglês. Isto aqui é uma tentativa de mudar isso, em aberto, com correção de
+quem conhece o módulo na prática.
 
 | Tempo | Onde ir |
 |---|---|
 | **4 min** | A tabela abaixo, de cima para baixo. É o acervo inteiro resumido |
 | **6 min** | [`MD‑02`](notas/07-MD-02-a-traducao-do-predio.md), que traduz um prédio de verdade nos objetos do sistema |
-| **1 sessão** | [`_PISTAS.md`](notas/_PISTAS.md), as 131 perguntas, respondendo em voz alta. Respostas em [`_GABARITOS.md`](notas/_GABARITOS.md) |
+| **1 sessão** | [`_PISTAS.md`](notas/_PISTAS.md), as 131 perguntas em voz alta. O gabarito fica no fim do mesmo arquivo |
 | **3 horas** | As 31 notas, na ordem da pasta |
 | **Consulta** | [`02-BANCADA.md`](referencia/02-BANCADA.md), transações e tabelas. Use `Ctrl+F` |
 | **Contribuir** | [`EM-ABERTO.md`](EM-ABERTO.md), o que falta. [`PADRAO.md`](PADRAO.md), como escrever uma nota |

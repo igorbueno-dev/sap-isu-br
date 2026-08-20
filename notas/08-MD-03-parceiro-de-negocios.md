@@ -96,4 +96,4 @@ Ver [MD-04-parceiro-de-negocios-dados](09-MD-04-parceiro-de-negocios-dados.md) p
 2. Qual função é obrigatória para faturar?
 3. Você criou um PN e ele não fatura. Qual a primeira hipótese?
 
-> **Gabarito:** [`_GABARITOS.md`](_GABARITOS.md#md-03)  ·  responda tudo antes de abrir.
+> **Gabarito:** [`_PISTAS.md`](_PISTAS.md#md-03)  ·  responda tudo antes de abrir.

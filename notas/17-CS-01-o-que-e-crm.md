@@ -84,4 +84,4 @@ cancela, ele reclama, e reclamação tem preço.
 4. Se o cliente de uma concessionária não pode trocar de fornecedor, o que o
    CRM gerencia de fato?
 
-> **Gabarito:** [`_GABARITOS.md`](_GABARITOS.md#cs-01)  ·  responda tudo antes de abrir.
+> **Gabarito:** [`_PISTAS.md`](_PISTAS.md#cs-01)  ·  responda tudo antes de abrir.

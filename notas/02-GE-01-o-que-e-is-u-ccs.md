@@ -87,4 +87,4 @@ Ver [02-BANCADA](../referencia/02-BANCADA.md) para as transações.
 2. Liste as cinco áreas funcionais na ordem da cadeia.
 3. Onde BW aparece no desenho, e por que isso importa para a sua escolha de trilha?
 
-> **Gabarito:** [`_GABARITOS.md`](_GABARITOS.md#ge-01)  ·  responda tudo antes de abrir.
+> **Gabarito:** [`_PISTAS.md`](_PISTAS.md#ge-01)  ·  responda tudo antes de abrir.

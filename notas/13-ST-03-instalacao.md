@@ -92,4 +92,4 @@ equipamento.
 2. O que é o Indicador de Baixa Renda e onde ele fica?
 3. Conta veio com valor absurdo. Onde você olha antes de suspeitar do cálculo?
 
-> **Gabarito:** [`_GABARITOS.md`](_GABARITOS.md#st-03)  ·  responda tudo antes de abrir.
+> **Gabarito:** [`_PISTAS.md`](_PISTAS.md#st-03)  ·  responda tudo antes de abrir.

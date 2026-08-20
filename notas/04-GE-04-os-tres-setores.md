@@ -67,4 +67,4 @@ Antes de responder qualquer exercício, pergunte a si mesmo: **de qual setor
 3. Em qual setor a estimativa de consumo é mais frequente, e por quê?
 4. Em qual setor o corte é mais delicado?
 
-> **Gabarito:** [`_GABARITOS.md`](_GABARITOS.md#ge-04)  ·  responda tudo antes de abrir.
+> **Gabarito:** [`_PISTAS.md`](_PISTAS.md#ge-04)  ·  responda tudo antes de abrir.

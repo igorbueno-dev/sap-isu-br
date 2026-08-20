@@ -94,4 +94,4 @@ Quando alguém disser "não consigo escolher a opção X", a resposta quase nunc
 2. Qual transação define **quais campos aparecem** por função de PN?
 3. A conta do cliente está indo para o endereço errado. Onde você olha primeiro?
 
-> **Gabarito:** [`_GABARITOS.md`](_GABARITOS.md#md-04)  ·  responda tudo antes de abrir.
+> **Gabarito:** [`_PISTAS.md`](_PISTAS.md#md-04)  ·  responda tudo antes de abrir.

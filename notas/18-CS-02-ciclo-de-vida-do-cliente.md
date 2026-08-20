@@ -76,4 +76,4 @@ eficiência energética. Mas o volume está no pós-venda.
 3. Por que o ciclo é desenhado como círculo e não como linha?
 4. Em que etapa um cliente de concessionária normalmente entra, e por quê?
 
-> **Gabarito:** [`_GABARITOS.md`](_GABARITOS.md#cs-02)  ·  responda tudo antes de abrir.
+> **Gabarito:** [`_PISTAS.md`](_PISTAS.md#cs-02)  ·  responda tudo antes de abrir.

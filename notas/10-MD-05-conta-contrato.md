@@ -116,4 +116,4 @@ Contract Accounts`
 2. Solvência é do PN ou da conta contrato?
 3. Onde fica o bloqueio de corte, e onde fica o bloqueio de faturamento?
 
-> **Gabarito:** [`_GABARITOS.md`](_GABARITOS.md#md-05)  ·  responda tudo antes de abrir.
+> **Gabarito:** [`_PISTAS.md`](_PISTAS.md#md-05)  ·  responda tudo antes de abrir.

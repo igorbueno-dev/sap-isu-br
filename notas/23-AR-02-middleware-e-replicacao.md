@@ -97,4 +97,4 @@ E duas de sistema, que servem para qualquer problema, não só middleware:
    investigação, com as transações?
 5. Qual a diferença entre `R3AS` e `R3AR2`?
 
-> **Gabarito:** [`_GABARITOS.md`](_GABARITOS.md#ar-02)  ·  responda tudo antes de abrir.
+> **Gabarito:** [`_PISTAS.md`](_PISTAS.md#ar-02)  ·  responda tudo antes de abrir.

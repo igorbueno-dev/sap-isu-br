@@ -85,4 +85,4 @@ Continua faltando:
 4. Alguém fala em "Business Agreement". Do que está falando?
 5. De onde vêm os nomes de tabela desta nota?
 
-> **Gabarito:** [`_GABARITOS.md`](_GABARITOS.md#ar-03)  ·  responda tudo antes de abrir.
+> **Gabarito:** [`_PISTAS.md`](_PISTAS.md#ar-03)  ·  responda tudo antes de abrir.

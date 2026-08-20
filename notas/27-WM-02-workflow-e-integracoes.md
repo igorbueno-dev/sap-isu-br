@@ -108,4 +108,4 @@ isolada".** Ver [`02-BANCADA.md`](../referencia/02-BANCADA.md).
 5. Você abre o workflow e o responsável da etapa travada é `WF BATCH`. O que isso te diz?
 6. Alguém diz "registrei a solicitação e nada aconteceu". Qual seu primeiro suspeito?
 
-> **Gabarito:** [`_GABARITOS.md`](_GABARITOS.md#wm-02)  ·  responda tudo antes de abrir.
+> **Gabarito:** [`_PISTAS.md`](_PISTAS.md#wm-02)  ·  responda tudo antes de abrir.

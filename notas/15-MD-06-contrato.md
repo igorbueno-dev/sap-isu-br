@@ -90,4 +90,4 @@ atendimento (CIC), então a transação só aparece na trilha de CS + CRM.**
 3. Em que nível ocorre o cálculo?
 4. Por que não existe transação de criar contrato?
 
-> **Gabarito:** [`_GABARITOS.md`](_GABARITOS.md#md-06)  ·  responda tudo antes de abrir.
+> **Gabarito:** [`_PISTAS.md`](_PISTAS.md#md-06)  ·  responda tudo antes de abrir.

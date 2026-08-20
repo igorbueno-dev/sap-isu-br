@@ -84,4 +84,4 @@ não como sexta caixa na fila.
 4. Por que BW não conta como área funcional?
 5. O que significa dizer que o SAP CRM integra com Salesforce?
 
-> **Gabarito:** [`_GABARITOS.md`](_GABARITOS.md#cs-04)  ·  responda tudo antes de abrir.
+> **Gabarito:** [`_PISTAS.md`](_PISTAS.md#cs-04)  ·  responda tudo antes de abrir.

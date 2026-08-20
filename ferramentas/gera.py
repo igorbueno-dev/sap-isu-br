@@ -4,8 +4,9 @@
 
 Escreve dois lugares, sempre a partir do resumo e do recall de cada nota:
 
-  README.md        a tabela das notas, entre os marcadores INICIO/FIM NOTAS
-  notas/_PISTAS.md as perguntas de recuperacao em fila, para testar tudo
+  README.md        a tabela das notas e a contagem de origem
+  notas/_PISTAS.md as perguntas em fila. O gabarito abaixo do marcador nao
+                   e tocado: ele e escrito a mao.
 
 Assim o indice nunca diverge da nota: a nota e a fonte, o resto e derivado.
 """
@@ -17,6 +18,8 @@ INICIO = '<!-- INICIO NOTAS -->'
 FIM = '<!-- FIM NOTAS -->'
 INICIO_ORIGEM = '<!-- INICIO ORIGEM -->'
 FIM_ORIGEM = '<!-- FIM ORIGEM -->'
+INICIO_PERG = '<!-- INICIO PERGUNTAS -->'
+FIM_PERG = '<!-- FIM PERGUNTAS -->'
 
 SIGNIFICADO = [
     ('slide', 'O material da academia sustenta a nota inteira'),
@@ -84,7 +87,8 @@ def partes(caminho):
     perguntas = []
     m = re.search(r'^## Recall\s*$(.*?)(?=^---|^## |\Z)', s, re.M | re.S)
     if m:
-        for item in re.finditer(r'^\d+\.\s+(.*?)(?=^\d+\.|\Z)', m.group(1), re.M | re.S):
+        bloco = re.split(r'^>', m.group(1), maxsplit=1, flags=re.M)[0]
+        for item in re.finditer(r'^\d+\.\s+(.*?)(?=^\d+\.|\Z)', bloco, re.M | re.S):
             p = ' '.join(item.group(1).split())
             if p:
                 perguntas.append(p)
@@ -147,19 +151,11 @@ def gerar():
     s = s[:a] + '\n' + '\n'.join(origem) + '\n' + s[b:]
     io.open(caminho_readme, 'w', encoding='utf-8', newline='').write(s)
 
-    cabeca = """# AS PISTAS
-### Todas as perguntas de recuperação, em fila
-
-> **Arquivo gerado.** Não edite aqui: edite a nota e rode
-> `python ferramentas/gera.py`.
->
-> **Como usar.** Responda em voz alta antes de abrir qualquer coisa. Errar aqui
-> vale mais do que reler a nota: é o erro que mostra onde o modelo tem buraco.
-> Gabarito em [`_GABARITOS.md`](_GABARITOS.md).
-"""
-    io.open(os.path.join(NOTAS, '_PISTAS.md'), 'w', encoding='utf-8', newline='').write(
-        cabeca + '\n'.join(pistas)
-        + '\n---\n\n> %d notas, %d perguntas.\n' % (len(arquivos), n_perg))
+    caminho_pistas = os.path.join(NOTAS, '_PISTAS.md')
+    s = io.open(caminho_pistas, encoding='utf-8').read()
+    a, b = s.index(INICIO_PERG) + len(INICIO_PERG), s.index(FIM_PERG)
+    s = s[:a] + '\n' + '\n'.join(pistas) + '\n' + s[b:]
+    io.open(caminho_pistas, 'w', encoding='utf-8', newline='').write(s)
 
     print('README (%d notas) e _PISTAS.md (%d perguntas) gerados'
           % (len(arquivos), n_perg))

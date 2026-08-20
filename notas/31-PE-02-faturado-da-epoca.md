@@ -112,4 +112,4 @@ pronta em vez de deixar cada projeto construir a sua.
 5. O que precisa ser verdade sobre a memória de cálculo para a cobrança se sustentar?
 6. Por que o recálculo separa TE e TUSD, e o que o prefixo `ISUBR` indica?
 
-> **Gabarito:** [`_GABARITOS.md`](_GABARITOS.md#pe-02)  ·  responda tudo antes de abrir.
+> **Gabarito:** [`_PISTAS.md`](_PISTAS.md#pe-02)  ·  responda tudo antes de abrir.

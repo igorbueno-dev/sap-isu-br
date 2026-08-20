@@ -76,8 +76,8 @@ Se for mexer em nota:
 - **Uma nota é um conceito.** 5 a 10 minutos de leitura, teto de 120 linhas,
   terminando em raciocínio fechado. Se sua adição estoura isso, provavelmente
   são duas notas.
-- **Cada nota termina em recall**, com o gabarito em `notas/_GABARITOS.md`,
-  nunca na própria nota.
+- **Cada nota termina em recall**, com o gabarito em `notas/_PISTAS.md`,
+  no fim do arquivo, nunca na própria nota.
 - **Links são markdown relativo** (`[MD-06](notas/15-MD-06-contrato.md)`), não wikilink.
   Assim funcionam no GitHub e num vault de Obsidian.
 - **O nome do arquivo começa com a ordem de estudo**, dois dígitos, seguida do

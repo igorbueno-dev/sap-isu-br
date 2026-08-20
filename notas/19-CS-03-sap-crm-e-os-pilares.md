@@ -93,4 +93,4 @@ conhecimento de CRM continua valendo no S/4HANA.
 3. Cite um módulo de cada pilar.
 4. O que é o S/4 Customer Engagement, e qual sua relação com o CRM clássico?
 
-> **Gabarito:** [`_GABARITOS.md`](_GABARITOS.md#cs-03)  ·  responda tudo antes de abrir.
+> **Gabarito:** [`_PISTAS.md`](_PISTAS.md#cs-03)  ·  responda tudo antes de abrir.

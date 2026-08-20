@@ -130,4 +130,4 @@ flowchart TD
 2. Além do medidor, o que mais é Equipamento?
 3. Medidor trocado no campo, conta ainda com leitura do antigo. Hipótese?
 
-> **Gabarito:** [`_GABARITOS.md`](_GABARITOS.md#st-04)  ·  responda tudo antes de abrir.
+> **Gabarito:** [`_PISTAS.md`](_PISTAS.md#st-04)  ·  responda tudo antes de abrir.

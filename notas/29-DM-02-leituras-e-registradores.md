@@ -110,4 +110,4 @@ aparece na fila de faturamento, dias depois, num time diferente.
 5. O que é energia injetada, e por que ela existe?
 6. Uma instalação não faturou e o medidor está corretamente instalado. Qual sua primeira hipótese?
 
-> **Gabarito:** [`_GABARITOS.md`](_GABARITOS.md#dm-02)  ·  responda tudo antes de abrir.
+> **Gabarito:** [`_PISTAS.md`](_PISTAS.md#dm-02)  ·  responda tudo antes de abrir.

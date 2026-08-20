@@ -110,4 +110,4 @@ vire dinheiro errado.
 5. O técnico chegou em campo sem o medidor. Onde você procura a causa?
 6. Por que "histórico completo" é a frente que sustenta perícia?
 
-> **Gabarito:** [`_GABARITOS.md`](_GABARITOS.md#dm-01)  ·  responda tudo antes de abrir.
+> **Gabarito:** [`_PISTAS.md`](_PISTAS.md#dm-01)  ·  responda tudo antes de abrir.

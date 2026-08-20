@@ -94,4 +94,4 @@ repete: cada objeto tem **uma transação de uso** e **uma de customizing**.
 4. O que acontece se você alterar a tarifa de uma instalação sem olhar a data
    de validade?
 
-> **Gabarito:** [`_GABARITOS.md`](_GABARITOS.md#md-08)  ·  responda tudo antes de abrir.
+> **Gabarito:** [`_PISTAS.md`](_PISTAS.md#md-08)  ·  responda tudo antes de abrir.

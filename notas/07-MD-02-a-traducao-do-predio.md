@@ -110,4 +110,4 @@ Ele responde de uma vez três perguntas que caem sempre:
    objetos diferentes?
 3. Qual objeto liga o mundo comercial ao mundo técnico?
 
-> **Gabarito:** [`_GABARITOS.md`](_GABARITOS.md#md-02)  ·  responda tudo antes de abrir.
+> **Gabarito:** [`_PISTAS.md`](_PISTAS.md#md-02)  ·  responda tudo antes de abrir.

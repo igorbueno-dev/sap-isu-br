@@ -83,4 +83,4 @@ criado, e modificar o número/apto dele.
 3. Um prédio de 40 apartamentos: quantos objetos de ligação e quantos locais
    de consumo?
 
-> **Gabarito:** [`_GABARITOS.md`](_GABARITOS.md#st-02)  ·  responda tudo antes de abrir.
+> **Gabarito:** [`_PISTAS.md`](_PISTAS.md#st-02)  ·  responda tudo antes de abrir.

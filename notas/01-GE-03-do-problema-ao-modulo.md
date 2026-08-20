@@ -91,4 +91,4 @@ fazer aqui?" quando o sistema faz algo estranho.
 2. Por que errar no corte é mais caro que errar no faturamento?
 3. O que torna a venda de energia diferente de uma venda comum?
 
-> **Gabarito:** [`_GABARITOS.md`](_GABARITOS.md#ge-03)  ·  responda tudo antes de abrir.
+> **Gabarito:** [`_PISTAS.md`](_PISTAS.md#ge-03)  ·  responda tudo antes de abrir.

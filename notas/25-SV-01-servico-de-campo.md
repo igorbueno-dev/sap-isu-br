@@ -107,4 +107,4 @@ citado de passagem que segura um processo inteiro.
 4. A cadeia das cinco áreas está errada por não ter Perdas?
 5. Qual objeto a esteira de sete etapas cita sem nunca definir?
 
-> **Gabarito:** [`_GABARITOS.md`](_GABARITOS.md#sv-01)  ·  responda tudo antes de abrir.
+> **Gabarito:** [`_PISTAS.md`](_PISTAS.md#sv-01)  ·  responda tudo antes de abrir.

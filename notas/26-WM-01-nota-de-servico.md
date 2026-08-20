@@ -110,4 +110,4 @@ divisão 1 dos dados mestres. Ver [MD-01](05-MD-01-mapa-dos-dados-mestres.md).
 4. Um técnico chega e o imóvel está trancado. O que registrar, e por quê?
 5. Qual tipo de nota é a porta de entrada da Gestão de Perdas?
 
-> **Gabarito:** [`_GABARITOS.md`](_GABARITOS.md#wm-01)  ·  responda tudo antes de abrir.
+> **Gabarito:** [`_PISTAS.md`](_PISTAS.md#wm-01)  ·  responda tudo antes de abrir.

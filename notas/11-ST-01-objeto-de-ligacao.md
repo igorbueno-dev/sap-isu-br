@@ -77,4 +77,4 @@ do objeto criado.
 3. Dois sobrados colados, com números prediais diferentes. Um ou dois objetos
    de ligação?
 
-> **Gabarito:** [`_GABARITOS.md`](_GABARITOS.md#st-01)  ·  responda tudo antes de abrir.
+> **Gabarito:** [`_PISTAS.md`](_PISTAS.md#st-01)  ·  responda tudo antes de abrir.

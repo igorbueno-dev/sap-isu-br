@@ -87,4 +87,4 @@ vira dado**. "Prospect" não é abstração de marketing, é um valor gravado no
    mestres?
 5. Onde o conceito de "prospect" aparece como dado no sistema?
 
-> **Gabarito:** [`_GABARITOS.md`](_GABARITOS.md#cs-05)  ·  responda tudo antes de abrir.
+> **Gabarito:** [`_PISTAS.md`](_PISTAS.md#cs-05)  ·  responda tudo antes de abrir.

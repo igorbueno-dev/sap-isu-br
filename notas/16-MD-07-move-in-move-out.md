@@ -104,4 +104,4 @@ Ver [02-BANCADA](../referencia/02-BANCADA.md).
 3. Consumo registrado numa instalação sem contrato ativo. O que isso sugere?
 4. Por que Move-In com data retroativa é caro?
 
-> **Gabarito:** [`_GABARITOS.md`](_GABARITOS.md#md-07)  ·  responda tudo antes de abrir.
+> **Gabarito:** [`_PISTAS.md`](_PISTAS.md#md-07)  ·  responda tudo antes de abrir.
