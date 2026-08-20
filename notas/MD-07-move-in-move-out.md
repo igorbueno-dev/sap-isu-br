@@ -3,8 +3,12 @@
 
 **Onde entra:** é o processo que produz o objeto de [MD-06-contrato](MD-06-contrato.md).
 **Antes disto:** [MD-06-contrato](MD-06-contrato.md), [ST-03-instalacao](ST-03-instalacao.md)
-**Status:** escrito por mim. **A confirmar na documentação SAP**, transações
-e detalhes.
+**Status:** **a maior parte é minha.** O material diz duas coisas sobre
+Move-In, e só: que *"o Contrato é criado durante o Move In"*, e que o
+atendimento cuida dos *"processos de mudança (Move-in/Out)"*. **Todo o resto
+desta nota é reconstrução minha**, incluindo as etapas e as transações.
+Ela existe porque sem ela nada explica como o Contrato nasce.
+**Confirmar com o instrutor antes de repetir qualquer detalhe daqui.**
 
 ---
 

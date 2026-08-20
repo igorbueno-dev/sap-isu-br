@@ -140,9 +140,9 @@ logo depois da `GE‑01`.
 | Arquivo | Para quê |
 |---|---|
 | [`referencia/02-BANCADA.md`](referencia/02-BANCADA.md) | Transações, tabelas e caminhos de menu. É consulta, use `Ctrl+F` |
-| [`referencia/00-NUCLEO.md`](referencia/00-NUCLEO.md) | O mapa geral e um cartão de revisão de 2 minutos |
-| [`referencia/FI-CA-detalhado.md`](referencia/FI-CA-detalhado.md) | Aprofundamento de FI-CA |
 | [`notas/_GABARITOS.md`](notas/_GABARITOS.md) | Respostas dos recalls, separadas de propósito |
+| [`notas/_PADRAO.md`](notas/_PADRAO.md) | A forma da nota, e o que nunca pode ocupar posição estrutural |
+| [`notas/_DEPENDENCIAS.md`](notas/_DEPENDENCIAS.md) | A ordem de estudo e os pontos em aberto |
 
 ---
 

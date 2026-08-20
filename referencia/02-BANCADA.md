@@ -95,6 +95,26 @@
 
 > **Regra de honestidade deste material:** tudo marcado com **(confirmar)** é algo cujo código exato eu não garanto. Prefiro deixar em branco a dar um código errado que alguém vai digitar na frente de um cliente.
 
+## De onde vêm estes códigos
+
+Cruzamento feito em **20/08/2026** contra a transcrição das aulas 1 a 3.
+
+| Origem | Quantos | Confiança |
+|---|---|---|
+| **Vistos em slide** | **48 de 76** | Alta. Vieram das árvores de menu e dos exercícios das aulas |
+| Não vistos em slide | 28 | **Não repita sem conferir** |
+
+Os 28 sem respaldo são de duas famílias, e nenhuma é de dados mestres:
+
+- **Básis e técnico**, que ninguém cobra de júnior de módulo: `SE11` `SE16`
+  `SE16N` `SE93` `SM37` `SP01` `SU53` `SLG1`
+- **Módulos vizinhos ainda não dados**: manutenção (`IW*` `IL*` `IE0*` `IQ0*`),
+  BW (`RSA*`) e a parte de FI-CA que não foi apresentada (`FPE*` `FPL9`)
+
+**Os códigos de dados mestres, que são os que caem em exercício, estão todos
+no grupo confirmado:** `FPP1` `CAA1` `ES21` `ES55` `ES60` `ES30` `ES65` `EG31`
+e as famílias em volta deles.
+
 ---
 
 # 3. Transações por módulo
@@ -573,4 +593,4 @@ O peso está em **entender fluxo e relação entre objetos**, não em decorar c�
 
 ---
 
-> **Voltar para:** [`00-NUCLEO.md`](00-NUCLEO.md), o mapa, ou [as 15 notas](../README.md#as-15-notas).
+> **Voltar para:** [as 31 notas](../README.md), ou o [mapa de dependências](../notas/_DEPENDENCIAS.md).

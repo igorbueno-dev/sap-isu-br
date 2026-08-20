@@ -3,8 +3,9 @@
 > Leia antes de qualquer sigla: é o "por quê" de todas elas.
 
 **Onde entra:** é o "por quê" de tudo. Anterior até ao [GE-01-o-que-e-is-u-ccs](GE-01-o-que-e-is-u-ccs.md).
-**Status:** escrito por mim. Documentação de produto não cobre isto, porque
-não é sobre o produto: é sobre o negócio que o produto atende.
+**Status:** raciocínio meu, e de propósito. **Não afirma nada sobre o SAP**,
+descreve o negócio que o produto atende. A única parte que toca o produto é a
+tabela final, que mapeia cada problema no módulo correspondente.
 
 ---
 
