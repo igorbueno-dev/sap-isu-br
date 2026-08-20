@@ -2,7 +2,7 @@
 > O que cabe dentro da ficha do cliente, e onde se desenha a ficha.
 
 **Onde entra:** detalhe operacional do PN.
-**Antes disto:** [MD-03-parceiro-de-negocios](MD-03-parceiro-de-negocios.md)
+**Antes disto:** [MD-03-parceiro-de-negocios](08-MD-03-parceiro-de-negocios.md)
 
 ---
 

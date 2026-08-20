@@ -2,7 +2,7 @@
 > O diagrama que converte o mundo real inteiro em vocabulário SAP, de uma vez.
 
 **Onde entra:** é a nota mais importante do conjunto.
-**Antes disto:** [MD-01-mapa-dos-dados-mestres](MD-01-mapa-dos-dados-mestres.md)
+**Antes disto:** [MD-01-mapa-dos-dados-mestres](05-MD-01-mapa-dos-dados-mestres.md)
 
 ---
 
@@ -89,7 +89,7 @@ Se dois apartamentos estão vazios, são **11 contratos e 13 instalações**.
 > ### O detalhe que mais confunde
 > **A quantidade de Instalações e a de Contratos não é a mesma.**
 > Instalação existe sempre, porque é do imóvel. Contrato só existe quando tem
-> alguém morando. Ver [MD-07-move-in-move-out](MD-07-move-in-move-out.md).
+> alguém morando. Ver [MD-07-move-in-move-out](16-MD-07-move-in-move-out.md).
 
 ---
 

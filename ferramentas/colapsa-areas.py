@@ -79,7 +79,7 @@ def main():
     for chave, (prefixos, rotulo) in sorted(TRILHAS.items()):
         arquivos = []
         for p in prefixos:
-            arquivos += sorted(glob.glob(os.path.join(NOTAS, '%s-*.md' % p)))
+            arquivos += sorted(glob.glob(os.path.join(NOTAS, '[0-9][0-9]-%s-*.md' % p)))
         linhas = sum(io.open(f, encoding='utf-8').read().count('\n') for f in arquivos)
         total_antes += linhas
         if prefixos == escolhida:
@@ -100,7 +100,7 @@ def main():
             os.rename(f, os.path.join(FUNDO, os.path.basename(f)))
 
     fund = sum(io.open(f, encoding='utf-8').read().count('\n')
-               for p in FUNDACAO for f in glob.glob(os.path.join(NOTAS, '%s-*.md' % p)))
+               for p in FUNDACAO for f in glob.glob(os.path.join(NOTAS, '[0-9][0-9]-%s-*.md' % p)))
     print()
     print('Fundacao intocada: %d linhas' % fund)
     print('Areas: %d -> %d linhas  (%.0f%% fora do caminho)'

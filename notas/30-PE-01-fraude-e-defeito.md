@@ -3,8 +3,8 @@
 > aqui é o erro que vira processo.
 
 **Onde entra:** o Bloco 3 do SVC. A menos documentada das três.
-**Antes disto:** [SV-01-servico-de-campo](SV-01-servico-de-campo.md)
-**Depois disto:** [PE-02-faturado-da-epoca](PE-02-faturado-da-epoca.md)
+**Antes disto:** [SV-01-servico-de-campo](25-SV-01-servico-de-campo.md)
+**Depois disto:** [PE-02-faturado-da-epoca](31-PE-02-faturado-da-epoca.md)
 
 ---
 
@@ -38,8 +38,8 @@ pena é o que torna a área viável.
 
 A fiscalização em campo é uma **nota de serviço** do tipo Fiscalização, e a
 leitura tirada lá tem **motivo** Fiscalização. É por aí que WM e DM entregam o
-caso para Perdas. Ver [WM-01](WM-01-nota-de-servico.md) e
-[DM-02](DM-02-leituras-e-registradores.md).
+caso para Perdas. Ver [WM-01](26-WM-01-nota-de-servico.md) e
+[DM-02](29-DM-02-leituras-e-registradores.md).
 
 ---
 
@@ -85,7 +85,7 @@ A diferença está na evidência física que o técnico encontrou e registrou.
 
 Por isso o processo é pesado de propósito: perícia, laudo, foto, laudo de
 laboratório do medidor. **A memória de cálculo é o que sustenta a cobrança se
-o cliente for à justiça.** Ver [PE-02](PE-02-faturado-da-epoca.md).
+o cliente for à justiça.** Ver [PE-02](31-PE-02-faturado-da-epoca.md).
 
 > **O gancho para quem vem de FI-CA:** este é o único lugar do IS-U onde a
 > qualidade da documentação decide se a receita entra ou é devolvida.

@@ -3,8 +3,8 @@
 > prioridade e prazo, e é o prazo que dá multa.
 
 **Onde entra:** o objeto central do Bloco 1, WM / SVC.
-**Antes disto:** [SV-01-servico-de-campo](SV-01-servico-de-campo.md)
-**Depois disto:** [WM-02-workflow-e-integracoes](WM-02-workflow-e-integracoes.md)
+**Antes disto:** [SV-01-servico-de-campo](25-SV-01-servico-de-campo.md)
+**Depois disto:** [WM-02-workflow-e-integracoes](27-WM-02-workflow-e-integracoes.md)
 
 ---
 
@@ -19,8 +19,8 @@ com o cliente em torno deles.** Seis frentes:
 | **Atualização de endereço** | Corrigir onde o imóvel fica, inclusive coordenadas |
 | **Transgressões** | Controle de prazo. **A frente que vira multa** |
 | **Taxas e cobranças** | O serviço que o cliente paga |
-| **Workflow e automação** | Como o pedido anda sozinho. Ver [WM-02](WM-02-workflow-e-integracoes.md) |
-| **Integração com CRM e Dunning** | De onde os pedidos chegam. Ver [WM-02](WM-02-workflow-e-integracoes.md) |
+| **Workflow e automação** | Como o pedido anda sozinho. Ver [WM-02](27-WM-02-workflow-e-integracoes.md) |
+| **Integração com CRM e Dunning** | De onde os pedidos chegam. Ver [WM-02](27-WM-02-workflow-e-integracoes.md) |
 
 ---
 
@@ -98,7 +98,7 @@ atualização cadastral.
 Não é digitação de escritório: é o técnico que foi lá e descobriu que o poste
 está na outra esquina. **Isso alimenta a rota de leitura e o despacho de
 equipe.** É coerente com WM manter as **estruturas políticas e postais**, a
-divisão 1 dos dados mestres. Ver [MD-01](MD-01-mapa-dos-dados-mestres.md).
+divisão 1 dos dados mestres. Ver [MD-01](05-MD-01-mapa-dos-dados-mestres.md).
 
 ---
 

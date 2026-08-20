@@ -155,10 +155,10 @@ sempre.
 
 | Conceito | Por que era lacuna | Situação |
 |---|---|---|
-| **Move In** | O Contrato "é criado durante o Move In", mas o processo é tratado à parte dos dados mestres | Coberto por [MD-07-move-in-move-out](MD-07-move-in-move-out.md), **em reconstrução minha**. A transação só fecha na trilha de CS + CRM |
-| **Registrador** | Citado junto de equipamento, quase nunca definido | **Fechado pelo material**: a A03 lista os seis registradores. Ver [DM-02](DM-02-leituras-e-registradores.md) |
+| **Move In** | O Contrato "é criado durante o Move In", mas o processo é tratado à parte dos dados mestres | Coberto por [MD-07-move-in-move-out](16-MD-07-move-in-move-out.md), **em reconstrução minha**. A transação só fecha na trilha de CS + CRM |
+| **Registrador** | Citado junto de equipamento, quase nunca definido | **Fechado pelo material**: a A03 lista os seis registradores. Ver [DM-02](29-DM-02-leituras-e-registradores.md) |
 
-> **Cuidado com a primeira linha.** A [MD-07](MD-07-move-in-move-out.md) é
+> **Cuidado com a primeira linha.** A [MD-07](16-MD-07-move-in-move-out.md) é
 > reconstrução minha em cima de duas frases do material. Ela tapa o buraco no
 > grafo, mas **não é fonte**.
 
@@ -166,7 +166,7 @@ sempre.
 
 | Conceito | Evidência | Situação |
 |---|---|---|
-| ~~**Ponto de Entrega (PoD)**~~ | Aparecia no menu de dados mestres técnicos e nunca era desenvolvido | **PARCIALMENTE COBERTO** por [AR-03-objetos-replicados](AR-03-objetos-replicados.md): tem posição na arquitetura e tabela `EUIHEAD` ⟨confirmar⟩. **Faltam as transações e a cardinalidade** |
+| ~~**Ponto de Entrega (PoD)**~~ | Aparecia no menu de dados mestres técnicos e nunca era desenvolvido | **PARCIALMENTE COBERTO** por [AR-03-objetos-replicados](24-AR-03-objetos-replicados.md): tem posição na arquitetura e tabela `EUIHEAD` ⟨confirmar⟩. **Faltam as transações e a cardinalidade** |
 | **Ligação** | Nó no menu, entre Objeto de Ligação e Local de Consumo | Não explorado |
 | **Estrutura Postal** | Divisão 1 de 4 dos dados mestres (slide `img-05` da A01), e WM "mantém estruturas políticas e postais" (A02) | **Nomeada e nunca desenvolvida.** Conteúdo e transações em aberto |
 | **Estrutura Regional** | Nó no menu | Não desenvolvida |

@@ -5,7 +5,7 @@
 **Em inglês:** `Installation`. Use o nome em inglês quando a tradução em
 português divergir entre materiais.
 **Onde entra:** o nível mais baixo e mais importante do mundo técnico.
-**Antes disto:** [ST-02-local-de-consumo](ST-02-local-de-consumo.md)
+**Antes disto:** [ST-02-local-de-consumo](12-ST-02-local-de-consumo.md)
 
 ---
 

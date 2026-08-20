@@ -3,7 +3,7 @@
 > regras de pagamento e de cobrança.
 
 **Onde entra:** entre o Parceiro de Negócios e o Contrato.
-**Antes disto:** [MD-03-parceiro-de-negocios](MD-03-parceiro-de-negocios.md)
+**Antes disto:** [MD-03-parceiro-de-negocios](08-MD-03-parceiro-de-negocios.md)
 
 ---
 

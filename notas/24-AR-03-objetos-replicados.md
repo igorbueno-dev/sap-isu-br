@@ -3,7 +3,7 @@
 > de-para é o que você consulta quando alguém diz "o dado está divergente".
 
 **Onde entra:** fecha a trilha de arquitetura.
-**Antes disto:** [AR-02-middleware-e-replicacao](AR-02-middleware-e-replicacao.md)
+**Antes disto:** [AR-02-middleware-e-replicacao](23-AR-02-middleware-e-replicacao.md)
 
 ---
 
@@ -41,7 +41,7 @@ instalado. É o conceito de CRM mais próximo do mundo técnico do IS-U.
 ### 3. Conta Contrato muda de nome, não de função
 
 `FKKVKP` no IS-U vira `CRMM_BUAG` no CRM, de *Business Agreement*. É o mesmo
-objeto da [MD-05](MD-05-conta-contrato.md), com nome de CRM.
+objeto da [MD-05](10-MD-05-conta-contrato.md), com nome de CRM.
 
 > Se alguém falar em **Business Agreement** numa reunião, está falando de
 > Conta Contrato.

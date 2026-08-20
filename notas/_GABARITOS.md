@@ -18,7 +18,7 @@
 ---
 
 ## GE-03
-**GE-03: Do problema ao módulo**  ·  [voltar para a nota](GE-03-do-problema-ao-modulo.md)
+**GE-03: Do problema ao módulo**  ·  [voltar para a nota](01-GE-03-do-problema-ao-modulo.md)
 
 1. **Onde** está ligado, **quanto** consumiu, **por quanto** é cobrado.
 2. Porque envolve deslocar uma pessoa, e cortar quem pagou vira processo
@@ -29,7 +29,7 @@
 ---
 
 ## GE-01
-**GE-01: O que é o SAP IS-U CCS**  ·  [voltar para a nota](GE-01-o-que-e-is-u-ccs.md)
+**GE-01: O que é o SAP IS-U CCS**  ·  [voltar para a nota](02-GE-01-o-que-e-is-u-ccs.md)
 
 1. Customer Care Service, e Industry Solutions for Utilities.
 2. CS+CRM, WM, DM, BILL, FI-CA.
@@ -39,7 +39,7 @@
 ---
 
 ## GE-02
-**GE-02: A evolução do produto, do R/3 ao SaaS**  ·  [voltar para a nota](GE-02-evolucao-do-produto.md)
+**GE-02: A evolução do produto, do R/3 ao SaaS**  ·  [voltar para a nota](03-GE-02-evolucao-do-produto.md)
 
 1. Fim de 2027. Força a migração de toda a base instalada para S/4HANA, o que
    gera projetos.
@@ -50,7 +50,7 @@
 ---
 
 ## GE-04
-**GE-04: Os três setores, com peso igual**  ·  [voltar para a nota](GE-04-os-tres-setores.md)
+**GE-04: Os três setores, com peso igual**  ·  [voltar para a nota](04-GE-04-os-tres-setores.md)
 
 1. **Não.** Mede volume em m³, a cobrança é por energia. Há conversão no meio.
 2. **Duas**, água e esgoto. A de esgoto normalmente não tem medidor e fatura
@@ -62,7 +62,7 @@
 ---
 
 ## MD-01
-**MD-01: As quatro divisões dos dados mestres**  ·  [voltar para a nota](MD-01-mapa-dos-dados-mestres.md)
+**MD-01: As quatro divisões dos dados mestres**  ·  [voltar para a nota](05-MD-01-mapa-dos-dados-mestres.md)
 
 1. Estrutura Postal, Dados Mestre Técnicos, Dados Mestre Comercial, Dados
    Transacionais.
@@ -80,7 +80,7 @@
 ---
 
 ## MD-02
-**MD-02: A tradução do prédio**  ·  [voltar para a nota](MD-02-a-traducao-do-predio.md)
+**MD-02: A tradução do prédio**  ·  [voltar para a nota](07-MD-02-a-traducao-do-predio.md)
 
 1. Objeto de Ligação, Local de Consumo, Local de Instalação de Equipamento,
    Equipamento, Parceiro de Negócios.
@@ -91,7 +91,7 @@
 ---
 
 ## MD-03
-**MD-03: Parceiro de Negócios, categoria e função**  ·  [voltar para a nota](MD-03-parceiro-de-negocios.md)
+**MD-03: Parceiro de Negócios, categoria e função**  ·  [voltar para a nota](08-MD-03-parceiro-de-negocios.md)
 
 1. Pessoa, Organização e Grupo. Grupo normalmente não é utilizada.
 2. **Parceiro de Contrato.**
@@ -101,7 +101,7 @@
 ---
 
 ## MD-04
-**MD-04: Parceiro de Negócios, os dados e o customizing**  ·  [voltar para a nota](MD-04-parceiro-de-negocios-dados.md)
+**MD-04: Parceiro de Negócios, os dados e o customizing**  ·  [voltar para a nota](09-MD-04-parceiro-de-negocios-dados.md)
 
 1. **No PN.** Mas o direcionamento por função pode ser feito no nível da
    Conta Contrato.
@@ -112,7 +112,7 @@
 ---
 
 ## MD-05
-**MD-05: Conta Contrato**  ·  [voltar para a nota](MD-05-conta-contrato.md)
+**MD-05: Conta Contrato**  ·  [voltar para a nota](10-MD-05-conta-contrato.md)
 
 1. **Mesmos dados de pagamento e cobrança.**
 2. Do **PN** (business partner level).
@@ -122,7 +122,7 @@
 ---
 
 ## MD-06
-**MD-06: Contrato**  ·  [voltar para a nota](MD-06-contrato.md)
+**MD-06: Contrato**  ·  [voltar para a nota](15-MD-06-contrato.md)
 
 1. Durante o **Move In**, ou em troca de titularidade / nova ligação.
 2. **Não.** Um contrato liga a exatamente uma Conta Contrato e uma Instalação.
@@ -132,7 +132,7 @@
 ---
 
 ## MD-07
-**MD-07: Move-In e Move-Out**  ·  [voltar para a nota](MD-07-move-in-move-out.md)
+**MD-07: Move-In e Move-Out**  ·  [voltar para a nota](16-MD-07-move-in-move-out.md)
 
 1. A **Instalação permanece**, é do imóvel. O **Contrato é encerrado**, é da
    pessoa.
@@ -144,7 +144,7 @@
 ---
 
 ## ST-01
-**ST-01: Objeto de Ligação**  ·  [voltar para a nota](ST-01-objeto-de-ligacao.md)
+**ST-01: Objeto de Ligação**  ·  [voltar para a nota](11-ST-01-objeto-de-ligacao.md)
 
 1. **Endereço.**
 2. **Mais alto.**
@@ -153,7 +153,7 @@
 ---
 
 ## ST-02
-**ST-02: Local de Consumo**  ·  [voltar para a nota](ST-02-local-de-consumo.md)
+**ST-02: Local de Consumo**  ·  [voltar para a nota](12-ST-02-local-de-consumo.md)
 
 1. **Não.** Ele assume o endereço do Objeto de Ligação e guarda só o
    complemento.
@@ -163,7 +163,7 @@
 ---
 
 ## ST-03
-**ST-03: Instalação**  ·  [voltar para a nota](ST-03-instalacao.md)
+**ST-03: Instalação**  ·  [voltar para a nota](13-ST-03-instalacao.md)
 
 1. A **Instalação**, no bloco Faturamento e Medição.
 2. Marcação de tarifa social, campo brasileiro, no bloco Informações
@@ -174,7 +174,7 @@
 ---
 
 ## ST-04
-**ST-04: Equipamento e Local de Instalação**  ·  [voltar para a nota](ST-04-equipamento.md)
+**ST-04: Equipamento e Local de Instalação**  ·  [voltar para a nota](14-ST-04-equipamento.md)
 
 1. Normalmente **um**, com os 40 relógios juntos.
 2. **Transformador de Corrente (TC).**
@@ -184,7 +184,7 @@
 ---
 
 ## CS-01
-**CS-01: O que é CRM**  ·  [voltar para a nota](CS-01-o-que-e-crm.md)
+**CS-01: O que é CRM**  ·  [voltar para a nota](17-CS-01-o-que-e-crm.md)
 
 1. Não. É **práticas + estratégias de negócio + tecnologias**. A tecnologia
    é a terceira camada, não a definição.
@@ -197,7 +197,7 @@
 ---
 
 ## CS-02
-**CS-02: Ciclo de vida do cliente**  ·  [voltar para a nota](CS-02-ciclo-de-vida-do-cliente.md)
+**CS-02: Ciclo de vida do cliente**  ·  [voltar para a nota](18-CS-02-ciclo-de-vida-do-cliente.md)
 
 1. Prospecção, Qualificação, Conversão, Venda, Pós-venda, Fidelização.
 2. Marketing: prospecção e qualificação. Vendas: conversão e venda.
@@ -209,7 +209,7 @@
 ---
 
 ## CS-03
-**CS-03: SAP CRM e os três pilares**  ·  [voltar para a nota](CS-03-sap-crm-e-os-pilares.md)
+**CS-03: SAP CRM e os três pilares**  ·  [voltar para a nota](19-CS-03-sap-crm-e-os-pilares.md)
 
 1. **Marketing, Vendas (Sales) e Serviço (Service)**. Serviço carrega utilities.
 2. Pilar é **área de negócio** (linha da matriz). Faixa vertical é **canal**
@@ -223,7 +223,7 @@
 ---
 
 ## CS-04
-**CS-04: CRM no contexto Utilities**  ·  [voltar para a nota](CS-04-crm-no-contexto-utilities.md)
+**CS-04: CRM no contexto Utilities**  ·  [voltar para a nota](20-CS-04-crm-no-contexto-utilities.md)
 
 1. Não. O material diz **camada** de atendimento **integrada** ao IS-U/CCS. É um
    sistema por cima, não um módulo dentro.
@@ -238,7 +238,7 @@
 ---
 
 ## CS-05
-**CS-05: Processos e atividades**  ·  [voltar para a nota](CS-05-processos-e-atividades.md)
+**CS-05: Processos e atividades**  ·  [voltar para a nota](21-CS-05-processos-e-atividades.md)
 
 1. **Protocolo** é o número que o cliente recebe e acompanha; **atividade** é
    o registro do que foi feito. **Um protocolo contém várias atividades.**
@@ -255,7 +255,7 @@
 ---
 
 ## AR-01
-**AR-01: O landscape e as cinco camadas**  ·  [voltar para a nota](AR-01-landscape-e-camadas.md)
+**AR-01: O landscape e as cinco camadas**  ·  [voltar para a nota](22-AR-01-landscape-e-camadas.md)
 
 1. **Back end.** O CRM fica no meio, o IS-U atrás dele.
 2. No quadrante **Analyses**, junto do back end. Confirma que BW é camada de
@@ -268,7 +268,7 @@
 ---
 
 ## AR-02
-**AR-02: Middleware e replicação**  ·  [voltar para a nota](AR-02-middleware-e-replicacao.md)
+**AR-02: Middleware e replicação**  ·  [voltar para a nota](23-AR-02-middleware-e-replicacao.md)
 
 1. Porque CRM e IS-U são sistemas separados com bases próprias, e o mesmo
    cliente precisa existir nos dois.
@@ -284,7 +284,7 @@
 ---
 
 ## AR-03
-**AR-03: Objetos replicados**  ·  [voltar para a nota](AR-03-objetos-replicados.md)
+**AR-03: Objetos replicados**  ·  [voltar para a nota](24-AR-03-objetos-replicados.md)
 
 1. O **Parceiro de Negócios**, `BUT000` dos dois lados. É objeto central
    compartilhado do SAP, e o primeiro a replicar.
@@ -299,7 +299,7 @@
 ---
 
 ## MD-08
-**MD-08: Os dois mundos e a validade no tempo**  ·  [voltar para a nota](MD-08-os-dois-mundos.md)
+**MD-08: Os dois mundos e a validade no tempo**  ·  [voltar para a nota](06-MD-08-os-dois-mundos.md)
 
 1. No **Contrato indo para a Instalação**. É a única ligação entre os dois
    lados; todo o resto desce dentro do próprio mundo.
@@ -311,7 +311,7 @@
 ---
 
 ## SV-01
-**SV-01: Serviço de Campo (SVC) e os três blocos**  ·  [voltar para a nota](SV-01-servico-de-campo.md)
+**SV-01: Serviço de Campo (SVC) e os três blocos**  ·  [voltar para a nota](25-SV-01-servico-de-campo.md)
 
 1. **WM / SVC**, manda gente para a rua. **DM / GAT**, cuida do que fica
    pendurado na parede. **Perdas**, descobre que o número estava errado e
@@ -329,7 +329,7 @@
 ---
 
 ## WM-01
-**WM-01: A nota de serviço e o ciclo do campo**  ·  [voltar para a nota](WM-01-nota-de-servico.md)
+**WM-01: A nota de serviço e o ciclo do campo**  ·  [voltar para a nota](26-WM-01-nota-de-servico.md)
 
 1. **Tipo de processo** (que trabalho é), **motivo** (por que foi pedido),
    **prioridade** (ordem na fila) e **prazo** (o relógio regulatório).
@@ -345,7 +345,7 @@
 ---
 
 ## WM-02
-**WM-02: Workflow e as quatro integrações do campo**  ·  [voltar para a nota](WM-02-workflow-e-integracoes.md)
+**WM-02: Workflow e as quatro integrações do campo**  ·  [voltar para a nota](27-WM-02-workflow-e-integracoes.md)
 
 1. **CRM, Dunning, Billing/FI-CA e Workflow.** O workflow é o **motor**; os
    outros três são portas.
@@ -363,7 +363,7 @@
 ---
 
 ## DM-01
-**DM-01: Ativos, movimentação e estoque**  ·  [voltar para a nota](DM-01-ativos-e-estoque.md)
+**DM-01: Ativos, movimentação e estoque**  ·  [voltar para a nota](28-DM-01-ativos-e-estoque.md)
 
 1. Aqui é o **aparelho como bem patrimonial**; na DM-02, **o número que ele
    produz**.
@@ -382,7 +382,7 @@
 ---
 
 ## DM-02
-**DM-02: Leituras e registradores**  ·  [voltar para a nota](DM-02-leituras-e-registradores.md)
+**DM-02: Leituras e registradores**  ·  [voltar para a nota](29-DM-02-leituras-e-registradores.md)
 
 1. **Tipo** (como o número foi obtido), **motivo** (por que foram ler) e
    **registrador** (o que foi medido).
@@ -398,7 +398,7 @@
 ---
 
 ## PE-01
-**PE-01: Gestão de Perdas, fraude e defeito**  ·  [voltar para a nota](PE-01-fraude-e-defeito.md)
+**PE-01: Gestão de Perdas, fraude e defeito**  ·  [voltar para a nota](30-PE-01-fraude-e-defeito.md)
 
 1. Descobre que o medidor não contava a verdade, **calcula quanto deveria ter
    sido cobrado** e cobra a diferença.
@@ -418,7 +418,7 @@
 ---
 
 ## PE-02
-**PE-02: Faturado da época x fatura revista**  ·  [voltar para a nota](PE-02-faturado-da-epoca.md)
+**PE-02: Faturado da época x fatura revista**  ·  [voltar para a nota](31-PE-02-faturado-da-epoca.md)
 
 1. **Faturado da época** é o que o cliente pagou com o medidor errado.
    **Fatura revista** é o que ele deveria ter pago.

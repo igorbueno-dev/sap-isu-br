@@ -4,7 +4,7 @@
 > do cadastro do cliente até o dinheiro entrar.
 
 **Onde entra:** é a moldura de tudo. Comece por aqui.
-**Depois disto:** [GE-02-evolucao-do-produto](GE-02-evolucao-do-produto.md), [MD-01-mapa-dos-dados-mestres](MD-01-mapa-dos-dados-mestres.md)
+**Depois disto:** [GE-02-evolucao-do-produto](03-GE-02-evolucao-do-produto.md), [MD-01-mapa-dos-dados-mestres](05-MD-01-mapa-dos-dados-mestres.md)
 
 ---
 

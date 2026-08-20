@@ -3,7 +3,7 @@
 > mercado inteiro.
 
 **Onde entra:** contexto de negócio. Explica por que existe tanto projeto agora.
-**Antes disto:** [GE-01-o-que-e-is-u-ccs](GE-01-o-que-e-is-u-ccs.md)
+**Antes disto:** [GE-01-o-que-e-is-u-ccs](02-GE-01-o-que-e-is-u-ccs.md)
 
 ---
 

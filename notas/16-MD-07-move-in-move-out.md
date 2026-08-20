@@ -1,8 +1,8 @@
 # MD-07: Move-In e Move-Out
 > O processo que cria e encerra o Contrato.
 
-**Onde entra:** é o processo que produz o objeto de [MD-06-contrato](MD-06-contrato.md).
-**Antes disto:** [MD-06-contrato](MD-06-contrato.md), [ST-03-instalacao](ST-03-instalacao.md)
+**Onde entra:** é o processo que produz o objeto de [MD-06-contrato](15-MD-06-contrato.md).
+**Antes disto:** [MD-06-contrato](15-MD-06-contrato.md), [ST-03-instalacao](13-ST-03-instalacao.md)
 **Status:** **a maior parte é minha.** O material diz duas coisas sobre
 Move-In, e só: que *"o Contrato é criado durante o Move In"*, e que o
 atendimento cuida dos *"processos de mudança (Move-in/Out)"*. **Todo o resto

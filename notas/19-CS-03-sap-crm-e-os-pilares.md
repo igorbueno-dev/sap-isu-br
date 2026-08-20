@@ -3,8 +3,8 @@
 > E o nome novo que a SAP deu a tudo isso dentro do S/4HANA.
 
 **Onde entra:** onde o conceito de CRM vira software.
-**Antes disto:** [CS-02-ciclo-de-vida-do-cliente](CS-02-ciclo-de-vida-do-cliente.md)
-**Depois disto:** [CS-04-crm-no-contexto-utilities](CS-04-crm-no-contexto-utilities.md)
+**Antes disto:** [CS-02-ciclo-de-vida-do-cliente](18-CS-02-ciclo-de-vida-do-cliente.md)
+**Depois disto:** [CS-04-crm-no-contexto-utilities](20-CS-04-crm-no-contexto-utilities.md)
 
 ---
 

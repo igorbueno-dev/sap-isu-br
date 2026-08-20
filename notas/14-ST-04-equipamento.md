@@ -5,7 +5,7 @@
 **Em inglês:** `Device`. Use o nome em inglês quando a tradução em
 português divergir entre materiais.
 **Onde entra:** a ponta física da cadeia.
-**Antes disto:** [ST-03-instalacao](ST-03-instalacao.md)
+**Antes disto:** [ST-03-instalacao](13-ST-03-instalacao.md)
 
 ---
 
@@ -50,7 +50,7 @@ também é cadastrado como Equipamento.
 
 **O Registrador é a grandeza que o aparelho acumula, e um medidor pode ter
 vários.** Os seis tipos que o material lista estão na
-[DM-02](DM-02-leituras-e-registradores.md).
+[DM-02](29-DM-02-leituras-e-registradores.md).
 
 | Objeto | O que é |
 |---|---|

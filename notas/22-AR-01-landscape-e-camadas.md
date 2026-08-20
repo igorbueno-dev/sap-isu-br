@@ -3,8 +3,8 @@
 > se localizar. Comece pelo simples.
 
 **Onde entra:** primeira nota de arquitetura. Explica onde cada sistema mora.
-**Antes disto:** [CS-04-crm-no-contexto-utilities](CS-04-crm-no-contexto-utilities.md)
-**Depois disto:** [AR-02-middleware-e-replicacao](AR-02-middleware-e-replicacao.md)
+**Antes disto:** [CS-04-crm-no-contexto-utilities](20-CS-04-crm-no-contexto-utilities.md)
+**Depois disto:** [AR-02-middleware-e-replicacao](23-AR-02-middleware-e-replicacao.md)
 
 ---
 

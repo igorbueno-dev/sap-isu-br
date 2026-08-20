@@ -4,7 +4,7 @@
 > de concessionária.
 
 **Onde entra:** o lado operacional do CRM, depois de entender o encaixe.
-**Antes disto:** [CS-04-crm-no-contexto-utilities](CS-04-crm-no-contexto-utilities.md)
+**Antes disto:** [CS-04-crm-no-contexto-utilities](20-CS-04-crm-no-contexto-utilities.md)
 
 ---
 
@@ -72,7 +72,7 @@ mesma coisa vista da recepção e da cozinha.
 No cadastro do Parceiro de Negócios existe um campo **Status**, com valores
 como **Cliente, Prospect, Inativo**.
 
-É pequeno e é importante: é onde o **ciclo de vida da [CS-02](CS-02-ciclo-de-vida-do-cliente.md)
+É pequeno e é importante: é onde o **ciclo de vida da [CS-02](18-CS-02-ciclo-de-vida-do-cliente.md)
 vira dado**. "Prospect" não é abstração de marketing, é um valor gravado no
 `BUT000`.
 

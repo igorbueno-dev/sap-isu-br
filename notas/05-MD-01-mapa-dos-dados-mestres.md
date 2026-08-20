@@ -3,8 +3,8 @@
 > divisões, não duas, e a quarta não é dado mestre.
 
 **Onde entra:** é o coração dos dados mestres.
-**Antes disto:** [GE-01-o-que-e-is-u-ccs](GE-01-o-que-e-is-u-ccs.md)
-**Depois disto:** [MD-08-os-dois-mundos](MD-08-os-dois-mundos.md)
+**Antes disto:** [GE-01-o-que-e-is-u-ccs](02-GE-01-o-que-e-is-u-ccs.md)
+**Depois disto:** [MD-08-os-dois-mundos](06-MD-08-os-dois-mundos.md)
 
 ---
 
@@ -43,7 +43,7 @@ vem de duas menções em outros pontos:
 
 Junte as duas: **é onde o endereço mora, o Objeto de Ligação se liga a ela, e
 quem a mantém é WM.** É por isso que ela abre a lista e não reaparece no
-resto dos dados mestres. Ver [ST-01](ST-01-objeto-de-ligacao.md).
+resto dos dados mestres. Ver [ST-01](11-ST-01-objeto-de-ligacao.md).
 
 > **Lacuna estrutural, não pendência.** O conteúdo da estrutura, as transações
 > e a relação com "Estrutura Regional" são aprofundamento, e a semana 1 é
@@ -102,7 +102,7 @@ cima dos cadastros anteriores.
 | Se sumissem | O imóvel continua ligado e ninguém é cobrado | O cliente existe e não há o que faturar |
 | Ponto de encontro | O **Contrato** | A **Instalação** |
 
-**Leia a última linha duas vezes.** Os dois mundos se tocam num ponto só, e é disso que trata a [MD-08](MD-08-os-dois-mundos.md).
+**Leia a última linha duas vezes.** Os dois mundos se tocam num ponto só, e é disso que trata a [MD-08](06-MD-08-os-dois-mundos.md).
 
 ---
 

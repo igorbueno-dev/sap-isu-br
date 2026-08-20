@@ -3,7 +3,7 @@
 > e o SAP guarda as duas em campos diferentes.
 
 **Onde entra:** primeiro objeto do mundo comercial.
-**Antes disto:** [MD-01-mapa-dos-dados-mestres](MD-01-mapa-dos-dados-mestres.md)
+**Antes disto:** [MD-01-mapa-dos-dados-mestres](05-MD-01-mapa-dos-dados-mestres.md)
 
 ---
 
@@ -86,7 +86,7 @@ conta, porque tem só a função de Pessoa de Contato.
 | `FPP2` ou `BP` | Modificar PN |
 | `FPP3` ou `BP` | Exibir PN |
 
-Ver [MD-04-parceiro-de-negocios-dados](MD-04-parceiro-de-negocios-dados.md) para abas, endereços e customizing.
+Ver [MD-04-parceiro-de-negocios-dados](09-MD-04-parceiro-de-negocios-dados.md) para abas, endereços e customizing.
 
 ---
 

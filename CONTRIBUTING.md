@@ -78,11 +78,17 @@ Se for mexer em nota:
   são duas notas.
 - **Cada nota termina em recall**, com o gabarito em `notas/_GABARITOS.md`,
   nunca na própria nota.
-- **Links são markdown relativo** (`[MD-06](MD-06-contrato.md)`), não wikilink.
+- **Links são markdown relativo** (`[MD-06](15-MD-06-contrato.md)`), não wikilink.
   Assim funcionam no GitHub e num vault de Obsidian.
+- **O nome do arquivo começa com a ordem de estudo**, dois dígitos, seguida do
+  código da nota: `15-MD-06-contrato.md`. **O número é a posição na sequência,
+  o código é a identidade.** Quem abre a pasta lê de cima para baixo sem
+  precisar do README. Nota nova no meio da sequência renumera as seguintes.
 - **Nota nova entra na tabela do [README](README.md) e no grafo** de
   `notas/_DEPENDENCIAS.md`, ligada ao pré-requisito dela. Nota fora do
   README não existe.
+- **Depois de mexer numa nota, rode** `python ferramentas/gera-camadas.py`,
+  que regenera `_MAPA.md` e `_PISTAS.md`.
 
 ---
 

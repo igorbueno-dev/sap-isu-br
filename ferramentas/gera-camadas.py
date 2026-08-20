@@ -11,17 +11,21 @@ import io, os, re, glob
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 NOTAS = os.path.join(BASE, 'notas')
 
-BLOCOS = [
-    ('GE', 'Geral'),
-    ('MD', 'Dados mestres comerciais'),
-    ('ST', 'Dados mestres tecnicos'),
-    ('CS', 'Atendimento e relacionamento (CRM)'),
-    ('AR', 'Arquitetura e integracao'),
-    ('SV', 'Servico de Campo'),
-    ('WM', 'Servico de Campo, bloco WM'),
-    ('DM', 'Servico de Campo, bloco DM'),
-    ('PE', 'Servico de Campo, bloco Perdas'),
+# Os arquivos ja estao em ordem de leitura no disco (prefixo 01 a 31).
+# A fase muda quando o codigo entra num bloco de area.
+FASES = [
+    (('GE', 'MD', 'ST'), 'Fundacao, vale para qualquer trilha'),
+    (('CS',), 'Atendimento e relacionamento (CRM)'),
+    (('AR',), 'Arquitetura e integracao'),
+    (('SV', 'WM', 'DM', 'PE'), 'Servico de Campo (SVC)'),
 ]
+
+
+def fase_de(codigo):
+    for prefixos, rotulo in FASES:
+        if codigo[:2] in prefixos:
+            return rotulo
+    return 'Outras'
 
 
 def ler(caminho):
@@ -54,16 +58,8 @@ def partes(texto):
     return titulo, ' '.join(resumo), perguntas
 
 
-def notas_por_bloco():
-    achadas = {}
-    for f in sorted(glob.glob(os.path.join(NOTAS, '[A-Z][A-Z]-*.md'))):
-        pref = os.path.basename(f)[:2]
-        achadas.setdefault(pref, []).append(f)
-    return achadas
-
-
 def gerar():
-    achadas = notas_por_bloco()
+    arquivos = sorted(glob.glob(os.path.join(NOTAS, '[0-9][0-9]-*.md')))
     mapa = ["""# O MAPA
 ### Os resumos das 31 notas, em fila
 
@@ -72,6 +68,8 @@ def gerar():
 >
 > **Como usar.** Esta e a camada de 4 minutos. Leia de ponta a ponta antes da
 > aula. Onde voce nao conseguir completar a ideia sozinho, abra a nota.
+>
+> **A ordem aqui e a ordem da pasta**, e as duas sao a ordem de estudo.
 """]
     pistas = ["""# AS PISTAS
 ### Todas as perguntas de recuperacao, em fila
@@ -85,23 +83,23 @@ def gerar():
 """]
 
     n_notas = n_perg = 0
-    for pref, rotulo in BLOCOS:
-        arquivos = achadas.get(pref, [])
-        if not arquivos:
-            continue
-        mapa.append('\n---\n\n## %s\n' % rotulo)
-        pistas.append('\n---\n\n## %s\n' % rotulo)
-        for f in arquivos:
-            titulo, resumo, perguntas = partes(ler(f))
-            nome = os.path.basename(f)
-            n_notas += 1
-            mapa.append('**[%s](%s)**  \n%s\n' % (titulo, nome, resumo))
-            if perguntas:
-                pistas.append('**[%s](%s)**\n' % (titulo, nome))
-                for i, p in enumerate(perguntas, 1):
-                    pistas.append('%d. %s' % (i, p))
-                    n_perg += 1
-                pistas.append('')
+    atual = None
+    for f in arquivos:
+        nome = os.path.basename(f)
+        rotulo = fase_de(nome[3:5])
+        if rotulo != atual:
+            atual = rotulo
+            mapa.append('\n---\n\n## %s\n' % rotulo)
+            pistas.append('\n---\n\n## %s\n' % rotulo)
+        titulo, resumo, perguntas = partes(ler(f))
+        n_notas += 1
+        mapa.append('**[%s](%s)**  \n%s\n' % (titulo, nome, resumo))
+        if perguntas:
+            pistas.append('**[%s](%s)**\n' % (titulo, nome))
+            for i, p in enumerate(perguntas, 1):
+                pistas.append('%d. %s' % (i, p))
+                n_perg += 1
+            pistas.append('')
 
     rodape = '\n---\n\n> %d notas, %d perguntas.\n' % (n_notas, n_perg)
     io.open(os.path.join(NOTAS, '_MAPA.md'), 'w', encoding='utf-8', newline='').write(

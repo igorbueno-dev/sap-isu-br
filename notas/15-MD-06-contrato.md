@@ -3,7 +3,7 @@
 > mundo técnico ao mesmo tempo.
 
 **Onde entra:** o ponto de encontro dos dois mundos.
-**Antes disto:** [MD-05-conta-contrato](MD-05-conta-contrato.md)
+**Antes disto:** [MD-05-conta-contrato](10-MD-05-conta-contrato.md)
 
 ---
 

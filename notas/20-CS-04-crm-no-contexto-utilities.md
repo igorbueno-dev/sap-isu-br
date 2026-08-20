@@ -3,8 +3,8 @@
 > primeira área, a porta por onde tudo entra.
 
 **Onde entra:** liga a área de CRM ao IS-U que você já viu.
-**Antes disto:** [CS-03-sap-crm-e-os-pilares](CS-03-sap-crm-e-os-pilares.md), [GE-01-o-que-e-is-u-ccs](GE-01-o-que-e-is-u-ccs.md)
-**Depois disto:** [CS-05-processos-e-atividades](CS-05-processos-e-atividades.md)
+**Antes disto:** [CS-03-sap-crm-e-os-pilares](19-CS-03-sap-crm-e-os-pilares.md), [GE-01-o-que-e-is-u-ccs](02-GE-01-o-que-e-is-u-ccs.md)
+**Depois disto:** [CS-05-processos-e-atividades](21-CS-05-processos-e-atividades.md)
 
 ---
 
@@ -34,7 +34,7 @@ IS-U, integrado a ele. Isso vai importar quando chegarmos na arquitetura.
 
 ## A posição na cadeia
 
-A cadeia de cinco áreas da [`GE‑01`](GE-01-o-que-e-is-u-ccs.md), agora detalhada:
+A cadeia de cinco áreas da [`GE‑01`](02-GE-01-o-que-e-is-u-ccs.md), agora detalhada:
 
 ```
 CS + CRM  →  WM  →  DM  →  BILL  →  FI-CA

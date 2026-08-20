@@ -3,8 +3,8 @@
 > perto e de longe, e vale enxergar as duas juntas.
 
 **Onde entra:** é a ponte entre o conceito de CRM e o produto SAP CRM.
-**Antes disto:** [CS-01-o-que-e-crm](CS-01-o-que-e-crm.md)
-**Depois disto:** [CS-03-sap-crm-e-os-pilares](CS-03-sap-crm-e-os-pilares.md)
+**Antes disto:** [CS-01-o-que-e-crm](17-CS-01-o-que-e-crm.md)
+**Depois disto:** [CS-03-sap-crm-e-os-pilares](19-CS-03-sap-crm-e-os-pilares.md)
 
 ---
 

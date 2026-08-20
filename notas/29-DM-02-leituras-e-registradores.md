@@ -3,7 +3,7 @@
 > decorar, e não é: cada eixo responde uma pergunta diferente da investigação.
 
 **Onde entra:** segunda metade do Bloco 2, DM / GAT.
-**Antes disto:** [DM-01-ativos-e-estoque](DM-01-ativos-e-estoque.md)
+**Antes disto:** [DM-01-ativos-e-estoque](28-DM-01-ativos-e-estoque.md)
 
 ---
 
@@ -60,7 +60,7 @@ por que uma instalação pode ter várias leituras no mesmo mês sem que nada
 esteja errado.
 
 O **encerramento contratual** amarra este bloco no Move-Out:
-ver [MD-07](MD-07-move-in-move-out.md).
+ver [MD-07](16-MD-07-move-in-move-out.md).
 
 ---
 
@@ -84,7 +84,7 @@ virando crédito. **Consequência:** uma instalação com geração distribuída
 entre eles. Por isso existe o medidor bidirecional.
 
 > Isto conecta com o caso de workflow de micro e minigeração.
-> Ver [WM-02](WM-02-workflow-e-integracoes.md).
+> Ver [WM-02](27-WM-02-workflow-e-integracoes.md).
 
 ---
 
@@ -92,7 +92,7 @@ entre eles. Por isso existe o medidor bidirecional.
 
 Um registrador sozinho é um número sem significado. Ele só vira dinheiro
 quando está **associado a um item da tarifa**, e essa associação vive na
-Instalação. Ver [ST-03](ST-03-instalacao.md) e [ST-04](ST-04-equipamento.md).
+Instalação. Ver [ST-03](13-ST-03-instalacao.md) e [ST-04](14-ST-04-equipamento.md).
 
 **É a falha silenciosa mais comum de Device Management:** o medidor foi
 instalado tecnicamente, está certo no cadastro, e ninguém fez a relação

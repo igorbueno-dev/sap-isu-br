@@ -3,7 +3,7 @@
 > anda sozinho por dentro. Este é o mapa de quem manda e de quem executa.
 
 **Onde entra:** completa o Bloco 1, WM / SVC.
-**Antes disto:** [WM-01-nota-de-servico](WM-01-nota-de-servico.md)
+**Antes disto:** [WM-01-nota-de-servico](26-WM-01-nota-de-servico.md)
 
 ---
 
@@ -34,7 +34,7 @@ manda; quem corta é o WM.**
 **Por que isso quebra tanto:** são dois relógios diferentes. A régua de
 cobrança roda no seu ciclo, o pagamento entra no ciclo do banco, e a nota de
 corte já saiu. Cliente pagou e foi cortado é exatamente esse descompasso.
-Ver [MD-05](MD-05-conta-contrato.md), onde mora o bloqueio de corte.
+Ver [MD-05](10-MD-05-conta-contrato.md), onde mora o bloqueio de corte.
 
 ---
 

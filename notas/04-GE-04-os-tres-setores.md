@@ -3,7 +3,7 @@
 > pontos específicos, e um exercício pode vir de qualquer um deles.
 
 **Onde entra:** contexto que muda a resposta de exercícios.
-**Antes disto:** [GE-01-o-que-e-is-u-ccs](GE-01-o-que-e-is-u-ccs.md)
+**Antes disto:** [GE-01-o-que-e-is-u-ccs](02-GE-01-o-que-e-is-u-ccs.md)
 **Status:** **misto.** Os três setores são do material, que abre falando de
 *"Utilities (água, energia, gás e outros)"* e cita Enel, EDP, Neoenergia,
 Celesc, Equatorial, Sabesp e Comgás. **A comparação entre eles é minha**, e

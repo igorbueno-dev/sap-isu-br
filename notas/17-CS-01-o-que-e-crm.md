@@ -3,7 +3,7 @@
 > com o cliente, e só depois um sistema da SAP.
 
 **Onde entra:** é a moldura de toda a área de atendimento. Comece por aqui.
-**Depois disto:** [CS-02-ciclo-de-vida-do-cliente](CS-02-ciclo-de-vida-do-cliente.md)
+**Depois disto:** [CS-02-ciclo-de-vida-do-cliente](18-CS-02-ciclo-de-vida-do-cliente.md)
 
 ---
 

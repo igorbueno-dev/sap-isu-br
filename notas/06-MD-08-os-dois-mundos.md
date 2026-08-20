@@ -2,9 +2,9 @@
 > O desenho que arruma comercial e técnico lado a lado, a ponte entre eles, e
 > a armadilha de achar que a ordem do desenho é a hierarquia.
 
-**Onde entra:** logo depois da [MD-01](MD-01-mapa-dos-dados-mestres.md). É a
+**Onde entra:** logo depois da [MD-01](05-MD-01-mapa-dos-dados-mestres.md). É a
 segunda metade do mesmo assunto.
-**Antes disto:** [MD-01-mapa-dos-dados-mestres](MD-01-mapa-dos-dados-mestres.md)
+**Antes disto:** [MD-01-mapa-dos-dados-mestres](05-MD-01-mapa-dos-dados-mestres.md)
 
 ---
 
@@ -75,7 +75,7 @@ cadastro só, é uma propriedade do modelo.
 > **Em aberto:** o que o sistema faz quando a data muda, e se versões
 > diferentes do mesmo objeto coexistem. **Esta atravessa as trilhas**, porque
 > a data aparece no PN, no Contrato e na Instalação. Vale perguntar em
-> qualquer aula. Ver [MD-07](MD-07-move-in-move-out.md).
+> qualquer aula. Ver [MD-07](16-MD-07-move-in-move-out.md).
 
 ---
 

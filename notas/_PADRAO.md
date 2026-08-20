@@ -6,7 +6,7 @@
 > 119 deles aparecem numa nota só.** Não havia forma comum, então não dava
 > para folhear o acervo, só para ler nota por nota.
 >
-> O padrão abaixo foi extraído da [`GE-01`](GE-01-o-que-e-is-u-ccs.md), que é
+> O padrão abaixo foi extraído da [`GE-01`](02-GE-01-o-que-e-is-u-ccs.md), que é
 > a nota que funciona.
 
 ---

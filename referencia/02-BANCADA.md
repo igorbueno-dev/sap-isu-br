@@ -160,7 +160,7 @@ e as famílias em volta deles.
 
 > **Não existe transação de criar Contrato.** Ele nasce do **Move In**.
 > Quem procura "criar contrato" no menu não acha, e conclui errado que falta
-> autorização. Ver [MD-06-contrato](../notas/MD-06-contrato.md).
+> autorização. Ver [MD-06-contrato](../notas/15-MD-06-contrato.md).
 
 ### Técnicos
 
@@ -234,7 +234,7 @@ padrão · `BUC0` formas de tratamento · `BUCM` tipos de legitimação ·
 
 > **A pegadinha mais útil do módulo.** Medidor trocado no campo e conta
 > ainda vindo com o antigo? Quase sempre alguém fez `EG33` (técnica) e não
-> fez `EG34` (efeito no cálculo). Ver [ST-04-equipamento](../notas/ST-04-equipamento.md).
+> fez `EG34` (efeito no cálculo). Ver [ST-04-equipamento](../notas/14-ST-04-equipamento.md).
 >
 > **Equipamento não é só o medidor.** O Transformador de Corrente (TC)
 > também é cadastrado como Equipamento.
@@ -279,7 +279,7 @@ padrão · `BUC0` formas de tratamento · `BUCM` tipos de legitimação ·
 ## CRM e Middleware
 
 > **Verificado.** Estes códigos foram conferidos. O entendimento do fluxo está
-> em [`notas/AR‑02`](../notas/AR-02-middleware-e-replicacao.md).
+> em [`notas/AR‑02`](../notas/23-AR-02-middleware-e-replicacao.md).
 
 ### Replicação e carga
 

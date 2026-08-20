@@ -3,8 +3,8 @@
 > as transações para olhar cada uma quando ele trava.
 
 **Onde entra:** o mecanismo que a nota anterior deixou como caixa preta.
-**Antes disto:** [AR-01-landscape-e-camadas](AR-01-landscape-e-camadas.md)
-**Depois disto:** [AR-03-objetos-replicados](AR-03-objetos-replicados.md)
+**Antes disto:** [AR-01-landscape-e-camadas](22-AR-01-landscape-e-camadas.md)
+**Depois disto:** [AR-03-objetos-replicados](24-AR-03-objetos-replicados.md)
 
 ---
 

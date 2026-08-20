@@ -2,7 +2,7 @@
 > Cinco parágrafos de negócio, e o mapa de qual pedaço do CCS resolve cada um.
 > Leia antes de qualquer sigla: é o "por quê" de todas elas.
 
-**Onde entra:** é o "por quê" de tudo. Anterior até ao [GE-01-o-que-e-is-u-ccs](GE-01-o-que-e-is-u-ccs.md).
+**Onde entra:** é o "por quê" de tudo. Anterior até ao [GE-01-o-que-e-is-u-ccs](02-GE-01-o-que-e-is-u-ccs.md).
 **Status:** raciocínio meu, e de propósito. **Não afirma nada sobre o SAP**,
 descreve o negócio que o produto atende. A única parte que toca o produto é a
 tabela final, que mapeia cada problema no módulo correspondente.
@@ -65,8 +65,8 @@ inteiro; tudo o que vem depois é o nome que a SAP deu a cada pedaço deles.
 
 | O parágrafo | Vira, no SAP |
 |---|---|
-| Onde está ligado | Dados mestres técnicos, [ST-01-objeto-de-ligacao](ST-01-objeto-de-ligacao.md) a [ST-04-equipamento](ST-04-equipamento.md) |
-| Quem é e quem paga | Dados mestres comerciais, [MD-03-parceiro-de-negocios](MD-03-parceiro-de-negocios.md) a [MD-06-contrato](MD-06-contrato.md) |
+| Onde está ligado | Dados mestres técnicos, [ST-01-objeto-de-ligacao](11-ST-01-objeto-de-ligacao.md) a [ST-04-equipamento](14-ST-04-equipamento.md) |
+| Quem é e quem paga | Dados mestres comerciais, [MD-03-parceiro-de-negocios](08-MD-03-parceiro-de-negocios.md) a [MD-06-contrato](15-MD-06-contrato.md) |
 | Quanto consumiu | Meter Reading |
 | Por quanto | Billing |
 | Receber ou cortar | FI-CA e WM |

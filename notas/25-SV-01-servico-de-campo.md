@@ -3,8 +3,8 @@
 > vocabulário aqui evita meia hora de conversa errada numa reunião.
 
 **Onde entra:** a porta do mundo de campo e medição.
-**Antes disto:** [GE-01-o-que-e-is-u-ccs](GE-01-o-que-e-is-u-ccs.md)
-**Depois disto:** [WM-01-nota-de-servico](WM-01-nota-de-servico.md)
+**Antes disto:** [GE-01-o-que-e-is-u-ccs](02-GE-01-o-que-e-is-u-ccs.md)
+**Depois disto:** [WM-01-nota-de-servico](26-WM-01-nota-de-servico.md)
 
 ---
 
@@ -58,7 +58,7 @@ nenhum dos dois sozinhos fecha o caso.
 
 ## O encaixe com a cadeia das cinco áreas
 
-A [GE-01](GE-01-o-que-e-is-u-ccs.md) desenha `CS + CRM → WM → DM → BILL →
+A [GE-01](02-GE-01-o-que-e-is-u-ccs.md) desenha `CS + CRM → WM → DM → BILL →
 FI-CA`, uma esteira de cinco áreas em sequência.
 
 **Aqui WM e DM aparecem como blocos paralelos de uma área só, e surge um
