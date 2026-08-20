@@ -9,10 +9,10 @@ português divergir entre materiais.
 
 ---
 
-## A analogia
+## O teste de campo
 
-É o **prédio**. O ponto onde a rua encosta no imóvel. Se existe um poste
-alimentando aquilo, existe um Objeto de Ligação.
+**Se existe um poste alimentando aquilo, existe um Objeto de Ligação.**
+É o ponto onde a rua encosta no imóvel.
 
 ---
 

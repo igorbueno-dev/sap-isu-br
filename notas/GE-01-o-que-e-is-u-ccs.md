@@ -8,16 +8,6 @@
 
 ---
 
-## A analogia
-
-Um ERP comum sabe vender produto, pagar fornecedor e fechar balanço. Ele não
-sabe o que fazer com um medidor na parede de dez milhões de casas, cada um
-gerando uma leitura por mês que vira uma conta diferente.
-
-**O CCS é a camada que ensina o ERP a ser concessionária.**
-
----
-
 ## As duas siglas
 
 
@@ -31,6 +21,9 @@ como a solução aparece no sistema.
 
 ## Características
 
+- **É a camada que ensina o ERP a ser concessionária.** Um ERP comum sabe
+  vender produto e fechar balanço; não sabe o que fazer com um medidor na
+  parede de dez milhões de casas, cada um gerando uma conta diferente por mês
 - Agrupamento de módulos que suporta o **ciclo comercial** de empresas de
   Utilities (água, energia, gás e outros)
 - **É integrado** com os demais módulos do SAP ECC: FI, MM, PM

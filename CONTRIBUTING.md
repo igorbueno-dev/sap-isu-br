@@ -54,6 +54,19 @@ Prefiro uma dúvida explícita a uma certeza falsa.
 
 ---
 
+## O padrão da nota
+
+Antes de propor mudança de conteúdo, vale ler o
+[**padrão da nota**](notas/_PADRAO.md). Ele define o esqueleto de zonas, o
+teste que decide se uma analogia fica, as cinco formas que uma pergunta de
+recall pode ter, e as regras de figura e de formatação.
+
+Ele foi extraído da nota que funcionava e escrito para impedir a deriva que
+produziu **127 títulos de seção distintos em 31 notas**, 119 deles aparecendo
+uma vez só.
+
+---
+
 ## Pull request
 
 PR é bem-vindo, e para correção pequena costuma ser mais rápido que issue.

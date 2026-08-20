@@ -9,13 +9,6 @@ português divergir entre materiais.
 
 ---
 
-## A analogia
-
-É o **apartamento**. O prédio inteiro tem uma entrada de energia, mas cada
-apartamento é medido por si. Cada um desses é um Local de Consumo.
-
----
-
 ## O que é
 
 - Representa uma **unidade provida de energia elétrica e medida
