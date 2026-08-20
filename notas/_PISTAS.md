@@ -1,16 +1,16 @@
 # AS PISTAS
-### Todas as perguntas de recuperacao, em fila
+### Todas as perguntas de recuperação, em fila
 
-> **Arquivo gerado.** Nao edite aqui: edite a nota e rode
+> **Arquivo gerado.** Não edite aqui: edite a nota e rode
 > `python ferramentas/gera.py`.
 >
 > **Como usar.** Responda em voz alta antes de abrir qualquer coisa. Errar aqui
-> vale mais do que reler a nota: e o erro que mostra onde o modelo tem buraco.
+> vale mais do que reler a nota: é o erro que mostra onde o modelo tem buraco.
 > Gabarito em [`_GABARITOS.md`](_GABARITOS.md).
 
 ---
 
-## Fundacao
+## Fundação
 
 **[GE-03: Do problema ao módulo](01-GE-03-do-problema-ao-modulo.md)**
 
@@ -159,7 +159,7 @@
 
 ---
 
-## Arquitetura e integracao
+## Arquitetura e integração
 
 **[AR-01: O landscape e as cinco camadas](22-AR-01-landscape-e-camadas.md)**
 
@@ -188,7 +188,7 @@
 
 ---
 
-## Servico de Campo (SVC)
+## Serviço de Campo (SVC)
 
 **[SV-01: Serviço de Campo (SVC) e os três blocos](25-SV-01-servico-de-campo.md)**
 

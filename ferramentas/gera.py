@@ -15,6 +15,14 @@ BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 NOTAS = os.path.join(BASE, 'notas')
 INICIO = '<!-- INICIO NOTAS -->'
 FIM = '<!-- FIM NOTAS -->'
+INICIO_ORIGEM = '<!-- INICIO ORIGEM -->'
+FIM_ORIGEM = '<!-- FIM ORIGEM -->'
+
+SIGNIFICADO = [
+    ('slide', 'O material da academia sustenta a nota inteira'),
+    ('misto', 'As listas e os nomes são do material. **O raciocínio em volta é meu**'),
+    ('meu', 'O material dá o gancho, o desenvolvimento é meu. **Confirme antes de repetir**'),
+]
 
 # De onde veio o conteudo da nota. Ver a tabela de origem no README.
 #   slide  o material da academia sustenta a nota inteira
@@ -55,11 +63,11 @@ ORIGEM = {
 }
 
 FASES = [
-    (('GE', 'MD', 'ST'), 'Fundacao',
-     'Valem para qualquer trilha. A ordem e a ordem: cada uma usa a anterior.'),
+    (('GE', 'MD', 'ST'), 'Fundação',
+     'Valem para qualquer trilha. **A ordem é a ordem**: cada uma usa a anterior.'),
     (('CS',), 'Atendimento e relacionamento (CRM)', None),
-    (('AR',), 'Arquitetura e integracao', None),
-    (('SV', 'WM', 'DM', 'PE'), 'Servico de Campo (SVC)', None),
+    (('AR',), 'Arquitetura e integração', None),
+    (('SV', 'WM', 'DM', 'PE'), 'Serviço de Campo (SVC)', None),
 ]
 
 
@@ -108,7 +116,7 @@ def gerar():
             tabela.append('\n### %s\n' % rotulo)
             if sub:
                 tabela.append('%s\n' % sub)
-            tabela.append('| # | Nota | O que e | Origem |')
+            tabela.append('| # | Nota | O que é | Origem |')
             tabela.append('|---|---|---|---|')
             pistas.append('\n---\n\n## %s\n' % rotulo)
 
@@ -121,20 +129,32 @@ def gerar():
                 n_perg += 1
             pistas.append('')
 
+    quantas = {}
+    for f in arquivos:
+        o = ORIGEM.get(os.path.basename(f)[3:8], 'misto')
+        quantas[o] = quantas.get(o, 0) + 1
+    origem = ['| Origem | Significa | Quantas |', '|---|---|---|']
+    for chave, texto in SIGNIFICADO:
+        origem.append('| **%s** | %s | %d |' % (chave, texto, quantas.get(chave, 0)))
+    origem.append('| `⟨confirmar⟩` no texto '
+                  '| Código ou nome de tabela de que não tenho certeza | |')
+
     caminho_readme = os.path.join(BASE, 'README.md')
     s = io.open(caminho_readme, encoding='utf-8').read()
     a, b = s.index(INICIO) + len(INICIO), s.index(FIM)
     s = s[:a] + '\n' + '\n'.join(tabela) + '\n' + s[b:]
+    a, b = s.index(INICIO_ORIGEM) + len(INICIO_ORIGEM), s.index(FIM_ORIGEM)
+    s = s[:a] + '\n' + '\n'.join(origem) + '\n' + s[b:]
     io.open(caminho_readme, 'w', encoding='utf-8', newline='').write(s)
 
     cabeca = """# AS PISTAS
-### Todas as perguntas de recuperacao, em fila
+### Todas as perguntas de recuperação, em fila
 
-> **Arquivo gerado.** Nao edite aqui: edite a nota e rode
+> **Arquivo gerado.** Não edite aqui: edite a nota e rode
 > `python ferramentas/gera.py`.
 >
 > **Como usar.** Responda em voz alta antes de abrir qualquer coisa. Errar aqui
-> vale mais do que reler a nota: e o erro que mostra onde o modelo tem buraco.
+> vale mais do que reler a nota: é o erro que mostra onde o modelo tem buraco.
 > Gabarito em [`_GABARITOS.md`](_GABARITOS.md).
 """
     io.open(os.path.join(NOTAS, '_PISTAS.md'), 'w', encoding='utf-8', newline='').write(
