@@ -17,3 +17,6 @@ desktop.ini
 
 # Podcasts: material de audio proprio, fica fora do repositorio
 podcasts/
+
+# Material que nao pode ser publicado: transcricao de slide, estrategia pessoal
+_privado/
