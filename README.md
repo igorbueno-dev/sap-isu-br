@@ -8,115 +8,189 @@ Quase não existe material estruturado de IS-U em português. Este repositório 
 uma tentativa de mudar isso, em aberto, com correção de quem conhece o módulo
 na prática.
 
-**Se for ler só uma coisa, leia [`MD‑02`](notas/07-MD-02-a-traducao-do-predio.md).**
-É o diagrama que traduz um prédio de verdade nos objetos do sistema, e resolve
-metade da confusão inicial com dados mestres.
+**Por onde entrar, conforme o tempo que você tem:**
 
-**Se tiver quatro minutos, leia [`_MAPA.md`](notas/_MAPA.md)**, que são os 31
-resumos em fila. É o acervo inteiro em uma página, e a melhor forma de decidir
-o que abrir depois.
+| Tempo | O quê |
+|---|---|
+| **4 minutos** | A tabela abaixo, de cima para baixo. É o acervo inteiro resumido |
+| **6 minutos** | A [`MD‑02`](notas/07-MD-02-a-traducao-do-predio.md), que traduz um prédio de verdade nos objetos do sistema |
+| **Uma sessão** | [`_PISTAS.md`](notas/_PISTAS.md), as 131 perguntas, respondendo em voz alta |
+| **Três horas** | As 31 notas, na ordem da pasta |
 
 ---
 
 # As 31 notas
 
-Cada nota é um conceito só: 5 a 10 minutos, terminando em raciocínio fechado.
+**O número na frente do arquivo é a ordem de estudo.** Abra a pasta
+[`notas/`](notas/) e leia de cima para baixo: nenhuma nota depende de uma que
+venha depois dela. A tabela é a mesma ordem.
 
-> **O número na frente do arquivo é a ordem de estudo.** Abra a pasta
-> [`notas/`](notas/) e leia de cima para baixo: nenhuma nota depende de uma que
-> venha depois dela. A tabela abaixo é a mesma ordem, com o que cada uma
-> entrega.
+<!-- INICIO NOTAS -->
 
-### Fundação, notas 01 a 16
+### Fundacao
 
-Valem para qualquer trilha. **A ordem é a ordem**: cada uma usa a anterior.
+Valem para qualquer trilha. A ordem e a ordem: cada uma usa a anterior.
 
-| # | Nota | Tema | Status | O gancho | Tempo |
-|---|---|---|---|---|---|
-| **01** | [`GE‑03`](notas/01-GE-03-do-problema-ao-modulo.md) | **Do problema ao módulo** | a confirmar | O negócio em 5 parágrafos, e o mapa para o CCS. **Leia primeiro** | 5 min |
-| **02** | [`GE‑01`](notas/02-GE-01-o-que-e-is-u-ccs.md) | O que é o SAP IS-U CCS | verificado | As duas siglas, as cinco áreas, e por que BW não é uma delas | 6 min |
-| **03** | [`GE‑02`](notas/03-GE-02-evolucao-do-produto.md) | A evolução do produto | verificado | Do R/3 ao SaaS, e a data de 2027 que gera projeto | 4 min |
-| **04** | [`GE‑04`](notas/04-GE-04-os-tres-setores.md) | Os três setores | a confirmar | Energia, gás e água. Muda a resposta do exercício | 5 min |
-| **05** | [`MD‑01`](notas/05-MD-01-mapa-dos-dados-mestres.md) | **As quatro divisões** | verificado | Cada uma explicada, e as duas comparações | 7 min |
-| **06** | [`MD‑08`](notas/06-MD-08-os-dois-mundos.md) | Os dois mundos e a validade no tempo | verificado | O diagrama, a ponte, e a armadilha da ordem invertida | 6 min |
-| **07** | [`MD‑02`](notas/07-MD-02-a-traducao-do-predio.md) | **A tradução do prédio** | verificado | O diagrama que converte o mundo real em SAP | 6 min |
-| **08** | [`MD‑03`](notas/08-MD-03-parceiro-de-negocios.md) | Parceiro de Negócios | verificado | Categoria é o que ele é, função é o papel. Sem Parceiro de Contrato, não fatura | 7 min |
-| **09** | [`MD‑04`](notas/09-MD-04-parceiro-de-negocios-dados.md) | PN, dados e customizing | verificado | Os seis blocos, os endereços, e as 17 transações de configuração | 8 min |
-| **10** | [`MD‑05`](notas/10-MD-05-conta-contrato.md) | Conta Contrato | verificado | A bolsa financeira. E onde mora o bloqueio de corte | 7 min |
-| **11** | [`ST‑01`](notas/11-ST-01-objeto-de-ligacao.md) | Objeto de Ligação | verificado | O prédio. Nível mais alto, e onde mora o endereço | 5 min |
-| **12** | [`ST‑02`](notas/12-ST-02-local-de-consumo.md) | Local de Consumo | verificado | O apartamento. Onde mora o complemento, não o endereço | 5 min |
-| **13** | [`ST‑03`](notas/13-ST-03-instalacao.md) | **Instalação** | verificado | O objeto que fatura. Tarifa, unidade de leitura, validação | 6 min |
-| **14** | [`ST‑04`](notas/14-ST-04-equipamento.md) | Equipamento e Registrador | misto | O medidor, o TC, as três formas de instalar | 8 min |
-| **15** | [`MD‑06`](notas/15-MD-06-contrato.md) | **Contrato** | verificado | A dobradiça, as oito regras, e por que não existe "criar contrato" | 6 min |
-| **16** | [`MD‑07`](notas/16-MD-07-move-in-move-out.md) | **Move-In e Move-Out** | a confirmar | O processo que cria o Contrato. Fecha a maior lacuna do modelo | 6 min |
+| # | Nota | O que e | Origem |
+|---|---|---|---|
+| **01** | [`GE-03` Do problema ao módulo](notas/01-GE-03-do-problema-ao-modulo.md) | Cinco parágrafos de negócio, e o mapa de qual pedaço do CCS resolve cada um. Leia antes de qualquer sigla: é o "por quê" de todas elas. | meu |
+| **02** | [`GE-01` O que é o SAP IS-U CCS](notas/02-GE-01-o-que-e-is-u-ccs.md) | O conjunto de módulos que roda o ciclo comercial de uma concessionária, do cadastro do cliente até o dinheiro entrar. | slide |
+| **03** | [`GE-02` A evolução do produto, do R/3 ao SaaS](notas/03-GE-02-evolucao-do-produto.md) | Trinta e cinco anos em cinco marcos, e por que 2027 é a data que move o mercado inteiro. | slide |
+| **04** | [`GE-04` Os três setores, com peso igual](notas/04-GE-04-os-tres-setores.md) | Energia, gás e saneamento rodam o mesmo núcleo. A diferença aparece em pontos específicos, e um exercício pode vir de qualquer um deles. | misto |
+| **05** | [`MD-01` As quatro divisões dos dados mestres](notas/05-MD-01-mapa-dos-dados-mestres.md) | Antes de comparar qualquer coisa, saber o que é cada uma. São quatro divisões, não duas, e a quarta não é dado mestre. | slide |
+| **06** | [`MD-08` Os dois mundos e a validade no tempo](notas/06-MD-08-os-dois-mundos.md) | O desenho que arruma comercial e técnico lado a lado, a ponte entre eles, e a armadilha de achar que a ordem do desenho é a hierarquia. | slide |
+| **07** | [`MD-02` A tradução do prédio](notas/07-MD-02-a-traducao-do-predio.md) | O diagrama que converte o mundo real inteiro em vocabulário SAP, de uma vez. | slide |
+| **08** | [`MD-03` Parceiro de Negócios, categoria e função](notas/08-MD-03-parceiro-de-negocios.md) | Quem é a pessoa, e qual papel ela cumpre. São duas perguntas diferentes, e o SAP guarda as duas em campos diferentes. | slide |
+| **09** | [`MD-04` Parceiro de Negócios, os dados e o customizing](notas/09-MD-04-parceiro-de-negocios-dados.md) | O que cabe dentro da ficha do cliente, e onde se desenha a ficha. | slide |
+| **10** | [`MD-05` Conta Contrato](notas/10-MD-05-conta-contrato.md) | A bolsa financeira do cliente. Reúne débitos e créditos, e é onde moram as regras de pagamento e de cobrança. | slide |
+| **11** | [`ST-01` Objeto de Ligação](notas/11-ST-01-objeto-de-ligacao.md) | A edificação conectada à rede. O nível mais alto dos dados mestres técnicos, e onde mora o endereço. | slide |
+| **12** | [`ST-02` Local de Consumo](notas/12-ST-02-local-de-consumo.md) | A unidade que recebe energia e é medida separadamente. O apartamento dentro do prédio. | slide |
+| **13** | [`ST-03` Instalação](notas/13-ST-03-instalacao.md) | O objeto que efetivamente fatura. É aqui que moram a tarifa, a unidade de leitura e as regras de cálculo. | slide |
+| **14** | [`ST-04` Equipamento e Local de Instalação](notas/14-ST-04-equipamento.md) | O aparelho físico e o lugar onde ele está parafusado. E as três formas de instalar, que explicam um chamado clássico. | misto |
+| **15** | [`MD-06` Contrato](notas/15-MD-06-contrato.md) | A dobradiça do sistema. É o único objeto que toca o mundo comercial e o mundo técnico ao mesmo tempo. | slide |
+| **16** | [`MD-07` Move-In e Move-Out](notas/16-MD-07-move-in-move-out.md) | O processo que cria e encerra o Contrato. | meu |
 
-### Atendimento e relacionamento, CRM, notas 17 a 21
+### Atendimento e relacionamento (CRM)
 
-| # | Nota | Tema | Status | O gancho | Tempo |
-|---|---|---|---|---|---|
-| **17** | [`CS‑01`](notas/17-CS-01-o-que-e-crm.md) | O que é CRM | verificado | Práticas, estratégia e só então tecnologia | 5 min |
-| **18** | [`CS‑02`](notas/18-CS-02-ciclo-de-vida-do-cliente.md) | Ciclo de vida do cliente | verificado | Seis etapas, três pilares, e onde a concessionária vive | 5 min |
-| **19** | [`CS‑03`](notas/19-CS-03-sap-crm-e-os-pilares.md) | SAP CRM e os três pilares | verificado | A matriz funcional, e o S/4 Customer Engagement | 7 min |
-| **20** | [`CS‑04`](notas/20-CS-04-crm-no-contexto-utilities.md) | **CRM no contexto Utilities** | verificado | O encaixe na cadeia das cinco áreas | 6 min |
-| **21** | [`CS‑05`](notas/21-CS-05-processos-e-atividades.md) | Processos e atividades | verificado | Protocolo, atividade e os processos do dia a dia | 6 min |
+| # | Nota | O que e | Origem |
+|---|---|---|---|
+| **17** | [`CS-01` O que é CRM](notas/17-CS-01-o-que-e-crm.md) | A disciplina antes do produto. CRM é um jeito de organizar o relacionamento com o cliente, e só depois um sistema da SAP. | slide |
+| **18** | [`CS-02` Ciclo de vida do cliente](notas/18-CS-02-ciclo-de-vida-do-cliente.md) | Seis etapas de um lado, três pilares do outro. São a mesma coisa vista de perto e de longe, e vale enxergar as duas juntas. | slide |
+| **19** | [`CS-03` SAP CRM e os três pilares](notas/19-CS-03-sap-crm-e-os-pilares.md) | O produto. Marketing, Vendas e Serviço, cada um com sua fileira de módulos. E o nome novo que a SAP deu a tudo isso dentro do S/4HANA. | slide |
+| **20** | [`CS-04` CRM no contexto Utilities](notas/20-CS-04-crm-no-contexto-utilities.md) | Onde exatamente o CRM se encaixa na cadeia que você já conhece. Ele é a primeira área, a porta por onde tudo entra. | slide |
+| **21** | [`CS-05` Processos e atividades no atendimento](notas/21-CS-05-processos-e-atividades.md) | O que o atendente realmente faz o dia inteiro. Protocolo, atividade e a lista de processos que respondem por quase todo o volume de um call center de concessionária. | slide |
 
-### Arquitetura e integração, notas 22 a 24
+### Arquitetura e integracao
 
-| # | Nota | Tema | Status | O gancho | Tempo |
-|---|---|---|---|---|---|
-| **22** | [`AR‑01`](notas/22-AR-01-landscape-e-camadas.md) | O landscape e as cinco camadas | verificado | Onde cada sistema mora | 6 min |
-| **23** | [`AR‑02`](notas/23-AR-02-middleware-e-replicacao.md) | **Middleware e replicação** | verificado | Como o dado atravessa, e as 4 transações que resolvem chamado | 7 min |
-| **24** | [`AR‑03`](notas/24-AR-03-objetos-replicados.md) | Objetos replicados | verificado | O de-para CRM ↔ IS-U | 5 min |
+| # | Nota | O que e | Origem |
+|---|---|---|---|
+| **22** | [`AR-01` O landscape e as cinco camadas](notas/22-AR-01-landscape-e-camadas.md) | Dois desenhos da mesma coisa. Um simples, para entender; um detalhado, para se localizar. Comece pelo simples. | slide |
+| **23** | [`AR-02` Middleware e replicação](notas/23-AR-02-middleware-e-replicacao.md) | Como um dado criado no CRM aparece no IS-U. Um caminho de cinco paradas, e as transações para olhar cada uma quando ele trava. | slide |
+| **24** | [`AR-03` Objetos replicados](notas/24-AR-03-objetos-replicados.md) | Quatro objetos existem dos dois lados com nomes e tabelas diferentes. Este de-para é o que você consulta quando alguém diz "o dado está divergente". | slide |
 
-### Serviço de Campo, SVC, notas 25 a 31
+### Servico de Campo (SVC)
 
-> **As sete notas de SVC são `misto`.** A fonte original é uma apresentação
-> panorâmica: ela dá as listas, os nomes e a fronteira entre os blocos. **O
-> raciocínio em volta é meu**, montado com o resto do material e com
-> conhecimento do setor elétrico. Trate as listas como fato e o resto como
-> interpretação, e me corrija por issue onde eu errei.
+| # | Nota | O que e | Origem |
+|---|---|---|---|
+| **25** | [`SV-01` Serviço de Campo (SVC) e os três blocos](notas/25-SV-01-servico-de-campo.md) | A área tem quatro nomes circulando e três blocos por dentro. Acertar o vocabulário aqui evita meia hora de conversa errada numa reunião. | misto |
+| **26** | [`WM-01` A nota de serviço e o ciclo do campo](notas/26-WM-01-nota-de-servico.md) | Tudo que o campo faz começa numa nota de serviço. Ela carrega tipo, motivo, prioridade e prazo, e é o prazo que dá multa. | misto |
+| **27** | [`WM-02` Workflow e as quatro integrações do campo](notas/27-WM-02-workflow-e-integracoes.md) | O campo quase nunca decide sozinho o que fazer. O pedido chega de fora e anda sozinho por dentro. Este é o mapa de quem manda e de quem executa. | misto |
+| **28** | [`DM-01` Ativos, movimentação e estoque](notas/28-DM-01-ativos-e-estoque.md) | O medidor tem uma vida inteira antes e depois de estar na parede. Device Management é quem sabe onde cada um está, e onde esteve. | misto |
+| **29** | [`DM-02` Leituras e registradores](notas/29-DM-02-leituras-e-registradores.md) | Seis tipos de leitura, cinco motivos e seis registradores. Parece lista de decorar, e não é: cada eixo responde uma pergunta diferente da investigação. | misto |
+| **30** | [`PE-01` Gestão de Perdas, fraude e defeito](notas/30-PE-01-fraude-e-defeito.md) | A mesma consequência, dois mundos jurídicos diferentes. Classificar errado aqui é o erro que vira processo. | misto |
+| **31** | [`PE-02` Faturado da época x fatura revista](notas/31-PE-02-faturado-da-epoca.md) | O cálculo que transforma uma irregularidade em valor a cobrar. Duas contas do mesmo período, e a diferença entre elas é a receita recuperada. | misto |
+<!-- FIM NOTAS -->
 
-| # | Nota | Tema | Status | O gancho | Tempo |
-|---|---|---|---|---|---|
-| **25** | [`SV‑01`](notas/25-SV-01-servico-de-campo.md) | **Serviço de Campo e os três blocos** | misto | Quatro nomes para a mesma área. **Comece por aqui** | 6 min |
-| **26** | [`WM‑01`](notas/26-WM-01-nota-de-servico.md) | A nota de serviço | misto | Os sete tipos, os quatro campos, e onde mora a multa | 6 min |
-| **27** | [`WM‑02`](notas/27-WM-02-workflow-e-integracoes.md) | Workflow e integrações | misto | As quatro portas do campo, e o diagnóstico de "pedi e não aconteceu" | 6 min |
-| **28** | [`DM‑01`](notas/28-DM-01-ativos-e-estoque.md) | Ativos, movimentação e estoque | misto | O ciclo de vida do medidor, e o laço que faz o histórico importar | 6 min |
-| **29** | [`DM‑02`](notas/29-DM-02-leituras-e-registradores.md) | **Leituras e registradores** | misto | Três eixos que parecem um só. E a energia injetada | 6 min |
-| **30** | [`PE‑01`](notas/30-PE-01-fraude-e-defeito.md) | **Fraude e defeito** | misto | Mesmo efeito na medição, mundos jurídicos diferentes | 5 min |
-| **31** | [`PE‑02`](notas/31-PE-02-faturado-da-epoca.md) | Faturado da época x fatura revista | misto | O cálculo que vira dinheiro de volta | 6 min |
-
-**Tudo: cerca de 185 minutos.** Para a revisão rápida, use
-[`_MAPA.md`](notas/_MAPA.md), que são os 31 resumos em 4 minutos.
+**Cerca de 185 minutos no total.** A coluna *O que é* é o resumo da própria
+nota, gerado a partir dela, então nunca diverge.
 
 ---
 
-## Por que esta ordem
+# Por que esta ordem
 
 `MD‑06`, o Contrato, é o único conceito que **exige os dois ramos completos**:
 precisa da Conta Contrato do lado comercial e da Instalação do lado técnico.
 Por isso ele é a nota **15**, e não a sexta dos dados mestres comerciais.
 
-Antes dele, os dois ramos descem em paralelo e podem ser lidos assim:
+Três consequências:
 
-| Comercial, 08 a 10 | Técnico, 11 a 14 |
-|---|---|
-| `MD‑03` → `MD‑04` → `MD‑05` | `ST‑01` → `ST‑02` → `ST‑03` → `ST‑04` |
+1. **É por isso que ele costuma ser ensinado por último.** Não dá para ensinar antes
+2. **É por isso que ele é o mais difícil.** Exige tudo o que veio antes
+3. **É por isso que ele é o que mais cai.** É onde o entendimento se prova
 
-Depois de `MD‑06` vem `MD‑07`, o Move-In, que é o processo que **cria** o
-Contrato. O grafo completo está em
-[`notas/_DEPENDENCIAS.md`](notas/_DEPENDENCIAS.md).
+Se você entende o Contrato de verdade, entende os dados mestres inteiros. Se
+não entende, o problema está em algum nó acima dele, não nele.
 
-**As áreas, 17 a 31, são independentes entre si.** Depois da escolha de trilha,
-só uma delas continua valendo leitura profunda.
+```mermaid
+flowchart TD
+    GE01["GE-01<br/>O que é o CCS"]
+    GE02["GE-02<br/>Evolução do produto"]
+    MD01["MD-01<br/>Mapa dos dados mestres"]
+    MD08["MD-08<br/>Os dois mundos"]
+    MD02["MD-02<br/>A tradução do prédio"]
+    MD03["MD-03<br/>Parceiro de Negócios"]
+    MD04["MD-04<br/>PN, dados e customizing"]
+    MD05["MD-05<br/>Conta Contrato"]
+    ST01["ST-01<br/>Objeto de Ligação"]
+    ST02["ST-02<br/>Local de Consumo"]
+    ST03["ST-03<br/>Instalação"]
+    ST04["ST-04<br/>Equipamento"]
+    MD06["MD-06<br/>CONTRATO"]
 
-## As quatro que mais valem
+    GE01 --> GE02
+    GE01 --> MD01
+    MD01 --> MD08
+    MD08 --> MD02
+    MD02 --> MD03
+    MD02 --> ST01
+    MD03 --> MD04
+    MD03 --> MD05
+    ST01 --> ST02
+    ST02 --> ST03
+    ST03 --> ST04
+    MD05 ==> MD06
+    ST03 ==> MD06
 
-1. **[`GE‑03`](notas/01-GE-03-do-problema-ao-modulo.md)**, do problema ao módulo. Sem o
-   problema de negócio, o resto vira decoreba.
-2. **[`MD‑02`](notas/07-MD-02-a-traducao-do-predio.md)**, a tradução do prédio.
-3. **[`MD‑06`](notas/15-MD-06-contrato.md)**, o Contrato. O mais denso em regra.
-4. **[`ST‑03`](notas/13-ST-03-instalacao.md)**, a Instalação. O objeto que fatura.
+    GE01 --> CS04
+    CS01 --> CS02
+    CS02 --> CS03
+    CS03 --> CS04
+    CS04 --> CS05
+    CS04 --> AR01
+    AR01 --> AR02
+    AR02 --> AR03
+    MD06 -.-> AR03
+
+    CS01["CS-01<br/>O que e CRM"]
+    CS02["CS-02<br/>Ciclo de vida"]
+    CS03["CS-03<br/>Pilares do SAP CRM"]
+    CS04["CS-04<br/>CRM em Utilities"]
+    CS05["CS-05<br/>Processos e atividades"]
+    AR01["AR-01<br/>Landscape e camadas"]
+    AR02["AR-02<br/>Middleware"]
+    AR03["AR-03<br/>Objetos replicados"]
+
+    SV01["SV-01<br/>Servico de Campo"]
+    WM01["WM-01<br/>Nota de servico"]
+    WM02["WM-02<br/>Workflow e integracoes"]
+    DM01["DM-01<br/>Ativos e estoque"]
+    DM02["DM-02<br/>Leituras e registradores"]
+    PE01["PE-01<br/>Fraude e defeito"]
+    PE02["PE-02<br/>Faturado da epoca"]
+
+    GE01 --> SV01
+    SV01 --> WM01
+    WM01 --> WM02
+    SV01 --> DM01
+    DM01 --> DM02
+    SV01 --> PE01
+    PE01 ==> PE02
+    ST04 -.-> DM01
+    WM01 -.-> PE01
+    DM02 -.-> PE01
+```
+
+**As áreas, 17 a 31, são independentes entre si.** Depois de escolher uma
+trilha, só uma delas continua valendo leitura profunda.
+
+---
+
+# De onde vem cada nota
+
+Nada aqui pede confiança cega. A coluna *Origem* diz o grau:
+
+| Origem | Significa | Quantas |
+|---|---|---|
+| **slide** | O material da academia sustenta a nota inteira | 20 |
+| **misto** | As listas e os nomes são do material. **O raciocínio em volta é meu** | 9 |
+| **meu** | O material dá o gancho, o desenvolvimento é meu. **Confirme antes de repetir** | 2 |
+| **`⟨confirmar⟩`** no texto | Código ou nome de tabela de que não tenho certeza | |
+
+A regra que sustenta isso está em [`PADRAO.md`](PADRAO.md): **conteúdo não
+confirmado nunca ocupa posição estrutural.** Ele não vira item de lista
+numerada nem linha de tabela de taxonomia, porque a posição afirma mais que o
+rótulo. Essa regra nasceu de um erro real, documentado em
+[`EM-ABERTO.md`](EM-ABERTO.md).
 
 ---
 
@@ -124,34 +198,20 @@ só uma delas continua valendo leitura profunda.
 
 | Arquivo | Para quê |
 |---|---|
-| [`notas/_MAPA.md`](notas/_MAPA.md) | **Os 31 resumos em fila. A revisão de 4 minutos.** Gerado |
-| [`notas/_PISTAS.md`](notas/_PISTAS.md) | **As 131 perguntas em fila. A sessão de teste.** Gerado |
+| [`notas/_PISTAS.md`](notas/_PISTAS.md) | As 131 perguntas em fila, para testar tudo. Gerado |
+| [`notas/_GABARITOS.md`](notas/_GABARITOS.md) | As respostas, separadas de propósito |
 | [`referencia/02-BANCADA.md`](referencia/02-BANCADA.md) | Transações, tabelas e caminhos de menu. É consulta, use `Ctrl+F` |
-| [`notas/_GABARITOS.md`](notas/_GABARITOS.md) | Respostas dos recalls, separadas de propósito |
-| [`notas/_PADRAO.md`](notas/_PADRAO.md) | A forma da nota, e o que nunca pode ocupar posição estrutural |
-| [`notas/_DEPENDENCIAS.md`](notas/_DEPENDENCIAS.md) | A ordem de estudo e os pontos em aberto |
+| [`EM-ABERTO.md`](EM-ABERTO.md) | O que o material nomeia e não explica, e quem pode fechar |
+| [`PADRAO.md`](PADRAO.md) | A forma da nota, para quem for escrever uma |
+
+Depois de editar uma nota, rode `python ferramentas/gera.py`: ele regenera a
+tabela acima e as pistas.
 
 ---
 
-# Como isto funciona
-
-**Nota atômica.** Um conceito por arquivo, teto de 120 linhas. Se cresce, vira
-duas. Cada nota termina em **recall**, com perguntas sem resposta à vista.
-
-**Nada aqui pede confiança cega.** Duas marcas dizem o grau:
-
-| Marca | Significa |
-|---|---|
-| **verificado** | Conferido contra o sistema ou material de produto |
-| **a confirmar** | Escrito por raciocínio e leitura, não conferido na documentação SAP |
-| **(confirmar)** no texto | Código de transação específico de que não tenho certeza |
-
-Prefiro a dúvida explícita a um código errado que alguém vai digitar na frente
-de um cliente.
-
 # Como contribuir
 
-**Todo `(confirmar)` é um convite.** Se você roda IS-U em produção, sua
+**Todo `⟨confirmar⟩` é um convite.** Se você roda IS-U em produção, sua
 resposta vale mais que uma semana de leitura minha.
 
 - **[Corrigir conteúdo](../../issues/new?template=correcao-de-conteudo.yml)**,

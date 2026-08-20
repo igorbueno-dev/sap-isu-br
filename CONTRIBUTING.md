@@ -57,7 +57,7 @@ Prefiro uma dúvida explícita a uma certeza falsa.
 ## O padrão da nota
 
 Antes de propor mudança de conteúdo, vale ler o
-[**padrão da nota**](notas/_PADRAO.md). Ele define o esqueleto de zonas, o
+[**padrão da nota**](PADRAO.md). Ele define o esqueleto de zonas, o
 teste que decide se uma analogia fica, as cinco formas que uma pergunta de
 recall pode ter, e as regras de figura e de formatação.
 
@@ -78,17 +78,18 @@ Se for mexer em nota:
   são duas notas.
 - **Cada nota termina em recall**, com o gabarito em `notas/_GABARITOS.md`,
   nunca na própria nota.
-- **Links são markdown relativo** (`[MD-06](15-MD-06-contrato.md)`), não wikilink.
+- **Links são markdown relativo** (`[MD-06](notas/15-MD-06-contrato.md)`), não wikilink.
   Assim funcionam no GitHub e num vault de Obsidian.
 - **O nome do arquivo começa com a ordem de estudo**, dois dígitos, seguida do
   código da nota: `15-MD-06-contrato.md`. **O número é a posição na sequência,
   o código é a identidade.** Quem abre a pasta lê de cima para baixo sem
   precisar do README. Nota nova no meio da sequência renumera as seguintes.
 - **Nota nova entra na tabela do [README](README.md) e no grafo** de
-  `notas/_DEPENDENCIAS.md`, ligada ao pré-requisito dela. Nota fora do
+  `EM-ABERTO.md`, ligada ao pré-requisito dela. Nota fora do
   README não existe.
-- **Depois de mexer numa nota, rode** `python ferramentas/gera-camadas.py`,
-  que regenera `_MAPA.md` e `_PISTAS.md`.
+- **Depois de mexer numa nota, rode** `python ferramentas/gera.py`, que
+  regenera a tabela do README e `notas/_PISTAS.md`. **Nunca edite os dois a
+  mão:** a nota e a fonte, o resto e derivado.
 
 ---
 

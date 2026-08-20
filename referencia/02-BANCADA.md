@@ -593,4 +593,4 @@ O peso está em **entender fluxo e relação entre objetos**, não em decorar c�
 
 ---
 
-> **Voltar para:** [as 31 notas](../README.md), ou o [mapa de dependências](../notas/_DEPENDENCIAS.md).
+> **Voltar para:** [as 31 notas](../README.md), ou o [o que ainda está aberto](../EM-ABERTO.md).

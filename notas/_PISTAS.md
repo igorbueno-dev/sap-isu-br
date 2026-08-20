@@ -2,16 +2,15 @@
 ### Todas as perguntas de recuperacao, em fila
 
 > **Arquivo gerado.** Nao edite aqui: edite a nota e rode
-> `python ferramentas/gera-camadas.py`.
+> `python ferramentas/gera.py`.
 >
 > **Como usar.** Responda em voz alta antes de abrir qualquer coisa. Errar aqui
 > vale mais do que reler a nota: e o erro que mostra onde o modelo tem buraco.
 > Gabarito em [`_GABARITOS.md`](_GABARITOS.md).
 
-
 ---
 
-## Fundacao, vale para qualquer trilha
+## Fundacao
 
 **[GE-03: Do problema ao módulo](01-GE-03-do-problema-ao-modulo.md)**
 
