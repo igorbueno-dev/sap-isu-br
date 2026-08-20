@@ -95,9 +95,3 @@ repete: cada objeto tem **uma transação de uso** e **uma de customizing**.
    de validade?
 
 > **Gabarito:** [`_GABARITOS.md`](_GABARITOS.md#md-08)  ·  responda tudo antes de abrir.
-
----
-
-## Ligações
-
-[MD-01-mapa-dos-dados-mestres](MD-01-mapa-dos-dados-mestres.md) · [MD-02-a-traducao-do-predio](MD-02-a-traducao-do-predio.md) · [MD-06-contrato](MD-06-contrato.md) · [ST-03-instalacao](ST-03-instalacao.md)

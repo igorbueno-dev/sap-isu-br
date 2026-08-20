@@ -108,9 +108,3 @@ citado de passagem que segura um processo inteiro.
 5. Qual objeto a esteira de sete etapas cita sem nunca definir?
 
 > **Gabarito:** [`_GABARITOS.md`](_GABARITOS.md#sv-01)  ·  responda tudo antes de abrir.
-
----
-
-## Ligações
-
-[WM-01-nota-de-servico](WM-01-nota-de-servico.md) · [DM-01-ativos-e-estoque](DM-01-ativos-e-estoque.md) · [PE-01-fraude-e-defeito](PE-01-fraude-e-defeito.md) · [GE-01-o-que-e-is-u-ccs](GE-01-o-que-e-is-u-ccs.md)

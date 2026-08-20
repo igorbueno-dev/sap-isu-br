@@ -95,9 +95,3 @@ Quando alguém disser "não consigo escolher a opção X", a resposta quase nunc
 3. A conta do cliente está indo para o endereço errado. Onde você olha primeiro?
 
 > **Gabarito:** [`_GABARITOS.md`](_GABARITOS.md#md-04)  ·  responda tudo antes de abrir.
-
----
-
-## Ligações
-
-[MD-03-parceiro-de-negocios](MD-03-parceiro-de-negocios.md) · [MD-05-conta-contrato](MD-05-conta-contrato.md)

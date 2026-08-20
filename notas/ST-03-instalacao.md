@@ -93,9 +93,3 @@ equipamento.
 3. Conta veio com valor absurdo. Onde você olha antes de suspeitar do cálculo?
 
 > **Gabarito:** [`_GABARITOS.md`](_GABARITOS.md#st-03)  ·  responda tudo antes de abrir.
-
----
-
-## Ligações
-
-[ST-02-local-de-consumo](ST-02-local-de-consumo.md) · [ST-04-equipamento](ST-04-equipamento.md) · [MD-06-contrato](MD-06-contrato.md)

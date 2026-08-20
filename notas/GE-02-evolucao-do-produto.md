@@ -69,9 +69,3 @@ O conceito que você está aprendendo agora **vale nas duas gerações**.
 3. O que muda e o que não muda do ECC para o S/4HANA?
 
 > **Gabarito:** [`_GABARITOS.md`](_GABARITOS.md#ge-02)  ·  responda tudo antes de abrir.
-
----
-
-## Ligações
-
-[GE-01-o-que-e-is-u-ccs](GE-01-o-que-e-is-u-ccs.md)

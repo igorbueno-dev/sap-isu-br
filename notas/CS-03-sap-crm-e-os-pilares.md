@@ -94,9 +94,3 @@ conhecimento de CRM continua valendo no S/4HANA.
 4. O que é o S/4 Customer Engagement, e qual sua relação com o CRM clássico?
 
 > **Gabarito:** [`_GABARITOS.md`](_GABARITOS.md#cs-03)  ·  responda tudo antes de abrir.
-
----
-
-## Ligações
-
-[CS-02-ciclo-de-vida-do-cliente](CS-02-ciclo-de-vida-do-cliente.md) · [CS-04-crm-no-contexto-utilities](CS-04-crm-no-contexto-utilities.md) · [GE-02-evolucao-do-produto](GE-02-evolucao-do-produto.md)

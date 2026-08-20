@@ -77,9 +77,3 @@ eficiência energética. Mas o volume está no pós-venda.
 4. Em que etapa um cliente de concessionária normalmente entra, e por quê?
 
 > **Gabarito:** [`_GABARITOS.md`](_GABARITOS.md#cs-02)  ·  responda tudo antes de abrir.
-
----
-
-## Ligações
-
-[CS-01-o-que-e-crm](CS-01-o-que-e-crm.md) · [CS-03-sap-crm-e-os-pilares](CS-03-sap-crm-e-os-pilares.md) · [MD-07-move-in-move-out](MD-07-move-in-move-out.md)

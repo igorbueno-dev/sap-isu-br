@@ -12,6 +12,10 @@ na prática.
 É o diagrama que traduz um prédio de verdade nos objetos do sistema, e resolve
 metade da confusão inicial com dados mestres.
 
+**Se tiver quatro minutos, leia [`_MAPA.md`](notas/_MAPA.md)**, que são os 31
+resumos em fila. É o acervo inteiro em uma página, e a melhor forma de decidir
+o que abrir depois.
+
 ---
 
 # As 31 notas
@@ -139,6 +143,8 @@ logo depois da `GE‑01`.
 
 | Arquivo | Para quê |
 |---|---|
+| [`notas/_MAPA.md`](notas/_MAPA.md) | **Os 31 resumos em fila. A revisão de 4 minutos.** Gerado |
+| [`notas/_PISTAS.md`](notas/_PISTAS.md) | **As 131 perguntas em fila. A sessão de teste.** Gerado |
 | [`referencia/02-BANCADA.md`](referencia/02-BANCADA.md) | Transações, tabelas e caminhos de menu. É consulta, use `Ctrl+F` |
 | [`notas/_GABARITOS.md`](notas/_GABARITOS.md) | Respostas dos recalls, separadas de propósito |
 | [`notas/_PADRAO.md`](notas/_PADRAO.md) | A forma da nota, e o que nunca pode ocupar posição estrutural |

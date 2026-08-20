@@ -98,9 +98,3 @@ E duas de sistema, que servem para qualquer problema, não só middleware:
 5. Qual a diferença entre `R3AS` e `R3AR2`?
 
 > **Gabarito:** [`_GABARITOS.md`](_GABARITOS.md#ar-02)  ·  responda tudo antes de abrir.
-
----
-
-## Ligações
-
-[AR-01-landscape-e-camadas](AR-01-landscape-e-camadas.md) · [AR-03-objetos-replicados](AR-03-objetos-replicados.md) · [02-BANCADA](../referencia/02-BANCADA.md)

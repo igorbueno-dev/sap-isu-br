@@ -97,9 +97,3 @@ Ver [MD-04-parceiro-de-negocios-dados](MD-04-parceiro-de-negocios-dados.md) para
 3. Você criou um PN e ele não fatura. Qual a primeira hipótese?
 
 > **Gabarito:** [`_GABARITOS.md`](_GABARITOS.md#md-03)  ·  responda tudo antes de abrir.
-
----
-
-## Ligações
-
-[MD-04-parceiro-de-negocios-dados](MD-04-parceiro-de-negocios-dados.md) · [MD-05-conta-contrato](MD-05-conta-contrato.md)

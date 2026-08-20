@@ -68,9 +68,3 @@ Antes de responder qualquer exercício, pergunte a si mesmo: **de qual setor
 4. Em qual setor o corte é mais delicado?
 
 > **Gabarito:** [`_GABARITOS.md`](_GABARITOS.md#ge-04)  ·  responda tudo antes de abrir.
-
----
-
-## Ligações
-
-[GE-03-do-problema-ao-modulo](GE-03-do-problema-ao-modulo.md) · [ST-03-instalacao](ST-03-instalacao.md)

@@ -111,10 +111,3 @@ Ele responde de uma vez três perguntas que caem sempre:
 3. Qual objeto liga o mundo comercial ao mundo técnico?
 
 > **Gabarito:** [`_GABARITOS.md`](_GABARITOS.md#md-02)  ·  responda tudo antes de abrir.
-
----
-
-## Ligações
-
-[MD-01-mapa-dos-dados-mestres](MD-01-mapa-dos-dados-mestres.md) · [MD-06-contrato](MD-06-contrato.md) ·
-[ST-01-objeto-de-ligacao](ST-01-objeto-de-ligacao.md) · [ST-04-equipamento](ST-04-equipamento.md)

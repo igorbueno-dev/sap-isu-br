@@ -131,9 +131,3 @@ flowchart TD
 3. Medidor trocado no campo, conta ainda com leitura do antigo. Hipótese?
 
 > **Gabarito:** [`_GABARITOS.md`](_GABARITOS.md#st-04)  ·  responda tudo antes de abrir.
-
----
-
-## Ligações
-
-[ST-03-instalacao](ST-03-instalacao.md) · [MD-02-a-traducao-do-predio](MD-02-a-traducao-do-predio.md)

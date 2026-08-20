@@ -113,9 +113,3 @@ pronta em vez de deixar cada projeto construir a sua.
 6. Por que o recálculo separa TE e TUSD, e o que o prefixo `ISUBR` indica?
 
 > **Gabarito:** [`_GABARITOS.md`](_GABARITOS.md#pe-02)  ·  responda tudo antes de abrir.
-
----
-
-## Ligações
-
-[PE-01-fraude-e-defeito](PE-01-fraude-e-defeito.md) · [SV-01-servico-de-campo](SV-01-servico-de-campo.md) · [DM-02-leituras-e-registradores](DM-02-leituras-e-registradores.md) · [WM-02-workflow-e-integracoes](WM-02-workflow-e-integracoes.md)

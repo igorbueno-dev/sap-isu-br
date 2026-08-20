@@ -86,9 +86,3 @@ Continua faltando:
 5. De onde vêm os nomes de tabela desta nota?
 
 > **Gabarito:** [`_GABARITOS.md`](_GABARITOS.md#ar-03)  ·  responda tudo antes de abrir.
-
----
-
-## Ligações
-
-[AR-02-middleware-e-replicacao](AR-02-middleware-e-replicacao.md) · [MD-05-conta-contrato](MD-05-conta-contrato.md) · [ST-01-objeto-de-ligacao](ST-01-objeto-de-ligacao.md)

@@ -109,9 +109,3 @@ isolada".** Ver [`02-BANCADA.md`](../referencia/02-BANCADA.md).
 6. Alguém diz "registrei a solicitação e nada aconteceu". Qual seu primeiro suspeito?
 
 > **Gabarito:** [`_GABARITOS.md`](_GABARITOS.md#wm-02)  ·  responda tudo antes de abrir.
-
----
-
-## Ligações
-
-[WM-01-nota-de-servico](WM-01-nota-de-servico.md) · [SV-01-servico-de-campo](SV-01-servico-de-campo.md) · [MD-05-conta-contrato](MD-05-conta-contrato.md) · [CS-05-processos-e-atividades](CS-05-processos-e-atividades.md)

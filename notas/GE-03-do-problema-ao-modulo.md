@@ -92,9 +92,3 @@ fazer aqui?" quando o sistema faz algo estranho.
 3. O que torna a venda de energia diferente de uma venda comum?
 
 > **Gabarito:** [`_GABARITOS.md`](_GABARITOS.md#ge-03)  ·  responda tudo antes de abrir.
-
----
-
-## Ligações
-
-[GE-01-o-que-e-is-u-ccs](GE-01-o-que-e-is-u-ccs.md) · [GE-04-os-tres-setores](GE-04-os-tres-setores.md)

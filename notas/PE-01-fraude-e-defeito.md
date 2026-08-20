@@ -102,9 +102,3 @@ o cliente for à justiça.** Ver [PE-02](PE-02-faturado-da-epoca.md).
 6. Como um caso de Perdas nasce dentro de WM e de DM?
 
 > **Gabarito:** [`_GABARITOS.md`](_GABARITOS.md#pe-01)  ·  responda tudo antes de abrir.
-
----
-
-## Ligações
-
-[PE-02-faturado-da-epoca](PE-02-faturado-da-epoca.md) · [SV-01-servico-de-campo](SV-01-servico-de-campo.md) · [WM-01-nota-de-servico](WM-01-nota-de-servico.md) · [DM-02-leituras-e-registradores](DM-02-leituras-e-registradores.md)

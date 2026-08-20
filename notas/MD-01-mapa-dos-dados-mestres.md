@@ -116,9 +116,3 @@ cima dos cadastros anteriores.
    dado, e quais não?
 
 > **Gabarito:** [`_GABARITOS.md`](_GABARITOS.md#md-01)  ·  responda tudo antes de abrir.
-
----
-
-## Ligações
-
-[MD-08-os-dois-mundos](MD-08-os-dois-mundos.md) · [MD-02-a-traducao-do-predio](MD-02-a-traducao-do-predio.md) · [MD-03-parceiro-de-negocios](MD-03-parceiro-de-negocios.md) · [ST-01-objeto-de-ligacao](ST-01-objeto-de-ligacao.md)

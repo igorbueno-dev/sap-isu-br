@@ -91,9 +91,3 @@ atendimento (CIC), então a transação só aparece na trilha de CS + CRM.**
 4. Por que não existe transação de criar contrato?
 
 > **Gabarito:** [`_GABARITOS.md`](_GABARITOS.md#md-06)  ·  responda tudo antes de abrir.
-
----
-
-## Ligações
-
-[MD-05-conta-contrato](MD-05-conta-contrato.md) · [ST-03-instalacao](ST-03-instalacao.md) · [MD-02-a-traducao-do-predio](MD-02-a-traducao-do-predio.md)

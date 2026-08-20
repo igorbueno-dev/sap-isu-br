@@ -85,9 +85,3 @@ cancela, ele reclama, e reclamação tem preço.
    CRM gerencia de fato?
 
 > **Gabarito:** [`_GABARITOS.md`](_GABARITOS.md#cs-01)  ·  responda tudo antes de abrir.
-
----
-
-## Ligações
-
-[CS-02-ciclo-de-vida-do-cliente](CS-02-ciclo-de-vida-do-cliente.md) · [CS-03-sap-crm-e-os-pilares](CS-03-sap-crm-e-os-pilares.md) · [GE-03-do-problema-ao-modulo](GE-03-do-problema-ao-modulo.md)

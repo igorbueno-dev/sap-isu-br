@@ -111,9 +111,3 @@ vire dinheiro errado.
 6. Por que "histórico completo" é a frente que sustenta perícia?
 
 > **Gabarito:** [`_GABARITOS.md`](_GABARITOS.md#dm-01)  ·  responda tudo antes de abrir.
-
----
-
-## Ligações
-
-[DM-02-leituras-e-registradores](DM-02-leituras-e-registradores.md) · [ST-04-equipamento](ST-04-equipamento.md) · [SV-01-servico-de-campo](SV-01-servico-de-campo.md) · [WM-01-nota-de-servico](WM-01-nota-de-servico.md)

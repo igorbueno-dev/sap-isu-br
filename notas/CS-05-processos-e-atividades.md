@@ -88,9 +88,3 @@ vira dado**. "Prospect" não é abstração de marketing, é um valor gravado no
 5. Onde o conceito de "prospect" aparece como dado no sistema?
 
 > **Gabarito:** [`_GABARITOS.md`](_GABARITOS.md#cs-05)  ·  responda tudo antes de abrir.
-
----
-
-## Ligações
-
-[CS-04-crm-no-contexto-utilities](CS-04-crm-no-contexto-utilities.md) · [MD-07-move-in-move-out](MD-07-move-in-move-out.md) · [MD-04-parceiro-de-negocios-dados](MD-04-parceiro-de-negocios-dados.md)

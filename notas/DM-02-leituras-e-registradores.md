@@ -111,9 +111,3 @@ aparece na fila de faturamento, dias depois, num time diferente.
 6. Uma instalação não faturou e o medidor está corretamente instalado. Qual sua primeira hipótese?
 
 > **Gabarito:** [`_GABARITOS.md`](_GABARITOS.md#dm-02)  ·  responda tudo antes de abrir.
-
----
-
-## Ligações
-
-[DM-01-ativos-e-estoque](DM-01-ativos-e-estoque.md) · [ST-04-equipamento](ST-04-equipamento.md) · [ST-03-instalacao](ST-03-instalacao.md) · [MD-07-move-in-move-out](MD-07-move-in-move-out.md)

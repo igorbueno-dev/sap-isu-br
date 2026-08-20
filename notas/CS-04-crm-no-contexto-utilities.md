@@ -85,9 +85,3 @@ não como sexta caixa na fila.
 5. O que significa dizer que o SAP CRM integra com Salesforce?
 
 > **Gabarito:** [`_GABARITOS.md`](_GABARITOS.md#cs-04)  ·  responda tudo antes de abrir.
-
----
-
-## Ligações
-
-[GE-01-o-que-e-is-u-ccs](GE-01-o-que-e-is-u-ccs.md) · [CS-05-processos-e-atividades](CS-05-processos-e-atividades.md) · [AR-01-landscape-e-camadas](AR-01-landscape-e-camadas.md)

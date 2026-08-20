@@ -78,9 +78,3 @@ do objeto criado.
    de ligação?
 
 > **Gabarito:** [`_GABARITOS.md`](_GABARITOS.md#st-01)  ·  responda tudo antes de abrir.
-
----
-
-## Ligações
-
-[ST-02-local-de-consumo](ST-02-local-de-consumo.md) · [MD-02-a-traducao-do-predio](MD-02-a-traducao-do-predio.md)

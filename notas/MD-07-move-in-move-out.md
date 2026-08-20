@@ -105,9 +105,3 @@ Ver [02-BANCADA](../referencia/02-BANCADA.md).
 4. Por que Move-In com data retroativa é caro?
 
 > **Gabarito:** [`_GABARITOS.md`](_GABARITOS.md#md-07)  ·  responda tudo antes de abrir.
-
----
-
-## Ligações
-
-[MD-06-contrato](MD-06-contrato.md) · [ST-03-instalacao](ST-03-instalacao.md) · [_DEPENDENCIAS](_DEPENDENCIAS.md)

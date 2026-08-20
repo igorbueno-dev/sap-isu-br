@@ -117,9 +117,3 @@ Contract Accounts`
 3. Onde fica o bloqueio de corte, e onde fica o bloqueio de faturamento?
 
 > **Gabarito:** [`_GABARITOS.md`](_GABARITOS.md#md-05)  ·  responda tudo antes de abrir.
-
----
-
-## Ligações
-
-[MD-03-parceiro-de-negocios](MD-03-parceiro-de-negocios.md) · [MD-06-contrato](MD-06-contrato.md)

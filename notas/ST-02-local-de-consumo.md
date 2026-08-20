@@ -84,9 +84,3 @@ criado, e modificar o número/apto dele.
    de consumo?
 
 > **Gabarito:** [`_GABARITOS.md`](_GABARITOS.md#st-02)  ·  responda tudo antes de abrir.
-
----
-
-## Ligações
-
-[ST-01-objeto-de-ligacao](ST-01-objeto-de-ligacao.md) · [ST-03-instalacao](ST-03-instalacao.md)

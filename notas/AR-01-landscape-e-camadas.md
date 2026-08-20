@@ -86,9 +86,3 @@ Este é o ponto que a próxima nota desenvolve.
    distintos?
 
 > **Gabarito:** [`_GABARITOS.md`](_GABARITOS.md#ar-01)  ·  responda tudo antes de abrir.
-
----
-
-## Ligações
-
-[AR-02-middleware-e-replicacao](AR-02-middleware-e-replicacao.md) · [AR-03-objetos-replicados](AR-03-objetos-replicados.md) · [CS-04-crm-no-contexto-utilities](CS-04-crm-no-contexto-utilities.md)

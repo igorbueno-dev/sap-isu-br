@@ -111,9 +111,3 @@ divisão 1 dos dados mestres. Ver [MD-01](MD-01-mapa-dos-dados-mestres.md).
 5. Qual tipo de nota é a porta de entrada da Gestão de Perdas?
 
 > **Gabarito:** [`_GABARITOS.md`](_GABARITOS.md#wm-01)  ·  responda tudo antes de abrir.
-
----
-
-## Ligações
-
-[SV-01-servico-de-campo](SV-01-servico-de-campo.md) · [WM-02-workflow-e-integracoes](WM-02-workflow-e-integracoes.md) · [PE-01-fraude-e-defeito](PE-01-fraude-e-defeito.md) · [MD-01-mapa-dos-dados-mestres](MD-01-mapa-dos-dados-mestres.md)

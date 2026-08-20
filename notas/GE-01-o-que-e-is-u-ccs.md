@@ -88,9 +88,3 @@ Ver [02-BANCADA](../referencia/02-BANCADA.md) para as transações.
 3. Onde BW aparece no desenho, e por que isso importa para a sua escolha de trilha?
 
 > **Gabarito:** [`_GABARITOS.md`](_GABARITOS.md#ge-01)  ·  responda tudo antes de abrir.
-
----
-
-## Ligações
-
-[GE-02-evolucao-do-produto](GE-02-evolucao-do-produto.md) · [MD-01-mapa-dos-dados-mestres](MD-01-mapa-dos-dados-mestres.md)
