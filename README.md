@@ -69,30 +69,36 @@ Cada nota é um conceito só: 5 a 10 minutos, terminando em raciocínio fechado.
 
 ### Serviço de Campo (SVC)
 
+> **As sete notas de SVC são `misto`.** A fonte original é uma apresentação
+> panorâmica: ela dá as listas, os nomes e a fronteira entre os blocos. **O
+> raciocínio em volta é meu**, montado com o resto do material e com
+> conhecimento do setor elétrico. Trate as listas como fato e o resto como
+> interpretação, e me corrija por issue onde eu errei.
+
 | Nota | Tema | Status | O gancho | Tempo |
 |---|---|---|---|---|
-| [`SV‑01`](notas/SV-01-servico-de-campo.md) | **Serviço de Campo e os três blocos** | verificado | Quatro nomes para a mesma área. **Comece por aqui** | 6 min |
+| [`SV‑01`](notas/SV-01-servico-de-campo.md) | **Serviço de Campo e os três blocos** | misto | Quatro nomes para a mesma área. **Comece por aqui** | 6 min |
 
 ### Campo (WM / SVC)
 
 | Nota | Tema | Status | O gancho | Tempo |
 |---|---|---|---|---|
-| [`WM‑01`](notas/WM-01-nota-de-servico.md) | A nota de serviço | verificado | Os sete tipos, os quatro campos, e onde mora a multa | 6 min |
-| [`WM‑02`](notas/WM-02-workflow-e-integracoes.md) | Workflow e integrações | verificado | As quatro portas do campo, e o diagnóstico de "pedi e não aconteceu" | 6 min |
+| [`WM‑01`](notas/WM-01-nota-de-servico.md) | A nota de serviço | misto | Os sete tipos, os quatro campos, e onde mora a multa | 6 min |
+| [`WM‑02`](notas/WM-02-workflow-e-integracoes.md) | Workflow e integrações | misto | As quatro portas do campo, e o diagnóstico de "pedi e não aconteceu" | 6 min |
 
 ### Equipamento (DM / GAT)
 
 | Nota | Tema | Status | O gancho | Tempo |
 |---|---|---|---|---|
-| [`DM‑01`](notas/DM-01-ativos-e-estoque.md) | Ativos, movimentação e estoque | verificado | O ciclo de vida do medidor, e o laço que faz o histórico importar | 6 min |
-| [`DM‑02`](notas/DM-02-leituras-e-registradores.md) | **Leituras e registradores** | verificado | Três eixos que parecem um só. E a energia injetada | 6 min |
+| [`DM‑01`](notas/DM-01-ativos-e-estoque.md) | Ativos, movimentação e estoque | misto | O ciclo de vida do medidor, e o laço que faz o histórico importar | 6 min |
+| [`DM‑02`](notas/DM-02-leituras-e-registradores.md) | **Leituras e registradores** | misto | Três eixos que parecem um só. E a energia injetada | 6 min |
 
 ### Gestão de Perdas
 
 | Nota | Tema | Status | O gancho | Tempo |
 |---|---|---|---|---|
-| [`PE‑01`](notas/PE-01-fraude-e-defeito.md) | **Fraude e defeito** | verificado | Mesmo efeito na medição, mundos jurídicos diferentes | 5 min |
-| [`PE‑02`](notas/PE-02-faturado-da-epoca.md) | Faturado da época x fatura revista | verificado | O cálculo que vira dinheiro de volta | 6 min |
+| [`PE‑01`](notas/PE-01-fraude-e-defeito.md) | **Fraude e defeito** | misto | Mesmo efeito na medição, mundos jurídicos diferentes | 5 min |
+| [`PE‑02`](notas/PE-02-faturado-da-epoca.md) | Faturado da época x fatura revista | misto | O cálculo que vira dinheiro de volta | 6 min |
 
 **Tudo: cerca de 179 minutos. Só os recalls: cerca de 32.**
 
