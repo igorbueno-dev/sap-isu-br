@@ -87,8 +87,9 @@ alíquota e PIS/COFINS à parte.
 
 > **Vocabulário em aberto:** `TE` e `TUSD` aparecem como as duas
 > especificações de consumo na tela, e **não foram definidas em aula**.
-> **Perguntar o que cada uma é**, porque é o que explica por que o recálculo
-> é feito em duas linhas.
+> **Diferente das outras lacunas, esta pode fechar sem trilha:** são parcelas
+> de tarifa, e tarifa é assunto de Faturamento. **Fique atento na aula de
+> Faturamento**, e se não vier, é aprofundamento de BILL.
 
 ---
 

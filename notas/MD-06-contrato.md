@@ -78,7 +78,8 @@ errado que falta autorização.
 | `ES28` | Exibir Todos os Contratos |
 
 **Criar: só via Move In.** O material diz que *"o Contrato é criado durante o
-Move In"* e não dá o código da transação. **Perguntar ao instrutor.**
+Move In"* e não dá o código da transação. **O Move-In é processo de
+atendimento (CIC), então a transação só aparece na trilha de CS + CRM.**
 
 ---
 

@@ -123,16 +123,44 @@ E os dois convergem em **`MD‑06` Contrato**.
 O método: procurar conceito **citado mas nunca desenvolvido**, ou nó de menu
 **visível mas nunca aberto**. Cada um é um buraco no modelo.
 
+## Antes de tudo: lacuna estrutural não é falha de captura
+
+A semana 1 é **um panorama por área, um dia cada**. Ela entrega as listas, os
+nomes e a fronteira entre os blocos, e para aí. **O aprofundamento vem na
+semana 2, e só da trilha escolhida.**
+
+Consequência direta: **quase toda pergunta específica de módulo nasce sem
+resposta e vai continuar assim**, a menos que a trilha seja aquela. Não
+adianta esperar que uma aula futura feche, nem preencher por dedução, que foi
+exatamente o erro da Estrutura Postal.
+
+| Pergunta | Onde nasceu | Quem fecha |
+|---|---|---|
+| O conteúdo da **Estrutura Postal** e a relação com Estrutura Regional | A01, dados mestres | **SVC.** O material põe estruturas postais e políticas sob WM |
+| A transação de **Move-In** | A01, contrato | **CS + CRM.** Move-In é processo de atendimento (CIC) |
+| Se **Alteração de titularidade** é Move-Out mais Move-In | A02, processos | **CS + CRM** |
+| O que é um **operando** | A03, workflow de campo | **BILL**, é termo de esquema de cálculo. Pode vir na aula de Faturamento |
+| O que são **TE** e **TUSD** | A03, perdas | **BILL**, são parcelas da tarifa. Pode vir na aula de Faturamento |
+| Se **Perdas é trilha própria** | A03, os três blocos | **Sexta**, quando a lista de trilhas for apresentada |
+
+**Duas dessas podem fechar de graça**, porque tarifa é assunto de Faturamento
+e essa aula está no calendário. As outras dependem da escolha.
+
+**Como isto entra na decisão de sexta:** cada trilha fecha um conjunto
+diferente destas lacunas. Não é o critério principal para escolher, mas é
+informação real sobre o que você leva embora e o que fica em aberto para
+sempre.
+
 ## Fechados por nota própria
 
 | Conceito | Por que era lacuna | Situação |
 |---|---|---|
-| **Move In** | O Contrato "é criado durante o Move In", mas o processo é tratado à parte dos dados mestres | Coberto por [MD-07-move-in-move-out](MD-07-move-in-move-out.md). **Falta confirmar a transação** |
-| **Registrador** | Citado junto de equipamento, quase nunca definido | Coberto dentro de [ST-04-equipamento](ST-04-equipamento.md) |
+| **Move In** | O Contrato "é criado durante o Move In", mas o processo é tratado à parte dos dados mestres | Coberto por [MD-07-move-in-move-out](MD-07-move-in-move-out.md), **em reconstrução minha**. A transação só fecha na trilha de CS + CRM |
+| **Registrador** | Citado junto de equipamento, quase nunca definido | **Fechado pelo material**: a A03 lista os seis registradores. Ver [DM-02](DM-02-leituras-e-registradores.md) |
 
-> **As duas notas são de autoria própria, não de fonte oficial.** Trate como
-> hipótese bem fundamentada e confirme na documentação SAP. A transação de
-> Move-In continua em aberto.
+> **Cuidado com a primeira linha.** A [MD-07](MD-07-move-in-move-out.md) é
+> reconstrução minha em cima de duas frases do material. Ela tapa o buraco no
+> grafo, mas **não é fonte**.
 
 ## Estruturais: fazem parte do modelo e ainda não cobri
 

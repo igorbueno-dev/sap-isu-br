@@ -73,8 +73,9 @@ diferentes:
 cadastro só, é uma propriedade do modelo.
 
 > **Em aberto:** o que o sistema faz quando a data muda, e se versões
-> diferentes do mesmo objeto coexistem. **Perguntar ao instrutor**, é a
-> pergunta que liga isto à data de Move-In. Ver [MD-07](MD-07-move-in-move-out.md).
+> diferentes do mesmo objeto coexistem. **Esta atravessa as trilhas**, porque
+> a data aparece no PN, no Contrato e na Instalação. Vale perguntar em
+> qualquer aula. Ver [MD-07](MD-07-move-in-move-out.md).
 
 ---
 

@@ -57,8 +57,9 @@ lado do material, o slide do Contrato diz que ele *"é criado quando ocorre uma
 nova ligação ou troca de titularidade"*. **Os dois pontos se ligam: o processo
 comercial de troca de titular é o que produz um Contrato novo.**
 
-> **Em aberto:** se "Alteração de titularidade" é o mesmo que Move-Out seguido
-> de Move-In, ou um processo próprio. **Perguntar ao instrutor.**
+> **Lacuna estrutural.** Se "Alteração de titularidade" é Move-Out seguido de
+> Move-In ou um processo próprio é detalhe de processo, e a aula de CRM foi
+> panorâmica. **Só fecha na trilha de CS + CRM.**
 
 **Vale reparar no padrão:** o CRM nomeia processos pelo que o cliente pede;
 o IS-U nomeia pelo que acontece com o dado. Ligação Nova e Move-In são a

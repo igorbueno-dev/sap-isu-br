@@ -45,9 +45,11 @@ Junte as duas: **é onde o endereço mora, o Objeto de Ligação se liga a ela, 
 quem a mantém é WM.** É por isso que ela abre a lista e não reaparece no
 resto dos dados mestres. Ver [ST-01](ST-01-objeto-de-ligacao.md).
 
-> **Ainda em aberto:** o conteúdo exato da estrutura, as transações, e se
-> "Estrutura Postal" e "Estrutura Regional" são a mesma coisa ou duas metades.
-> **Pergunta para o instrutor, não para deduzir.**
+> **Lacuna estrutural, não pendência.** O conteúdo da estrutura, as transações
+> e a relação com "Estrutura Regional" são aprofundamento, e a semana 1 é
+> panorâmica por desenho. **O material coloca as estruturas postais e políticas
+> sob WM**, então isso só fecha na trilha de Serviço de Campo. **Não preencha
+> por dedução.**
 
 ## 2. Dados Mestres Técnicos
 

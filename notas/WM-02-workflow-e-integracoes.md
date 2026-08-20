@@ -78,7 +78,9 @@ deles, as etapas:
 > **Vocabulário em aberto:** *operando* não foi definido em aula. Fica o fato
 > de que uma etapa de workflow **de campo** se chama "Atualização de
 > Operandos": seja o que for um operando, campo e faturamento se tocam nesse
-> ponto. **Perguntar o que é.**
+> ponto. **O termo é de esquema de cálculo, então quem o define é
+> Faturamento.** Se não vier na aula de Faturamento, é aprofundamento de BILL
+> ou de SVC.
 
 ---
 
