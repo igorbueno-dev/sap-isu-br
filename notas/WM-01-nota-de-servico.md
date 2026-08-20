@@ -97,7 +97,8 @@ atualização cadastral.
 
 Não é digitação de escritório: é o técnico que foi lá e descobriu que o poste
 está na outra esquina. **Isso alimenta a rota de leitura e o despacho de
-equipe.** Ver [MD-01](MD-01-mapa-dos-dados-mestres.md), Estrutura Postal.
+equipe.** De onde vem o endereço cadastrado, e sob que nome, é pergunta em
+aberto: ver o fim da [MD-01](MD-01-mapa-dos-dados-mestres.md).
 
 ---
 

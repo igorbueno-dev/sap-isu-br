@@ -62,20 +62,18 @@
 ---
 
 ## MD-01
-**MD-01: As quatro divisões dos dados mestres**  ·  [voltar para a nota](MD-01-mapa-dos-dados-mestres.md)
+**MD-01: As duas divisões dos dados mestres**  ·  [voltar para a nota](MD-01-mapa-dos-dados-mestres.md)
 
-1. Estrutura Postal, Dados Mestre Técnicos, Dados Mestre Comercial, Dados
-   Transacionais.
-2. Para servir de **contraste**. Ela não é dado mestre, e é justamente isso
-   que define os outros três por oposição.
-3. O cadastro de país, estado, município, bairro, logradouro e CEP. Vem antes
-   porque os outros objetos **apontam** para ela em vez de digitar endereço
-   livre. É a fundação embaixo da fundação.
-4. **Duração da validade.** Mestre dura muito e é a única versão válida no
+1. **Técnicos**, que respondem *onde se consome*, e **Comerciais**, que
+   respondem *quem paga*.
+2. Para servir de **contraste**. Eles não são dado mestre, e é justamente isso
+   que define os dois por oposição: o cadastro fica, o movimento passa.
+3. **Duração da validade.** Mestre dura muito e é a única versão válida no
    período. Transacional é dinâmico e vale pouco tempo.
-5. Já têm dado: **Estrutura Postal** e **Dados Mestres Técnicos** (o prédio, o
-   local de consumo, a instalação existem sem morador). Não têm:
-   **Comerciais** e **Transacionais**, porque não há quem pague nem o que medir.
+4. Já têm dado os **Técnicos**: o prédio, o local de consumo e a instalação
+   existem sem morador. Não têm os **Comerciais**, porque não há quem pague.
+5. Sem os comerciais, **o imóvel continua ligado e ninguém é cobrado**. Sem os
+   técnicos, **o cliente existe e não há o que faturar**.
 
 ---
 
