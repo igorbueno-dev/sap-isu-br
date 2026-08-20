@@ -75,9 +75,10 @@ deles, as etapas:
 3. **O responsável é `WF BATCH`**, não uma pessoa. Rodou automático, de
    madrugada. Se travar, ninguém percebe até alguém reclamar
 
-> **Vocabulário a confirmar:** *operando* é termo de esquema de cálculo, a
-> variável que o faturamento usa. Que uma etapa de workflow de campo atualize
-> operando mostra que **campo e faturamento se tocam mais do que parece.**
+> **Vocabulário em aberto:** *operando* não foi definido em aula. Fica o fato
+> de que uma etapa de workflow **de campo** se chama "Atualização de
+> Operandos": seja o que for um operando, campo e faturamento se tocam nesse
+> ponto. **Perguntar o que é.**
 
 ---
 

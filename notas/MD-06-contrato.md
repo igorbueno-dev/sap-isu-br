@@ -77,7 +77,8 @@ errado que falta autorização.
 | `ES27` | Modificar Todos Contratos |
 | `ES28` | Exibir Todos os Contratos |
 
-**Criar: só via Move In.** Confirmar a transação de Move In na documentação SAP.
+**Criar: só via Move In.** O material diz que *"o Contrato é criado durante o
+Move In"* e não dá o código da transação. **Perguntar ao instrutor.**
 
 ---
 

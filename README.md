@@ -31,7 +31,7 @@ Cada nota é um conceito só: 5 a 10 minutos, terminando em raciocínio fechado.
 
 | Nota | Tema | Status | O gancho | Tempo |
 |---|---|---|---|---|
-| [`MD‑01`](notas/MD-01-mapa-dos-dados-mestres.md) | **As duas divisões** | verificado | Técnicos e comerciais, o contraste transacional, e as duas comparações | 6 min |
+| [`MD‑01`](notas/MD-01-mapa-dos-dados-mestres.md) | **As quatro divisões** | verificado | Cada uma explicada, e as duas comparações | 7 min |
 | [`MD‑08`](notas/MD-08-os-dois-mundos.md) | Os dois mundos e a validade no tempo | verificado | O diagrama, a ponte, e a armadilha da ordem invertida | 6 min |
 | [`MD‑02`](notas/MD-02-a-traducao-do-predio.md) | **A tradução do prédio** | verificado | O diagrama que converte o mundo real em SAP | 6 min |
 | [`MD‑03`](notas/MD-03-parceiro-de-negocios.md) | Parceiro de Negócios | verificado | Categoria é o que ele é, função é o papel. Sem Parceiro de Contrato, não fatura | 7 min |

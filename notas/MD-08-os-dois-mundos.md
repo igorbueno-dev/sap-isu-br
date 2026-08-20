@@ -60,19 +60,21 @@ prédio para o medidor. **Não confunda a ordem do desenho com a hierarquia.**
 
 ## Dado mestre tem validade no tempo
 
-> **Status: escrito por mim**, a confirmar na documentação SAP.
+Os objetos carregam data. O material mostra o campo em três lugares
+diferentes:
 
-No IS-U, muita coisa **não é simplesmente alterada**. Ela ganha uma **nova
-versão com data de validade**, e as versões coexistem.
+| Objeto | O campo, como aparece na tela |
+|---|---|
+| **Parceiro de Negócios** | `Período de validade`, com o padrão `01.01.0001 - 31.12.9999` |
+| **Contrato** | `Vigência`: datas de início e final, mais renovação e cancelamento |
+| **Instalação** | `Vigência do tipo de tarifa` |
 
-A Instalação pode ter tarifa A de 2019 a 2025 e tarifa B de 2026 em diante,
-as duas no mesmo cadastro.
+**Três objetos de blocos diferentes, todos com data.** Não é campo de um
+cadastro só, é uma propriedade do modelo.
 
-**Por que isso importa:** se você alterar um dado hoje sem prestar atenção na
-data, **você pode ter alterado o passado**, e o sistema vai querer refaturar
-meses já fechados.
-
-É a mesma família de perigo da data de Move-In. Ver [MD-07-move-in-move-out](MD-07-move-in-move-out.md).
+> **Em aberto:** o que o sistema faz quando a data muda, e se versões
+> diferentes do mesmo objeto coexistem. **Perguntar ao instrutor**, é a
+> pergunta que liga isto à data de Move-In. Ver [MD-07](MD-07-move-in-move-out.md).
 
 ---
 

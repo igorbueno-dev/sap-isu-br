@@ -48,22 +48,18 @@ também é cadastrado como Equipamento.
 
 ## Registrador
 
-> **Status: escrito por mim.** O termo **registrador** aparece junto de
-> equipamento com frequência e quase nunca é definido. Esta seção fecha isso.
-> A confirmar na documentação SAP.
+**O Registrador é a grandeza que o aparelho acumula, e um medidor pode ter
+vários.** Os seis tipos que o material lista estão na
+[DM-02](DM-02-leituras-e-registradores.md).
 
-**O Registrador é o relógio interno do medidor, o que efetivamente acumula
-número.** Um Equipamento pode ter vários.
+| Objeto | O que é |
+|---|---|
+| **Local de Instalação de Equipamento** | *"O lugar em que os equipamentos de ligação serão instalados"* |
+| **Equipamento** | O aparelho, com número de série |
+| **Registrador** | A grandeza medida dentro do aparelho |
 
-| Objeto | O que é | Vida |
-|---|---|---|
-| **Local de Instalação** | O quadro na parede | **Não muda.** Fica ali para sempre |
-| **Equipamento** | O aparelho, com número de série | **Muda.** Quebra, é trocado, vai para aferição |
-| **Registrador** | A grandeza medida dentro do aparelho | **Pode ser múltiplo** |
-
-Uma casa tem **um** registrador: energia ativa.
-Uma indústria pode ter **seis**: ativa na ponta, ativa fora de ponta, reativa,
-demanda, e por aí.
+**Os três são objetos separados, e é isso que permite trocar um sem mexer nos
+outros.**
 
 ```mermaid
 flowchart TD

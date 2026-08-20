@@ -62,18 +62,20 @@
 ---
 
 ## MD-01
-**MD-01: As duas divisões dos dados mestres**  ·  [voltar para a nota](MD-01-mapa-dos-dados-mestres.md)
+**MD-01: As quatro divisões dos dados mestres**  ·  [voltar para a nota](MD-01-mapa-dos-dados-mestres.md)
 
-1. **Técnicos**, que respondem *onde se consome*, e **Comerciais**, que
-   respondem *quem paga*.
-2. Para servir de **contraste**. Eles não são dado mestre, e é justamente isso
-   que define os dois por oposição: o cadastro fica, o movimento passa.
-3. **Duração da validade.** Mestre dura muito e é a única versão válida no
+1. Estrutura Postal, Dados Mestre Técnicos, Dados Mestre Comercial, Dados
+   Transacionais.
+2. Para servir de **contraste**. Ela não é dado mestre, e é justamente isso
+   que define os outros três por oposição.
+3. **Só o nome.** O material lista a Estrutura Postal e nunca a desenvolve. A
+   única pista é que **manter estruturas políticas e postais é
+   responsabilidade de WM**. O conteúdo dela é pergunta em aberto.
+4. **Duração da validade.** Mestre dura muito e é a única versão válida no
    período. Transacional é dinâmico e vale pouco tempo.
-4. Já têm dado os **Técnicos**: o prédio, o local de consumo e a instalação
-   existem sem morador. Não têm os **Comerciais**, porque não há quem pague.
-5. Sem os comerciais, **o imóvel continua ligado e ninguém é cobrado**. Sem os
-   técnicos, **o cliente existe e não há o que faturar**.
+5. Já têm dado: **Dados Mestres Técnicos** (o prédio, o local de consumo e a
+   instalação existem sem morador). Não têm: **Comerciais** e
+   **Transacionais**, porque não há quem pague nem o que medir.
 
 ---
 
@@ -243,8 +245,10 @@
 2. Porque ele **prova prazo de atendimento perante o regulador**.
 3. Ligação Nova, Alteração de titularidade, Segundas Vias, Reclamações,
    Cadastro, Modificações Contratuais.
-4. Provavelmente **Move-Out do antigo seguido de Move-In do novo**.
-   Ainda a confirmar.
+4. O material liga os dois pontos: "Alteração de titularidade" está na lista
+   de processos do CRM, e o Contrato **"é criado quando ocorre uma nova ligação
+   ou troca de titularidade"**. Se é literalmente Move-Out mais Move-In,
+   **está em aberto**.
 5. No campo **Status** do Parceiro de Negócios, com valores Cliente,
    **Prospect**, Inativo.
 
@@ -289,8 +293,8 @@
 3. **Installed Base**, a base instalada: o que o cliente tem instalado.
 4. De **Conta Contrato**. `CRMM_BUAG`, de Business Agreement, é o nome dela
    no CRM.
-5. Porque encontrei **duas formas diferentes** (`EHAU` e `EHAUISU`) e nenhuma
-   fonte boa o bastante para decidir. Prefiro a dúvida explícita.
+5. Do **slide de replicação da Aula 02**, que traz o de-para completo. Não
+   são dedução nem memória: estão no material.
 
 ---
 

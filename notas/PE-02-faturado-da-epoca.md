@@ -85,8 +85,10 @@ alíquota e PIS/COFINS à parte.
 2. **O imposto entra no cálculo, e separado por alíquota.** Perdas não é só
    energia: é energia mais tributo, e o tributo tem regra própria
 
-> **Vocabulário do setor elétrico brasileiro:** `TE` é Tarifa de Energia e
-> `TUSD` é Tarifa de Uso do Sistema de Distribuição.
+> **Vocabulário em aberto:** `TE` e `TUSD` aparecem como as duas
+> especificações de consumo na tela, e **não foram definidas em aula**.
+> **Perguntar o que cada uma é**, porque é o que explica por que o recálculo
+> é feito em duas linhas.
 
 ---
 

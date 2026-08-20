@@ -140,14 +140,14 @@ O método: procurar conceito **citado mas nunca desenvolvido**, ou nó de menu
 |---|---|---|
 | ~~**Ponto de Entrega (PoD)**~~ | Aparecia no menu de dados mestres técnicos e nunca era desenvolvido | **PARCIALMENTE COBERTO** por [AR-03-objetos-replicados](AR-03-objetos-replicados.md): tem posição na arquitetura e tabela `EUIHEAD` ⟨confirmar⟩. **Faltam as transações e a cardinalidade** |
 | **Ligação** | Nó no menu, entre Objeto de Ligação e Local de Consumo | Não explorado |
-| **Estrutura Postal** | ~~Listada como divisão dos dados mestres~~ **ERRO MEU, corrigido em 20/08/2026.** O material não menciona este termo | Fora da taxonomia. Só confirmar com o instrutor de onde vem o endereço |
+| **Estrutura Postal** | Divisão 1 de 4 dos dados mestres (slide `img-05` da A01), e WM "mantém estruturas políticas e postais" (A02) | **Nomeada e nunca desenvolvida.** Conteúdo e transações em aberto |
 | **Estrutura Regional** | Nó no menu | Não desenvolvida |
 
 ## Próximos temas
 
 | Conceito | Onde se encaixa |
 |---|---|
-| **Dados Transacionais** | O contraste dos dados mestres, entra com leitura e faturamento |
+| **Dados Transacionais** | Divisão 4 de 4, entra com leitura e faturamento |
 | **Planejamento de datas** | MRU e porções |
 | **CIC** | Interface centralizada de atendimento, área de CS/CRM |
 | **EDM** | Gestão de dados de medição |

@@ -52,10 +52,13 @@ A lista não é exaustiva.
 responsabilidade da área. É o processo que dispara a criação da estrutura
 técnica inteira.
 
-**Alteração de titularidade** é, muito provavelmente, o nome comercial do
-**Move-Out do antigo seguido de Move-In do novo**. ⟨confirmar⟩ Se for, este
-é o mesmo processo que a [MD-07](MD-07-move-in-move-out.md) descreve pelo lado
-dos dados mestres.
+**Alteração de titularidade** aparece na lista de processos do CRM. Do outro
+lado do material, o slide do Contrato diz que ele *"é criado quando ocorre uma
+nova ligação ou troca de titularidade"*. **Os dois pontos se ligam: o processo
+comercial de troca de titular é o que produz um Contrato novo.**
+
+> **Em aberto:** se "Alteração de titularidade" é o mesmo que Move-Out seguido
+> de Move-In, ou um processo próprio. **Perguntar ao instrutor.**
 
 **Vale reparar no padrão:** o CRM nomeia processos pelo que o cliente pede;
 o IS-U nomeia pelo que acontece com o dado. Ligação Nova e Move-In são a

@@ -13,8 +13,8 @@
 |---|---|---|
 | **Parceiro de Negócio** | `BUT000` | `BUT000` |
 | **Conta Contrato** | `FKKVKP` | `CRMM_BUAG` |
-| **Objeto de Ligação** | `EHAUISU` ⟨confirmar⟩ | `COMM_PRODUCT` |
-| **Ponto de Entrega (PoD)** | `EUIHEAD` ⟨confirmar⟩ | `IBASE` / `COMM_PRODUCT` |
+| **Objeto de Ligação** | `EHAUISU` | `COMM_PRODUCT` |
+| **Ponto de Entrega (PoD)** | `EUIHEAD` | `IBASE` / `COMM_PRODUCT` |
 
 ---
 
@@ -50,7 +50,7 @@ objeto da [MD-05](MD-05-conta-contrato.md), com nome de CRM.
 
 ## O que ainda está aberto
 
-**As duas tabelas com `⟨confirmar⟩` não são confiáveis ainda.**
+**As duas tabelas vieram do slide de replicação da Aula 02**, não de dedução.
 
 Encontrei **duas formas diferentes** para a tabela do Objeto de Ligação,
 `EHAU` e `EHAUISU`, e nenhuma das duas fontes era boa o bastante para eu
@@ -83,7 +83,7 @@ Continua faltando:
 2. Por que Objeto de Ligação vira `COMM_PRODUCT` no CRM?
 3. O que significa `IBASE`?
 4. Alguém fala em "Business Agreement". Do que está falando?
-5. Por que a tabela do Objeto de Ligação está marcada como a confirmar?
+5. De onde vêm os nomes de tabela desta nota?
 
 > **Gabarito:** [`_GABARITOS.md`](_GABARITOS.md#ar-03)  ·  responda tudo antes de abrir.
 
