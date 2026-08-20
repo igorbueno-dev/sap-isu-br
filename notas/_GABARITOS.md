@@ -13,6 +13,8 @@
 
 **CRM e arquitetura:** [CS-01](#cs-01)  ·  [CS-02](#cs-02)  ·  [CS-03](#cs-03)  ·  [CS-04](#cs-04)  ·  [CS-05](#cs-05)  ·  [AR-01](#ar-01)  ·  [AR-02](#ar-02)  ·  [AR-03](#ar-03)
 
+**Serviço de Campo:** [SV-01](#sv-01)  ·  [WM-01](#wm-01)  ·  [WM-02](#wm-02)  ·  [DM-01](#dm-01)  ·  [DM-02](#dm-02)  ·  [PE-01](#pe-01)  ·  [PE-02](#pe-02)
+
 ---
 
 ## GE-03
@@ -304,3 +306,127 @@
    hierarquia física vai do **prédio para o medidor**. São ordens inversas.
 4. Você pode ter **alterado o passado**: se a nova tarifa valer desde uma data
    antiga, o sistema vai querer refaturar meses já fechados.
+---
+
+## SV-01
+**SV-01: Serviço de Campo (SVC) e os três blocos**  ·  [voltar para a nota](SV-01-servico-de-campo.md)
+
+1. **WM / SVC**, manda gente para a rua. **DM / GAT**, cuida do que fica
+   pendurado na parede. **Perdas**, descobre que o número estava errado e
+   cobra a diferença.
+2. Porque designa **os dois níveis**: é o nome do guarda-chuva, a área
+   inteira, e também o apelido do Bloco 1.
+3. Porque é o que acontece quando WM e DM, **juntos**, descobrem que a medição
+   não representava a realidade. A fiscalização é nota (WM), o medidor
+   adulterado é ativo (DM), mas **o recálculo não é de nenhum dos dois**.
+4. Não. Ela responde **por onde o dado passa**; os três blocos respondem
+   **quem senta junto**. Dois mapas do mesmo território.
+5. A **Ordem**. A etapa 5 diz "equipe recebe a ordem" e o objeto nunca é
+   apresentado.
+
+---
+
+## WM-01
+**WM-01: A nota de serviço e o ciclo do campo**  ·  [voltar para a nota](WM-01-nota-de-servico.md)
+
+1. **Tipo de processo** (que trabalho é), **motivo** (por que foi pedido),
+   **prioridade** (ordem na fila) e **prazo** (o relógio regulatório).
+2. Corte, religação, fiscalização, modificação, inspeção, ligação nova,
+   substituição de medidor.
+3. **Transgressão é o prazo regulatório estourado**, e é infração com valor,
+   não atraso administrativo. **Suspensão** existe para parar o relógio quando
+   a culpa não é da concessionária.
+4. O **evento de paralisação** e a **suspensão** do prazo. Sem isso o relógio
+   continua correndo e vira transgressão que não existiu.
+5. **Fiscalização.**
+
+---
+
+## WM-02
+**WM-02: Workflow e as quatro integrações do campo**  ·  [voltar para a nota](WM-02-workflow-e-integracoes.md)
+
+1. **CRM, Dunning, Billing/FI-CA e Workflow.** O workflow é o **motor**; os
+   outros três são portas.
+2. Não. **Dunning decide e manda; quem corta é o WM**, por nota de serviço.
+3. **Descompasso de relógios.** A régua de cobrança rodou no ciclo dela, o
+   pagamento entrou pelo ciclo do banco depois, e a nota de corte já tinha
+   saído.
+4. **Sim.** O caso real desta nota tinha quatro workflows na mesma nota
+   de serviço.
+5. Que rodou **automático, em job**, sem pessoa envolvida. Se travou, ninguém
+   percebeu até alguém reclamar.
+6. **O workflow travado, não a nota.** A nota provavelmente existe; o que não
+   andou foi o fluxo.
+
+---
+
+## DM-01
+**DM-01: Ativos, movimentação e estoque**  ·  [voltar para a nota](DM-01-ativos-e-estoque.md)
+
+1. Aqui é o **aparelho como bem patrimonial**; na DM-02, **o número que ele
+   produz**.
+2. Reduzem o sinal de cliente grande a uma escala que o medidor aguenta, e o
+   sistema multiplica de volta por uma **constante**. Constante errada faz a
+   conta errar **por um fator**, não por um pouco.
+3. Recebimento em estoque → transferência → instalação em campo → retirada →
+   manutenção → **volta ao estoque**. O laço está na manutenção: o mesmo
+   número de série é instalado de novo, em outro imóvel.
+4. **Sucateamento.**
+5. No **estoque**: reserva não feita ou não respeitada. É erro de estoque que
+   aparece como falha de campo.
+6. Porque quando o cliente contesta, é o **histórico do número de série** que
+   reconstrói o que aconteceu com aquele aparelho.
+
+---
+
+## DM-02
+**DM-02: Leituras e registradores**  ·  [voltar para a nota](DM-02-leituras-e-registradores.md)
+
+1. **Tipo** (como o número foi obtido), **motivo** (por que foram ler) e
+   **registrador** (o que foi medido).
+2. **Leitura informada.**
+3. **Três:** de retirada (o velho), de instalação (o novo) e de troca (amarra
+   o par). Faltando uma, **o consumo do mês fica sem dono**.
+4. Não. **Três dos cinco motivos** são disparados por evento, não pelo ciclo.
+5. É o registrador de quem **gera** energia e manda o excedente para a rede.
+   Existe porque o cliente virou gerador.
+6. **Falta a relação registrador/tarifa.** Instalado tecnicamente, não
+   instalado para faturamento.
+
+---
+
+## PE-01
+**PE-01: Gestão de Perdas, fraude e defeito**  ·  [voltar para a nota](PE-01-fraude-e-defeito.md)
+
+1. Descobre que o medidor não contava a verdade, **calcula quanto deveria ter
+   sido cobrado** e cobra a diferença.
+2. **Consumo atípico, análises estatísticas e monitoramento de indicadores.**
+   Fiscalizar milhões de imóveis a pé é inviável; achar por padrão e mandar
+   técnico só onde vale a pena é o que torna a área possível.
+3. **Fraude é ação intencional, defeito é falha técnica.** O que **não** muda:
+   as duas produzem consumo medido menor que o real.
+4. **By-pass** é uma ponte que contorna o medidor. **Inversão de ligação** é a
+   troca de posição dos cabos, e é a mais difícil de achar porque nada parece
+   violado por fora.
+5. Nos dois sentidos: defeito classificado como fraude **acusa um inocente de
+   crime**; fraude classificada como defeito **entrega dinheiro e não pune**.
+6. A fiscalização em campo é uma **nota de serviço** tipo Fiscalização (WM), e
+   a leitura tirada lá tem **motivo** Fiscalização (DM).
+
+---
+
+## PE-02
+**PE-02: Faturado da época x fatura revista**  ·  [voltar para a nota](PE-02-faturado-da-epoca.md)
+
+1. **Faturado da época** é o que o cliente pagou com o medidor errado.
+   **Fatura revista** é o que ele deveria ter pago.
+2. **Não.** A fatura antiga continua existindo, e a revisão é documento novo
+   ao lado dela. O histórico precisa mostrar as duas versões.
+3. O **período da irregularidade**. Os **critérios regulatórios** limitam até
+   onde se pode voltar no tempo.
+4. **Receita recuperada, débito adicional e crédito ao cliente.** A terceira
+   dá credibilidade: defeito pode fazer o aparelho contar **a mais**, e uma
+   área que só produz débito está calibrada errado.
+5. Que **um terceiro consiga refazer o cálculo e chegar no mesmo número.**
+6. Porque **TE e TUSD têm alíquotas e destinos diferentes**. E `ISUBR` indica
+   **localização Brasil**.

@@ -63,9 +63,9 @@ nome que a SAP deu a cada pedaço disto.
 |---|---|
 | Onde está ligado | Dados mestres técnicos, [ST-01-objeto-de-ligacao](ST-01-objeto-de-ligacao.md) a [ST-04-equipamento](ST-04-equipamento.md) |
 | Quem é e quem paga | Dados mestres comerciais, [MD-03-parceiro-de-negocios](MD-03-parceiro-de-negocios.md) a [MD-06-contrato](MD-06-contrato.md) |
-| Quanto consumiu | Meter Reading, aulas futuras |
-| Por quanto | Billing, aulas futuras |
-| Receber ou cortar | FI-CA e WM, aulas futuras |
+| Quanto consumiu | Meter Reading |
+| Por quanto | Billing |
+| Receber ou cortar | FI-CA e WM |
 | Se explicar | BW, fora do CCS |
 
 ---

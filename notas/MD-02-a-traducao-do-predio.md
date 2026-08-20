@@ -71,7 +71,7 @@ Instalação de Equipamento, com todos os relógios juntos.
 
 ## O exemplo concreto: o prédio da Dona Marta
 
-> **Fonte: acervo próprio.** Caso que atravessa o material.
+> **Exemplo meu**, não do material de origem. Ele atravessa várias notas.
 
 Rua das Acácias, 214, Ed. Jacarandá. **12 apartamentos mais 1 medidor de área
 comum.** No sistema:

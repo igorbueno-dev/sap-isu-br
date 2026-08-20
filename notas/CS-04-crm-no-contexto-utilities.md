@@ -2,7 +2,7 @@
 > Onde exatamente o CRM se encaixa na cadeia que você já conhece. Ele é a
 > primeira área, a porta por onde tudo entra.
 
-**Onde entra:** liga a área nova de CRM ao acervo de IS-U que você já tem.
+**Onde entra:** liga a área de CRM ao IS-U que você já viu.
 **Antes disto:** [CS-03-sap-crm-e-os-pilares](CS-03-sap-crm-e-os-pilares.md), [GE-01-o-que-e-is-u-ccs](GE-01-o-que-e-is-u-ccs.md)
 **Depois disto:** [CS-05-processos-e-atividades](CS-05-processos-e-atividades.md)
 

@@ -60,6 +60,25 @@ flowchart TD
     AR01["AR-01<br/>Landscape e camadas"]
     AR02["AR-02<br/>Middleware"]
     AR03["AR-03<br/>Objetos replicados"]
+
+    SV01["SV-01<br/>Servico de Campo"]
+    WM01["WM-01<br/>Nota de servico"]
+    WM02["WM-02<br/>Workflow e integracoes"]
+    DM01["DM-01<br/>Ativos e estoque"]
+    DM02["DM-02<br/>Leituras e registradores"]
+    PE01["PE-01<br/>Fraude e defeito"]
+    PE02["PE-02<br/>Faturado da epoca"]
+
+    GE01 --> SV01
+    SV01 --> WM01
+    WM01 --> WM02
+    SV01 --> DM01
+    DM01 --> DM02
+    SV01 --> PE01
+    PE01 ==> PE02
+    ST04 -.-> DM01
+    WM01 -.-> PE01
+    DM02 -.-> PE01
 ```
 
 ---

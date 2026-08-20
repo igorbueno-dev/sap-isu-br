@@ -14,7 +14,7 @@ metade da confusão inicial com dados mestres.
 
 ---
 
-# As 24 notas
+# As 31 notas
 
 Cada nota é um conceito só: 5 a 10 minutos, terminando em raciocínio fechado.
 
@@ -53,21 +53,48 @@ Cada nota é um conceito só: 5 a 10 minutos, terminando em raciocínio fechado.
 
 | Nota | Tema | Status | O gancho | Tempo |
 |---|---|---|---|---|
-| [`CS-01`](notas/CS-01-o-que-e-crm.md) | O que é CRM | verificado | Práticas, estratégia e só então tecnologia | 5 min |
-| [`CS-02`](notas/CS-02-ciclo-de-vida-do-cliente.md) | Ciclo de vida do cliente | verificado | Seis etapas, três pilares, e onde a concessionária vive | 5 min |
-| [`CS-03`](notas/CS-03-sap-crm-e-os-pilares.md) | SAP CRM e os três pilares | verificado | A matriz funcional, e o S/4 Customer Engagement | 7 min |
-| [`CS-04`](notas/CS-04-crm-no-contexto-utilities.md) | **CRM no contexto Utilities** | verificado | O encaixe na cadeia das cinco áreas | 6 min |
-| [`CS-05`](notas/CS-05-processos-e-atividades.md) | Processos e atividades | verificado | Protocolo, atividade e os processos do dia a dia | 6 min |
+| [`CS‑01`](notas/CS-01-o-que-e-crm.md) | O que é CRM | verificado | Práticas, estratégia e só então tecnologia | 5 min |
+| [`CS‑02`](notas/CS-02-ciclo-de-vida-do-cliente.md) | Ciclo de vida do cliente | verificado | Seis etapas, três pilares, e onde a concessionária vive | 5 min |
+| [`CS‑03`](notas/CS-03-sap-crm-e-os-pilares.md) | SAP CRM e os três pilares | verificado | A matriz funcional, e o S/4 Customer Engagement | 7 min |
+| [`CS‑04`](notas/CS-04-crm-no-contexto-utilities.md) | **CRM no contexto Utilities** | verificado | O encaixe na cadeia das cinco áreas | 6 min |
+| [`CS‑05`](notas/CS-05-processos-e-atividades.md) | Processos e atividades | verificado | Protocolo, atividade e os processos do dia a dia | 6 min |
 
 ### Arquitetura e integração
 
 | Nota | Tema | Status | O gancho | Tempo |
 |---|---|---|---|---|
-| [`AR-01`](notas/AR-01-landscape-e-camadas.md) | O landscape e as cinco camadas | verificado | Onde cada sistema mora | 6 min |
-| [`AR-02`](notas/AR-02-middleware-e-replicacao.md) | **Middleware e replicação** | verificado | Como o dado atravessa, e as 4 transações que resolvem chamado | 7 min |
-| [`AR-03`](notas/AR-03-objetos-replicados.md) | Objetos replicados | verificado | O de-para CRM ↔ IS-U | 5 min |
+| [`AR‑01`](notas/AR-01-landscape-e-camadas.md) | O landscape e as cinco camadas | verificado | Onde cada sistema mora | 6 min |
+| [`AR‑02`](notas/AR-02-middleware-e-replicacao.md) | **Middleware e replicação** | verificado | Como o dado atravessa, e as 4 transações que resolvem chamado | 7 min |
+| [`AR‑03`](notas/AR-03-objetos-replicados.md) | Objetos replicados | verificado | O de-para CRM ↔ IS-U | 5 min |
 
-**Tudo: cerca de 138 minutos. Só os recalls: cerca de 25.**
+### Serviço de Campo (SVC)
+
+| Nota | Tema | Status | O gancho | Tempo |
+|---|---|---|---|---|
+| [`SV‑01`](notas/SV-01-servico-de-campo.md) | **Serviço de Campo e os três blocos** | verificado | Quatro nomes para a mesma área. **Comece por aqui** | 6 min |
+
+### Campo (WM / SVC)
+
+| Nota | Tema | Status | O gancho | Tempo |
+|---|---|---|---|---|
+| [`WM‑01`](notas/WM-01-nota-de-servico.md) | A nota de serviço | verificado | Os sete tipos, os quatro campos, e onde mora a multa | 6 min |
+| [`WM‑02`](notas/WM-02-workflow-e-integracoes.md) | Workflow e integrações | verificado | As quatro portas do campo, e o diagnóstico de "pedi e não aconteceu" | 6 min |
+
+### Equipamento (DM / GAT)
+
+| Nota | Tema | Status | O gancho | Tempo |
+|---|---|---|---|---|
+| [`DM‑01`](notas/DM-01-ativos-e-estoque.md) | Ativos, movimentação e estoque | verificado | O ciclo de vida do medidor, e o laço que faz o histórico importar | 6 min |
+| [`DM‑02`](notas/DM-02-leituras-e-registradores.md) | **Leituras e registradores** | verificado | Três eixos que parecem um só. E a energia injetada | 6 min |
+
+### Gestão de Perdas
+
+| Nota | Tema | Status | O gancho | Tempo |
+|---|---|---|---|---|
+| [`PE‑01`](notas/PE-01-fraude-e-defeito.md) | **Fraude e defeito** | verificado | Mesmo efeito na medição, mundos jurídicos diferentes | 5 min |
+| [`PE‑02`](notas/PE-02-faturado-da-epoca.md) | Faturado da época x fatura revista | verificado | O cálculo que vira dinheiro de volta | 6 min |
+
+**Tudo: cerca de 179 minutos. Só os recalls: cerca de 32.**
 
 ---
 
@@ -86,6 +113,8 @@ está em [`notas/_DEPENDENCIAS.md`](notas/_DEPENDENCIAS.md), que também lista o
 que ainda falta no material.
 
 **Trilha de CRM e arquitetura:** `CS‑01` → `CS‑02` → `CS‑03` → `CS‑04` → `CS‑05`, e depois `AR‑01` → `AR‑02` → `AR‑03`.
+
+**Trilha de Serviço de Campo:** `SV‑01` primeiro, sempre. Dele saem três ramos independentes, que podem ser lidos em qualquer ordem: `WM‑01` → `WM‑02`, `DM‑01` → `DM‑02`, e `PE‑01` → `PE‑02`.
 
 A `CS‑04` é a que amarra CRM ao IS-U. Se quiser ver o encaixe cedo, leia
 logo depois da `GE‑01`.
