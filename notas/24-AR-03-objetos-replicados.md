@@ -50,7 +50,9 @@ objeto da [MD-05](10-MD-05-conta-contrato.md), com nome de CRM.
 
 ## O que ainda está aberto
 
-**As duas tabelas vieram do slide de replicação da Aula 02**, não de dedução.
+**As duas tabelas vieram do slide de replicação da Aula 02**, não de dedução,
+e foram reconferidas no pôster de tabelas IS-U: `EHAUISU` é o *connection
+object* e `EUIHEAD` é o *point of delivery*.
 
 Encontrei **duas formas diferentes** para a tabela do Objeto de Ligação,
 `EHAU` e `EHAUISU`, e nenhuma das duas fontes era boa o bastante para eu

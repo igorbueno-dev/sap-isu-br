@@ -346,30 +346,137 @@ padrão · `BUC0` formas de tratamento · `BUCM` tipos de legitimação ·
 
 # 4. Tabelas
 
+> **Origem.** Os nomes e o papel de cada tabela foram conferidos contra o
+> pôster *"A selection of useful ISU tables"*, o mesmo que apareceu na Aula 04.
+> As marcas `(confirmar)` que havia aqui **caíram todas**.
 
-| Tabela                 | Conteúdo                                                                                            |
-| ------------------------ | ------------------------------------------------------------------------------------------------------ |
-| `BUT000`               | Parceiro de Negócios, dados gerais                                                                  |
-| `BUT020`               | Relação entre BP e endereço                                                                       |
-| `ADRC`                 | Dados de endereço                                                                                   |
-| `FKKVK`                | Conta Contrato, cabeçalho                                                                           |
-| `FKKVKP`               | Conta Contrato, dados dependentes do parceiro                                                        |
-| `EVER`                 | **Contrato de utilities. A tabela central que liga cliente e instalação**                          |
-| `EANL`                 | Instalação                                                                                         |
-| `EANLH`                | Histórico da instalação (versões com validade)                                                   |
-| `EVBS`                 | Local de Consumo                                                                                     |
-| `EABL`                 | Resultados de leitura                                                                                |
-| `EABLG`                | Documento de leitura, cabeçalho. **(confirmar)** o papel exato desta versus `EABL`                   |
-| `EQUI`                 | Equipamento (a base de ativo do dispositivo)                                                         |
-| `ERCH`                 | **Documento de faturamento, cabeçalho**                                                             |
-| `DBERCHZ`              | Linhas do documento de faturamento. Em versões recentes existem variantes numeradas. **(confirmar)** |
-| `ERDK`                 | **Documento de impressão (a fatura), cabeçalho**                                                   |
-| `DFKKKO`               | Documento FI-CA, cabeçalho                                                                          |
-| `DFKKOP`               | **Partidas do documento FI-CA. A tabela do contas a receber**                                        |
-| `DFKKOPK`              | Partidas de razão do documento FI-CA                                                                |
-| Tarifa, preço e fatos | Famílias `E*` e `ET*`. **(confirmar)** os nomes exatos, variam conforme o objeto                     |
-| Perfis do EDM          | **(confirmar)**                                                                                      |
-| Ponto de Entrega (PoD) | **(confirmar)**                                                                                      |
+## Dados mestres comerciais
+
+| Tabela | Conteúdo |
+|---|---|
+| `BUT000` | Parceiro de Negócios, dados gerais |
+| `BUT020` | Endereços do Parceiro de Negócios |
+| `BUT050` | **Relacionamentos entre parceiros** |
+| `BUT100` | **Funções do parceiro** (as funções da `MD-03`) |
+| `BUT0BK` | Dados bancários do parceiro |
+| `ADRC` | Endereços |
+| `EKUN` | Dados IS-U do parceiro de negócios |
+| `FKKVK` | Conta Contrato, cabeçalho |
+| `FKKVKP` | Conta Contrato, dados dependentes do parceiro |
+| `EVER` | **Contrato de utilities. A tabela central que liga cliente e instalação** |
+
+## Dados mestres técnicos
+
+| Tabela | Conteúdo |
+|---|---|
+| `EHAUISU` | **Objeto de Ligação.** Chave `HAUS` |
+| `EVBS` | Local de Consumo. Chave `VSTELLE` |
+| `EANL` | Instalação. Chave `ANLAGE` |
+| `EANLH` | Instalação, faixa de tempo (as versões com validade) |
+| `EUIHEAD` | **Ponto de Entrega (PoD)** |
+| `EUIINSTLN` | Instalação ↔ PoD |
+| `EQUI` | Equipamento. **É tabela do PM**, não do IS-U |
+| `ETYP` | Categoria de equipamento e dados de material |
+| `EASTL` | Instalação ↔ equipamento |
+| `EASTS` | Instalação ↔ registrador |
+
+## Registradores
+
+| Tabela | Conteúdo |
+|---|---|
+| `ETDZ` | Registradores |
+| `EZWG` | **Grupo de registradores** (o `EG04`) |
+| `EASTI` | **Relação entre registradores** (o `EG75`, pré-requisito da validação dependente) |
+| `EADZ` | Dados de registrador para instalação com faturamento múltiplo |
+
+## Planejamento de datas e leitura
+
+| Tabela | Conteúdo |
+|---|---|
+| `TE420` | **Porções.** Provável tabela do *Conjunto de Contratos* |
+| `TE422` | **Unidades de leitura.** A *Unidade de Leitura* da Aula 04 |
+| `TE417` | Registros de agenda das porções |
+| `TE418` | Registros de agenda das unidades de leitura |
+| `TE419` | Registros de parâmetros. Chave `TERMSCHL` |
+| `ETRG` | **Ordens de cálculo.** É o input do cálculo, ver `img-28` |
+| `EABL` | **Documento de leitura** |
+| `EABLG` | **Motivos de leitura.** Os cinco motivos da `DM-02` |
+
+> **Inferência, não fato do slide:** o par *Conjunto de Contratos* e *Unidade de
+> Leitura* da Aula 04 corresponde ao par **Portion** e **Meter Reading Unit**
+> do vocabulário SAP em inglês. A evidência é forte (são os dois únicos
+> objetos com exatamente esses papéis, e o pôster dá agenda para os dois), mas
+> **o material nunca fez a ligação em voz alta.** Confirmar.
+
+## Cálculo e faturamento
+
+| Tabela | Conteúdo |
+|---|---|
+| `ERCH` | **Documento de cálculo, cabeçalho** |
+| `DBERCHZ1` a `DBERCHZ8` | Linhas do documento de cálculo. **As variantes numeradas existem mesmo** |
+| `ERCHC` | Histórico de faturamento e estorno |
+| `ERCHO` | **Anomalia do documento de cálculo** (*outsorting*) |
+| `ERDK` | **Documento de impressão, a fatura, cabeçalho** |
+| `DBERDL` | Linhas do documento de impressão |
+| `ERDO` | **Anomalia da fatura** (*outsorting*) |
+| `ERDB` | Documento FI-CA do documento de impressão |
+
+> **`outsorting` é o nome em inglês do que a Aula 04 chamou de anomalia.**
+> Duas tabelas separadas, `ERCHO` para o cálculo e `ERDO` para a fatura, é a
+> mesma assimetria que o fluxo do `img-27` mostra.
+
+## Tarifa e preço
+
+| Tabela | Conteúdo |
+|---|---|
+| `ETRF` | Tarifas |
+| `EKDI` | Fatos da tarifa |
+| `ETTA` | Categoria de tarifa |
+| `ETTAF` | Fatos da categoria de tarifa |
+| `TE069` | Tipos de tarifa |
+| `ERTFND` | **Determinação de tarifa** (a regra `CT3 + TT4 = T2, T9, T22`) |
+| `ESCH` | Esquema de cálculo, cabeçalho |
+| `ESCHS` | Etapas do esquema |
+| `EPREI` | Preços, cabeçalho |
+| `EPREIH` | Histórico de preços |
+| `TE221` | **Operandos** |
+
+## FI-CA
+
+| Tabela | Conteúdo |
+|---|---|
+| `DFKKKO` | Documento FI-CA, cabeçalho |
+| `DFKKOP` | **Partidas do documento FI-CA. A tabela do contas a receber** |
+| `DFKKOPK` | Partidas de razão |
+| `FKKMAKO` | Histórico de dunning |
+| `FKKMAZE` | Itens de dunning |
+| `DFKKZK` / `DFKKZP` | Lote de pagamento, cabeçalho e dados |
+| `DFKKRK` / `DFKKRP` | Lote de devolução |
+| `FKK_INSTPLN_HEAD` | Plano de parcelamento |
+| `EABP` | Plano de consumo estimado (*budget billing plan*) |
+
+## Estrutura regional e postal
+
+**A divisão 1 dos dados mestres finalmente tem substância.**
+
+| Tabela | Conteúdo |
+|---|---|
+| `ADRCITY` | Cidades |
+| `ADRPSTCODE` | **Códigos postais** |
+| `ADRCITYPRT` | **Distritos postais** |
+| `ADRSTREET` | Logradouros |
+| `ADRCITYMRU` | **Unidades de leitura por cidade** |
+| `ADRSTRTMRU` | **Unidades de leitura por logradouro** |
+| `ADRCITYCCS` / `ADRSTRTCCS` | Dados de setor por cidade e por logradouro |
+| `ADRCITYKON` / `ADRSTRTKON` | Contratos de concessão por cidade e por logradouro |
+
+> **Isto explica por que a Estrutura Postal abre a lista dos dados mestres.**
+> As duas tabelas `*MRU` ligam o endereço à **unidade de leitura**: é a
+> estrutura postal que diz qual rota atende cada rua. Sem ela, não há
+> roteirização, e sem roteirização não há leitura nem faturamento.
+>
+> Continua valendo perguntar ao instrutor o que o projeto chama de Estrutura
+> Postal e quais transações a mantêm. **O que se sabe agora é onde ela mora.**
 
 ## O exercício de navegação que fixa a arquitetura
 

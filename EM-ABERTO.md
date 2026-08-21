@@ -74,7 +74,7 @@ sempre.
 | Conceito | Situação |
 |---|---|
 | **Prospect, Lead e Oportunidade** | Os três termos que mais se confundem em CRM, e ainda não escrevi a nota. **Contribuição muito bem-vinda** |
-| **`EHAUISU` x `EHAU`** | Duas formas para a tabela do Objeto de Ligação. Não sei qual é a correta |
+| ~~**`EHAUISU` x `EHAU`**~~ | **FECHADO em 21/08/2026.** É `EHAUISU`, *connection object*, chave `HAUS`. Conferido no pôster de tabelas IS-U |
 | **`FOP`** | Sigla que aparece em "Processos/FOPs" e que não consegui expandir |
 | **Webclient, modelagem de processos, validações, vínculos, estrutura organizacional** | Temas de CRM que este material ainda não cobre |
 
