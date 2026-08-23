@@ -75,7 +75,14 @@ religação depende da baixa em FI-CA, e entre uma coisa e outra existe o ciclo
 do banco. Prometer imediato cria o terceiro chamado do mesmo caso.
 
 O que dá para fazer com o comprovante é **acionar o bloqueio de corte**, que é
-outra coisa e depende de política do projeto.
+outra coisa e depende de política do projeto. O mecanismo dele está na
+[FC-05](48-FC-05-bloqueios-comerciais.md): é bloqueio **de advertência**, e ele
+precisa de data de fim.
+
+**O ciclo por trás do descompasso** está na
+[FC-07](50-FC-07-do-pagamento-a-compensacao.md): o banco envia um arquivo por
+dia, e a compensação acontece na quarta etapa desse caminho, não no momento do
+pagamento.
 
 ---
 

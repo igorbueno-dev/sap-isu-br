@@ -86,6 +86,15 @@ ORIGEM = {
     'CS-07': 'misto',  # Reclamação de conta alta
     'CS-08': 'misto',  # Corte e religação
     'CS-09': 'misto',  # O que o atendente vê
+    'FC-01': 'slide',  # Arrecadação e Cobrança
+    'FC-02': 'slide',  # Operação e suboperação
+    'FC-03': 'slide',  # Status e motivo de compensação
+    'FC-04': 'slide',  # Real, estatístico e a chave
+    'FC-05': 'slide',  # Bloqueios comerciais
+    'FC-06': 'slide',  # O registro da cobrança
+    'FC-07': 'slide',  # Do pagamento à compensação
+    'FC-08': 'slide',  # Débito automático e Pix Automático
+    'FC-09': 'misto',  # As nove formas de cobrança
 }
 
 FASES = [
@@ -96,6 +105,8 @@ FASES = [
     (('AR',), 'Arquitetura e integração', None),
     (('SV', 'WM', 'DM', 'PE'), 'Serviço de Campo e Equipamento (SVC / DM)', None),
     (('BI',), 'Cálculo e Faturamento (BILL)', None),
+    (('FC',), 'Arrecadação e Cobrança (FI-CA)',
+     'A área que fecha o ciclo do dinheiro. **A Aula 05 não mostrou uma única\ntransação**, então as nove declaram a zona do sistema vazia.'),
 ]
 
 

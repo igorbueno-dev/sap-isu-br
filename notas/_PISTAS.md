@@ -1,5 +1,5 @@
 # PISTAS E GABARITO
-### As 382 perguntas primeiro. As respostas no fim.
+### As 471 perguntas primeiro. As respostas no fim.
 
 > **Como usar.** Responda em voz alta, ou no papel, antes de descer. Errar aqui
 > vale mais do que reler a nota: é o erro que mostra onde o modelo tem buraco.
@@ -113,6 +113,9 @@
 6. Solvência é do Parceiro de Negócios ou da Conta Contrato?
 7. Onde fica o bloqueio de corte?
 8. Onde fica o bloqueio de faturamento?
+9. O que é uma conta contrato coletiva?
+10. Nomeie os quatro efeitos da conta contrato coletiva.
+11. Uma conta coletiva está inadimplente. Cite o que precisa ser identificado antes do corte.
 
 **[ST-01: Objeto de Ligação](11-ST-01-objeto-de-ligacao.md)**
 
@@ -545,6 +548,124 @@
 11. Uma fatura não saiu e o equipamento aparece instalado na tela. Cite a primeira hipótese.
 12. Cite as duas técnicas de diagnóstico que resolvem a maior parte dos casos.
 
+
+---
+
+## Arrecadação e Cobrança (FI-CA)
+
+**[FC-01: Arrecadação e Cobrança, os dois processos do FI-CA](44-FC-01-arrecadacao-e-cobranca.md)**
+
+1. Nomeie os dois grandes processos do FI-CA.
+2. Em uma linha, o que é a Arrecadação?
+3. Em uma linha, o que é a Cobrança?
+4. Descreva as quatro etapas da arrecadação, na ordem.
+5. Qual das quatro etapas concentra o risco, e por quê?
+6. Nomeie as quatro razões que fazem a Conta Contrato ser o dado mestre central do FI-CA.
+7. Quem cria a dívida, o BILL ou o FI-CA?
+8. Um pagamento não aparece no sistema e o cadastro está correto. Cite onde a causa costuma estar.
+
+**[FC-02: O documento do FI-CA, operação e suboperação](45-FC-02-operacao-e-suboperacao.md)**
+
+1. Descreva a cadeia que vai do item da fatura ao par de códigos.
+2. Nomeie as quatro coisas que a operação e a suboperação definem.
+3. Que pergunta a operação principal responde?
+4. Que pergunta a suboperação responde?
+5. Numa fatura com consumo, tarifa de disponibilidade e iluminação pública, quantas operações diferentes existem?
+6. Cite o que faz a linha de juros ter operação diferente das outras três.
+7. O que decide a ordem de baixa num pagamento parcial?
+8. Um cliente pagou metade e diz que o sistema baixou a linha errada. Cite o que explicar.
+9. Um cliente contesta uma linha da conta. Cite a pergunta mais útil antes de responder.
+
+**[FC-03: Status e motivo de compensação](46-FC-03-status-e-motivo-de-compensacao.md)**
+
+1. Que pergunta o status de compensação responde?
+2. Que pergunta o motivo de compensação responde?
+3. Nomeie os cinco motivos principais de compensação, com o código de cada um.
+4. Qual dos cinco é o único que representa dinheiro entrando?
+5. Qual dos cinco devolve o item à condição de aberto?
+6. O que separa o motivo 14 do motivo 04?
+7. O que o motivo 08 indica sobre a entrada de caixa?
+8. Uma fatura consta compensada com motivo 14. Cite o que responder ao cliente.
+9. Uma fatura foi estornada e reemitida. Cite o que acontece com os juros da fatura original.
+
+**[FC-04: Documento real, documento estatístico, e a chave que leva ao FI](47-FC-04-real-estatistico-e-a-chave.md)**
+
+1. O que separa um documento real de um documento estatístico?
+2. Cite as quatro consequências dessa diferença.
+3. Um documento estatístico compõe o saldo devedor do cliente?
+4. Nomeie dois exemplos típicos de documento que nasce estatístico.
+5. O que é a chave de reconciliação?
+6. Descreva as quatro etapas da chave, da abertura à conferência.
+7. Cite a razão pela qual a chave existe, em vez de transferir documento a documento.
+8. O que separa o FI-CA do FI?
+9. Cite o motivo de os dois existirem separados.
+10. Um pagamento foi compensado e a contabilidade não mostra nada. Cite a primeira hipótese.
+
+**[FC-05: Bloqueios comerciais](48-FC-05-bloqueios-comerciais.md)**
+
+1. Nomeie os três tipos de bloqueio comercial.
+2. O que o bloqueio de lançamento impede?
+3. O que o bloqueio de compensação impede?
+4. O que o bloqueio de advertência impede?
+5. Qual dos três o cliente costuma querer quando contesta uma conta?
+6. Nomeie os quatro atributos que definem um bloqueio.
+7. Quais são os três níveis possíveis de abrangência?
+8. Cite o que acontece quando um bloqueio é criado sem data de fim.
+9. Bloquear suspende os juros?
+10. A decisão é não cobrar mais aquele débito. Cite o instrumento correto.
+
+**[FC-06: O registro da cobrança, e por que ele decide tudo](49-FC-06-o-registro-da-cobranca.md)**
+
+1. Nomeie as seis principais formas de pagamento.
+2. O que separa o código de barras do boleto registrado?
+3. O que separa o Pix estático do Pix dinâmico?
+4. A qual meio de pagamento em papel o Pix dinâmico equivale, segundo o material?
+5. Nomeie os quatro ganhos do boleto registrado.
+6. Como o boleto registrado evita pagamento em duplicidade?
+7. Onde incide a tarifa no boleto registrado?
+8. O que faz a tarifa do código de barras ser imprevisível?
+9. Quais formas de pagamento chegam ao FI-CA por API, e não por arquivo?
+10. Um cliente pagou por Pix e o débito continua em aberto. Cite a primeira hipótese.
+
+**[FC-07: Do pagamento à compensação, o caminho do dinheiro](50-FC-07-do-pagamento-a-compensacao.md)**
+
+1. O formulário de pagamento cria um débito novo?
+2. Nomeie as três regras do formulário de pagamento.
+3. Quais itens ficam de fora do agrupamento do formulário?
+4. Quantas posições tem o código de barras de arrecadação no padrão FEBRABAN?
+5. Que informação está nas posições 05 a 15?
+6. Que informação está nas posições 16 a 19?
+7. O que costuma ocupar o campo livre do código de barras?
+8. Qual dígito do código identifica o segmento de energia elétrica e gás?
+9. Descreva as quatro etapas do arquivo de retorno, da emissão pelo banco ao lote.
+10. Nomeie as três coisas que a FEBRABAN padroniza.
+11. Um cliente pagou hoje e o débito consta em aberto. Cite o que explicar.
+
+**[FC-08: Débito automático e Pix Automático](51-FC-08-debito-automatico-e-pix-automatico.md)**
+
+1. Nomeie as duas origens possíveis do cadastro de débito automático.
+2. O que a origem pelo banco valida que a origem pela empresa não valida?
+3. Quando a conta contrato fica apta ao débito automático no cadastro feito pela empresa?
+4. Descreva as quatro etapas do ciclo de cobrança do débito automático.
+5. Qual etapa dá origem ao arquivo de débito enviado ao banco?
+6. O que separa o Pix Automático do débito automático tradicional?
+7. Onde o cliente autoriza o Pix Automático?
+8. Qual é o dado de cadastro correto do débito automático?
+9. Cite o que acontece quando se cadastra o número errado.
+10. O cartão tem uma característica financeira que nenhum outro meio tem. Cite qual.
+
+**[FC-09: As nove formas de cobrança](52-FC-09-as-formas-de-cobranca.md)**
+
+1. Nomeie as nove formas de cobrança, na ordem do material.
+2. Qual é a primeira medida, aplicada antes de qualquer outra?
+3. O que separa a negativação do protesto?
+4. Em que posição da lista está o corte?
+5. O que é o recorte?
+6. Quais itens da lista não são medidas de pressão, e por quê?
+7. Quais medidas saem do FI-CA e viram trabalho físico?
+8. Quem decide o corte e quem executa?
+9. Um cliente foi cortado e quer saber se o nome sai dos bureaus. Cite o que responder.
+
 <!-- FIM PERGUNTAS -->
 
 ---
@@ -683,6 +804,13 @@
 6. Do **Parceiro de Negócios**.
 7. Na **Conta Contrato**.
 8. No **Contrato**.
+9. Uma **única conta contrato que reúne várias instalações ou contratos do mesmo
+   Parceiro de Negócios**, para condomínios, redes de lojas, órgãos públicos e
+   grandes contas.
+10. **Fatura única** · **pagamento consolidado** · **cobrança centralizada** ·
+    **atenção no corte**.
+11. **De qual instalação veio o débito.** A cobrança consolida, mas o corte
+    continua sendo por instalação.
 
 ---
 
@@ -1235,3 +1363,222 @@
     tela não é estar instalado para faturamento.
 12. **Comparar um caso que funciona com um que falha**, campo por campo, e
     **agrupar os erros por mensagem** antes de abrir qualquer caso individual.
+
+---
+
+## FC-01
+**FC-01: Arrecadação e Cobrança, os dois processos do FI-CA**  ·  [voltar para a nota](44-FC-01-arrecadacao-e-cobranca.md)
+
+1. **Arrecadação** e **Cobrança**.
+2. A **entrada do dinheiro**, ligando cada pagamento à fatura correspondente na
+   conta contrato.
+3. O **tratamento do que não foi pago**: dunning, juros e multas, parcelamento,
+   corte, religação e envio a assessorias.
+4. Recebimento → Identificação → Compensação → Cobrança.
+5. A **Identificação**. O dinheiro já entrou, e agora o sistema precisa
+   descobrir de quem é e a que fatura pertence.
+6. **Ponto de encontro do dinheiro** · **base do saldo do cliente** · **governa
+   a cobrança** · **chave de integração** com o FI.
+7. O **BILL**. Quem cria a dívida é o Faturamento, gerando o documento FI-CA. O
+   FI-CA recebe a dívida pronta.
+8. **Fora do SAP.** Esta é a área com mais integração externa do IS-U: bancos,
+   agentes arrecadadores, adquirentes, o arranjo do Pix, bureaus e assessorias.
+
+---
+
+## FC-02
+**FC-02: O documento do FI-CA, operação e suboperação**  ·  [voltar para a nota](45-FC-02-operacao-e-suboperacao.md)
+
+1. Item da fatura → documento no FI-CA, com cabeçalho e partidas → operação e
+   suboperação.
+2. **Operação principal** · **suboperação** · **conta contábil** ·
+   **comportamento**.
+3. A **natureza do valor**: fornecimento, pagamento, juros, multa, parcelamento
+   ou devolução.
+4. O **detalhe dentro daquela natureza**: consumo, tarifa, taxa de iluminação,
+   tributo ou serviço.
+5. **Uma só.** As três são 0100, consumo periódica. O que muda entre elas é a
+   suboperação.
+6. Porque **juros não é fornecimento**. A natureza do valor é outra, e por isso
+   a operação principal muda.
+7. A **prioridade de baixa definida pela operação**, e não a ordem em que os
+   itens aparecem na fatura.
+8. Que o sistema **seguiu a prioridade da operação**, que é parametrização do
+   projeto. Não é escolha do cliente nem erro.
+9. **Qual a operação daquela linha.** Ela diz se é fornecimento, tributo
+   repassado a terceiro ou acréscimo por atraso, e isso decide quem pode
+   cancelar o quê.
+
+---
+
+## FC-03
+**FC-03: Status e motivo de compensação**  ·  [voltar para a nota](46-FC-03-status-e-motivo-de-compensacao.md)
+
+1. **"Este débito foi compensado?"**
+2. **"Baixou como?"**
+3. 01 Pagamento · 05 Estorno · 14 Perdas massivo · 04 Perdas manual ·
+   08 Encontro de contas.
+4. O **01, pagamento**. Os outros quatro tiram o item do aberto sem entrada de
+   caixa.
+5. O **05, estorno**. Ele reverte uma compensação anterior e devolve o item ao
+   aberto.
+6. **Escala.** O 14 é baixa em lote pelo write-off automático; o 04 é
+   individual, com análise caso a caso.
+7. Que **não houve entrada de caixa**. O débito foi abatido contra um crédito do
+   próprio cliente.
+8. Que **o item saiu do aberto por baixa de perdas, não por pagamento**. A
+   empresa desistiu de receber. Dizer "consta pago" é errado, e num processo é
+   pior que errado.
+9. **Nada, automaticamente.** Os juros e a multa da fatura original continuam em
+   aberto. Estornar a principal não carrega os acessórios junto.
+
+---
+
+## FC-04
+**FC-04: Documento real, documento estatístico, e a chave que leva ao FI**  ·  [voltar para a nota](47-FC-04-real-estatistico-e-a-chave.md)
+
+1. O **real registra fato financeiro efetivo**; o **estatístico registra
+   informação de controle**, sem efeito financeiro.
+2. Só o real **contabiliza**, só o real **compõe o saldo devedor**, só o real é
+   **exigível e compensável**, e só o real **entra no fechamento** do período.
+3. **Não.** Ele não é exigível nem compensável por pagamento.
+4. **Juros previstos** e **parcelas futuras**.
+5. O **agrupador que reúne todos os documentos contabilizáveis do FI-CA em um
+   mesmo período de apuração**, e garante a rastreabilidade entre o razão
+   auxiliar e a contabilidade geral.
+6. Chave aberta → fechamento da chave → transferência para o FI → conferência.
+7. **Volume.** O FI-CA processa um número muito alto de itens, e transferir
+   documento a documento seria inviável. A chave soma por conta contábil e
+   transfere totais.
+8. O **FI-CA é razão auxiliar** de contas a receber, item a item por cliente. O
+   **FI é a contabilidade geral**, que recebe totais consolidados.
+9. **Volume, de novo.** Milhões de partidas por mês não cabem num razão
+   contábil geral item a item.
+10. Que a **chave ainda não foi fechada e transferida**. O documento existe, o
+    cliente está quitado, e a contabilidade só enxerga depois do fechamento.
+
+---
+
+## FC-05
+**FC-05: Bloqueios comerciais**  ·  [voltar para a nota](48-FC-05-bloqueios-comerciais.md)
+
+1. De **lançamento**, de **compensação** e de **advertência**.
+2. Que **novos documentos** sejam lançados na conta contrato.
+3. Que um débito ou crédito seja **compensado**: o crédito não abate o débito.
+4. Que a **régua de dunning atue**: nada de reaviso, negativação, protesto ou
+   corte.
+5. O **de advertência**. Ele não quer que a conta suma, quer que parem de cobrar
+   enquanto a contestação é analisada.
+6. **Abrangência** · **motivo** · **vigência** · **rastreabilidade**.
+7. A **conta contrato inteira**, o **contrato**, ou **um item específico** em
+   aberto.
+8. O débito **envelhece fora da régua e pode prescrever**. Ninguém lembra de
+   destravar, e a cobrança nunca mais acontece.
+9. **Não por si só.** Bloquear não cancela a dívida nem suspende juros.
+10. **Baixa de perdas**, com motivo 04 se for individual ou 14 se for em lote.
+    Bloqueio é adiamento, não perdão.
+
+---
+
+## FC-06
+**FC-06: O registro da cobrança, e por que ele decide tudo**  ·  [voltar para a nota](49-FC-06-o-registro-da-cobranca.md)
+
+1. Código de barras · boleto bancário · Pix · Pix Automático · débito automático
+   · cartão de crédito ou débito.
+2. O **registro do título no banco**. O boleto registrado existe no banco antes
+   do pagamento; o código de barras, não.
+3. O **estático não tem valor nem cobrança vinculados**, identifica só quem
+   recebe. O **dinâmico é gerado por fatura**, com valor, vencimento e
+   identificador registrados.
+4. Ao **boleto registrado**. O material declara a equivalência: estático
+   equivale ao código de barras, dinâmico ao boleto registrado.
+5. Evita **pagamento em duplicidade** · bloqueia **erro de digitação** ·
+   **controla valor e vencimento** · **conciliação automática**.
+6. O banco **dá baixa no título assim que ele é quitado e recusa uma segunda
+   tentativa** de pagamento do mesmo boleto.
+7. **No registro**, antes de o cliente pagar, cobrada pelo banco do convênio.
+8. **O canal define o valor.** A conta pode ser paga em qualquer instituição, e
+   quem recebe cobra pelo serviço. A empresa só descobre o custo quando o
+   arquivo de retorno informa por onde a arrecadação entrou.
+9. **Pix, Pix Automático e cartão.** Boleto, código de barras e débito
+   automático chegam por arquivo.
+10. Que ele pagou por **Pix estático**, que chega rápido e **sem identificar a
+    fatura**. Velocidade não é identificação.
+
+---
+
+## FC-07
+**FC-07: Do pagamento à compensação, o caminho do dinheiro**  ·  [voltar para a nota](50-FC-07-do-pagamento-a-compensacao.md)
+
+1. **Não.** Ele agrupa os itens em aberto da conta contrato num único documento
+   de cobrança. Os débitos continuam sendo as partidas.
+2. **Ele espelha, não cria débito** · **o agrupamento segue regras** · **no
+   pagamento, a baixa é dos itens**.
+3. Os **bloqueados** e os **em contestação**. Entram os vencidos e a vencer, já
+   líquidos dos créditos.
+4. **44 posições.** A linha digitável apresenta as mesmas informações em 48
+   dígitos, com verificadores por bloco.
+5. O **valor do documento, em centavos**.
+6. A **identificação da empresa ou órgão** cadastrado junto à FEBRABAN.
+7. A **conta contrato e o número da fatura**. É o campo que faz o pagamento
+   achar o cliente, e é livre porque cada empresa decide o que põe ali.
+8. O **3**, na segunda posição, que classifica energia elétrica e gás.
+9. Arquivo de retorno enviado diariamente pelo banco → depositado em diretório
+   no SAP e importado por job → uma linha por pagamento, com data, agência,
+   código de barras e valor → lote de pagamento, que identifica a conta
+   contrato, compensa e separa o que não casa.
+10. **Meios de cobrança** · **arquivos trocados com os bancos**, em remessa e
+    retorno · **regras de negócio** de registro, confirmação, devolução e
+    estorno.
+11. Que entre o pagamento e a partida baixada existem **quatro etapas e pelo
+    menos um ciclo diário de arquivo**. O comprovante prova a primeira etapa; a
+    compensação acontece na quarta.
+
+---
+
+## FC-08
+**FC-08: Débito automático e Pix Automático**  ·  [voltar para a nota](51-FC-08-debito-automatico-e-pix-automatico.md)
+
+1. **Pelo banco**, no app ou na agência, e **pela empresa**, no site ou no
+   atendimento.
+2. **Agência, conta e titularidade**, validadas no ato pelo próprio banco.
+3. **Só depois do aceite do banco.** A empresa envia arquivo de cadastro e
+   aguarda retorno com aceite ou rejeição.
+4. Fatura elegível → geração da ordem de pagamento → processamento no banco →
+   retorno e compensação.
+5. A **geração da ordem de pagamento**. Ela agrupa os itens por conta bancária e
+   data de vencimento, e é ela que origina o arquivo.
+6. **O trilho.** Em vez de arquivo de débito e retorno CNAB, a cobrança e a
+   confirmação trafegam pelo Pix, por API, em tempo quase real. O conceito de
+   adesão vinculada à conta contrato é o mesmo.
+7. No **app do próprio banco**, e ele pode consultar, pausar ou cancelar a
+   qualquer momento por lá.
+8. A **conta contrato**, e ela vem impressa na fatura, destacada como o número
+   para débito automático.
+9. O cadastro **volta rejeitado** ou, pior, **vincula o débito à conta de outro
+   cliente**, gerando cobrança indevida e retrabalho de cancelamento.
+10. O **estorno depois da compensação**, o chargeback. Além disso há taxa da
+    adquirente e o repasse financeiro cai em data diferente do pagamento.
+
+---
+
+## FC-09
+**FC-09: As nove formas de cobrança**  ·  [voltar para a nota](52-FC-09-as-formas-de-cobranca.md)
+
+1. Reaviso · cobrança eletrônica · cobrança por empresa terceirizada ·
+   negativação · protesto · corte · recorte · parcelamento · juros, multa e
+   correção monetária.
+2. O **reaviso**, lembrete de vencimento enviado antes de qualquer medida.
+3. A **negativação inclui o débito nos bureaus de crédito**; o **protesto envia
+   o título a cartório, com efeito legal**.
+4. **Sexta de nove.**
+5. **Nova suspensão** após religação indevida ou reincidência.
+6. O **parcelamento**, que interrompe as medidas em vez de escalar, e os
+   **juros e multa**, que são acessórios do débito e incidem por atraso
+   independentemente da régua. **Esta leitura é do autor**, não do material.
+7. **Corte e recorte.** São os únicos que saem do FI-CA e viram trabalho físico,
+   executados pelo WM.
+8. **Dunning decide e manda. Quem corta é o WM.**
+9. Que **não sai automaticamente**. Negativação e protesto não somem quando o
+   cliente é cortado: cortado e negativado são estados diferentes, e resolver um
+   não resolve o outro.

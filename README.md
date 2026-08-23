@@ -12,14 +12,14 @@ quem conhece o módulo na prática.
 |---|---|
 | **4 min** | A tabela abaixo, de cima para baixo. É o acervo inteiro resumido |
 | **6 min** | [`MD‑02`](notas/07-MD-02-a-traducao-do-predio.md), que traduz um prédio de verdade nos objetos do sistema |
-| **1 sessão** | [`_PISTAS.md`](notas/_PISTAS.md), as 382 perguntas em voz alta. O gabarito fica no fim do mesmo arquivo |
-| **4 horas** | As 43 notas, na ordem da pasta |
+| **1 sessão** | [`_PISTAS.md`](notas/_PISTAS.md), as 471 perguntas em voz alta. O gabarito fica no fim do mesmo arquivo |
+| **5 horas** | As 52 notas, na ordem da pasta |
 | **Consulta** | [`_BANCADA.md`](notas/_BANCADA.md), transações e tabelas. Use `Ctrl+F` |
 | **Contribuir** | [`_projeto/`](_projeto/), o que falta e como escrever uma nota |
 
 ---
 
-# As 43 notas
+# As 52 notas
 
 **O número no arquivo é a ordem de estudo.** Abra [`notas/`](notas/) e leia de
 cima para baixo: nenhuma nota depende de uma que venha depois dela.
@@ -103,9 +103,26 @@ de nada ser colapsado**: quem atende decide para onde o chamado vai.
 | **41** | [`BI-03` Anomalias, dois fluxos que parecem iguais e não são](notas/41-BI-03-anomalias.md) | Anomalia é a trava que impede conta errada de sair. No cálculo ela só marca o documento; no faturamento ela **cria um documento novo**. | slide |
 | **42** | [`BI-04` A impressão, do spool ao papel na casa do cliente](notas/42-BI-04-impressao.md) | A fatura sai do SAP como spool, vira formulário no SAPscript e atravessa para a empreiteira como arquivo. Imprimir também é fora de casa. | slide |
 | **43** | [`BI-05` O que precisa existir para faturar, e o que fazer quando não faturou](notas/43-BI-05-o-que-precisa-para-faturar.md) | Oito coisas precisam estar no lugar para uma instalação faturar. O diagnóstico da fatura que não saiu é essa mesma lista, percorrida de trás para frente. | misto |
+
+### Arrecadação e Cobrança (FI-CA)
+
+A área que fecha o ciclo do dinheiro. **A Aula 05 não mostrou uma única
+transação**, então as nove declaram a zona do sistema vazia.
+
+| # | Nota | O que é | Origem |
+|---|---|---|---|
+| **44** | [`FC-01` Arrecadação e Cobrança, os dois processos do FI-CA](notas/44-FC-01-arrecadacao-e-cobranca.md) | Arrecadação faz o dinheiro entrar e encontrar a fatura certa. Cobrança trata o que não entrou. Toda a área é essas duas coisas. | slide |
+| **45** | [`FC-02` O documento do FI-CA, operação e suboperação](notas/45-FC-02-operacao-e-suboperacao.md) | Cada linha da fatura vira um documento com partidas, e um par de códigos decide o que aquele valor significa: para onde vai na contabilidade, em que ordem é baixado e se rende juros. | slide |
+| **46** | [`FC-03` Status e motivo de compensação](notas/46-FC-03-status-e-motivo-de-compensacao.md) | Status responde se o débito foi quitado. Motivo responde como. São duas perguntas diferentes, e só as duas juntas contam a história. | slide |
+| **47** | [`FC-04` Documento real, documento estatístico, e a chave que leva ao FI](notas/47-FC-04-real-estatistico-e-a-chave.md) | Nem tudo que o FI-CA registra vira contabilidade. E o que vira não vai documento a documento: vai somado, por uma chave que abre, fecha e transfere. | slide |
+| **48** | [`FC-05` Bloqueios comerciais](notas/48-FC-05-bloqueios-comerciais.md) | Três bloqueios diferentes, e eles impedem coisas diferentes. Escolher o errado é prometer ao cliente uma proteção que ele não recebeu. | slide |
+| **49** | [`FC-06` O registro da cobrança, e por que ele decide tudo](notas/49-FC-06-o-registro-da-cobranca.md) | Cobrança registrada baixa sozinha. Cobrança não registrada precisa de gente. Essa única diferença atravessa boleto, Pix e o custo da operação. | slide |
+| **50** | [`FC-07` Do pagamento à compensação, o caminho do dinheiro](notas/50-FC-07-do-pagamento-a-compensacao.md) | O banco manda um arquivo, o SAP lê 44 posições de código de barras, acha a conta contrato e baixa as partidas. Cada elo desse caminho é um lugar onde o pagamento some. | slide |
+| **51** | [`FC-08` Débito automático e Pix Automático](notas/51-FC-08-debito-automatico-e-pix-automatico.md) | A mesma ideia com dois trilhos: uma adesão vinculada à conta contrato autoriza a cobrança recorrente. Um trilho é arquivo bancário, o outro é API. | slide |
+| **52** | [`FC-09` As nove formas de cobrança](notas/52-FC-09-as-formas-de-cobranca.md) | Da lembrança amigável ao corte, passando por cartório. A lista é ordenada por severidade, e conhecer a ordem é conhecer o que vem antes de o cliente ligar revoltado. | misto |
 <!-- FIM NOTAS -->
 
-Cerca de **258 minutos** no total. A coluna *O que é* é o resumo da própria
+Cerca de **312 minutos** no total. A coluna *O que é* é o resumo da própria
 nota, gerado a partir dela, então nunca diverge.
 
 ---
@@ -144,8 +161,8 @@ Nada aqui pede confiança cega. A coluna *Origem* diz o grau:
 <!-- INICIO ORIGEM -->
 | Origem | Significa | Quantas |
 |---|---|---|
-| **slide** | O material da academia sustenta a nota inteira | 27 |
-| **misto** | As listas e os nomes são do material. **O raciocínio em volta é meu** | 14 |
+| **slide** | O material da academia sustenta a nota inteira | 35 |
+| **misto** | As listas e os nomes são do material. **O raciocínio em volta é meu** | 15 |
 | **meu** | O material dá o gancho, o desenvolvimento é meu. **Confirme antes de repetir** | 2 |
 | `⟨confirmar⟩` no texto | Código ou nome de tabela de que não tenho certeza | |
 <!-- FIM ORIGEM -->

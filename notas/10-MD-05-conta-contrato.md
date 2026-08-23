@@ -79,6 +79,25 @@ Os atributos da categoria especificam:
 
 ---
 
+## A conta contrato coletiva
+
+**Uma única conta contrato que reúne várias instalações ou contratos do mesmo
+Parceiro de Negócios.** Serve a condomínios, redes de lojas, órgãos públicos e
+grandes contas.
+
+| Efeito | O que muda |
+|---|---|
+| **Fatura única** | Um só documento consolida os débitos de todas as instalações |
+| **Pagamento consolidado** | O cliente paga uma vez e a compensação baixa os itens de cada instalação |
+| **Cobrança centralizada** | A régua de dunning enxerga o **saldo total**, não cada imóvel isolado |
+| **Atenção no corte** | **O corte continua sendo por instalação** |
+
+**A quarta linha é a armadilha.** Cobrança consolida, corte não. Diante de uma
+conta coletiva inadimplente, é preciso identificar de qual instalação veio o
+débito antes de mandar alguém à rua.
+
+---
+
 ## O erro que todo mundo comete
 
 **Procurar o bloqueio de corte no lugar errado.**
@@ -126,5 +145,8 @@ A Conta Contrato é a bolsa: ela agrupa quem paga do mesmo jeito.
 6. Solvência é do Parceiro de Negócios ou da Conta Contrato?
 7. Onde fica o bloqueio de corte?
 8. Onde fica o bloqueio de faturamento?
+9. O que é uma conta contrato coletiva?
+10. Nomeie os quatro efeitos da conta contrato coletiva.
+11. Uma conta coletiva está inadimplente. Cite o que precisa ser identificado antes do corte.
 
 > **Gabarito:** [`_PISTAS.md`](_PISTAS.md#md-05)  ·  responda tudo antes de abrir.

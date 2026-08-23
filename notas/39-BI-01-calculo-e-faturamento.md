@@ -62,6 +62,11 @@ gera é o faturamento.
 Isso tem consequência prática: **estornar um cálculo é barato, estornar um
 faturamento mexe no contas a receber.**
 
+**O que acontece depois da seta** é o bloco de FI-CA, que começa na
+[FC-01](44-FC-01-arrecadacao-e-cobranca.md). E o documento FI-CA que nasce aqui
+só chega à contabilidade da empresa pela chave de reconciliação, na
+[FC-04](47-FC-04-real-estatistico-e-a-chave.md).
+
 ---
 
 ## As definições do material, literais

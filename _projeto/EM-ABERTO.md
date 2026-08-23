@@ -27,7 +27,12 @@ exatamente o erro da Estrutura Postal.
 | A transação de **Move-In** | A01, contrato | **CS + CRM.** Move-In é processo de atendimento (CIC) |
 | Se **Alteração de titularidade** é Move-Out mais Move-In | A02, processos | **CS + CRM** |
 | ~~O que é um **operando**~~ | A03, workflow de campo | **FECHADO pela Aula 04.** É dado mestre de cálculo. Ver [BI-02](../notas/40-BI-02-dados-mestres-de-calculo.md) |
-| O que são **TE** e **TUSD** | A03, perdas | **BILL**, são parcelas da tarifa. Pode vir na aula de Faturamento |
+| O que são **TE** e **TUSD** | A03, perdas | **BILL**, são parcelas da tarifa. **Não veio na Aula 04 nem na 05.** Continua aberto |
+| ~~**FI-CA nunca explicado**~~ | Citado em 14 notas, definido em nenhuma | **FECHADO pela Aula 05.** Nove notas novas, `FC-01` a `FC-09` |
+| ~~**FI-CA versus FI**~~ | Item 5 do que costuma cair na prova | **FECHADO pela Aula 05.** Razão auxiliar contra contabilidade geral, ligados pela chave de reconciliação. Ver [FC-04](../notas/47-FC-04-real-estatistico-e-a-chave.md) |
+| **A régua de dunning**: níveis, prazos, o que dispara cada medida | A05, cobrança | **A Aula 05 lista as nove medidas e para aí.** O detalhamento não foi fotografado |
+| **As transações do FI-CA** | A05 | **A aula inteira não mostrou um código.** É a pergunta mais objetiva a fazer ao instrutor |
+| **Parcelamento**: como se monta, o que acontece com os itens originais | A05 | Citado em quatro slides, nunca aberto |
 | Se **Perdas é trilha própria** | A03, os três blocos | **Sexta**, quando a lista de trilhas for apresentada |
 
 **Duas dessas podem fechar de graça**, porque tarifa é assunto de Faturamento
