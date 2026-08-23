@@ -30,6 +30,13 @@ fica intacto como registro do que foi encontrado. Esta tabela diz o que já não
 | **A-12** | **Corrigido** | `FOP` marcado como sigla em aberto na primeira menção. `GAT` deixou de aparecer nu na `DM-01` e na `DM-02`. `PoD` glosado na `AR-03` |
 | **A-13** | **Corrigido junto de A-01** | A linha `> **Gabarito:** [_PISTAS.md#xx-nn]` não existe no caderno. **Zero ocorrências** |
 
+**A-10 virou estrutura.** Em 23/08/2026 os arquivos de meta-documentação
+saíram da raiz para `_projeto/`, e o `CONTRIBUTING.md` foi para `.github/`, que
+é um caminho que o GitHub lê nativamente. A contaminação de escopo que este
+relatório descreve deixou de depender de lembrar quais arquivos não subir: **a
+pasta agora responde por isso**. Os caminhos citados no diagnóstico abaixo são
+os de antes da mudança.
+
 **O que subir:** os 43 arquivos de `caderno/`. Nada mais.
 
 **Todos os treze achados estão fechados.** Sete por correção no repositório,

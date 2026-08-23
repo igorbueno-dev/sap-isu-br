@@ -10,7 +10,7 @@
 > Os números acima são o diagnóstico que originou o padrão, não o estado
 > atual. **Para o estado atual, rode `python ferramentas/audita.py`.**
 >
-> O padrão abaixo foi extraído da [`GE-01`](notas/02-GE-01-o-que-e-is-u-ccs.md), que é
+> O padrão abaixo foi extraído da [`GE-01`](../notas/02-GE-01-o-que-e-is-u-ccs.md), que é
 > a nota que funciona.
 
 ---

@@ -57,7 +57,7 @@ Prefiro uma dúvida explícita a uma certeza falsa.
 ## O padrão da nota
 
 Antes de propor mudança de conteúdo, vale ler o
-[**padrão da nota**](PADRAO.md). Ele define o esqueleto de zonas, o
+[**padrão da nota**](../_projeto/PADRAO.md). Ele define o esqueleto de zonas, o
 teste que decide se uma analogia fica, as cinco formas que uma pergunta de
 recall pode ter, e as regras de figura e de formatação.
 
@@ -85,8 +85,8 @@ Se for mexer em nota:
   código da nota: `15-MD-06-contrato.md`. **O número é a posição na sequência,
   o código é a identidade.** Quem abre a pasta lê de cima para baixo sem
   precisar do README. Nota nova no meio da sequência renumera as seguintes.
-- **Nota nova entra na tabela do [README](README.md) e no grafo** de
-  `EM-ABERTO.md`, ligada ao pré-requisito dela. Nota fora do
+- **Nota nova entra na tabela do [README](../README.md) e no grafo** de
+  `_projeto/EM-ABERTO.md`, ligada ao pré-requisito dela. Nota fora do
   README não existe.
 - **Depois de mexer numa nota, rode** `python ferramentas/gera.py`, que
   regenera a tabela do README e `notas/_PISTAS.md`. **Nunca edite os dois a

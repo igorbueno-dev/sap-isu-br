@@ -1,4 +1,4 @@
-"""Audita as notas contra o PADRAO.md.
+"""Audita as notas contra o _projeto/PADRAO.md.
 
     python ferramentas/audita.py              todas
     python ferramentas/audita.py 01 02 03     so essas
@@ -19,7 +19,7 @@ import io, os, re, glob, sys
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 NOTAS = os.path.join(BASE, 'notas')
 
-# Codigos que a regra de cobertura nao alcanca, ver PADRAO.md
+# Codigos que a regra de cobertura nao alcanca, ver _projeto/PADRAO.md
 IGNORA = re.compile(r'^(S_KK4|CJ\d|SP[BM]T|UL_|TT\d|CT\d|T\d|E\d$|BR2$|ES53$)')
 CODIGO = re.compile(r'`([A-Z][A-Z0-9_*]{2,14})`')
 PARECE_CODIGO = re.compile(r'^[A-Z]{2,5}[0-9*]|^SCAL$|^ELMU$|^EQUI$|^ADRC$')

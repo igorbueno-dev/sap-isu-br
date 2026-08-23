@@ -15,7 +15,7 @@ Ela existe porque sem ela nada explica como o Contrato nasce.
 > **Esta nota preenche a maior lacuna do grafo de dependências.**
 > O Contrato é criado durante o Move In, mas o processo costuma ser tratado
 > à parte dos dados mestres, o que deixa a ponta solta.
-> Ver [EM-ABERTO](../EM-ABERTO.md).
+> Ver [EM-ABERTO](../_projeto/EM-ABERTO.md).
 
 ---
 

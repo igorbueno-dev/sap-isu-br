@@ -15,7 +15,7 @@ quem conhece o módulo na prática.
 | **1 sessão** | [`_PISTAS.md`](notas/_PISTAS.md), as 367 perguntas em voz alta. O gabarito fica no fim do mesmo arquivo |
 | **4 horas** | As 42 notas, na ordem da pasta |
 | **Consulta** | [`02-BANCADA.md`](referencia/02-BANCADA.md), transações e tabelas. Use `Ctrl+F` |
-| **Contribuir** | [`EM-ABERTO.md`](EM-ABERTO.md), o que falta. [`PADRAO.md`](PADRAO.md), como escrever uma nota |
+| **Contribuir** | [`_projeto/`](_projeto/), o que falta e como escrever uma nota |
 
 ---
 
@@ -144,10 +144,10 @@ Nada aqui pede confiança cega. A coluna *Origem* diz o grau:
 | `⟨confirmar⟩` no texto | Código ou nome de tabela de que não tenho certeza | |
 <!-- FIM ORIGEM -->
 
-A regra por trás disso está em [`PADRAO.md`](PADRAO.md): **conteúdo não
+A regra por trás disso está em [`PADRAO.md`](_projeto/PADRAO.md): **conteúdo não
 confirmado nunca ocupa posição estrutural.** Não vira item de lista numerada
 nem linha de tabela de taxonomia, porque a posição afirma mais que o rótulo.
-Ela nasceu de um erro real, registrado em [`EM-ABERTO.md`](EM-ABERTO.md).
+Ela nasceu de um erro real, registrado em [`EM-ABERTO.md`](_projeto/EM-ABERTO.md).
 
 ---
 
@@ -160,7 +160,7 @@ resposta vale mais que uma semana de leitura minha.
   quando algo está errado, incompleto ou confuso
 - **[Confirmar transação](../../issues/new?template=confirmar-transacao.yml)**,
   quando você sabe um código marcado como duvidoso
-- **[Ver o que está aberto](../../issues)** · [`CONTRIBUTING.md`](CONTRIBUTING.md) para o resto
+- **[Ver o que está aberto](../../issues)** · [`CONTRIBUTING.md`](.github/CONTRIBUTING.md) para o resto
 
 Se você leu uma nota e não entendeu, **a nota está mal escrita**. Isso também
 vale issue, e é o defeito que eu não consigo enxergar sozinho.

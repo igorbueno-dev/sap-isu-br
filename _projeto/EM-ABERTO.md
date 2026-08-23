@@ -23,10 +23,10 @@ exatamente o erro da Estrutura Postal.
 
 | Pergunta | Onde nasceu | Quem fecha |
 |---|---|---|
-| ~~O conteúdo da **Estrutura Postal**~~ | A01, dados mestres | **PARCIALMENTE FECHADO em 23/08/2026** pelo pôster de tabelas. As nove tabelas `ADR*` estão na [MD-01](notas/05-MD-01-mapa-dos-dados-mestres.md), seção 1. **Faltam as transações e a fronteira com a Estrutura Regional**, e isso é **SVC**: o material põe estruturas postais e políticas sob WM |
+| ~~O conteúdo da **Estrutura Postal**~~ | A01, dados mestres | **PARCIALMENTE FECHADO em 23/08/2026** pelo pôster de tabelas. As nove tabelas `ADR*` estão na [MD-01](../notas/05-MD-01-mapa-dos-dados-mestres.md), seção 1. **Faltam as transações e a fronteira com a Estrutura Regional**, e isso é **SVC**: o material põe estruturas postais e políticas sob WM |
 | A transação de **Move-In** | A01, contrato | **CS + CRM.** Move-In é processo de atendimento (CIC) |
 | Se **Alteração de titularidade** é Move-Out mais Move-In | A02, processos | **CS + CRM** |
-| ~~O que é um **operando**~~ | A03, workflow de campo | **FECHADO pela Aula 04.** É dado mestre de cálculo. Ver [BI-02](notas/40-BI-02-dados-mestres-de-calculo.md) |
+| ~~O que é um **operando**~~ | A03, workflow de campo | **FECHADO pela Aula 04.** É dado mestre de cálculo. Ver [BI-02](../notas/40-BI-02-dados-mestres-de-calculo.md) |
 | O que são **TE** e **TUSD** | A03, perdas | **BILL**, são parcelas da tarifa. Pode vir na aula de Faturamento |
 | Se **Perdas é trilha própria** | A03, os três blocos | **Sexta**, quando a lista de trilhas for apresentada |
 
@@ -42,10 +42,10 @@ sempre.
 
 | Conceito | Por que era lacuna | Situação |
 |---|---|---|
-| **Move In** | O Contrato "é criado durante o Move In", mas o processo é tratado à parte dos dados mestres | Coberto por [MD-07-move-in-move-out](notas/16-MD-07-move-in-move-out.md), **em reconstrução minha**. A transação só fecha na trilha de CS + CRM |
-| **Registrador** | Citado junto de equipamento, quase nunca definido | **Fechado pelo material**: a A03 lista os seis registradores. Ver [DM-02](notas/33-DM-02-leituras-e-registradores.md) |
+| **Move In** | O Contrato "é criado durante o Move In", mas o processo é tratado à parte dos dados mestres | Coberto por [MD-07-move-in-move-out](../notas/16-MD-07-move-in-move-out.md), **em reconstrução minha**. A transação só fecha na trilha de CS + CRM |
+| **Registrador** | Citado junto de equipamento, quase nunca definido | **Fechado pelo material**: a A03 lista os seis registradores. Ver [DM-02](../notas/33-DM-02-leituras-e-registradores.md) |
 
-> **Cuidado com a primeira linha.** A [MD-07](notas/16-MD-07-move-in-move-out.md) é
+> **Cuidado com a primeira linha.** A [MD-07](../notas/16-MD-07-move-in-move-out.md) é
 > reconstrução minha em cima de duas frases do material. Ela tapa o buraco no
 > grafo, mas **não é fonte**.
 
@@ -53,9 +53,9 @@ sempre.
 
 | Conceito | Evidência | Situação |
 |---|---|---|
-| ~~**Ponto de Entrega (PoD)**~~ | Aparecia no menu de dados mestres técnicos e nunca era desenvolvido | **PARCIALMENTE COBERTO** por [AR-03-objetos-replicados](notas/28-AR-03-objetos-replicados.md): tem posição na arquitetura e tabela `EUIHEAD` ⟨confirmar⟩. **Faltam as transações e a cardinalidade** |
+| ~~**Ponto de Entrega (PoD)**~~ | Aparecia no menu de dados mestres técnicos e nunca era desenvolvido | **PARCIALMENTE COBERTO** por [AR-03-objetos-replicados](../notas/28-AR-03-objetos-replicados.md): tem posição na arquitetura e tabela `EUIHEAD` ⟨confirmar⟩. **Faltam as transações e a cardinalidade** |
 | **Ligação** | Nó no menu, entre Objeto de Ligação e Local de Consumo | Não explorado |
-| ~~**Estrutura Postal**~~ | Divisão 1 de 4 dos dados mestres (slide `img-05` da A01), e WM "mantém estruturas políticas e postais" (A02) | **PARCIALMENTE COBERTA** pela [MD-01](notas/05-MD-01-mapa-dos-dados-mestres.md): as tabelas `ADR*` estão lá, com `ADRCITYMRU` e `ADRSTRTMRU` ligando endereço a unidade de leitura. **Faltam as transações e o nome que o projeto usa** |
+| ~~**Estrutura Postal**~~ | Divisão 1 de 4 dos dados mestres (slide `img-05` da A01), e WM "mantém estruturas políticas e postais" (A02) | **PARCIALMENTE COBERTA** pela [MD-01](../notas/05-MD-01-mapa-dos-dados-mestres.md): as tabelas `ADR*` estão lá, com `ADRCITYMRU` e `ADRSTRTMRU` ligando endereço a unidade de leitura. **Faltam as transações e o nome que o projeto usa** |
 | **Estrutura Regional** | Nó no menu | **Parcialmente coberta pelo mesmo bloco de tabelas**, que o pôster trata como "estrutura regional e postal". **A fronteira entre as duas continua indefinida** |
 
 ## Próximos temas
@@ -63,7 +63,7 @@ sempre.
 | Conceito | Onde se encaixa |
 |---|---|
 | **Dados Transacionais** | Divisão 4 de 4, entra com leitura e faturamento |
-| ~~**Planejamento de datas**~~ | **FECHADO pela Aula 04.** Ver [DM-04](notas/35-DM-04-planejamento-de-datas.md) |
+| ~~**Planejamento de datas**~~ | **FECHADO pela Aula 04.** Ver [DM-04](../notas/35-DM-04-planejamento-de-datas.md) |
 | **CIC** | Interface centralizada de atendimento, área de CS/CRM |
 | **EDM** | Gestão de dados de medição |
 
