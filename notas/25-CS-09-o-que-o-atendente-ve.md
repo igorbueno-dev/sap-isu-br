@@ -103,7 +103,7 @@ O CRM replica quem é o cliente, não o que aconteceu com ele.
 2. Qual objeto tem o mesmo nome de tabela nos dois sistemas?
 3. Qual o nome da Conta Contrato no CRM?
 4. Em que o Objeto de Ligação se transforma do lado do CRM?
-5. O Contrato replica para o CRM?
+5. Cite três objetos do IS-U que não replicam para o CRM.
 6. Em qual sistema está a resposta para "quanto eu consumi"?
 7. Em qual sistema está a resposta para "estou devendo"?
 8. Um dado não aparece na tela do CRM. Cite a conclusão errada que isso costuma gerar.

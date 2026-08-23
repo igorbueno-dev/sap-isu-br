@@ -1,5 +1,5 @@
 # PISTAS E GABARITO
-### As 474 perguntas primeiro. As respostas no fim.
+### As 470 perguntas primeiro. As respostas no fim.
 
 > **Como usar.** Responda em voz alta, ou no papel, antes de descer. Errar aqui
 > vale mais do que reler a nota: é o erro que mostra onde o modelo tem buraco.
@@ -27,8 +27,8 @@
 2. Escreva a expansão de IS-U.
 3. Ordene as cinco áreas funcionais na ordem da cadeia.
 4. Onde o BW aparece no desenho das cinco áreas?
-5. O BW é uma das cinco áreas?
-6. O IS-U é um sistema separado do SAP?
+5. O que separa o BW das cinco áreas funcionais?
+6. Qual é a relação entre o IS-U e o ERP?
 7. Nomeie as quatro áreas que concentram a customização num projeto de Utilities.
 8. Um comportamento da tela não bate com a documentação da SAP. Cite a pergunta a fazer antes de abrir chamado.
 
@@ -43,7 +43,7 @@
 **[GE-04: Os quatro mercados, com peso igual](04-GE-04-os-quatro-mercados.md)**
 
 1. Nomeie os quatro mercados atendidos pelo SAP IS-U.
-2. O medidor de gás mede o que se cobra?
+2. O que separa o que o medidor de gás mede do que se cobra?
 3. Quantas instalações tem um imóvel de saneamento?
 4. O que explica esse número de instalações?
 5. Em qual mercado a estimativa de consumo é mais frequente?
@@ -131,11 +131,11 @@
 1. Qual transação cria um Local de Consumo?
 2. Qual transação modifica um Local de Consumo?
 3. Qual transação exibe um Local de Consumo?
-4. O Local de Consumo tem endereço próprio?
+4. De onde vem o endereço do Local de Consumo?
 5. Nomeie os dois campos relevantes do Local de Consumo.
 6. Um prédio de 40 apartamentos tem quantos Objetos de Ligação?
 7. O mesmo prédio tem quantos Locais de Consumo?
-8. Um colega diz que `ES61` cria o Local de Consumo. Ele está certo?
+8. Um colega diz que `ES61` cria o Local de Consumo. Cite o que corrigir.
 
 **[ST-03: Instalação](13-ST-03-instalacao.md)**
 
@@ -167,7 +167,7 @@
 3. Qual transação modifica todos os contratos?
 4. Qual transação exibe todos os contratos?
 5. Quando o Contrato é criado?
-6. Um contrato pode estar ligado a duas instalações?
+6. Qual é a cardinalidade entre Contrato e Instalação?
 7. Em que nível ocorre o cálculo?
 8. O que cria o Contrato, já que não existe transação de criar?
 
@@ -186,12 +186,11 @@
 
 **[CS-01: O que é CRM](17-CS-01-o-que-e-crm.md)**
 
-1. O CRM é uma tecnologia?
-2. Nomeie as três camadas da definição de CRM.
-3. Onde começa o escopo do CRM?
-4. Onde termina o escopo do CRM?
-5. Qual o verbo central da definição de CRM?
-6. O cliente de uma concessionária não pode trocar de fornecedor. Cite o que o CRM ainda decide nesse caso.
+1. Nomeie as três camadas da definição de CRM.
+2. Onde começa o escopo do CRM?
+3. Onde termina o escopo do CRM?
+4. Qual o verbo central da definição de CRM?
+5. O cliente de uma concessionária não pode trocar de fornecedor. Cite o que o CRM ainda decide nesse caso.
 
 **[CS-02: Ciclo de vida do cliente](18-CS-02-ciclo-de-vida-do-cliente.md)**
 
@@ -217,14 +216,12 @@
 
 **[CS-04: CRM no contexto Utilities](20-CS-04-crm-no-contexto-utilities.md)**
 
-1. O CRM é um módulo dentro do IS-U?
-2. Qual a palavra que o material usa para descrever a relação entre CRM e IS-U?
-3. Qual a posição do CS + CRM na cadeia das cinco áreas?
-4. Ordene as cinco áreas da cadeia.
-5. Onde uma ligação nova entra no sistema?
-6. O BW conta como área funcional?
-7. Como o BW aparece no desenho da cadeia?
-8. Uma paisagem tem Salesforce e SAP CRM ao mesmo tempo. Isso é erro de arquitetura?
+1. Qual a palavra que o material usa para descrever a relação entre CRM e IS-U?
+2. Qual a posição do CS + CRM na cadeia das cinco áreas?
+3. Ordene as cinco áreas da cadeia.
+4. Onde uma ligação nova entra no sistema?
+5. Como o BW aparece no desenho da cadeia?
+6. Uma paisagem tem Salesforce e SAP CRM ao mesmo tempo. Cite o que isso indica.
 
 **[CS-05: Processos e atividades no atendimento](21-CS-05-processos-e-atividades.md)**
 
@@ -275,7 +272,7 @@
 2. Qual objeto tem o mesmo nome de tabela nos dois sistemas?
 3. Qual o nome da Conta Contrato no CRM?
 4. Em que o Objeto de Ligação se transforma do lado do CRM?
-5. O Contrato replica para o CRM?
+5. Cite três objetos do IS-U que não replicam para o CRM.
 6. Em qual sistema está a resposta para "quanto eu consumi"?
 7. Em qual sistema está a resposta para "estou devendo"?
 8. Um dado não aparece na tela do CRM. Cite a conclusão errada que isso costuma gerar.
@@ -339,9 +336,8 @@
 4. Em uma linha, o que o bloco Perdas faz?
 5. O que torna a sigla `SVC` ambígua?
 6. O que justifica Perdas ser um bloco separado, e não parte de WM ou de DM?
-7. A cadeia das cinco áreas está errada por não ter Perdas?
-8. O que separa a cadeia das cinco áreas dos três blocos do SVC?
-9. Qual objeto a esteira de sete etapas cita sem nunca definir?
+7. O que separa a cadeia das cinco áreas dos três blocos do SVC?
+8. Qual objeto a esteira de sete etapas cita sem nunca definir?
 
 **[WM-01: A nota de serviço e o ciclo do campo](30-WM-01-nota-de-servico.md)**
 
@@ -359,9 +355,9 @@
 
 1. Nomeie as quatro integrações do serviço de campo.
 2. Qual das quatro é o motor?
-3. O Dunning corta o cliente?
+3. Qual é o papel do Dunning no corte?
 4. Quem executa o corte?
-5. Uma nota de serviço pode ter mais de um workflow?
+5. Quantos workflows uma nota de serviço pode ter ao mesmo tempo?
 6. Um cliente pagou e foi cortado. Cite o mecanismo por trás.
 7. O responsável da etapa travada é `WF BATCH`. Cite o que isso indica.
 8. Alguém diz que registrou a solicitação e nada aconteceu. Cite o primeiro suspeito.
@@ -386,7 +382,7 @@
 5. Um cliente ligou e passou o número do medidor. Que tipo de leitura é essa?
 6. Trocaram um medidor. Quantas leituras isso gera?
 7. Cite o que acontece se faltar uma dessas leituras.
-8. Uma instalação teve três leituras num mês. Isso é erro?
+8. Uma instalação teve três leituras num mês. Cite o que explica isso.
 9. O que é energia injetada?
 10. Uma instalação não faturou e o medidor está corretamente instalado. Cite a primeira hipótese.
 
@@ -417,7 +413,7 @@
 9. Quais duas transações criam e atualizam o Registro de Datas?
 10. Qual transação define o Grupo de Parâmetros?
 11. Como a data da Unidade de Leitura é definida?
-12. Duas casas na mesma rua estão em Unidades de Leitura diferentes. Isso é erro?
+12. Duas casas na mesma rua estão em Unidades de Leitura diferentes. Cite o que explica isso.
 13. O que separa o Conjunto de Contratos da Unidade de Leitura?
 14. Uma concessionária fatura três milhões de clientes. Cite a razão de existirem vários Conjuntos de Contratos.
 
@@ -459,7 +455,7 @@
 2. O que o prefixo `ISUBR` indica sobre uma transação?
 3. O que é faturado da época?
 4. O que é fatura revista?
-5. A fatura antiga é cancelada no processo de revisão?
+5. O que acontece com a fatura antiga no processo de revisão?
 6. Qual é o insumo mais disputado do cálculo?
 7. Cite o que limita essa disputa.
 8. Nomeie as três saídas da diferença apurada.
@@ -504,7 +500,7 @@
 10. O que a determinação de tarifa produz?
 11. Como o SAP chama a variável que o cálculo usa e que o customizing define à parte?
 12. Onde ficam armazenados os valores de operando válidos?
-13. Um analista abre a instalação e não encontra a tarifa. Isso é erro?
+13. Um analista abre a instalação e não encontra a tarifa. Cite o que explicar.
 14. Uma tarifa foi reajustada em março. Cite o que impede o recálculo de janeiro de usar o valor novo.
 15. O que separa Tipo de Tarifa de Categoria de Tarifa?
 
@@ -696,11 +692,11 @@
 2. **Industry Solutions for Utilities.**
 3. `CS + CRM` → `WM` → `DM` → `BILL` → `FI-CA`.
 4. Como **faixa transversal**, por baixo das cinco.
-5. **Não.** O BW enxerga tudo mas não é parte do CCS, e por isso não está entre
-   as trilhas disponíveis.
-6. **Não.** É solução setorial **dentro** do ERP, e reutiliza contabilidade,
-   custos, materiais e manutenção que já existem lá. Tratar como sistema
-   separado faz procurar no lugar errado quando o problema é de módulo vizinho.
+5. Ele **atravessa** as cinco em vez de ser uma delas. Enxerga tudo, não é parte
+   do CCS, e por isso não está entre as trilhas disponíveis.
+6. É **solução setorial dentro do ERP**, e reutiliza contabilidade, custos,
+   materiais e manutenção que já existem lá. Tratar como sistema separado faz
+   procurar no lugar errado quando o problema é de módulo vizinho.
 7. **Tarifa, layout de fatura, integração bancária e aplicativo de campo.**
 8. **"Isso é padrão ou é nosso?"** Procurar documentação da SAP para um
    comportamento customizado é ler um manual que não descreve aquele projeto.
@@ -724,7 +720,8 @@
 **GE-04: Os quatro mercados, com peso igual**  ·  [voltar para a nota](04-GE-04-os-quatro-mercados.md)
 
 1. **Luz, Água, Gás e Saneamento.**
-2. **Não.** Mede volume em m³ e a cobrança é por energia. Há conversão no meio.
+2. Ele mede **volume em m³**, e a cobrança é **por energia**. Existe uma etapa de
+   conversão no meio, que não existe em energia elétrica.
 3. **Duas**, água e esgoto.
 4. A de esgoto normalmente **não tem medidor** e fatura como percentual da água.
 5. **Saneamento**, por medidor embaçado, enterrado ou inacessível.
@@ -822,7 +819,8 @@
 
 1. `ES21`  ·  2. `ES22`  ·  3. `ES27`  ·  4. `ES28`
 5. Durante o **Move In**, ou em troca de titularidade e nova ligação.
-6. **Não.** Um contrato liga a exatamente uma Conta Contrato e uma Instalação.
+6. **Um para um.** Um Contrato liga a exatamente uma Conta Contrato e uma
+   Instalação.
 7. **No nível do Contrato.**
 8. O **Move In**. O contrato é resultado de um processo, não de cadastro
    direto, e é por isso que não há transação de criar.
@@ -855,12 +853,12 @@
 **ST-02: Local de Consumo**  ·  [voltar para a nota](12-ST-02-local-de-consumo.md)
 
 1. `ES60`  ·  2. `ES61`  ·  3. `ES62`
-4. **Não.** Ele assume o endereço do Objeto de Ligação e guarda só o
-   complemento.
+4. Do **Objeto de Ligação**. O Local de Consumo não tem endereço próprio: ele
+   guarda só o complemento.
 5. **Tipo do Local de Consumo** e **Complemento do endereço**.
 6. **Um.**
 7. **Quarenta.**
-8. **Não.** `ES61` modifica e `ES62` exibe. Para criar, o correto é `ES60`.
+8. Que `ES61` **modifica**, não cria. `ES62` exibe, e quem cria é `ES60`.
 
 ---
 
@@ -891,14 +889,13 @@
 ## CS-01
 **CS-01: O que é CRM**  ·  [voltar para a nota](17-CS-01-o-que-e-crm.md)
 
-1. **Não.** É **práticas + estratégias de negócio + tecnologias**. A tecnologia
-   é a terceira camada, não a definição.
-2. **Práticas, estratégias de negócio e tecnologias.**
-3. Na **prospecção**.
-4. Na **fidelização e retenção**. Ciclo inteiro, não só a venda.
-5. **Conhecer.** Conhecer comportamento e necessidades para antecipar desejos.
+1. **Práticas, estratégias de negócio e tecnologias.** A tecnologia é a terceira
+   camada, não a definição.
+2. Na **prospecção**.
+3. Na **fidelização e retenção**. Ciclo inteiro, não só a venda.
+4. **Conhecer.** Conhecer comportamento e necessidades para antecipar desejos.
    Vender é consequência.
-6. **Custo e qualidade do atendimento.** Num monopólio o cliente insatisfeito
+5. **Custo e qualidade do atendimento.** Num monopólio o cliente insatisfeito
    não cancela, ele reclama, e reclamação tem preço com o regulador.
 
 ---
@@ -937,18 +934,16 @@
 ## CS-04
 **CS-04: CRM no contexto Utilities**  ·  [voltar para a nota](20-CS-04-crm-no-contexto-utilities.md)
 
-1. **Não.**
-2. **Camada.** O material diz camada de atendimento **integrada** ao IS-U/CCS:
+1. **Camada.** O material diz camada de atendimento **integrada** ao IS-U/CCS:
    um sistema por cima, não um módulo dentro.
-3. **A primeira.**
-4. `CS + CRM` → `WM` → `DM` → `BILL` → `FI-CA`.
-5. No **CS + CRM**, que oferece os serviços ao cliente (*new connection*,
+2. **A primeira.**
+3. `CS + CRM` → `WM` → `DM` → `BILL` → `FI-CA`.
+4. No **CS + CRM**, que oferece os serviços ao cliente (*new connection*,
    *reconnection*).
-6. **Não.**
-7. Como **faixa única atravessando as cinco**, não como caixa na fila. É camada
-   de informação sobre todas.
-8. **Não.** Pode existir mais de um CRM na paisagem: Salesforce na ponta e SAP
-   CRM no meio é arranjo comum.
+5. Como **faixa única atravessando as cinco**, não como caixa na fila. É camada
+   de informação sobre todas, e por isso não conta como área funcional.
+6. Que **pode existir mais de um CRM na paisagem**. Salesforce na ponta e SAP
+   CRM no meio é arranjo comum, não erro de arquitetura.
 
 ---
 
@@ -1040,11 +1035,10 @@
 6. É o que acontece quando WM e DM, **juntos**, descobrem que a medição não
    representava a realidade. A fiscalização é nota (WM), o medidor adulterado é
    ativo (DM), mas **o recálculo não é de nenhum dos dois**.
-7. **Não.** Ela responde por onde o dado passa; os três blocos respondem quem
-   senta junto.
-8. **A cadeia é sequencial e responde por onde o dado passa. Os três blocos são
-   paralelos e respondem quem senta junto.**
-9. A **Ordem**. A etapa 5 diz "recebe a ordem" e o objeto nunca foi apresentado.
+7. **A cadeia é sequencial e responde por onde o dado passa. Os três blocos são
+   paralelos e respondem quem senta junto.** São dois cortes do mesmo mundo, e
+   por isso Perdas não aparecer na cadeia não torna a cadeia errada.
+8. A **Ordem**. A etapa 5 diz "recebe a ordem" e o objeto nunca foi apresentado.
 
 ---
 
@@ -1070,9 +1064,10 @@
 
 1. **CRM, Dunning, Billing/FI-CA e Workflow.**
 2. O **Workflow**. Os outros três são portas.
-3. **Não.** Dunning decide e manda.
+3. **Decidir e mandar.** Ele não executa: quem corta é o WM.
 4. O **WM**, por nota de serviço.
-5. **Sim.** O caso real desta nota tinha quatro workflows na mesma nota.
+5. **Mais de um.** O caso real desta nota tinha quatro workflows ligados à mesma
+   nota ao mesmo tempo.
 6. **Descompasso de relógios.** A régua rodou no ciclo dela, o pagamento entrou
    pelo ciclo do banco depois, e a nota de corte já tinha saído.
 7. Que rodou **automático, em job**, sem pessoa envolvida. Se travou, ninguém
@@ -1111,7 +1106,9 @@
 6. **Três**: de retirada (o velho), de instalação (o novo) e de troca (amarra o
    par).
 7. O **consumo do mês fica sem dono**.
-8. **Não.** Três dos cinco motivos são disparados por evento, não pelo ciclo.
+8. Que **três dos cinco motivos são disparados por evento**, e não pelo ciclo.
+   Três leituras num mês é normal quando houve troca de medidor ou pedido do
+   cliente.
 9. O registrador de quem **gera** energia e manda o excedente para a rede.
    Existe porque o cliente virou gerador.
 10. **Falta a relação registrador e tarifa.** Instalado tecnicamente, não
@@ -1147,7 +1144,7 @@
    nacionais, e o SAP entrega a versão brasileira pronta.
 3. O que o cliente **pagou** com o medidor errado.
 4. O que ele **deveria ter pago**.
-5. **Não.** Ela continua existindo, e a revisão é documento novo ao lado dela.
+5. **Ela continua existindo.** A revisão é documento novo ao lado dela, porque
    O histórico precisa mostrar as duas versões.
 6. O **período da irregularidade**.
 7. Os **critérios regulatórios**, que limitam até onde se pode voltar no tempo.
@@ -1183,7 +1180,8 @@
 3. `E41B`  ·  4. `E41H`  ·  5. `ES31` ou `EL59`  ·  6. `SCAL`  ·  7. `EL42`
 8. `EL40`  ·  9. `E1DY` e `E2DY`  ·  10. `EL59P`
 11. **Relativa à data do conjunto**, no material "2 dias antes do cálculo".
-12. **Não.** A Unidade de Leitura é a rota do leiturista, e o corte é físico.
+12. A Unidade de Leitura é a **rota do leiturista**, e o corte dela é físico.
+    Mesma rua não implica mesma rota.
 13. **O conjunto responde quando o dinheiro acontece, a unidade responde quando
     o técnico anda.**
 14. **Distribuir a carga ao longo do mês.** Faturar a base inteira no mesmo dia
@@ -1235,7 +1233,8 @@
 10. **Quais tarifas entram no cálculo.**
 11. **Operando.**
 12. Na **categoria de tarifa**, válidos para todo o grupo de clientes.
-13. **Não.** A tarifa não mora na instalação, é resultado de determinação.
+13. Que a **tarifa não mora na instalação**. Ela é resultado de determinação, e
+    o que a instalação guarda é a categoria.
 14. **A faixa de tempo.** O reajuste cria faixa nova e a antiga permanece, então
     o recálculo de janeiro acha a regra de janeiro.
 15. **Tipo é o que o registrador ou o operando carrega. Categoria é o que a
@@ -1332,7 +1331,8 @@
 2. O **Parceiro de Negócios**, `BUT000` dos dois lados.
 3. `CRMM_BUAG`, de *Business Agreement*.
 4. Em **produto contratado**, `COMM_PRODUCT`. A estrutura física fica no IS-U.
-5. **Não.** O Contrato não está entre os quatro replicados.
+5. **Contrato**, **Instalação** e **Local de Consumo**. Também não replicam
+   Equipamento, leitura, documento de cálculo, fatura e partida em aberto.
 6. No **IS-U**. Leitura não replica.
 7. No **IS-U**. A partida em aberto é de FI-CA.
 8. Que o **dado não existe**, e daí sai chamado de cadastro para um dado que

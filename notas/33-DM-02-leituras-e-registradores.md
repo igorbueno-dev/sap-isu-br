@@ -122,7 +122,7 @@ Tipo, motivo e registrador são três eixos, não uma lista.
 5. Um cliente ligou e passou o número do medidor. Que tipo de leitura é essa?
 6. Trocaram um medidor. Quantas leituras isso gera?
 7. Cite o que acontece se faltar uma dessas leituras.
-8. Uma instalação teve três leituras num mês. Isso é erro?
+8. Uma instalação teve três leituras num mês. Cite o que explica isso.
 9. O que é energia injetada?
 10. Uma instalação não faturou e o medidor está corretamente instalado. Cite a primeira hipótese.
 

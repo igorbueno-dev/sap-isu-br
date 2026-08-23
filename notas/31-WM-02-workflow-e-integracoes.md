@@ -110,9 +110,9 @@ O workflow é o motor, e se travar ninguém percebe até o cliente ligar.
 
 1. Nomeie as quatro integrações do serviço de campo.
 2. Qual das quatro é o motor?
-3. O Dunning corta o cliente?
+3. Qual é o papel do Dunning no corte?
 4. Quem executa o corte?
-5. Uma nota de serviço pode ter mais de um workflow?
+5. Quantos workflows uma nota de serviço pode ter ao mesmo tempo?
 6. Um cliente pagou e foi cortado. Cite o mecanismo por trás.
 7. O responsável da etapa travada é `WF BATCH`. Cite o que isso indica.
 8. Alguém diz que registrou a solicitação e nada aconteceu. Cite o primeiro suspeito.

@@ -115,8 +115,7 @@ WM manda gente à rua, DM cuida do aparelho, Perdas cobra a diferença.
 4. Em uma linha, o que o bloco Perdas faz?
 5. O que torna a sigla `SVC` ambígua?
 6. O que justifica Perdas ser um bloco separado, e não parte de WM ou de DM?
-7. A cadeia das cinco áreas está errada por não ter Perdas?
-8. O que separa a cadeia das cinco áreas dos três blocos do SVC?
-9. Qual objeto a esteira de sete etapas cita sem nunca definir?
+7. O que separa a cadeia das cinco áreas dos três blocos do SVC?
+8. Qual objeto a esteira de sete etapas cita sem nunca definir?
 
 > **Gabarito:** [`_PISTAS.md`](_PISTAS.md#sv-01)  ·  responda tudo antes de abrir.

@@ -85,11 +85,10 @@ CRM é prática e estratégia primeiro. Tecnologia é a terceira camada, não a 
 
 ## Recall
 
-1. O CRM é uma tecnologia?
-2. Nomeie as três camadas da definição de CRM.
-3. Onde começa o escopo do CRM?
-4. Onde termina o escopo do CRM?
-5. Qual o verbo central da definição de CRM?
-6. O cliente de uma concessionária não pode trocar de fornecedor. Cite o que o CRM ainda decide nesse caso.
+1. Nomeie as três camadas da definição de CRM.
+2. Onde começa o escopo do CRM?
+3. Onde termina o escopo do CRM?
+4. Qual o verbo central da definição de CRM?
+5. O cliente de uma concessionária não pode trocar de fornecedor. Cite o que o CRM ainda decide nesse caso.
 
 > **Gabarito:** [`_PISTAS.md`](_PISTAS.md#cs-01)  ·  responda tudo antes de abrir.

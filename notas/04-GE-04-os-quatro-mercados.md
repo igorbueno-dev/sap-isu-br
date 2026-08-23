@@ -85,7 +85,7 @@ Quatro mercados, um núcleo só: luz, água, gás e saneamento.
 ## Recall
 
 1. Nomeie os quatro mercados atendidos pelo SAP IS-U.
-2. O medidor de gás mede o que se cobra?
+2. O que separa o que o medidor de gás mede do que se cobra?
 3. Quantas instalações tem um imóvel de saneamento?
 4. O que explica esse número de instalações?
 5. Em qual mercado a estimativa de consumo é mais frequente?

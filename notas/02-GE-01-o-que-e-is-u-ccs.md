@@ -104,8 +104,8 @@ O CCS são cinco áreas em cadeia, e o BW não é uma delas.
 2. Escreva a expansão de IS-U.
 3. Ordene as cinco áreas funcionais na ordem da cadeia.
 4. Onde o BW aparece no desenho das cinco áreas?
-5. O BW é uma das cinco áreas?
-6. O IS-U é um sistema separado do SAP?
+5. O que separa o BW das cinco áreas funcionais?
+6. Qual é a relação entre o IS-U e o ERP?
 7. Nomeie as quatro áreas que concentram a customização num projeto de Utilities.
 8. Um comportamento da tela não bate com a documentação da SAP. Cite a pergunta a fazer antes de abrir chamado.
 

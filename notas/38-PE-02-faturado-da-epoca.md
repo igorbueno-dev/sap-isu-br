@@ -117,7 +117,7 @@ A memória de cálculo é o que sustenta a cobrança se o cliente for à justiç
 2. O que o prefixo `ISUBR` indica sobre uma transação?
 3. O que é faturado da época?
 4. O que é fatura revista?
-5. A fatura antiga é cancelada no processo de revisão?
+5. O que acontece com a fatura antiga no processo de revisão?
 6. Qual é o insumo mais disputado do cálculo?
 7. Cite o que limita essa disputa.
 8. Nomeie as três saídas da diferença apurada.

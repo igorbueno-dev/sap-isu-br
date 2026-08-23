@@ -124,7 +124,7 @@ O Conjunto de Contratos manda no dinheiro, a Unidade de Leitura manda no técnic
 9. Quais duas transações criam e atualizam o Registro de Datas?
 10. Qual transação define o Grupo de Parâmetros?
 11. Como a data da Unidade de Leitura é definida?
-12. Duas casas na mesma rua estão em Unidades de Leitura diferentes. Isso é erro?
+12. Duas casas na mesma rua estão em Unidades de Leitura diferentes. Cite o que explica isso.
 13. O que separa o Conjunto de Contratos da Unidade de Leitura?
 14. Uma concessionária fatura três milhões de clientes. Cite a razão de existirem vários Conjuntos de Contratos.
 

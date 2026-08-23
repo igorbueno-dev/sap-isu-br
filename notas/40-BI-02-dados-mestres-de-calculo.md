@@ -132,7 +132,7 @@ A instalação não guarda a tarifa, guarda a categoria. A tarifa é determinada
 10. O que a determinação de tarifa produz?
 11. Como o SAP chama a variável que o cálculo usa e que o customizing define à parte?
 12. Onde ficam armazenados os valores de operando válidos?
-13. Um analista abre a instalação e não encontra a tarifa. Isso é erro?
+13. Um analista abre a instalação e não encontra a tarifa. Cite o que explicar.
 14. Uma tarifa foi reajustada em março. Cite o que impede o recálculo de janeiro de usar o valor novo.
 15. O que separa Tipo de Tarifa de Categoria de Tarifa?
 

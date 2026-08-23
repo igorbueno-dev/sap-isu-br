@@ -12,7 +12,7 @@ quem conhece o módulo na prática.
 |---|---|
 | **4 min** | A tabela abaixo, de cima para baixo. É o acervo inteiro resumido |
 | **6 min** | [`MD‑02`](notas/07-MD-02-a-traducao-do-predio.md), que traduz um prédio de verdade nos objetos do sistema |
-| **1 sessão** | [`_PISTAS.md`](notas/_PISTAS.md), as 474 perguntas em voz alta. O gabarito fica no fim do mesmo arquivo |
+| **1 sessão** | [`_PISTAS.md`](notas/_PISTAS.md), as 470 perguntas em voz alta. O gabarito fica no fim do mesmo arquivo |
 | **5 horas** | As 52 notas, na ordem da pasta |
 | **Consulta** | [`_BANCADA.md`](notas/_BANCADA.md), transações e tabelas. Use `Ctrl+F` |
 | **Contribuir** | [`_projeto/`](_projeto/), o que falta e como escrever uma nota |

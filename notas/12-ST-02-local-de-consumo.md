@@ -91,10 +91,10 @@ O Local de Consumo herda o endereço do prédio e guarda só o complemento.
 1. Qual transação cria um Local de Consumo?
 2. Qual transação modifica um Local de Consumo?
 3. Qual transação exibe um Local de Consumo?
-4. O Local de Consumo tem endereço próprio?
+4. De onde vem o endereço do Local de Consumo?
 5. Nomeie os dois campos relevantes do Local de Consumo.
 6. Um prédio de 40 apartamentos tem quantos Objetos de Ligação?
 7. O mesmo prédio tem quantos Locais de Consumo?
-8. Um colega diz que `ES61` cria o Local de Consumo. Ele está certo?
+8. Um colega diz que `ES61` cria o Local de Consumo. Cite o que corrigir.
 
 > **Gabarito:** [`_PISTAS.md`](_PISTAS.md#st-02)  ·  responda tudo antes de abrir.
