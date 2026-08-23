@@ -12,8 +12,8 @@
 
 | Origem | Como funciona |
 |---|---|
-| **Pelo banco** | O cliente autoriza no app ou na agência. **O banco valida agência, conta e titularidade no ato.** A empresa recebe o retorno com a adesão já confirmada |
-| **Pela empresa**, site ou atendimento | O cliente informa os dados no canal da empresa, **que não consegue validá-los sozinha**. É preciso enviar arquivo de cadastro ao banco e aguardar aceite ou rejeição |
+| **Pelo banco** | O cliente autoriza no app ou na agência, e o banco valida agência, conta e titularidade no ato. A empresa recebe o retorno com a adesão já confirmada |
+| **Pela empresa**, site ou atendimento | O cliente informa os dados no canal da empresa, que não consegue validá-los sozinha. É preciso enviar arquivo de cadastro ao banco e aguardar aceite ou rejeição |
 
 **Só após o aceite a conta contrato fica apta.** Alguns bancos aceitam as duas
 origens, outros só a adesão feita no próprio banco.
@@ -47,11 +47,11 @@ conta, e conciliação do enviado contra o que voltou pago.
 
 | | **Débito automático** | **Pix Automático** |
 |---|---|---|
-| Onde o cliente autoriza | Banco ou empresa | **App do banco**, sempre |
-| Como a cobrança vai | **Arquivo de débito** | Enviada ao arranjo do Pix |
-| Como a confirmação volta | **Retorno CNAB** | **API**, tempo quase real |
-| Cliente pode pausar sozinho | Depende | **Sim, no app, a qualquer momento** |
-| No FI-CA | Adesão é dado de cadastro da conta contrato | **Igual** |
+| Onde o cliente autoriza | Banco ou empresa | App do banco, sempre |
+| Como a cobrança vai | Arquivo de débito | Enviada ao arranjo do Pix |
+| Como a confirmação volta | Retorno CNAB | API, tempo quase real |
+| Cliente pode pausar sozinho | Depende | Sim, no app, a qualquer momento |
+| No FI-CA | Adesão é dado de cadastro da conta contrato | Igual |
 
 *"O conceito é o mesmo: uma adesão ativa vinculada à conta contrato autoriza a
 cobrança recorrente sem ação do cliente a cada mês. Muda o trilho."*
@@ -79,15 +79,15 @@ cadastro ao banco."*
 
 ---
 
-## Na prática
+## O cartão, terceiro trilho
 
 O cartão de crédito e débito no site e no app segue a mesma lógica de API do
 Pix Automático: autorização pelo gateway ou adquirente, confirmação individual
 sem arquivo, acúmulo em lote e compensação.
 
 **A diferença dele é o dinheiro:** há taxa da adquirente, o repasse financeiro
-cai em data diferente do pagamento, e **existe estorno depois da compensação**,
-o chargeback. Nenhum outro meio tem isso.
+cai em data diferente do pagamento, e existe estorno depois da compensação, o
+chargeback. Nenhum outro meio tem isso.
 
 ---
 

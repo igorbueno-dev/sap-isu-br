@@ -105,9 +105,11 @@ O corte é o degrau seis de nove, e nem todo item da lista é degrau.
 3. O que separa a negativação do protesto?
 4. Em que posição da lista está o corte?
 5. O que é o recorte?
-6. Quais itens da lista não são medidas de pressão, e por quê?
-7. Quais medidas saem do FI-CA e viram trabalho físico?
-8. Quem decide o corte e quem executa?
-9. Um cliente foi cortado e quer saber se o nome sai dos bureaus. Cite o que responder.
+6. Quais itens da lista não são medidas de pressão?
+7. Cite o que separa esses itens dos outros sete.
+8. Quais medidas saem do FI-CA e viram trabalho físico?
+9. Quem decide o corte?
+10. Quem executa o corte?
+11. Um cliente foi cortado e quer saber se o nome sai dos bureaus. Cite o que responder.
 
 > **Gabarito:** [`_PISTAS.md`](_PISTAS.md#fc-09)  ·  responda tudo antes de abrir.

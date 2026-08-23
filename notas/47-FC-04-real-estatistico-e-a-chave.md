@@ -111,7 +111,7 @@ reconciliação é a ponte, e ela transfere somas, não documentos.
 
 1. O que separa um documento real de um documento estatístico?
 2. Cite as quatro consequências dessa diferença.
-3. Um documento estatístico compõe o saldo devedor do cliente?
+3. Cite o que impede um documento estatístico de ser cobrado do cliente.
 4. Nomeie dois exemplos típicos de documento que nasce estatístico.
 5. O que é a chave de reconciliação?
 6. Descreva as quatro etapas da chave, da abertura à conferência.

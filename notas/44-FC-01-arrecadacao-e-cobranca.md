@@ -108,9 +108,10 @@ criou.
 2. Em uma linha, o que é a Arrecadação?
 3. Em uma linha, o que é a Cobrança?
 4. Descreva as quatro etapas da arrecadação, na ordem.
-5. Qual das quatro etapas concentra o risco, e por quê?
-6. Nomeie as quatro razões que fazem a Conta Contrato ser o dado mestre central do FI-CA.
-7. Quem cria a dívida, o BILL ou o FI-CA?
-8. Um pagamento não aparece no sistema e o cadastro está correto. Cite onde a causa costuma estar.
+5. Qual das quatro etapas concentra o risco?
+6. Cite o que torna essa etapa a mais arriscada.
+7. Nomeie as quatro razões que fazem a Conta Contrato ser o dado mestre central do FI-CA.
+8. O que separa o papel do BILL do papel do FI-CA diante da dívida?
+9. Um pagamento não aparece no sistema e o cadastro está correto. Cite onde a causa costuma estar.
 
 > **Gabarito:** [`_PISTAS.md`](_PISTAS.md#fc-01)  ·  responda tudo antes de abrir.

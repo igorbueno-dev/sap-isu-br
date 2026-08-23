@@ -12,9 +12,9 @@
 
 | Bloqueio | Impede |
 |---|---|
-| **De lançamento** | Que **novos documentos** sejam lançados na conta contrato. Nenhum débito ou crédito novo é criado |
-| **De compensação** | Que um débito ou crédito seja **compensado**. O crédito não abate o débito e o item não é baixado automaticamente |
-| **De advertência** | Que a **régua de dunning** atue: nada de reaviso, negativação, protesto ou corte |
+| **De lançamento** | Que novos documentos sejam lançados na conta contrato: nenhum débito ou crédito novo é criado |
+| **De compensação** | Que um débito ou crédito seja compensado: o crédito não abate o débito e o item não é baixado automaticamente |
+| **De advertência** | Que a régua de dunning atue: nada de reaviso, negativação, protesto ou corte |
 
 **O de advertência é o que o cliente quer quando liga.** Ele não quer que a
 conta pare de existir, quer que parem de cobrar enquanto a contestação é
@@ -26,9 +26,9 @@ analisada.
 
 | Atributo | O que é |
 |---|---|
-| **Abrangência** | Vale para a **conta contrato inteira**, para o **contrato** ou para **um item específico** em aberto |
+| **Abrangência** | Vale para a conta contrato inteira, para o contrato ou para um item específico em aberto |
 | **Motivo** | Um código registra a razão: contestação, análise técnica, acordo comercial, cliente em negociação ou determinação judicial |
-| **Vigência** | **Sempre com data de início e fim.** Vencido o prazo, o item volta automaticamente ao fluxo normal |
+| **Vigência** | Sempre com data de início e fim. Vencido o prazo, o item volta automaticamente ao fluxo normal |
 | **Rastreabilidade** | Quem bloqueou, quando e por quê fica registrado |
 
 **A abrangência é a decisão mais fina.** Bloquear a conta inteira porque o
@@ -96,7 +96,7 @@ prescrever.
 6. Nomeie os quatro atributos que definem um bloqueio.
 7. Quais são os três níveis possíveis de abrangência?
 8. Cite o que acontece quando um bloqueio é criado sem data de fim.
-9. Bloquear suspende os juros?
+9. Cite o que o bloqueio não faz com a dívida nem com os juros.
 10. A decisão é não cobrar mais aquele débito. Cite o instrumento correto.
 
 > **Gabarito:** [`_PISTAS.md`](_PISTAS.md#fc-05)  ·  responda tudo antes de abrir.

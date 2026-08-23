@@ -32,8 +32,8 @@ Código de barras ..............  R$ 437,50
 | Regra | O que diz |
 |---|---|
 | **Ele espelha, não cria débito** | Os débitos continuam sendo as partidas em aberto; o formulário só as representa |
-| **O agrupamento segue regras** | Entram vencidos e a vencer, **já líquidos dos créditos**. Itens bloqueados ou em contestação **ficam de fora** |
-| **No pagamento, a baixa é dos itens** | A compensação recai sobre **cada partida**, com motivo 01 |
+| **O agrupamento segue regras** | Entram vencidos e a vencer, já líquidos dos créditos. Itens bloqueados ou em contestação ficam de fora |
+| **No pagamento, a baixa é dos itens** | A compensação recai sobre cada partida, com motivo 01 |
 
 **A segunda regra é o gancho com a [FC-05](48-FC-05-bloqueios-comerciais.md):**
 bloquear um item o tira do formulário.
@@ -47,9 +47,9 @@ O padrão FEBRABAN de arrecadação, no exemplo do material:
 | Posições | Exemplo | O que é |
 |---|---|---|
 | **01 a 04** | 8364 | Produto, segmento, tipo de valor e dígito verificador |
-| **05 a 15** | 00000018745 | **Valor em centavos**, lido como R$ 187,45 |
-| **16 a 19** | 0074 | **Identificação da empresa** junto à FEBRABAN |
-| **20 a 44** | livre | Campo definido pela empresa, **normalmente a conta contrato e o número da fatura** |
+| **05 a 15** | 00000018745 | Valor em centavos, lido como R$ 187,45 |
+| **16 a 19** | 0074 | Identificação da empresa junto à FEBRABAN |
+| **20 a 44** | livre | Campo definido pela empresa, normalmente a conta contrato e o número da fatura |
 
 **Duas leituras que valem para a prova:**
 
@@ -126,7 +126,7 @@ partidas por trás dele.
 
 ## Recall
 
-1. O formulário de pagamento cria um débito novo?
+1. O que separa o formulário de pagamento de uma fatura?
 2. Nomeie as três regras do formulário de pagamento.
 3. Quais itens ficam de fora do agrupamento do formulário?
 4. Quantas posições tem o código de barras de arrecadação no padrão FEBRABAN?

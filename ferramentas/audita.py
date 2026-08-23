@@ -51,8 +51,18 @@ def audita(caminho, gabarito):
     cobertos = {c for c in cod
                 if any(c in p for p in perguntas) or c in texto_gab}
 
+    # Duas classes que a versao anterior deixava passar, e que produziram
+    # quatro pistas binarias e tres duplas no bloco FI-CA antes de serem vistas:
+    #   "por que" com acento circunflexo no fim da frase
+    #   pergunta binaria, detectada pelo gabarito que comeca com Sim ou Nao
     ruins = [p for p in perguntas
-             if re.match(r'^Por que', p) or re.search(r', e (qual|o que|como|por que)', p)]
+             if re.match(r'^Por qu[eê]', p)
+             or re.search(r', e (qual|o que|como|por qu[eê])', p)
+             or re.search(r'\bo [\wÀ-ÿ-]+ ou o [\wÀ-ÿ-]+\?$', p)]
+    for i, p in enumerate(perguntas, 1):
+        r = re.search(r'(?m)(?:^|·\s+)%d\.\s+(.*)' % i, texto_gab)
+        if r and re.match(r'\*\*(N[aã]o|Sim)[.,;:]?\*\*', r.group(1).strip()) and p not in ruins:
+            ruins.append(p)
 
     return {
         'nome': nome, 'linhas': linhas,

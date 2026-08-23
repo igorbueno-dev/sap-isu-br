@@ -1,5 +1,5 @@
 # PISTAS E GABARITO
-### As 471 perguntas primeiro. As respostas no fim.
+### As 474 perguntas primeiro. As respostas no fim.
 
 > **Como usar.** Responda em voz alta, ou no papel, antes de descer. Errar aqui
 > vale mais do que reler a nota: é o erro que mostra onde o modelo tem buraco.
@@ -559,10 +559,11 @@
 2. Em uma linha, o que é a Arrecadação?
 3. Em uma linha, o que é a Cobrança?
 4. Descreva as quatro etapas da arrecadação, na ordem.
-5. Qual das quatro etapas concentra o risco, e por quê?
-6. Nomeie as quatro razões que fazem a Conta Contrato ser o dado mestre central do FI-CA.
-7. Quem cria a dívida, o BILL ou o FI-CA?
-8. Um pagamento não aparece no sistema e o cadastro está correto. Cite onde a causa costuma estar.
+5. Qual das quatro etapas concentra o risco?
+6. Cite o que torna essa etapa a mais arriscada.
+7. Nomeie as quatro razões que fazem a Conta Contrato ser o dado mestre central do FI-CA.
+8. O que separa o papel do BILL do papel do FI-CA diante da dívida?
+9. Um pagamento não aparece no sistema e o cadastro está correto. Cite onde a causa costuma estar.
 
 **[FC-02: O documento do FI-CA, operação e suboperação](45-FC-02-operacao-e-suboperacao.md)**
 
@@ -592,7 +593,7 @@
 
 1. O que separa um documento real de um documento estatístico?
 2. Cite as quatro consequências dessa diferença.
-3. Um documento estatístico compõe o saldo devedor do cliente?
+3. Cite o que impede um documento estatístico de ser cobrado do cliente.
 4. Nomeie dois exemplos típicos de documento que nasce estatístico.
 5. O que é a chave de reconciliação?
 6. Descreva as quatro etapas da chave, da abertura à conferência.
@@ -611,7 +612,7 @@
 6. Nomeie os quatro atributos que definem um bloqueio.
 7. Quais são os três níveis possíveis de abrangência?
 8. Cite o que acontece quando um bloqueio é criado sem data de fim.
-9. Bloquear suspende os juros?
+9. Cite o que o bloqueio não faz com a dívida nem com os juros.
 10. A decisão é não cobrar mais aquele débito. Cite o instrumento correto.
 
 **[FC-06: O registro da cobrança, e por que ele decide tudo](49-FC-06-o-registro-da-cobranca.md)**
@@ -629,7 +630,7 @@
 
 **[FC-07: Do pagamento à compensação, o caminho do dinheiro](50-FC-07-do-pagamento-a-compensacao.md)**
 
-1. O formulário de pagamento cria um débito novo?
+1. O que separa o formulário de pagamento de uma fatura?
 2. Nomeie as três regras do formulário de pagamento.
 3. Quais itens ficam de fora do agrupamento do formulário?
 4. Quantas posições tem o código de barras de arrecadação no padrão FEBRABAN?
@@ -661,10 +662,12 @@
 3. O que separa a negativação do protesto?
 4. Em que posição da lista está o corte?
 5. O que é o recorte?
-6. Quais itens da lista não são medidas de pressão, e por quê?
-7. Quais medidas saem do FI-CA e viram trabalho físico?
-8. Quem decide o corte e quem executa?
-9. Um cliente foi cortado e quer saber se o nome sai dos bureaus. Cite o que responder.
+6. Quais itens da lista não são medidas de pressão?
+7. Cite o que separa esses itens dos outros sete.
+8. Quais medidas saem do FI-CA e viram trabalho físico?
+9. Quem decide o corte?
+10. Quem executa o corte?
+11. Um cliente foi cortado e quer saber se o nome sai dos bureaus. Cite o que responder.
 
 <!-- FIM PERGUNTAS -->
 
@@ -1375,13 +1378,16 @@
 3. O **tratamento do que não foi pago**: dunning, juros e multas, parcelamento,
    corte, religação e envio a assessorias.
 4. Recebimento → Identificação → Compensação → Cobrança.
-5. A **Identificação**. O dinheiro já entrou, e agora o sistema precisa
-   descobrir de quem é e a que fatura pertence.
-6. **Ponto de encontro do dinheiro** · **base do saldo do cliente** · **governa
+5. A **Identificação**.
+6. O dinheiro já entrou e o sistema ainda não sabe de quem é. Descobrir a que
+   fatura aquele valor pertence é o que pode dar errado, e o resto do material
+   desta área existe para resolver isso.
+7. **Ponto de encontro do dinheiro** · **base do saldo do cliente** · **governa
    a cobrança** · **chave de integração** com o FI.
-7. O **BILL**. Quem cria a dívida é o Faturamento, gerando o documento FI-CA. O
-   FI-CA recebe a dívida pronta.
-8. **Fora do SAP.** Esta é a área com mais integração externa do IS-U: bancos,
+8. **O BILL cria, o FI-CA administra.** Quem gera o documento FI-CA, e portanto
+   a dívida, é o Faturamento. O FI-CA recebe a dívida pronta e a persegue ou
+   recebe.
+9. **Fora do SAP.** Esta é a área com mais integração externa do IS-U: bancos,
    agentes arrecadadores, adquirentes, o arranjo do Pix, bureaus e assessorias.
 
 ---
@@ -1441,7 +1447,8 @@
    informação de controle**, sem efeito financeiro.
 2. Só o real **contabiliza**, só o real **compõe o saldo devedor**, só o real é
    **exigível e compensável**, e só o real **entra no fechamento** do período.
-3. **Não.** Ele não é exigível nem compensável por pagamento.
+3. Ele **não é exigível nem compensável por pagamento**, e por isso não compõe
+   o saldo devedor. Só o documento real faz isso.
 4. **Juros previstos** e **parcelas futuras**.
 5. O **agrupador que reúne todos os documentos contabilizáveis do FI-CA em um
    mesmo período de apuração**, e garante a rastreabilidade entre o razão
@@ -1474,7 +1481,8 @@
    aberto.
 8. O débito **envelhece fora da régua e pode prescrever**. Ninguém lembra de
    destravar, e a cobrança nunca mais acontece.
-9. **Não por si só.** Bloquear não cancela a dívida nem suspende juros.
+9. **Não cancela a dívida e não suspende os juros por si só.** Ele só impede
+   lançamento, compensação ou ação de cobrança, conforme o tipo.
 10. **Baixa de perdas**, com motivo 04 se for individual ou 14 se for em lote.
     Bloqueio é adiamento, não perdão.
 
@@ -1510,8 +1518,9 @@
 ## FC-07
 **FC-07: Do pagamento à compensação, o caminho do dinheiro**  ·  [voltar para a nota](50-FC-07-do-pagamento-a-compensacao.md)
 
-1. **Não.** Ele agrupa os itens em aberto da conta contrato num único documento
-   de cobrança. Os débitos continuam sendo as partidas.
+1. A fatura **cria** débito; o formulário **espelha** débitos que já existem.
+   Ele agrupa as partidas em aberto da conta contrato num único documento de
+   cobrança, com valor, vencimento e código de barras.
 2. **Ele espelha, não cria débito** · **o agrupamento segue regras** · **no
    pagamento, a baixa é dos itens**.
 3. Os **bloqueados** e os **em contestação**. Entram os vencidos e a vencer, já
@@ -1573,12 +1582,13 @@
    o título a cartório, com efeito legal**.
 4. **Sexta de nove.**
 5. **Nova suspensão** após religação indevida ou reincidência.
-6. O **parcelamento**, que interrompe as medidas em vez de escalar, e os
-   **juros e multa**, que são acessórios do débito e incidem por atraso
-   independentemente da régua. **Esta leitura é do autor**, não do material.
-7. **Corte e recorte.** São os únicos que saem do FI-CA e viram trabalho físico,
-   executados pelo WM.
-8. **Dunning decide e manda. Quem corta é o WM.**
-9. Que **não sai automaticamente**. Negativação e protesto não somem quando o
+6. O **parcelamento** e os **juros, multa e correção monetária**.
+7. O parcelamento **interrompe** as medidas em vez de escalar, e os juros são
+   **acessórios do débito**, que incidem por atraso independentemente de
+   qualquer ação da régua. **Esta leitura é do autor**, não do material.
+8. **Corte e recorte.** São os únicos que saem do FI-CA e viram trabalho físico.
+9. O **Dunning**.
+10. O **WM**, por nota de serviço.
+11. Que **não sai automaticamente**. Negativação e protesto não somem quando o
    cliente é cortado: cortado e negativado são estados diferentes, e resolver um
    não resolve o outro.
