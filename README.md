@@ -12,14 +12,14 @@ quem conhece o módulo na prática.
 |---|---|
 | **4 min** | A tabela abaixo, de cima para baixo. É o acervo inteiro resumido |
 | **6 min** | [`MD‑02`](notas/07-MD-02-a-traducao-do-predio.md), que traduz um prédio de verdade nos objetos do sistema |
-| **1 sessão** | [`_PISTAS.md`](notas/_PISTAS.md), as 367 perguntas em voz alta. O gabarito fica no fim do mesmo arquivo |
-| **4 horas** | As 42 notas, na ordem da pasta |
+| **1 sessão** | [`_PISTAS.md`](notas/_PISTAS.md), as 382 perguntas em voz alta. O gabarito fica no fim do mesmo arquivo |
+| **4 horas** | As 43 notas, na ordem da pasta |
 | **Consulta** | [`02-BANCADA.md`](referencia/02-BANCADA.md), transações e tabelas. Use `Ctrl+F` |
 | **Contribuir** | [`_projeto/`](_projeto/), o que falta e como escrever uma nota |
 
 ---
 
-# As 42 notas
+# As 43 notas
 
 **O número no arquivo é a ordem de estudo.** Abra [`notas/`](notas/) e leia de
 cima para baixo: nenhuma nota depende de uma que venha depois dela.
@@ -97,9 +97,10 @@ de nada ser colapsado**: quem atende decide para onde o chamado vai.
 | **40** | [`BI-02` Os dados mestres de cálculo, como o sistema escolhe a tarifa](notas/40-BI-02-dados-mestres-de-calculo.md) | A instalação não guarda a tarifa. Ela guarda uma **categoria**, e a tarifa é **determinada** pelo cruzamento dessa categoria com o tipo que cada registrador carrega. | slide |
 | **41** | [`BI-03` Anomalias, dois fluxos que parecem iguais e não são](notas/41-BI-03-anomalias.md) | Anomalia é a trava que impede conta errada de sair. No cálculo ela só marca o documento; no faturamento ela **cria um documento novo**. | slide |
 | **42** | [`BI-04` A impressão, do spool ao papel na casa do cliente](notas/42-BI-04-impressao.md) | A fatura sai do SAP como spool, vira formulário no SAPscript e atravessa para a empreiteira como arquivo. Imprimir também é fora de casa. | slide |
+| **43** | [`BI-05` O que precisa existir para faturar, e o que fazer quando não faturou](notas/43-BI-05-o-que-precisa-para-faturar.md) | Oito coisas precisam estar no lugar para uma instalação faturar. O diagnóstico da fatura que não saiu é essa mesma lista, percorrida de trás para frente. | misto |
 <!-- FIM NOTAS -->
 
-Cerca de **252 minutos** no total. A coluna *O que é* é o resumo da própria
+Cerca de **258 minutos** no total. A coluna *O que é* é o resumo da própria
 nota, gerado a partir dela, então nunca diverge.
 
 ---
@@ -139,7 +140,7 @@ Nada aqui pede confiança cega. A coluna *Origem* diz o grau:
 | Origem | Significa | Quantas |
 |---|---|---|
 | **slide** | O material da academia sustenta a nota inteira | 27 |
-| **misto** | As listas e os nomes são do material. **O raciocínio em volta é meu** | 13 |
+| **misto** | As listas e os nomes são do material. **O raciocínio em volta é meu** | 14 |
 | **meu** | O material dá o gancho, o desenvolvimento é meu. **Confirme antes de repetir** | 2 |
 | `⟨confirmar⟩` no texto | Código ou nome de tabela de que não tenho certeza | |
 <!-- FIM ORIGEM -->

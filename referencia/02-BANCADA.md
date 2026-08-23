@@ -34,11 +34,16 @@
 2. [Como achar qualquer transação sem chutar](#2-como-achar-qualquer-transação-sem-chutar)
 3. [Transações por módulo](#3-transações-por-módulo)
 4. [Tabelas](#4-tabelas)
-5. [Checklist: o que precisa existir para faturar](#5-checklist-o-que-precisa-existir-para-faturar)
-6. [Fluxograma de diagnóstico: a fatura não saiu](#6-fluxograma-de-diagnóstico-a-fatura-não-saiu)
-7. [Roteiro do exercício: criar um cliente do zero](#7-roteiro-do-exercício-criar-um-cliente-do-zero)
-8. [Preparação para prova e entrevista técnica](#8-preparação-para-prova-e-entrevista-técnica)
-9. [Armadilhas de iniciante, lista consolidada](#9-armadilhas-de-iniciante-lista-consolidada)
+5. [Roteiro do exercício: criar um cliente do zero](#5-roteiro-do-exercício-criar-um-cliente-do-zero)
+
+**O que saiu daqui**, porque não era consulta:
+
+| Foi para | O quê |
+|---|---|
+| [`BI-05`](../notas/43-BI-05-o-que-precisa-para-faturar.md) | Os oito pré-requisitos de faturamento e a árvore da fatura que não saiu |
+| [`GE-01`](../notas/02-GE-01-o-que-e-is-u-ccs.md) | IS-U não é sistema separado, e a pergunta "isso é padrão ou é nosso" |
+| [`_projeto/PREPARACAO.md`](../_projeto/PREPARACAO.md) | O que costuma ser cobrado, os tipos de exercício e o que se escala |
+| As notas, na zona *O erro que todo mundo comete* | As armadilhas de iniciante. **14 das 19 já tinham dono** |
 
 ---
 
@@ -487,149 +492,64 @@ padrão · `BUC0` formas de tratamento · `BUCM` tipos de legitimação ·
 
 Vale mais que dez horas de teoria. Pegue um contrato qualquer no sandbox e percorra:
 
-```mermaid
-flowchart LR
-    subgraph C1["Caminho 1: o cadastro"]
-        direction LR
-        E1["EVER<br/>o contrato"] --> E2["EANL<br/>a instalação"] --> E3["EVBS<br/>o local de consumo"]
-    end
-    subgraph C2["Caminho 2: o dinheiro, pelo mesmo contrato"]
-        direction LR
-        F1["ERCH<br/>o cálculo"] --> F2["ERDK<br/>a fatura"] --> F3["DFKKOP<br/>a dívida"]
-    end
+```
+Caminho 1, o cadastro
+  EVER  ──▶  EANL  ──▶  EVBS
+  o contrato  a instalação  o local de consumo
+
+Caminho 2, o dinheiro, pelo mesmo contrato
+  ERCH  ──▶  ERDK  ──▶  DFKKOP
+  o cálculo   a fatura     a dívida
 ```
 
 **Faça isso três vezes com clientes diferentes.** Na terceira, a arquitetura para de ser abstrata.
 
 ---
 
-# 5. Checklist: o que precisa existir para faturar
-
-Imprima isto. É o roteiro que resolve a maior parte dos chamados de faturamento.
-
-```
-[ ] 1.  INSTALAÇÃO existe e está ativa
-      └─ com categoria tarifária preenchida
-
-[ ] 2.  CONTRATO ativo cobrindo o período que se quer faturar
-      └─ atenção às datas de início e fim
-
-[ ] 3.  DISPOSITIVO instalado TECNICAMENTE no local de instalação
-
-[ ] 4.  DISPOSITIVO instalado PARA FATURAMENTO
-      └─ relação registrador/tarifa configurada
-      └─ ESTE É O ITEM QUE MAIS FALTA
-
-[ ] 5.  TARIFA vigente na data do período
-      └─ atenção a reajuste que virou no meio do período
-
-[ ] 6.  FATOS obrigatórios preenchidos
-      └─ os valores que a tarifa exige (ex.: demanda contratada)
-
-[ ] 7.  RESULTADO DE LEITURA válido para o período
-      └─ ou uma estimativa gerada
-      └─ leitura implausível NÃO conta como válida
-
-[ ] 8.  Período não faturado ainda
-      └─ não existe documento de faturamento já emitido para as mesmas datas
-```
-
----
-
-# 6. Fluxograma de diagnóstico: a fatura não saiu
-
-```mermaid
-flowchart TD
-    S["A fatura do contrato X<br/>não foi gerada"]
-    Q1{"Existe LEITURA válida<br/>para o período?"}
-    R1["A ordem de leitura foi gerada?<br/>O leiturista passou?<br/>A leitura ficou implausível?<br/>vai para MEDIÇÃO"]
-    Q2{"Existe TARIFA vigente<br/>na data do período?"}
-    R2["Problema de cadastro de tarifa.<br/>Costuma afetar MUITOS contratos.<br/>ESCALE"]
-    Q3{"O DISPOSITIVO está instalado<br/>PARA FATURAMENTO?"}
-    R3["Falta a relação registrador e tarifa.<br/>vai para EQUIPAMENTO"]
-    Q4{"O CONTRATO estava ativo<br/>durante o período?"}
-    R4["Move-In ou Move-Out<br/>com data errada"]
-    R5["Faltam FATOS obrigatórios,<br/>ou já existe documento emitido<br/>para as mesmas datas.<br/>Leia o log em SLG1"]
-    S --> Q1
-    Q1 -->|"NÃO"| R1
-    Q1 -->|"SIM"| Q2
-    Q2 -->|"NÃO"| R2
-    Q2 -->|"SIM"| Q3
-    Q3 -->|"NÃO"| R3
-    Q3 -->|"SIM"| Q4
-    Q4 -->|"NÃO"| R4
-    Q4 -->|"SIM"| R5
-```
-
-## As duas técnicas que resolvem quase tudo
-
-**1. Compare um caso que funciona com um que falha.**
-Pegue dois clientes parecidos, um que faturou e um que não, e compare campo por campo. A diferença que você encontrar é a causa. Esta técnica sozinha resolve a maior parte dos chamados de um analista júnior.
-
-**2. Agrupe os erros por mensagem antes de olhar qualquer caso individual.**
-Se 2.400 dos 3.100 erros são a mesma mensagem, você tem um problema só, e não 2.400. Isso muda completamente a prioridade e o encaminhamento.
-
-## O que você resolve sozinho e o que você escala
-
-
-| Resolve sozinho                                                                   | Escala                                                       |
-| ----------------------------------------------------------------------------------- | -------------------------------------------------------------- |
-| Erro de dado mestre em caso individual                                            | Qualquer coisa que afete muitos clientes pelo mesmo motivo   |
-| Leitura implausível para correção                                              | Suspeita de erro em desenvolvimento próprio                 |
-| Rastrear a causa e documentar a evidência                                        | Estorno de documento já contabilizado                       |
-| Extração de dados para o negócio                                               | Qualquer coisa com risco fiscal ou regulatório              |
-| Verificar se o job rodou e o que ele registrou                                    | Mudança que exige aprovação do cliente                    |
-| **Parametrizar conforme requisito funcional**, com validação de quem é sênior | Parametrização em ambiente produtivo sem alguém revisando |
-
-> **Correção importante:** parametrizar **é a sua função**, e não algo a escalar. A descrição da vaga diz isso no primeiro item: *"realizar parametrizações nos módulos SAP for Utilities conforme requisitos funcionais"*. O que se escala não é o ato de parametrizar, é a decisão de mudar algo que afeta muita gente, o ambiente produtivo, ou o processo do cliente.
-
-**Escalar cedo com a causa isolada não é fraqueza. É exatamente o que se espera de um júnior bom.**
-
----
-
-# 7. Roteiro do exercício: criar um cliente do zero
+# 5. Roteiro do exercício: criar um cliente do zero
 
 Este é o exercício prático mais cobrado em SAP Utilities, e frequentemente cronometrado. **Faça pelo menos cinco vezes, e nas últimas duas sem olhar este roteiro.**
 
-```mermaid
-flowchart TD
-    subgraph PA["PARTE A: a estrutura física. Pode já existir no sandbox, confirme antes"]
-        direction TB
-        A1["1. OBJETO DE CONEXÃO -- ES55<br/>endereço, dados de conexão"]
-        A2["2. LOCAL DE CONSUMO -- ES60<br/>vinculado ao objeto de conexão"]
-        A3["3. LOCAL DE INSTALAÇÃO DE DISPOSITIVO -- ES65<br/>vinculado ao local de consumo"]
-        A4["4. INSTALAÇÃO -- ES30<br/>vinculada ao local de consumo<br/>ATENÇÃO: preencher a categoria tarifária.<br/>Errar aqui não dá erro, dá conta errada depois"]
-        A1 --> A2
-        A2 --> A3
-        A2 --> A4
-    end
-    subgraph PB["PARTE B: o cliente"]
-        direction TB
-        B1["5. PARCEIRO DE NEGÓCIOS -- BP<br/>pessoa física, nome, documento, endereço"]
-        B2["6. CONTA CONTRATO -- CAA1<br/>forma de pagamento, régua de cobrança"]
-        B1 --> B2
-    end
-    subgraph PC["PARTE C: o medidor"]
-        direction TB
-        C1["7. Criar ou localizar o DISPOSITIVO<br/>com o tipo de dispositivo correto"]
-        C2["8. INSTALAR o dispositivo<br/>a. instalação TÉCNICA, no local de instalação<br/>b. instalação PARA FATURAMENTO,<br/>com a relação registrador e tarifa<br/>SÃO DOIS PASSOS. Não pule o segundo"]
-        C1 --> C2
-    end
-    subgraph PD["PARTE D: a amarração"]
-        D1["9. MOVE-IN<br/>conta contrato mais instalação<br/>data de início e LEITURA INICIAL<br/>isto cria o CONTRATO"]
-    end
-    subgraph PE["PARTE E: o ciclo, a continuação natural"]
-        direction TB
-        E1["10. Informar RESULTADO DE LEITURA<br/>família EL"]
-        E2["11. Rodar o FATURAMENTO<br/>família EA"]
-        E3["12. Emitir a FATURA<br/>família EA"]
-        E4["13. Conferir a partida em aberto<br/>FPL9"]
-        E1 --> E2 --> E3 --> E4
-    end
-    A4 --> D1
-    B2 --> D1
-    C2 --> D1
-    D1 --> E1
+```
+PARTE A: a estrutura física
+  Pode já existir no sandbox. Confirme antes de criar.
+
+  1  OBJETO DE LIGAÇÃO ......... ES55   endereço, dados de conexão
+        │
+        ▼
+  2  LOCAL DE CONSUMO .......... ES60   vinculado ao objeto de ligação
+        │
+        ├──▶ 3  LOCAL DE INSTALAÇÃO DE EQUIPAMENTO ... ES65
+        │
+        └──▶ 4  INSTALAÇÃO ...... ES30   vinculada ao local de consumo
+                 ATENÇÃO: preencher a categoria tarifária.
+                 Errar aqui não dá erro, dá conta errada depois.
+
+PARTE B: o cliente
+  5  PARCEIRO DE NEGÓCIOS ...... BP     pessoa física, nome, documento
+        │
+        ▼
+  6  CONTA CONTRATO ............ CAA1   forma de pagamento, régua
+
+PARTE C: o medidor
+  7  Criar ou localizar o EQUIPAMENTO, com o tipo correto
+        │
+        ▼
+  8  INSTALAR o equipamento. SÃO DOIS PASSOS, não pule o segundo:
+        a. instalação TÉCNICA, no local de instalação
+        b. instalação PARA FATURAMENTO, com a relação registrador e tarifa
+
+PARTE D: a amarração
+  9  MOVE-IN: conta contrato + instalação, data de início e LEITURA
+     INICIAL. Isto cria o CONTRATO.
+        ▲
+        └── depende de 4, de 6 e de 8
+
+PARTE E: o ciclo, a continuação natural
+  10 Informar RESULTADO DE LEITURA ..... família EL
+  11 Rodar o FATURAMENTO ............... família EA
+  12 Emitir a FATURA ................... família EA
+  13 Conferir a partida em aberto ...... FPL9
 ```
 
 ## Os cinco erros mais comuns neste exercício
@@ -641,68 +561,3 @@ flowchart TD
 5. **Criar um segundo BP** por não ter procurado antes se ele já existia.
 
 ---
-
-# 8. Preparação para prova e entrevista técnica
-
-## O que costuma ser cobrado
-
-O peso está em **entender fluxo e relação entre objetos**, não em decorar código.
-
-1. A hierarquia de dados mestres e a diferença entre cada objeto. **Quase certeza que cai.**
-2. O fluxo ponta a ponta e a ordem correta das etapas.
-3. **Billing versus Invoicing.** Clássico absoluto.
-4. O que precisa existir para uma instalação faturar (a checklist da seção 5).
-5. FI-CA versus FI, e por que existem separados.
-6. Move-In e Move-Out, e o que acontece com leitura, contrato e faturamento.
-7. Análise de causa: dado um sintoma, qual etapa falhou.
-8. MRU versus Portion.
-9. Instalação técnica versus instalação para faturamento.
-10. A ideia de que erro de valor quase nunca é bug, é dado mestre.
-
-## Tipos de exercício prático
-
-- **Criar um cliente do zero.** O roteiro da seção 7. É o mais comum.
-- **Ciclo completo:** informar leitura, faturar, emitir, conferir a dívida.
-- **Simular pagamento e compensar**, depois simular inadimplência e ver a régua.
-- **Estudo de caso escrito:** "o cliente X reclama de conta alta, investigue e explique". A resposta esperada percorre leitura → consumo → tarifa → período.
-- **Diagnóstico de fatura travada.** O fluxograma da seção 6.
-- **Desenhar o fluxo numa lousa e explicar em voz alta.** Treine isto, é o que mais impressiona.
-
-## Os cinco testes que dizem se você está pronto
-
-1. **Teste dos 5 minutos.** Desenhar o fluxo ponta a ponta numa folha em branco, nomeando o módulo de cada etapa.
-2. **Teste da tradução.** Explicar Billing versus Invoicing para alguém que não é da área, em 60 segundos, sem usar a palavra "documento".
-3. **Teste da checklist.** Recitar os oito pré-requisitos de faturamento, de memória.
-4. **Teste da Dona Marta.** Contar a história dela do Move-In à religação, nomeando o módulo de cada etapa.
-5. **Teste do gabarito.** Acertar 80% dos recalls das notas sem consultar.
-
----
-
-# 9. Armadilhas de iniciante, lista consolidada
-
-
-| Erro conceitual                                    | Correção                                                                                                                                                           |
-| ---------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| "IS-U é um sistema separado do SAP"               | É uma solução setorial **dentro** do ERP, que reutiliza contabilidade, custos, materiais e manutenção                                                            |
-| "Billing e Invoicing são a mesma coisa"           | Billing calcula por contrato. Invoicing consolida, define vencimento, gera a conta e **cria a dívida**                                                               |
-| "A instalação pertence ao cliente"               | Pertence ao imóvel. O cliente se liga a ela pelo Contrato, que tem início e fim                                                                                    |
-| "Local de Consumo e Instalação são sinônimos"  | Local de Consumo é o espaço. Instalação é o serviço faturável naquele espaço                                                                                 |
-| "FI-CA é o módulo financeiro da empresa"         | É o razão **auxiliar**. A contabilidade oficial é o FI, que recebe totais                                                                                          |
-| "Instalei o medidor, então ele vai faturar"       | Instalação técnica ≠ instalação para faturamento. Sem a segunda, não fatura                                                                                   |
-| "MRU e Portion são a mesma coisa"                 | MRU é geografia. Portion é calendário                                                                                                                             |
-| "Documento segregado por outsorting é erro"       | É a rede de segurança funcionando. O cálculo está certo, só foi retido para revisão                                                                            |
-| "Conta errada é bug do sistema"                   | Quase sempre é dado mestre: tarifa, fato, leitura, período, relação registrador/tarifa                                                                           |
-| "Dunning executa o corte"                          | Dunning decide e manda. Quem corta é o WM                                                                                                                           |
-| "WM é gestão de armazém"                        | Em Utilities, WM é Work Management, campo. A sigla colide com Warehouse Management                                                                                  |
-| "EDM é só leitura mais frequente"                | É outro paradigma: séries temporais, perfis, substituição de valores faltantes                                                                                   |
-| "Vou decorar as transações e estarei pronto"     | Transações mudam. O fluxo e a relação entre objetos não. Domine o fluxo                                                                                         |
-| "Tudo que vejo na tela é padrão SAP"             | Muito do que você vê é customização, sobretudo tarifa, layout de fatura, integração bancária e app de campo. Pergunte sempre: "isso é padrão ou é nosso?" |
-| "As regras são iguais para energia, gás e água" | Gás converte volume em energia. Água tem esgoto derivado e mais regras sociais. Energia tem demanda, postos horários e regulação mais densa                     |
-| "Estimativa é falha de processo"                  | É processo padrão e previsto, com regularização. O problema é estimar demais ou não regularizar                                                                |
-| "Se o cliente pagou, o sistema sabe"               | Só se a compensação ocorreu. Pagamento não compensado é o incidente mais grave da operação                                                                    |
-| "Data retroativa é só um detalhe"                | É uma das operações mais caras do sistema. Força estorno, refaturamento em cascata e impacto fiscal                                                              |
-| "Como júnior preciso resolver tudo sozinho"       | O valor do júnior é **isolar a causa com precisão** e escalar cedo o que tem impacto em massa ou risco. Escalar bem é competência                                |
-
----
-
-> **Voltar para:** [o índice das notas](../README.md), ou o [o que ainda está aberto](../_projeto/EM-ABERTO.md).

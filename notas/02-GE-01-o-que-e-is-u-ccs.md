@@ -31,6 +31,10 @@ como a solução aparece no sistema.
 - É mais direcionado para o mercado de **varejo de energia**
 - **Uma implementação de IS-U costuma ser várias vezes maior que um projeto
   de ERP convencional**
+- **Não é um sistema à parte.** É solução setorial **dentro** do ERP, e
+  reutiliza a contabilidade, os custos, os materiais e a manutenção que já
+  estão lá. Quem trata IS-U como sistema separado procura no lugar errado
+  quando o problema é de um módulo vizinho
 
 ---
 
@@ -78,6 +82,14 @@ parte do produto, ele lê o produto.
 Não há transação desta nota. Ela é conceitual.
 Ver [02-BANCADA](../referencia/02-BANCADA.md) para as transações.
 
+**A pergunta que vale para o projeto inteiro: isso é padrão ou é nosso?**
+
+Muito do que aparece na tela de um projeto de Utilities é **customização**, e
+quatro áreas concentram quase toda ela: **tarifa, layout de fatura, integração
+bancária e aplicativo de campo**. Tratar customização como padrão faz procurar
+documentação da SAP para um comportamento que só existe naquele cliente, e faz
+prometer ao cliente um comportamento que o projeto dele não tem.
+
 ---
 
 ## Se sobrar uma coisa
@@ -93,5 +105,8 @@ O CCS são cinco áreas em cadeia, e o BW não é uma delas.
 3. Ordene as cinco áreas funcionais na ordem da cadeia.
 4. Onde o BW aparece no desenho das cinco áreas?
 5. O BW é uma das cinco áreas?
+6. O IS-U é um sistema separado do SAP?
+7. Nomeie as quatro áreas que concentram a customização num projeto de Utilities.
+8. Um comportamento da tela não bate com a documentação da SAP. Cite a pergunta a fazer antes de abrir chamado.
 
 > **Gabarito:** [`_PISTAS.md`](_PISTAS.md#ge-01)  ·  responda tudo antes de abrir.

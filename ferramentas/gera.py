@@ -81,6 +81,7 @@ ORIGEM = {
     'BI-02': 'slide',  # Os dados mestres de cálculo
     'BI-03': 'slide',  # Anomalias
     'BI-04': 'slide',  # A impressão
+    'BI-05': 'misto',  # O que precisa existir para faturar
     'CS-06': 'misto',  # A esteira do chamado
     'CS-07': 'misto',  # Reclamação de conta alta
     'CS-08': 'misto',  # Corte e religação
@@ -223,15 +224,16 @@ BANCADA = os.path.join(BASE, 'referencia', '02-BANCADA.md')
 # Secoes da Bancada que falam do estudo, e nao do sistema. Elas nao sobem:
 # misturadas com a referencia, o modelo responde palpite sobre a prova com o
 # mesmo tom com que responde sobre uma transacao.
-PODA_BANCADA = [
-    'O exercício de navegação que fixa a arquitetura',
-    'As duas técnicas que resolvem quase tudo',
-    'O que você resolve sozinho e o que você escala',
-    'Os cinco erros mais comuns neste exercício',
-    'O que costuma ser cobrado',
-    'Tipos de exercício prático',
-    'Os cinco testes que dizem se você está pronto',
-]
+#
+# A lista esta vazia de proposito desde 23/08/2026. O que ela removia saiu da
+# Bancada na origem: o checklist e a arvore de diagnostico viraram a nota
+# BI-05, as expectativas de prova foram para _projeto/PREPARACAO.md, e as
+# armadilhas ja tinham dono nas notas. Sobrou consulta e os dois roteiros de
+# exercicio, que ensinam ordem e por isso devem subir.
+#
+# Manter a poda como mecanismo: se meta-estudo voltar para a Bancada, o nome
+# da secao entra aqui e o caderno volta a sair limpo sem editar a fonte.
+PODA_BANCADA = []
 
 # Um item de gabarito comeca em inicio de linha ou logo depois do ponto do
 # meio que separa respostas curtas na mesma linha.

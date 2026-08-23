@@ -1,5 +1,5 @@
 # PISTAS E GABARITO
-### As 367 perguntas primeiro. As respostas no fim.
+### As 382 perguntas primeiro. As respostas no fim.
 
 > **Como usar.** Responda em voz alta, ou no papel, antes de descer. Errar aqui
 > vale mais do que reler a nota: é o erro que mostra onde o modelo tem buraco.
@@ -28,6 +28,9 @@
 3. Ordene as cinco áreas funcionais na ordem da cadeia.
 4. Onde o BW aparece no desenho das cinco áreas?
 5. O BW é uma das cinco áreas?
+6. O IS-U é um sistema separado do SAP?
+7. Nomeie as quatro áreas que concentram a customização num projeto de Utilities.
+8. Um comportamento da tela não bate com a documentação da SAP. Cite a pergunta a fazer antes de abrir chamado.
 
 **[GE-02: A evolução do produto, do R/3 ao SaaS](03-GE-02-evolucao-do-produto.md)**
 
@@ -527,6 +530,21 @@
 9. Uma transação do fluxo começa com `Z`. O que isso diz sobre ela?
 10. Uma conta saiu com valor certo e um campo em branco. Cite onde está o defeito.
 
+**[BI-05: O que precisa existir para faturar, e o que fazer quando não faturou](43-BI-05-o-que-precisa-para-faturar.md)**
+
+1. Nomeie os oito pré-requisitos de faturamento, na ordem.
+2. Qual dos oito é o que mais falta na prática?
+3. Qual transação faz a instalação técnica do equipamento?
+4. Qual transação faz a instalação para cálculo?
+5. Qual transação mostra o log de aplicação?
+6. Descreva a árvore de diagnóstico da fatura que não saiu, do primeiro ao último ramo.
+7. Por qual pergunta o diagnóstico começa?
+8. Cite o que justifica essa ordem.
+9. Qual resposta da árvore muda o encaminhamento de caso individual para problema de massa?
+10. O que separa uma leitura implausível de uma leitura ausente, para efeito desta lista?
+11. Uma fatura não saiu e o equipamento aparece instalado na tela. Cite a primeira hipótese.
+12. Cite as duas técnicas de diagnóstico que resolvem a maior parte dos casos.
+
 <!-- FIM PERGUNTAS -->
 
 ---
@@ -556,6 +574,12 @@
 4. Como **faixa transversal**, por baixo das cinco.
 5. **Não.** O BW enxerga tudo mas não é parte do CCS, e por isso não está entre
    as trilhas disponíveis.
+6. **Não.** É solução setorial **dentro** do ERP, e reutiliza contabilidade,
+   custos, materiais e manutenção que já existem lá. Tratar como sistema
+   separado faz procurar no lugar errado quando o problema é de módulo vizinho.
+7. **Tarifa, layout de fatura, integração bancária e aplicativo de campo.**
+8. **"Isso é padrão ou é nosso?"** Procurar documentação da SAP para um
+   comportamento customizado é ler um manual que não descreve aquele projeto.
 
 ---
 
@@ -1183,3 +1207,31 @@
 8. Que o **dado não existe**, e daí sai chamado de cadastro para um dado que
    está correto do outro lado.
 9. Na **replicação**, não no cadastro. O caminho é a fila do middleware.
+
+---
+
+## BI-05
+**BI-05: O que precisa existir para faturar, e o que fazer quando não faturou**  ·  [voltar para a nota](43-BI-05-o-que-precisa-para-faturar.md)
+
+1. Instalação ativa com categoria tarifária · Contrato ativo no período ·
+   Equipamento instalado tecnicamente · Equipamento instalado para faturamento ·
+   Tarifa vigente na data · Fatos obrigatórios · Resultado de leitura válido ·
+   Período ainda não faturado.
+2. O **quarto**: equipamento instalado para faturamento, com a relação
+   registrador e tarifa.
+3. `EG33`  ·  4. `EG34`  ·  5. `SLG1`
+6. Leitura válida? → tarifa vigente? → instalado para faturamento? → contrato
+   ativo no período? → fatos ou documento duplicado, e aí o log.
+7. Pela **leitura**.
+8. É a **causa mais frequente e a mais barata de verificar**. Olhar a tela
+   custa menos que qualquer outra checagem, e mandar alguém à rua antes disso
+   é o desperdício clássico.
+9. A **tarifa**. Tarifa não vigente quase nunca atinge um cliente só, então a
+   resposta "não" transforma o caso individual em problema de massa.
+10. **Leitura implausível não conta como válida.** Ela existe no sistema e está
+   retida em validação, o que engana quem procura só pela existência do
+   registro.
+11. Que ele foi instalado **só tecnicamente**: `EG33` sem `EG34`. Aparecer na
+    tela não é estar instalado para faturamento.
+12. **Comparar um caso que funciona com um que falha**, campo por campo, e
+    **agrupar os erros por mensagem** antes de abrir qualquer caso individual.
