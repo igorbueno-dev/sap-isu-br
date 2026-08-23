@@ -78,7 +78,7 @@ conta, porque tem só a função de Pessoa de Contato.
 
 ---
 
-## Na prática
+## No sistema
 
 | Transação | O quê |
 |---|---|
@@ -90,10 +90,21 @@ Ver [MD-04-parceiro-de-negocios-dados](09-MD-04-parceiro-de-negocios-dados.md) p
 
 ---
 
+## Se sobrar uma coisa
+
+Categoria é o que o parceiro é. Função é o papel que ele cumpre.
+
+---
+
 ## Recall
 
-1. Quais são as três categorias, e qual quase não se usa?
-2. Qual função é obrigatória para faturar?
-3. Você criou um PN e ele não fatura. Qual a primeira hipótese?
+1. Qual transação cria um Parceiro de Negócios?
+2. Qual transação modifica um Parceiro de Negócios?
+3. Qual transação exibe um Parceiro de Negócios?
+4. Nomeie as três categorias de Parceiro de Negócios.
+5. Qual das três categorias quase não se usa?
+6. Qual função é obrigatória para faturar o cliente?
+7. O que separa categoria de função?
+8. Você criou um PN e ele não fatura. Cite a primeira hipótese.
 
 > **Gabarito:** [`_PISTAS.md`](_PISTAS.md#md-03)  ·  responda tudo antes de abrir.

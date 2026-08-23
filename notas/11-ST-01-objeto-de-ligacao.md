@@ -55,7 +55,7 @@ cliente na busca.
 
 ---
 
-## Na prática
+## No sistema
 
 | Transação | O quê |
 |---|---|
@@ -70,11 +70,19 @@ do objeto criado.
 
 ---
 
+## Se sobrar uma coisa
+
+O Objeto de Ligação é o nível mais alto dos dados mestres técnicos, e é onde mora o endereço.
+
+---
+
 ## Recall
 
-1. Qual campo é o relevante do Objeto de Ligação?
-2. Ele é o nível mais alto ou mais baixo dos dados mestres técnicos?
-3. Dois sobrados colados, com números prediais diferentes. Um ou dois objetos
-   de ligação?
+1. Qual transação cria um Objeto de Ligação?
+2. Qual transação modifica um Objeto de Ligação?
+3. Qual transação exibe um Objeto de Ligação?
+4. Qual é o campo relevante do Objeto de Ligação?
+5. O Objeto de Ligação é o nível mais alto ou o mais baixo dos dados mestres técnicos?
+6. Dois sobrados colados, com números prediais diferentes. Um ou dois Objetos de Ligação?
 
 > **Gabarito:** [`_PISTAS.md`](_PISTAS.md#st-01)  ·  responda tudo antes de abrir.

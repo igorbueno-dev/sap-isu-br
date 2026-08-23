@@ -68,7 +68,7 @@ errado que falta autorização.
 
 ---
 
-## Na prática
+## No sistema
 
 | Transação | O quê |
 |---|---|
@@ -83,11 +83,21 @@ atendimento (CIC), então a transação só aparece na trilha de CS + CRM.**
 
 ---
 
+## Se sobrar uma coisa
+
+Não existe transação de criar Contrato porque quem o cria é o Move-In.
+
+---
+
 ## Recall
 
-1. Quando o Contrato é criado?
-2. Um contrato pode estar ligado a duas instalações?
-3. Em que nível ocorre o cálculo?
-4. Por que não existe transação de criar contrato?
+1. Qual transação modifica um Contrato?
+2. Qual transação exibe um Contrato?
+3. Qual transação modifica todos os contratos?
+4. Qual transação exibe todos os contratos?
+5. Quando o Contrato é criado?
+6. Um contrato pode estar ligado a duas instalações?
+7. Em que nível ocorre o cálculo?
+8. O que cria o Contrato, já que não existe transação de criar?
 
 > **Gabarito:** [`_PISTAS.md`](_PISTAS.md#md-06)  ·  responda tudo antes de abrir.

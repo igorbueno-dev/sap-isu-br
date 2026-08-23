@@ -17,104 +17,158 @@
 **[GE-03: Do problema ao módulo](01-GE-03-do-problema-ao-modulo.md)**
 
 1. Quais são as três perguntas que o sistema inteiro existe para responder?
-2. Por que errar no corte é mais caro que errar no faturamento?
-3. O que torna a venda de energia diferente de uma venda comum?
+2. O que separa a venda de energia de uma venda comum?
+3. Uma concessionária corta o fornecimento de quem já havia pagado. Cite o que torna esse erro mais caro que um erro de faturamento.
+4. Qual pedaço do CCS resolve o problema de receber o dinheiro?
 
 **[GE-01: O que é o SAP IS-U CCS](02-GE-01-o-que-e-is-u-ccs.md)**
 
-1. Escreva as duas expansões, CCS e IS-U, corretamente.
-2. Liste as cinco áreas funcionais na ordem da cadeia.
-3. Onde BW aparece no desenho, e por que isso importa para a sua escolha de trilha?
+1. Escreva a expansão de CCS.
+2. Escreva a expansão de IS-U.
+3. Ordene as cinco áreas funcionais na ordem da cadeia.
+4. Onde o BW aparece no desenho das cinco áreas?
+5. O BW é uma das cinco áreas?
 
 **[GE-02: A evolução do produto, do R/3 ao SaaS](03-GE-02-evolucao-do-produto.md)**
 
-1. Até quando o ECC tem manutenção garantida, e por que isso gera emprego?
-2. Qual interface pertence a cada era?
-3. O que muda e o que não muda do ECC para o S/4HANA?
+1. Até quando o ECC tem manutenção garantida?
+2. Cite o efeito dessa data sobre o mercado de trabalho.
+3. Qual interface pertence a cada era do produto?
+4. O que muda do ECC para o S/4HANA?
+5. O que não muda do ECC para o S/4HANA?
 
 **[GE-04: Os quatro mercados, com peso igual](04-GE-04-os-tres-setores.md)**
 
-1. O medidor de gás mede o que se cobra?
-2. Um imóvel de saneamento tem quantas instalações, e por quê?
-3. Em qual setor a estimativa de consumo é mais frequente, e por quê?
-4. Em qual setor o corte é mais delicado?
+1. Nomeie os quatro mercados atendidos pelo SAP IS-U.
+2. O medidor de gás mede o que se cobra?
+3. Quantas instalações tem um imóvel de saneamento?
+4. O que explica esse número de instalações?
+5. Em qual mercado a estimativa de consumo é mais frequente?
+6. Em qual mercado o corte é mais delicado?
 
 **[MD-01: As quatro divisões dos dados mestres](05-MD-01-mapa-dos-dados-mestres.md)**
 
-1. Quais são as quatro divisões, na ordem?
-2. Por que os dados transacionais aparecem numa lista de dados mestres?
-3. O que o material diz sobre a Estrutura Postal, e a que área ela pertence?
-4. Qual o critério que separa dado mestre de dado transacional?
-5. Um imóvel foi construído e ninguém se mudou ainda. Quais divisões já têm dado, e quais não?
+1. Quais são as quatro divisões dos dados mestres, na ordem?
+2. Qual é o papel dos Dados Transacionais dentro dessa lista?
+3. O que o material diz sobre o conteúdo da Estrutura Postal?
+4. A que área pertence a manutenção das estruturas postais?
+5. Qual o critério que separa dado mestre de dado transacional?
+6. Um imóvel foi construído e ninguém se mudou ainda. Qual divisão já tem dado?
 
 **[MD-08: Os dois mundos e a validade no tempo](06-MD-08-os-dois-mundos.md)**
 
 1. Em que ponto exato os dois mundos se tocam?
 2. Qual é o nível mais alto dos dados mestres técnicos?
-3. Por que a ordem do desenho não é a hierarquia?
-4. O que acontece se você alterar a tarifa de uma instalação sem olhar a data de validade?
+3. O que separa a ordem do desenho da hierarquia real dos objetos?
+4. Cite os três objetos do material em que o campo de validade aparece.
+5. Uma tarifa foi alterada sem olhar a data. Cite a consequência.
 
 **[MD-02: A tradução do prédio](07-MD-02-a-traducao-do-predio.md)**
 
-1. Traduza para SAP: prédio, apartamento, garagem, medidor, cliente.
-2. Por que o Local de Consumo e o Local de Instalação de Equipamento são objetos diferentes?
-3. Qual objeto liga o mundo comercial ao mundo técnico?
+1. Como o SAP chama o prédio?
+2. Como o SAP chama o apartamento?
+3. Como o SAP chama a garagem onde ficam os medidores?
+4. Como o SAP chama o medidor?
+5. Como o SAP chama o cliente?
+6. O que separa o Local de Consumo do Local de Instalação de Equipamento?
+7. Qual objeto liga o mundo comercial ao mundo técnico?
 
 **[MD-03: Parceiro de Negócios, categoria e função](08-MD-03-parceiro-de-negocios.md)**
 
-1. Quais são as três categorias, e qual quase não se usa?
-2. Qual função é obrigatória para faturar?
-3. Você criou um PN e ele não fatura. Qual a primeira hipótese?
+1. Qual transação cria um Parceiro de Negócios?
+2. Qual transação modifica um Parceiro de Negócios?
+3. Qual transação exibe um Parceiro de Negócios?
+4. Nomeie as três categorias de Parceiro de Negócios.
+5. Qual das três categorias quase não se usa?
+6. Qual função é obrigatória para faturar o cliente?
+7. O que separa categoria de função?
+8. Você criou um PN e ele não fatura. Cite a primeira hipótese.
 
 **[MD-04: Parceiro de Negócios, os dados e o customizing](09-MD-04-parceiro-de-negocios-dados.md)**
 
-1. Onde mora o endereço, no PN ou na Conta Contrato?
-2. Qual transação define **quais campos aparecem** por função de PN?
-3. A conta do cliente está indo para o endereço errado. Onde você olha primeiro?
+1. Qual transação define agrupamentos e atribuição de faixas de numeração?
+2. Qual transação define o tipo de endereço padrão por função?
+3. Qual transação define as formas de tratamento?
+4. Qual transação define as regras de formatação de nome?
+5. Qual transação define as formas jurídicas?
+6. Qual transação define a entidade legal?
+7. Qual transação define o layout de tela?
+8. Qual transação define as faixas de numeração de relacionamento?
+9. Onde mora o endereço, no PN ou na Conta Contrato?
+10. A conta do cliente está indo para o endereço errado. Cite onde olhar primeiro.
 
 **[MD-05: Conta Contrato](10-MD-05-conta-contrato.md)**
 
-1. Qual o critério para agrupar contratos numa mesma conta contrato?
-2. Solvência é do PN ou da conta contrato?
-3. Onde fica o bloqueio de corte, e onde fica o bloqueio de faturamento?
+1. Qual transação cria uma Conta Contrato?
+2. Qual transação modifica uma Conta Contrato?
+3. Qual transação exibe uma Conta Contrato?
+4. Qual transação ativa modificações planejadas?
+5. Qual o critério para agrupar contratos numa mesma conta contrato?
+6. Solvência é do Parceiro de Negócios ou da Conta Contrato?
+7. Onde fica o bloqueio de corte?
+8. Onde fica o bloqueio de faturamento?
 
 **[ST-01: Objeto de Ligação](11-ST-01-objeto-de-ligacao.md)**
 
-1. Qual campo é o relevante do Objeto de Ligação?
-2. Ele é o nível mais alto ou mais baixo dos dados mestres técnicos?
-3. Dois sobrados colados, com números prediais diferentes. Um ou dois objetos de ligação?
+1. Qual transação cria um Objeto de Ligação?
+2. Qual transação modifica um Objeto de Ligação?
+3. Qual transação exibe um Objeto de Ligação?
+4. Qual é o campo relevante do Objeto de Ligação?
+5. O Objeto de Ligação é o nível mais alto ou o mais baixo dos dados mestres técnicos?
+6. Dois sobrados colados, com números prediais diferentes. Um ou dois Objetos de Ligação?
 
 **[ST-02: Local de Consumo](12-ST-02-local-de-consumo.md)**
 
-1. O Local de Consumo tem endereço próprio?
-2. Quais os dois campos relevantes dele?
-3. Um prédio de 40 apartamentos: quantos objetos de ligação e quantos locais de consumo?
+1. Qual transação cria um Local de Consumo?
+2. Qual transação modifica um Local de Consumo?
+3. Qual transação exibe um Local de Consumo?
+4. O Local de Consumo tem endereço próprio?
+5. Nomeie os dois campos relevantes do Local de Consumo.
+6. Um prédio de 40 apartamentos tem quantos Objetos de Ligação?
+7. O mesmo prédio tem quantos Locais de Consumo?
+8. Um colega diz que `ES61` cria o Local de Consumo. Ele está certo?
 
 **[ST-03: Instalação](13-ST-03-instalacao.md)**
 
-1. Qual objeto guarda o tipo de tarifa?
-2. O que é o Indicador de Baixa Renda e onde ele fica?
-3. Conta veio com valor absurdo. Onde você olha antes de suspeitar do cálculo?
+1. Qual transação cria uma Instalação?
+2. Qual transação modifica uma Instalação?
+3. Qual transação exibe uma Instalação?
+4. Qual objeto guarda o tipo de tarifa?
+5. O que é o Indicador de Baixa Renda?
+6. Em qual objeto fica o Indicador de Baixa Renda?
+7. Uma conta veio com valor absurdo. Cite onde olhar antes de suspeitar do cálculo.
 
 **[ST-04: Equipamento e Local de Instalação](14-ST-04-equipamento.md)**
 
-1. Um prédio de 40 apartamentos tem quantos Locais de Instalação de Equipamento?
-2. Além do medidor, o que mais é Equipamento?
-3. Medidor trocado no campo, conta ainda com leitura do antigo. Hipótese?
+1. Qual transação cria um Local de Instalação de Equipamento?
+2. Qual transação modifica um Local de Instalação de Equipamento?
+3. Qual transação exibe um Local de Instalação de Equipamento?
+4. Qual transação faz a instalação total do equipamento?
+5. Qual transação faz só a instalação técnica?
+6. Qual transação faz só a parte com efeito no cálculo da fatura?
+7. Qual transação estorna a instalação técnica?
+8. Um prédio de 40 apartamentos tem quantos Locais de Instalação de Equipamento?
+9. Além do medidor, o que mais é cadastrado como Equipamento?
+10. Um medidor foi trocado no campo e a conta ainda usa a leitura do antigo. Cite a causa mais provável.
 
 **[MD-06: Contrato](15-MD-06-contrato.md)**
 
-1. Quando o Contrato é criado?
-2. Um contrato pode estar ligado a duas instalações?
-3. Em que nível ocorre o cálculo?
-4. Por que não existe transação de criar contrato?
+1. Qual transação modifica um Contrato?
+2. Qual transação exibe um Contrato?
+3. Qual transação modifica todos os contratos?
+4. Qual transação exibe todos os contratos?
+5. Quando o Contrato é criado?
+6. Um contrato pode estar ligado a duas instalações?
+7. Em que nível ocorre o cálculo?
+8. O que cria o Contrato, já que não existe transação de criar?
 
 **[MD-07: Move-In e Move-Out](16-MD-07-move-in-move-out.md)**
 
-1. O morador se muda. O que acontece com a Instalação, e o que acontece com o Contrato?
-2. O que sempre acompanha um Move-In?
-3. Consumo registrado numa instalação sem contrato ativo. O que isso sugere?
-4. Por que Move-In com data retroativa é caro?
+1. O morador se muda. O que acontece com a Instalação?
+2. O morador se muda. O que acontece com o Contrato?
+3. O que sempre acompanha um Move-In?
+4. Há consumo registrado numa instalação sem contrato ativo. Cite o que isso sugere.
+5. Um Move-In foi lançado com data retroativa. Cite a consequência.
 
 
 ---
@@ -381,42 +435,48 @@
 **GE-03: Do problema ao módulo**  ·  [voltar para a nota](01-GE-03-do-problema-ao-modulo.md)
 
 1. **Onde** está ligado, **quanto** consumiu, **por quanto** é cobrado.
-2. Porque envolve deslocar uma pessoa, e cortar quem pagou vira processo
-   judicial e multa do regulador. Erro de faturamento se corrige com estorno.
-3. O consumo vem antes da autorização e antes do pagamento. Não há pedido,
+2. O consumo vem **antes** da autorização e antes do pagamento. Não há pedido,
    não há vendedor, e o produto é invisível.
+3. Cortar quem pagou vira **processo judicial e multa do regulador**, e desfazer
+   exige deslocar uma pessoa. Erro de faturamento se corrige com estorno.
+4. **FI-CA**, arrecadação e cobrança.
 
 ---
 
 ## GE-01
 **GE-01: O que é o SAP IS-U CCS**  ·  [voltar para a nota](02-GE-01-o-que-e-is-u-ccs.md)
 
-1. Customer Care Service, e Industry Solutions for Utilities.
-2. CS+CRM, WM, DM, BILL, FI-CA.
-3. Como faixa transversal, por baixo das cinco. BW enxerga tudo mas não é
-   parte do CCS, e por isso não está entre as trilhas disponíveis.
+1. **Customer Care Service.**
+2. **Industry Solutions for Utilities.**
+3. `CS + CRM` → `WM` → `DM` → `BILL` → `FI-CA`.
+4. Como **faixa transversal**, por baixo das cinco.
+5. **Não.** O BW enxerga tudo mas não é parte do CCS, e por isso não está entre
+   as trilhas disponíveis.
 
 ---
 
 ## GE-02
 **GE-02: A evolução do produto, do R/3 ao SaaS**  ·  [voltar para a nota](03-GE-02-evolucao-do-produto.md)
 
-1. Fim de 2027. Força a migração de toda a base instalada para S/4HANA, o que
-   gera projetos.
-2. SAP GUI na clássica, Fiori na moderna, Web/nativo em nuvem no futuro SaaS.
-3. Muda a tecnologia (HANA, tempo real) e a interface. **Não muda o modelo de
-   dados de negócio** nem os conceitos do CCS.
+1. **Fim de 2027.**
+2. Força a migração de toda a base instalada para o S/4HANA, e isso **gera
+   projeto**, que é onde entra consultoria.
+3. SAP GUI na era clássica, Fiori na moderna, Web e nativo em nuvem no SaaS.
+4. Muda a **tecnologia** (HANA, tempo real) e a **interface**.
+5. **Não muda o modelo de dados de negócio** nem os conceitos do CCS. É por
+   isso que aprender IS-U hoje não vira conhecimento descartável.
 
 ---
 
 ## GE-04
 **GE-04: Os três setores, com peso igual**  ·  [voltar para a nota](04-GE-04-os-tres-setores.md)
 
-1. **Não.** Mede volume em m³, a cobrança é por energia. Há conversão no meio.
-2. **Duas**, água e esgoto. A de esgoto normalmente não tem medidor e fatura
-   como percentual da água.
-3. **Saneamento**, por medidor embaçado, enterrado ou inacessível.
-4. **Saneamento**, por ser o mais sensível juridicamente. A régua de cobrança
+1. **Luz, Água, Gás e Saneamento.**
+2. **Não.** Mede volume em m³ e a cobrança é por energia. Há conversão no meio.
+3. **Duas**, água e esgoto.
+4. A de esgoto normalmente **não tem medidor** e fatura como percentual da água.
+5. **Saneamento**, por medidor embaçado, enterrado ou inacessível.
+6. **Saneamento**, por ser o mais sensível juridicamente. A régua de cobrança
    costuma ser mais conservadora.
 
 ---
@@ -426,36 +486,44 @@
 
 1. Estrutura Postal, Dados Mestre Técnicos, Dados Mestre Comercial, Dados
    Transacionais.
-2. Para servir de **contraste**. Ela não é dado mestre, e é justamente isso
-   que define os outros três por oposição.
-3. **Só o nome.** O material lista a Estrutura Postal e nunca a desenvolve. A
-   única pista é que **manter estruturas políticas e postais é
-   responsabilidade de WM**. O conteúdo dela é pergunta em aberto.
-4. **Duração da validade.** Mestre dura muito e é a única versão válida no
+2. Servir de **contraste**. Eles não são dado mestre, e é isso que define os
+   outros três por oposição.
+3. **Só o nome.** O material lista a Estrutura Postal e nunca a desenvolve.
+4. A **WM**, que "mantém estruturas políticas e postais".
+5. **Duração da validade.** Mestre dura muito e é a única versão válida no
    período. Transacional é dinâmico e vale pouco tempo.
-5. Já têm dado: **Dados Mestres Técnicos** (o prédio, o local de consumo e a
-   instalação existem sem morador). Não têm: **Comerciais** e
-   **Transacionais**, porque não há quem pague nem o que medir.
+6. Os **Dados Mestres Técnicos**: o prédio, o local de consumo e a instalação
+   existem sem morador.
 
 ---
 
 ## MD-02
 **MD-02: A tradução do prédio**  ·  [voltar para a nota](07-MD-02-a-traducao-do-predio.md)
 
-1. Objeto de Ligação, Local de Consumo, Local de Instalação de Equipamento,
-   Equipamento, Parceiro de Negócios.
-2. Porque o lugar onde se **consome** não é o lugar onde o aparelho está
+1. **Objeto de Ligação.**
+2. **Local de Consumo.**
+3. **Local de Instalação de Equipamento.**
+4. **Equipamento.**
+5. **Parceiro de Negócios.**
+6. O lugar onde se **consome** não é o lugar onde o aparelho está
    **instalado**. No prédio, consome-se no apartamento e mede-se na garagem.
-3. O **Contrato**.
+7. O **Contrato**.
 
 ---
 
 ## MD-03
 **MD-03: Parceiro de Negócios, categoria e função**  ·  [voltar para a nota](08-MD-03-parceiro-de-negocios.md)
 
-1. Pessoa, Organização e Grupo. Grupo normalmente não é utilizada.
-2. **Parceiro de Contrato.**
-3. Que ele não tem a função Parceiro de Contrato, ou tem só função de
+1. `FPP1` ou `BP`.
+2. `FPP2` ou `BP`.
+3. `FPP3` ou `BP`.
+4. **Pessoa, Organização e Grupo.**
+5. **Grupo.** Normalmente não é utilizada.
+6. **Parceiro de Contrato.**
+7. **Categoria é o que o parceiro é** (pessoa física ou jurídica) e decide
+   quais campos aparecem na tela. **Função é o papel que ele cumpre**, e o
+   mesmo parceiro pode ter várias.
+8. Que ele **não tem a função Parceiro de Contrato**, ou tem só função de
    Pessoa de Contato, que não carrega contrato.
 
 ---
@@ -463,83 +531,94 @@
 ## MD-04
 **MD-04: Parceiro de Negócios, os dados e o customizing**  ·  [voltar para a nota](09-MD-04-parceiro-de-negocios-dados.md)
 
-1. **No PN.** Mas o direcionamento por função pode ser feito no nível da
-   Conta Contrato.
-2. `BUCG`, agrupamento de campos por função de PN.
-3. No endereço standard do PN, e depois no endereço de correspondência da
-   Conta Contrato, que é herdado do PN mas pode ser sobreposto.
+1. `BUC2`  ·  2. `BUC4`  ·  3. `BUC0`  ·  4. `SA13`  ·  5. `BUC8`
+6. `BUC9`  ·  7. `BUS5`  ·  8. `BUB9`
+9. **No PN.** Mas o direcionamento por função pode ser feito no nível da Conta
+   Contrato.
+10. No **endereço standard do PN**, e depois no endereço de correspondência da
+    Conta Contrato, que é herdado do PN mas pode ser sobreposto.
 
 ---
 
 ## MD-05
 **MD-05: Conta Contrato**  ·  [voltar para a nota](10-MD-05-conta-contrato.md)
 
-1. **Mesmos dados de pagamento e cobrança.**
-2. Do **PN** (business partner level).
-3. Bloqueio de corte/cobrança na **Conta Contrato**. Bloqueio de faturamento
-   no **Contrato**.
+1. `CAA1`  ·  2. `CAA2`  ·  3. `CAA3`  ·  4. `FPP2A`
+5. **Mesmos dados de pagamento e cobrança.**
+6. Do **Parceiro de Negócios**.
+7. Na **Conta Contrato**.
+8. No **Contrato**.
 
 ---
 
 ## MD-06
 **MD-06: Contrato**  ·  [voltar para a nota](15-MD-06-contrato.md)
 
-1. Durante o **Move In**, ou em troca de titularidade / nova ligação.
-2. **Não.** Um contrato liga a exatamente uma Conta Contrato e uma Instalação.
-3. **No nível do Contrato.**
-4. Porque ele é resultado do processo de Move In, não de cadastro direto.
+1. `ES21`  ·  2. `ES22`  ·  3. `ES27`  ·  4. `ES28`
+5. Durante o **Move In**, ou em troca de titularidade e nova ligação.
+6. **Não.** Um contrato liga a exatamente uma Conta Contrato e uma Instalação.
+7. **No nível do Contrato.**
+8. O **Move In**. O contrato é resultado de um processo, não de cadastro
+   direto, e é por isso que não há transação de criar.
 
 ---
 
 ## MD-07
 **MD-07: Move-In e Move-Out**  ·  [voltar para a nota](16-MD-07-move-in-move-out.md)
 
-1. A **Instalação permanece**, é do imóvel. O **Contrato é encerrado**, é da
-   pessoa.
-2. Uma **leitura inicial**.
-3. **Ligação clandestina.** O sistema monitora imóveis desocupados justamente
+1. A **Instalação permanece**. Ela é do imóvel.
+2. O **Contrato é encerrado**. Ele é da pessoa.
+3. Uma **leitura inicial**.
+4. **Ligação clandestina.** O sistema monitora imóveis desocupados justamente
    por isso.
-4. Porque obriga a desfazer e refazer todo o faturamento posterior à data.
+5. Obriga a **desfazer e refazer todo o faturamento posterior à data**.
 
 ---
 
 ## ST-01
 **ST-01: Objeto de Ligação**  ·  [voltar para a nota](11-ST-01-objeto-de-ligacao.md)
 
-1. **Endereço.**
-2. **Mais alto.**
-3. **Dois.** Cada número predial é um Objeto de Ligação.
+1. `ES55`  ·  2. `ES56`  ·  3. `ES57`
+4. **Endereço.**
+5. **O mais alto.**
+6. **Dois.** Cada número predial é um Objeto de Ligação.
 
 ---
 
 ## ST-02
 **ST-02: Local de Consumo**  ·  [voltar para a nota](12-ST-02-local-de-consumo.md)
 
-1. **Não.** Ele assume o endereço do Objeto de Ligação e guarda só o
+1. `ES60`  ·  2. `ES61`  ·  3. `ES62`
+4. **Não.** Ele assume o endereço do Objeto de Ligação e guarda só o
    complemento.
-2. Tipo do Local de Consumo, e Complemento do endereço.
-3. **Um** objeto de ligação, **quarenta** locais de consumo.
+5. **Tipo do Local de Consumo** e **Complemento do endereço**.
+6. **Um.**
+7. **Quarenta.**
+8. **Não.** `ES61` modifica e `ES62` exibe. Para criar, o correto é `ES60`.
 
 ---
 
 ## ST-03
 **ST-03: Instalação**  ·  [voltar para a nota](13-ST-03-instalacao.md)
 
-1. A **Instalação**, no bloco Faturamento e Medição.
-2. Marcação de tarifa social, campo brasileiro, no bloco Informações
-   Individuais da **Instalação**.
-3. Nos dados mestres da **Instalação**: tarifa, vigência da tarifa, unidade
-   de leitura e tipo de validação.
+1. `ES30`  ·  2. `ES31`  ·  3. `ES32`
+4. A **Instalação**, no bloco Faturamento e Medição.
+5. A marcação de **tarifa social**, campo brasileiro.
+6. Na **Instalação**, no bloco Informações Individuais.
+7. Nos dados mestres da **Instalação**: tarifa, vigência da tarifa, unidade de
+   leitura e tipo de validação.
 
 ---
 
 ## ST-04
 **ST-04: Equipamento e Local de Instalação**  ·  [voltar para a nota](14-ST-04-equipamento.md)
 
-1. Normalmente **um**, com os 40 relógios juntos.
-2. **Transformador de Corrente (TC).**
-3. Foi feita instalação **técnica** (`EG33`) sem a parte **com efeito no
-   cálculo** (`EG34`). Faltou completar a instalação.
+1. `ES65`  ·  2. `ES66`  ·  3. `ES67`  ·  4. `EG31`  ·  5. `EG33`
+6. `EG34`  ·  7. `EG51`
+8. Normalmente **um**, com os 40 relógios juntos.
+9. O **Transformador de Corrente (TC)**, e o de Potencial (TP).
+10. Foi feita instalação **técnica** (`EG33`) sem a parte **com efeito no
+    cálculo** (`EG34`). Faltou completar a instalação.
 
 ---
 
@@ -664,10 +743,13 @@
 1. No **Contrato indo para a Instalação**. É a única ligação entre os dois
    lados; todo o resto desce dentro do próprio mundo.
 2. O **Objeto de Ligação**.
-3. Porque o desenho lista do **mais específico para o mais genérico**, e a
-   hierarquia física vai do **prédio para o medidor**. São ordens inversas.
-4. Você pode ter **alterado o passado**: se a nova tarifa valer desde uma data
+3. O desenho lista do **mais específico para o mais genérico**, e a hierarquia
+   física vai do **prédio para o medidor**. São ordens inversas.
+4. **Parceiro de Negócios** (período de validade), **Contrato** (vigência) e
+   **Instalação** (vigência do tipo de tarifa).
+5. Você pode ter **alterado o passado**: se a nova tarifa valer desde uma data
    antiga, o sistema vai querer refaturar meses já fechados.
+
 ---
 
 ## SV-01

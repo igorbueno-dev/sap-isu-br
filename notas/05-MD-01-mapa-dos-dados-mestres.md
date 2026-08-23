@@ -106,13 +106,19 @@ cima dos cadastros anteriores.
 
 ---
 
+## Se sobrar uma coisa
+
+São quatro divisões, e a quarta está na lista para servir de contraste.
+
+---
+
 ## Recall
 
-1. Quais são as quatro divisões, na ordem?
-2. Por que os dados transacionais aparecem numa lista de dados mestres?
-3. O que o material diz sobre a Estrutura Postal, e a que área ela pertence?
-4. Qual o critério que separa dado mestre de dado transacional?
-5. Um imóvel foi construído e ninguém se mudou ainda. Quais divisões já têm
-   dado, e quais não?
+1. Quais são as quatro divisões dos dados mestres, na ordem?
+2. Qual é o papel dos Dados Transacionais dentro dessa lista?
+3. O que o material diz sobre o conteúdo da Estrutura Postal?
+4. A que área pertence a manutenção das estruturas postais?
+5. Qual o critério que separa dado mestre de dado transacional?
+6. Um imóvel foi construído e ninguém se mudou ainda. Qual divisão já tem dado?
 
 > **Gabarito:** [`_PISTAS.md`](_PISTAS.md#md-01)  ·  responda tudo antes de abrir.

@@ -41,7 +41,7 @@ para `Brasil: nº CPF`.
 
 ---
 
-## O customizing
+## No sistema
 
 **Duas transações de atalho:** `BUPT` para o parceiro de negócios,
 `BUMR` para relacionamentos.
@@ -88,10 +88,23 @@ Quando alguém disser "não consigo escolher a opção X", a resposta quase nunc
 
 ---
 
+## Se sobrar uma coisa
+
+O endereço mora no Parceiro de Negócios, e a tela dele é desenhada no customizing.
+
+---
+
 ## Recall
 
-1. Onde mora o endereço, no PN ou na Conta Contrato?
-2. Qual transação define **quais campos aparecem** por função de PN?
-3. A conta do cliente está indo para o endereço errado. Onde você olha primeiro?
+1. Qual transação define agrupamentos e atribuição de faixas de numeração?
+2. Qual transação define o tipo de endereço padrão por função?
+3. Qual transação define as formas de tratamento?
+4. Qual transação define as regras de formatação de nome?
+5. Qual transação define as formas jurídicas?
+6. Qual transação define a entidade legal?
+7. Qual transação define o layout de tela?
+8. Qual transação define as faixas de numeração de relacionamento?
+9. Onde mora o endereço, no PN ou na Conta Contrato?
+10. A conta do cliente está indo para o endereço errado. Cite onde olhar primeiro.
 
 > **Gabarito:** [`_PISTAS.md`](_PISTAS.md#md-04)  ·  responda tudo antes de abrir.

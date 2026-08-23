@@ -94,7 +94,7 @@ estraga um chamado real.
 
 ---
 
-## Na prática
+## No sistema
 
 | Transação | O quê |
 |---|---|
@@ -110,10 +110,21 @@ Contract Accounts`
 
 ---
 
+## Se sobrar uma coisa
+
+A Conta Contrato é a bolsa: ela agrupa quem paga do mesmo jeito.
+
+---
+
 ## Recall
 
-1. Qual o critério para agrupar contratos numa mesma conta contrato?
-2. Solvência é do PN ou da conta contrato?
-3. Onde fica o bloqueio de corte, e onde fica o bloqueio de faturamento?
+1. Qual transação cria uma Conta Contrato?
+2. Qual transação modifica uma Conta Contrato?
+3. Qual transação exibe uma Conta Contrato?
+4. Qual transação ativa modificações planejadas?
+5. Qual o critério para agrupar contratos numa mesma conta contrato?
+6. Solvência é do Parceiro de Negócios ou da Conta Contrato?
+7. Onde fica o bloqueio de corte?
+8. Onde fica o bloqueio de faturamento?
 
 > **Gabarito:** [`_PISTAS.md`](_PISTAS.md#md-05)  ·  responda tudo antes de abrir.

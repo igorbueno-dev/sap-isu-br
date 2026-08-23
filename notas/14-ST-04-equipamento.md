@@ -125,10 +125,40 @@ flowchart TD
 
 ---
 
+## No sistema
+
+| Transação | O que faz |
+|---|---|
+| `ES65` | Criar Local de Instalação de Equipamento |
+| `ES66` | Modificar Local de Instalação de Equipamento |
+| `ES67` | Exibir Local de Instalação de Equipamento |
+| `EG31` | Instalação **total**: técnica e com efeito no faturamento |
+| `EG33` | Instalação **técnica**: coloca o aparelho, sem mexer no faturamento |
+| `EG34` | Instalação **com efeito no cálculo**: liga o aparelho à tarifa |
+| `EG51` | Estorno da instalação técnica |
+
+A lista completa dos processos de equipamento, incluindo levantamento e
+substituição, está na [DM-03](30-DM-03-cadastro-do-equipamento.md).
+
+---
+
+## Se sobrar uma coisa
+
+Instalar tem duas partes, e sem a segunda o medidor nunca fatura.
+
+---
+
 ## Recall
 
-1. Um prédio de 40 apartamentos tem quantos Locais de Instalação de Equipamento?
-2. Além do medidor, o que mais é Equipamento?
-3. Medidor trocado no campo, conta ainda com leitura do antigo. Hipótese?
+1. Qual transação cria um Local de Instalação de Equipamento?
+2. Qual transação modifica um Local de Instalação de Equipamento?
+3. Qual transação exibe um Local de Instalação de Equipamento?
+4. Qual transação faz a instalação total do equipamento?
+5. Qual transação faz só a instalação técnica?
+6. Qual transação faz só a parte com efeito no cálculo da fatura?
+7. Qual transação estorna a instalação técnica?
+8. Um prédio de 40 apartamentos tem quantos Locais de Instalação de Equipamento?
+9. Além do medidor, o que mais é cadastrado como Equipamento?
+10. Um medidor foi trocado no campo e a conta ainda usa a leitura do antigo. Cite a causa mais provável.
 
 > **Gabarito:** [`_PISTAS.md`](_PISTAS.md#st-04)  ·  responda tudo antes de abrir.

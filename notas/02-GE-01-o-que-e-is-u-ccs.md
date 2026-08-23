@@ -81,10 +81,18 @@ Ver [02-BANCADA](../referencia/02-BANCADA.md) para as transações.
 
 ---
 
+## Se sobrar uma coisa
+
+O CCS são cinco áreas em cadeia, e o BW não é uma delas.
+
+---
+
 ## Recall
 
-1. Escreva as duas expansões, CCS e IS-U, corretamente.
-2. Liste as cinco áreas funcionais na ordem da cadeia.
-3. Onde BW aparece no desenho, e por que isso importa para a sua escolha de trilha?
+1. Escreva a expansão de CCS.
+2. Escreva a expansão de IS-U.
+3. Ordene as cinco áreas funcionais na ordem da cadeia.
+4. Onde o BW aparece no desenho das cinco áreas?
+5. O BW é uma das cinco áreas?
 
 > **Gabarito:** [`_PISTAS.md`](_PISTAS.md#ge-01)  ·  responda tudo antes de abrir.

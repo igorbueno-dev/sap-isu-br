@@ -62,10 +62,18 @@ O conceito que você está aprendendo agora **vale nas duas gerações**.
 
 ---
 
+## Se sobrar uma coisa
+
+A manutenção do ECC acaba no fim de 2027, e é isso que move o mercado.
+
+---
+
 ## Recall
 
-1. Até quando o ECC tem manutenção garantida, e por que isso gera emprego?
-2. Qual interface pertence a cada era?
-3. O que muda e o que não muda do ECC para o S/4HANA?
+1. Até quando o ECC tem manutenção garantida?
+2. Cite o efeito dessa data sobre o mercado de trabalho.
+3. Qual interface pertence a cada era do produto?
+4. O que muda do ECC para o S/4HANA?
+5. O que não muda do ECC para o S/4HANA?
 
 > **Gabarito:** [`_PISTAS.md`](_PISTAS.md#ge-02)  ·  responda tudo antes de abrir.

@@ -103,11 +103,20 @@ Ele responde de uma vez três perguntas que caem sempre:
 
 ---
 
+## Se sobrar uma coisa
+
+Prédio é Objeto de Ligação, apartamento é Local de Consumo, e quem fatura é a Instalação.
+
+---
+
 ## Recall
 
-1. Traduza para SAP: prédio, apartamento, garagem, medidor, cliente.
-2. Por que o Local de Consumo e o Local de Instalação de Equipamento são
-   objetos diferentes?
-3. Qual objeto liga o mundo comercial ao mundo técnico?
+1. Como o SAP chama o prédio?
+2. Como o SAP chama o apartamento?
+3. Como o SAP chama a garagem onde ficam os medidores?
+4. Como o SAP chama o medidor?
+5. Como o SAP chama o cliente?
+6. O que separa o Local de Consumo do Local de Instalação de Equipamento?
+7. Qual objeto liga o mundo comercial ao mundo técnico?
 
 > **Gabarito:** [`_PISTAS.md`](_PISTAS.md#md-02)  ·  responda tudo antes de abrir.

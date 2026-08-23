@@ -85,10 +85,17 @@ fazer aqui?" quando o sistema faz algo estranho.
 
 ---
 
+## Se sobrar uma coisa
+
+O sistema existe para responder três perguntas: onde está ligado, quanto consumiu, por quanto é cobrado.
+
+---
+
 ## Recall
 
 1. Quais são as três perguntas que o sistema inteiro existe para responder?
-2. Por que errar no corte é mais caro que errar no faturamento?
-3. O que torna a venda de energia diferente de uma venda comum?
+2. O que separa a venda de energia de uma venda comum?
+3. Uma concessionária corta o fornecimento de quem já havia pagado. Cite o que torna esse erro mais caro que um erro de faturamento.
+4. Qual pedaço do CCS resolve o problema de receber o dinheiro?
 
 > **Gabarito:** [`_PISTAS.md`](_PISTAS.md#ge-03)  ·  responda tudo antes de abrir.

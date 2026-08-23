@@ -68,7 +68,7 @@ antes de acusar o cálculo.**
 
 ---
 
-## Na prática
+## No sistema
 
 | Transação | O quê |
 |---|---|
@@ -86,10 +86,20 @@ equipamento.
 
 ---
 
+## Se sobrar uma coisa
+
+A Instalação é o objeto que fatura: é nela que moram a tarifa e a unidade de leitura.
+
+---
+
 ## Recall
 
-1. Qual objeto guarda o tipo de tarifa?
-2. O que é o Indicador de Baixa Renda e onde ele fica?
-3. Conta veio com valor absurdo. Onde você olha antes de suspeitar do cálculo?
+1. Qual transação cria uma Instalação?
+2. Qual transação modifica uma Instalação?
+3. Qual transação exibe uma Instalação?
+4. Qual objeto guarda o tipo de tarifa?
+5. O que é o Indicador de Baixa Renda?
+6. Em qual objeto fica o Indicador de Baixa Renda?
+7. Uma conta veio com valor absurdo. Cite onde olhar antes de suspeitar do cálculo.
 
 > **Gabarito:** [`_PISTAS.md`](_PISTAS.md#st-03)  ·  responda tudo antes de abrir.

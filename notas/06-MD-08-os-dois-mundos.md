@@ -86,12 +86,18 @@ repete: cada objeto tem **uma transação de uso** e **uma de customizing**.
 
 ---
 
+## Se sobrar uma coisa
+
+Os dois mundos se tocam em um ponto só: o Contrato.
+
+---
+
 ## Recall
 
 1. Em que ponto exato os dois mundos se tocam?
 2. Qual é o nível mais alto dos dados mestres técnicos?
-3. Por que a ordem do desenho não é a hierarquia?
-4. O que acontece se você alterar a tarifa de uma instalação sem olhar a data
-   de validade?
+3. O que separa a ordem do desenho da hierarquia real dos objetos?
+4. Cite os três objetos do material em que o campo de validade aparece.
+5. Uma tarifa foi alterada sem olhar a data. Cite a consequência.
 
 > **Gabarito:** [`_PISTAS.md`](_PISTAS.md#md-08)  ·  responda tudo antes de abrir.

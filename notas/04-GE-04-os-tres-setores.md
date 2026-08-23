@@ -76,11 +76,19 @@ Antes de responder qualquer exercício, pergunte a si mesmo: **de qual setor
 
 ---
 
+## Se sobrar uma coisa
+
+Quatro mercados, um núcleo só: luz, água, gás e saneamento.
+
+---
+
 ## Recall
 
-1. O medidor de gás mede o que se cobra?
-2. Um imóvel de saneamento tem quantas instalações, e por quê?
-3. Em qual setor a estimativa de consumo é mais frequente, e por quê?
-4. Em qual setor o corte é mais delicado?
+1. Nomeie os quatro mercados atendidos pelo SAP IS-U.
+2. O medidor de gás mede o que se cobra?
+3. Quantas instalações tem um imóvel de saneamento?
+4. O que explica esse número de instalações?
+5. Em qual mercado a estimativa de consumo é mais frequente?
+6. Em qual mercado o corte é mais delicado?
 
 > **Gabarito:** [`_PISTAS.md`](_PISTAS.md#ge-04)  ·  responda tudo antes de abrir.

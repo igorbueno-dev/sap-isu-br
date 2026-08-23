@@ -57,7 +57,7 @@ Local de Consumo é onde se **consome**. O relógio fica noutro lugar.
 
 ---
 
-## Na prática
+## No sistema
 
 | Transação | O quê |
 |---|---|
@@ -76,11 +76,21 @@ criado, e modificar o número/apto dele.
 
 ---
 
+## Se sobrar uma coisa
+
+O Local de Consumo herda o endereço do prédio e guarda só o complemento.
+
+---
+
 ## Recall
 
-1. O Local de Consumo tem endereço próprio?
-2. Quais os dois campos relevantes dele?
-3. Um prédio de 40 apartamentos: quantos objetos de ligação e quantos locais
-   de consumo?
+1. Qual transação cria um Local de Consumo?
+2. Qual transação modifica um Local de Consumo?
+3. Qual transação exibe um Local de Consumo?
+4. O Local de Consumo tem endereço próprio?
+5. Nomeie os dois campos relevantes do Local de Consumo.
+6. Um prédio de 40 apartamentos tem quantos Objetos de Ligação?
+7. O mesmo prédio tem quantos Locais de Consumo?
+8. Um colega diz que `ES61` cria o Local de Consumo. Ele está certo?
 
 > **Gabarito:** [`_PISTAS.md`](_PISTAS.md#st-02)  ·  responda tudo antes de abrir.

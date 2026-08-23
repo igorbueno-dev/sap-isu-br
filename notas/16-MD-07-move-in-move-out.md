@@ -97,11 +97,18 @@ Ver [02-BANCADA](../referencia/02-BANCADA.md).
 
 ---
 
+## Se sobrar uma coisa
+
+A Instalação fica, o Contrato vai embora com o morador.
+
+---
+
 ## Recall
 
-1. O morador se muda. O que acontece com a Instalação, e o que acontece com o Contrato?
-2. O que sempre acompanha um Move-In?
-3. Consumo registrado numa instalação sem contrato ativo. O que isso sugere?
-4. Por que Move-In com data retroativa é caro?
+1. O morador se muda. O que acontece com a Instalação?
+2. O morador se muda. O que acontece com o Contrato?
+3. O que sempre acompanha um Move-In?
+4. Há consumo registrado numa instalação sem contrato ativo. Cite o que isso sugere.
+5. Um Move-In foi lançado com data retroativa. Cite a consequência.
 
 > **Gabarito:** [`_PISTAS.md`](_PISTAS.md#md-07)  ·  responda tudo antes de abrir.
