@@ -5,6 +5,7 @@
 
 **Onde entra:** o mecanismo por trás do cálculo da `BI-01`.
 **Antes disto:** [BI-01](39-BI-01-calculo-e-faturamento.md), [ST-03](13-ST-03-instalacao.md)
+**Origem:** **slide.** O material da academia sustenta esta nota inteira.
 
 ---
 

@@ -4,6 +4,7 @@
 
 **Onde entra:** fecha a lacuna que o acervo chamava de "planejamento de datas".
 **Antes disto:** [MD-06](15-MD-06-contrato.md), [ST-03](13-ST-03-instalacao.md)
+**Origem:** **slide.** O material da academia sustenta esta nota inteira.
 
 ---
 

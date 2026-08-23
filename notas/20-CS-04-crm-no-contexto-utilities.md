@@ -5,6 +5,7 @@
 **Onde entra:** liga a área de CRM ao IS-U que você já viu.
 **Antes disto:** [CS-03-sap-crm-e-os-pilares](19-CS-03-sap-crm-e-os-pilares.md), [GE-01-o-que-e-is-u-ccs](02-GE-01-o-que-e-is-u-ccs.md)
 **Depois disto:** [CS-05-processos-e-atividades](21-CS-05-processos-e-atividades.md)
+**Origem:** **slide.** O material da academia sustenta esta nota inteira.
 
 ---
 

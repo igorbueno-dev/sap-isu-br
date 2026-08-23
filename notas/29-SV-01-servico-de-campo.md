@@ -5,6 +5,8 @@
 **Onde entra:** a porta do mundo de campo e medição.
 **Antes disto:** [GE-01-o-que-e-is-u-ccs](02-GE-01-o-que-e-is-u-ccs.md)
 **Depois disto:** [WM-01-nota-de-servico](30-WM-01-nota-de-servico.md)
+**Origem:** **misto.** As listas e os nomes são do material.
+**O raciocínio em volta é meu.**
 
 ---
 

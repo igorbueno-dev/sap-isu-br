@@ -5,6 +5,9 @@
 **Onde entra:** é o coração dos dados mestres.
 **Antes disto:** [GE-01-o-que-e-is-u-ccs](02-GE-01-o-que-e-is-u-ccs.md)
 **Depois disto:** [MD-08-os-dois-mundos](06-MD-08-os-dois-mundos.md)
+**Origem:** **slide**, com uma exceção declarada na seção 1: a tabela de
+tabelas de endereço vem do **pôster de tabelas IS-U**, não da aula, e a leitura que
+liga essas tabelas à posição da Estrutura Postal na lista **é minha**.
 
 ---
 
@@ -42,14 +45,39 @@ vem de duas menções em outros pontos:
   postais (de endereço)"*
 
 Junte as duas: **é onde o endereço mora, o Objeto de Ligação se liga a ela, e
-quem a mantém é WM.** É por isso que ela abre a lista e não reaparece no
-resto dos dados mestres. Ver [ST-01](11-ST-01-objeto-de-ligacao.md).
+quem a mantém é WM.** Ver [ST-01](11-ST-01-objeto-de-ligacao.md).
 
-> **Lacuna estrutural, não pendência.** O conteúdo da estrutura, as transações
-> e a relação com "Estrutura Regional" são aprofundamento, e a semana 1 é
-> panorâmica por desenho. **O material coloca as estruturas postais e políticas
-> sob WM**, então isso só fecha na trilha de Serviço de Campo. **Não preencha
-> por dedução.**
+### As tabelas, conferidas fora do slide
+
+**Estas não vêm da aula.** Vêm do pôster de tabelas IS-U, conferido em
+21/08/2026, e estão reproduzidas na Bancada,
+[`02-BANCADA.md`](../referencia/02-BANCADA.md).
+
+| Tabela | Conteúdo |
+|---|---|
+| `ADRCITY` | Cidades |
+| `ADRPSTCODE` | Códigos postais |
+| `ADRCITYPRT` | Distritos postais |
+| `ADRSTREET` | Logradouros |
+| `ADRCITYMRU` | **Unidades de leitura por cidade** |
+| `ADRSTRTMRU` | **Unidades de leitura por logradouro** |
+| `ADRCITYCCS` / `ADRSTRTCCS` | Dados de setor por cidade e por logradouro |
+| `ADRCITYKON` / `ADRSTRTKON` | Contratos de concessão por cidade e por logradouro |
+
+**As duas linhas em negrito são a chave.** As tabelas terminadas em `MRU` ligam
+o endereço à **unidade de leitura**: é a estrutura postal que diz qual rota
+atende cada rua.
+
+**A leitura em cima disso é minha, e as tabelas a sustentam:** sem estrutura
+postal não há roteirização, sem roteirização não há leitura, e sem leitura não
+há faturamento. **É por isso que ela abre a lista** e não reaparece no resto dos
+dados mestres.
+
+> **O que continua em aberto:** as **transações** que mantêm essas tabelas, o
+> nome que o projeto dá à estrutura, e a fronteira exata com a "Estrutura
+> Regional". **O material coloca as estruturas postais e políticas sob WM**,
+> então isso fecha na trilha de Serviço de Campo, não aqui. A pergunta segue na
+> lista para o instrutor.
 
 ## 2. Dados Mestres Técnicos
 
@@ -112,13 +140,27 @@ São quatro divisões, e a quarta está na lista para servir de contraste.
 
 ---
 
+## No sistema
+
+As tabelas desta nota são as da **Estrutura Postal**, e estão na seção 1. As
+duas que importam para o resto do acervo são `ADRCITYMRU` e `ADRSTRTMRU`, que
+ligam o endereço à unidade de leitura.
+
+**As transações que mantêm essas tabelas continuam em aberto.** As outras três
+divisões têm transação própria, e elas moram nas notas de cada objeto.
+
+---
+
 ## Recall
 
 1. Quais são as quatro divisões dos dados mestres, na ordem?
 2. Qual é o papel dos Dados Transacionais dentro dessa lista?
-3. O que o material diz sobre o conteúdo da Estrutura Postal?
+3. O que o material da aula diz sobre o conteúdo da Estrutura Postal?
 4. A que área pertence a manutenção das estruturas postais?
 5. Qual o critério que separa dado mestre de dado transacional?
 6. Um imóvel foi construído e ninguém se mudou ainda. Qual divisão já tem dado?
+7. Qual par de tabelas liga o endereço à unidade de leitura?
+8. Cite o que esse par explica sobre a posição da Estrutura Postal na lista.
+9. Uma rua nova foi cadastrada e as instalações dela não entraram em nenhuma ordem de leitura. Cite onde olhar.
 
 > **Gabarito:** [`_PISTAS.md`](_PISTAS.md#md-01)  ·  responda tudo antes de abrir.

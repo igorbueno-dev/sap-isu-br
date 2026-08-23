@@ -4,6 +4,7 @@
 
 **Onde entra:** o ponto de encontro dos dois mundos.
 **Antes disto:** [MD-05-conta-contrato](10-MD-05-conta-contrato.md)
+**Origem:** **slide.** O material da academia sustenta esta nota inteira.
 
 ---
 
@@ -34,11 +35,13 @@ Sem ele, você tem um cliente sem consumo e um consumo sem dono.
 
 ## A cardinalidade completa
 
-```mermaid
-flowchart LR
-    PN["1 Parceiro<br/>de Negócios"] -->|"1 para N"| CC["Conta<br/>Contrato"]
-    CC -->|"1 para N"| CT["Contrato"]
-    CT -->|"1 para 1"| INST["Instalação"]
+```
+Parceiro de     1 para N     Conta        1 para N
+Negócios     ─────────────▶  Contrato  ─────────────▶  CONTRATO
+                                                            │
+                                                        1 para 1
+                                                            ▼
+                                                       Instalação
 ```
 
 **De cima para baixo é um para muitos. Na ponta, é um para um.**

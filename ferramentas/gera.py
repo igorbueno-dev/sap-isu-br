@@ -1,16 +1,27 @@
-"""Regenera o que e derivado das 31 notas.
+"""Regenera o que e derivado das notas.
 
-    python ferramentas/gera.py
+    python ferramentas/gera.py             README.md e notas/_PISTAS.md
+    python ferramentas/gera.py --caderno   caderno/, a variante para NotebookLM
 
-Escreve dois lugares, sempre a partir do resumo e do recall de cada nota:
+Modo padrao. Escreve dois lugares, sempre a partir do resumo e do recall de
+cada nota:
 
   README.md        a tabela das notas e a contagem de origem
   notas/_PISTAS.md as perguntas em fila. O gabarito abaixo do marcador nao
                    e tocado: ele e escrito a mao.
 
 Assim o indice nunca diverge da nota: a nota e a fonte, o resto e derivado.
+
+Modo --caderno. Escreve caderno/, que e a versao das mesmas fontes preparada
+para ingestao por maquina, onde o arquivo e a unidade e nada fora dele existe:
+
+  cada resposta fica colada na sua pergunta, em vez de morar no _PISTAS
+  a Bancada perde as secoes de meta-estudo e fica so referencia
+
+caderno/ e derivado e esta no .gitignore. Regerar e sempre mais barato que
+versionar.
 """
-import io, os, re, glob
+import io, os, re, glob, shutil, sys
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 NOTAS = os.path.join(BASE, 'notas')
@@ -35,7 +46,7 @@ ORIGEM = {
     'GE-03': 'meu',  # Do problema ao módulo
     'GE-01': 'slide',  # O que é o SAP IS-U CCS
     'GE-02': 'slide',  # A evolução do produto
-    'GE-04': 'misto',  # Os três setores
+    'GE-04': 'misto',  # Os quatro mercados
     'MD-01': 'slide',  # As quatro divisões
     'MD-08': 'slide',  # Os dois mundos e a validade no tempo
     'MD-02': 'slide',  # A tradução do prédio
@@ -85,6 +96,32 @@ FASES = [
     (('SV', 'WM', 'DM', 'PE'), 'Serviço de Campo e Equipamento (SVC / DM)', None),
     (('BI',), 'Cálculo e Faturamento (BILL)', None),
 ]
+
+
+# Calibragem do autor para o tempo de leitura de uma nota. Trocar aqui muda
+# todos os lugares que citam o total, porque nenhum deles e escrito a mao.
+MINUTOS_POR_NOTA = 6
+
+# Numeros que ficam na prosa, fora dos marcadores. Antes eram escritos a mao e
+# envelheciam sozinhos: o README chegou a anunciar 31 notas e 131 perguntas
+# quando ja eram 42 e 364. Cada padrao abaixo e reescrito a cada geracao.
+CONTAGENS = [
+    (r'as \d+ perguntas em voz alta', u'as %(perg)d perguntas em voz alta'),
+    (r'### As \d+ perguntas primeiro', u'### As %(perg)d perguntas primeiro'),
+    (r'\| \*\*\d+ horas?\*\* \| As \d+ notas',
+     u'| **%(horas)d horas** | As %(notas)d notas'),
+    (r'(?m)^# As \d+ notas$', u'# As %(notas)d notas'),
+    (r'Cerca de \*\*\d+ minutos\*\* no total',
+     u'Cerca de **%(minutos)d minutos** no total'),
+]
+
+
+def contagens(s, notas, perg, minutos, horas):
+    """Reescreve na prosa todo numero que e derivado das notas."""
+    valores = {'notas': notas, 'perg': perg, 'minutos': minutos, 'horas': horas}
+    for padrao, molde in CONTAGENS:
+        s = re.sub(padrao, molde % valores, s)
+    return s
 
 
 def partes(caminho):
@@ -156,23 +193,144 @@ def gerar():
     origem.append('| `⟨confirmar⟩` no texto '
                   '| Código ou nome de tabela de que não tenho certeza | |')
 
+    n_notas = len(arquivos)
+    minutos = n_notas * MINUTOS_POR_NOTA
+    horas = int(round(minutos / 60.0))
+
     caminho_readme = os.path.join(BASE, 'README.md')
     s = io.open(caminho_readme, encoding='utf-8').read()
     a, b = s.index(INICIO) + len(INICIO), s.index(FIM)
     s = s[:a] + '\n' + '\n'.join(tabela) + '\n' + s[b:]
     a, b = s.index(INICIO_ORIGEM) + len(INICIO_ORIGEM), s.index(FIM_ORIGEM)
     s = s[:a] + '\n' + '\n'.join(origem) + '\n' + s[b:]
+    s = contagens(s, n_notas, n_perg, minutos, horas)
     io.open(caminho_readme, 'w', encoding='utf-8', newline='').write(s)
 
     caminho_pistas = os.path.join(NOTAS, '_PISTAS.md')
     s = io.open(caminho_pistas, encoding='utf-8').read()
     a, b = s.index(INICIO_PERG) + len(INICIO_PERG), s.index(FIM_PERG)
     s = s[:a] + '\n' + '\n'.join(pistas) + '\n' + s[b:]
+    s = contagens(s, n_notas, n_perg, minutos, horas)
     io.open(caminho_pistas, 'w', encoding='utf-8', newline='').write(s)
 
     print('README (%d notas) e _PISTAS.md (%d perguntas) gerados'
           % (len(arquivos), n_perg))
 
 
+CADERNO = os.path.join(BASE, 'caderno')
+BANCADA = os.path.join(BASE, 'referencia', '02-BANCADA.md')
+
+# Secoes da Bancada que falam do estudo, e nao do sistema. Elas nao sobem:
+# misturadas com a referencia, o modelo responde palpite sobre a prova com o
+# mesmo tom com que responde sobre uma transacao.
+PODA_BANCADA = [
+    'O exercício de navegação que fixa a arquitetura',
+    'As duas técnicas que resolvem quase tudo',
+    'O que você resolve sozinho e o que você escala',
+    'Os cinco erros mais comuns neste exercício',
+    'O que costuma ser cobrado',
+    'Tipos de exercício prático',
+    'Os cinco testes que dizem se você está pronto',
+]
+
+# Um item de gabarito comeca em inicio de linha ou logo depois do ponto do
+# meio que separa respostas curtas na mesma linha.
+ITEM = re.compile(r'(?m)(?:^|·\s+)(\d{1,2})\.\s')
+
+
+def gabaritos():
+    """Le notas/_PISTAS.md e devolve {codigo: {numero: resposta}}."""
+    s = io.open(os.path.join(NOTAS, '_PISTAS.md'), encoding='utf-8').read()
+    s = s[s.index('# GABARITO'):]
+    fora = {}
+    blocos = list(re.finditer(r'(?m)^## ([A-Z]{2}-\d\d)\s*$', s))
+    for i, m in enumerate(blocos):
+        fim = blocos[i + 1].start() if i + 1 < len(blocos) else len(s)
+        bloco = s[m.end():fim]
+        bloco = re.sub(r'(?m)^\*\*[A-Z]{2}-\d\d:.*$', '', bloco)  # linha do titulo
+        bloco = re.split(r'(?m)^---\s*$', bloco)[0]
+        achados = list(ITEM.finditer(bloco))
+        respostas = {}
+        for j, a in enumerate(achados):
+            corte = achados[j + 1].start() if j + 1 < len(achados) else len(bloco)
+            texto = ' '.join(bloco[a.end():corte].split())
+            respostas[int(a.group(1))] = texto
+        fora[m.group(1)] = respostas
+    return fora
+
+
+def com_resposta(texto, respostas, cod):
+    """Troca o bloco de Recall pelo mesmo bloco com a resposta colada."""
+    m = re.search(r'(?ms)^## Recall\s*$(.*?)(?=^---|\Z)', texto)
+    if not m:
+        return texto, 0, 0
+    corpo = re.split(r'(?m)^>', m.group(1), maxsplit=1)[0]
+    perguntas = re.findall(r'(?m)^(\d{1,2})\. (.+)$', corpo)
+    linhas = ['## Recall', '',
+              '**Responda em voz alta antes de ler a resposta.**', '']
+    faltando = 0
+    for num, p in perguntas:
+        r = respostas.get(int(num))
+        linhas.append('**%s.** %s' % (num, p))
+        if r:
+            linhas.append('**Resposta:** %s' % r)
+        else:
+            linhas.append('**Resposta:** ⟨ausente no gabarito⟩')
+            faltando += 1
+        linhas.append('')
+    novo = texto[:m.start()] + '\n'.join(linhas) + '\n' + texto[m.end():]
+    return novo, len(perguntas), faltando
+
+
+def poda(texto, titulos):
+    """Remove secoes de nivel 2 pelo titulo, ate o proximo titulo de nivel 2."""
+    for t in titulos:
+        m = re.search(r'(?m)^## %s\s*$' % re.escape(t), texto)
+        if not m:
+            print('  aviso: secao nao encontrada na Bancada: %s' % t)
+            continue
+        prox = re.search(r'(?m)^## ', texto[m.end():])
+        fim = m.end() + prox.start() if prox else len(texto)
+        texto = texto[:m.start()] + texto[fim:]
+    return texto
+
+
+def caderno():
+    if os.path.isdir(CADERNO):
+        shutil.rmtree(CADERNO)
+    os.makedirs(CADERNO)
+
+    gab = gabaritos()
+    arquivos = sorted(glob.glob(os.path.join(NOTAS, '[0-9][0-9]-*.md')))
+    total = furos = 0
+    for f in arquivos:
+        nome = os.path.basename(f)
+        s = io.open(f, encoding='utf-8').read()
+        cod = re.match(r'^# ([A-Z]{2}-\d\d)', s).group(1)
+        s, n, faltando = com_resposta(s, gab.get(cod, {}), cod)
+        total += n
+        furos += faltando
+        if faltando:
+            print('  %-42s %d de %d sem resposta' % (nome, faltando, n))
+        io.open(os.path.join(CADERNO, nome), 'w',
+                encoding='utf-8', newline='').write(s)
+
+    b = io.open(BANCADA, encoding='utf-8').read()
+    antes = b.count('\n')
+    b = poda(b, PODA_BANCADA)
+    io.open(os.path.join(CADERNO, '02-BANCADA.md'), 'w',
+            encoding='utf-8', newline='').write(b)
+
+    print('caderno/: %d notas com %d perguntas respondidas no proprio arquivo'
+          % (len(arquivos), total - furos))
+    print('caderno/02-BANCADA.md: %d linhas podadas de meta-estudo'
+          % (antes - b.count('\n')))
+    if furos:
+        print('ATENCAO: %d perguntas sem resposta no gabarito' % furos)
+
+
 if __name__ == '__main__':
-    gerar()
+    if '--caderno' in sys.argv:
+        caderno()
+    else:
+        gerar()

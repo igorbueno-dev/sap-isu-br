@@ -2,8 +2,11 @@
 > Seis tipos de leitura, cinco motivos e seis registradores. Parece lista de
 > decorar, e não é: cada eixo responde uma pergunta diferente da investigação.
 
-**Onde entra:** segunda metade do Bloco 2, DM / GAT.
+**Onde entra:** segunda metade do Bloco 2, Device Management, que o material
+chama de "DM / GAT".
 **Antes disto:** [DM-01-ativos-e-estoque](32-DM-01-ativos-e-estoque.md)
+**Origem:** **misto.** As listas e os nomes são do material.
+**O raciocínio em volta é meu.**
 
 ---
 

@@ -6,6 +6,7 @@
 português divergir entre materiais.
 **Onde entra:** o nível mais baixo e mais importante do mundo técnico.
 **Antes disto:** [ST-02-local-de-consumo](12-ST-02-local-de-consumo.md)
+**Origem:** **slide.** O material da academia sustenta esta nota inteira.
 
 ---
 
@@ -43,11 +44,13 @@ quando é lido, o que é desconto.
 
 ## Por que a Instalação é o centro de gravidade
 
-```mermaid
-flowchart TD
-    CT["CONTRATO<br/>o acordo comercial"] -->|"1 para 1"| I["INSTALAÇÃO<br/>tarifa, leitura, validação"]
-    I --> EQ["EQUIPAMENTO<br/>o medidor"]
-    I --> CALC["O cálculo lê tudo daqui"]
+```
+CONTRATO ───── 1 para 1 ─────▶ INSTALAÇÃO ──▶ EQUIPAMENTO
+o acordo comercial             tarifa,        o medidor
+                               leitura,
+                               validação
+                                   ▲
+                                   └── o cálculo lê tudo daqui
 ```
 
 O Contrato traz **quem paga**. A Instalação traz **como se calcula**.

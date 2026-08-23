@@ -1,5 +1,5 @@
 # PISTAS E GABARITO
-### As 131 perguntas primeiro. As respostas no fim.
+### As 367 perguntas primeiro. As respostas no fim.
 
 > **Como usar.** Responda em voz alta, ou no papel, antes de descer. Errar aqui
 > vale mais do que reler a nota: é o erro que mostra onde o modelo tem buraco.
@@ -37,7 +37,7 @@
 4. O que muda do ECC para o S/4HANA?
 5. O que não muda do ECC para o S/4HANA?
 
-**[GE-04: Os quatro mercados, com peso igual](04-GE-04-os-tres-setores.md)**
+**[GE-04: Os quatro mercados, com peso igual](04-GE-04-os-quatro-mercados.md)**
 
 1. Nomeie os quatro mercados atendidos pelo SAP IS-U.
 2. O medidor de gás mede o que se cobra?
@@ -50,10 +50,13 @@
 
 1. Quais são as quatro divisões dos dados mestres, na ordem?
 2. Qual é o papel dos Dados Transacionais dentro dessa lista?
-3. O que o material diz sobre o conteúdo da Estrutura Postal?
+3. O que o material da aula diz sobre o conteúdo da Estrutura Postal?
 4. A que área pertence a manutenção das estruturas postais?
 5. Qual o critério que separa dado mestre de dado transacional?
 6. Um imóvel foi construído e ninguém se mudou ainda. Qual divisão já tem dado?
+7. Qual par de tabelas liga o endereço à unidade de leitura?
+8. Cite o que esse par explica sobre a posição da Estrutura Postal na lista.
+9. Uma rua nova foi cadastrada e as instalações dela não entraram em nenhuma ordem de leitura. Cite onde olhar.
 
 **[MD-08: Os dois mundos e a validade no tempo](06-MD-08-os-dois-mundos.md)**
 
@@ -570,7 +573,7 @@
 ---
 
 ## GE-04
-**GE-04: Os três setores, com peso igual**  ·  [voltar para a nota](04-GE-04-os-tres-setores.md)
+**GE-04: Os quatro mercados, com peso igual**  ·  [voltar para a nota](04-GE-04-os-quatro-mercados.md)
 
 1. **Luz, Água, Gás e Saneamento.**
 2. **Não.** Mede volume em m³ e a cobrança é por energia. Há conversão no meio.
@@ -589,12 +592,19 @@
    Transacionais.
 2. Servir de **contraste**. Eles não são dado mestre, e é isso que define os
    outros três por oposição.
-3. **Só o nome.** O material lista a Estrutura Postal e nunca a desenvolve.
+3. **Só o nome.** A aula lista a Estrutura Postal e nunca a desenvolve. O que a
+   nota tem além disso veio do pôster de tabelas, não do slide.
 4. A **WM**, que "mantém estruturas políticas e postais".
 5. **Duração da validade.** Mestre dura muito e é a única versão válida no
    período. Transacional é dinâmico e vale pouco tempo.
 6. Os **Dados Mestres Técnicos**: o prédio, o local de consumo e a instalação
    existem sem morador.
+7. `ADRCITYMRU` e `ADRSTRTMRU`, unidade de leitura por cidade e por logradouro.
+8. Que **sem estrutura postal não há roteirização**, sem roteirização não há
+   leitura e sem leitura não há faturamento. Ela abre a lista porque tudo o mais
+   depende dela. **A leitura é do autor, as tabelas é que são fonte.**
+9. Na **estrutura postal**, em `ADRSTRTMRU`: o logradouro provavelmente não foi
+   ligado a nenhuma unidade de leitura. Sem esse vínculo a rota não passa lá.
 
 ---
 

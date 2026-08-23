@@ -12,14 +12,14 @@ quem conhece o módulo na prática.
 |---|---|
 | **4 min** | A tabela abaixo, de cima para baixo. É o acervo inteiro resumido |
 | **6 min** | [`MD‑02`](notas/07-MD-02-a-traducao-do-predio.md), que traduz um prédio de verdade nos objetos do sistema |
-| **1 sessão** | [`_PISTAS.md`](notas/_PISTAS.md), as 131 perguntas em voz alta. O gabarito fica no fim do mesmo arquivo |
-| **3 horas** | As 31 notas, na ordem da pasta |
+| **1 sessão** | [`_PISTAS.md`](notas/_PISTAS.md), as 367 perguntas em voz alta. O gabarito fica no fim do mesmo arquivo |
+| **4 horas** | As 42 notas, na ordem da pasta |
 | **Consulta** | [`02-BANCADA.md`](referencia/02-BANCADA.md), transações e tabelas. Use `Ctrl+F` |
 | **Contribuir** | [`EM-ABERTO.md`](EM-ABERTO.md), o que falta. [`PADRAO.md`](PADRAO.md), como escrever uma nota |
 
 ---
 
-# As 31 notas
+# As 42 notas
 
 **O número no arquivo é a ordem de estudo.** Abra [`notas/`](notas/) e leia de
 cima para baixo: nenhuma nota depende de uma que venha depois dela.
@@ -35,7 +35,7 @@ Valem para qualquer trilha. **A ordem é a ordem**: cada uma usa a anterior.
 | **01** | [`GE-03` Do problema ao módulo](notas/01-GE-03-do-problema-ao-modulo.md) | Cinco parágrafos de negócio, e o mapa de qual pedaço do CCS resolve cada um. Leia antes de qualquer sigla: é o "por quê" de todas elas. | meu |
 | **02** | [`GE-01` O que é o SAP IS-U CCS](notas/02-GE-01-o-que-e-is-u-ccs.md) | O conjunto de módulos que roda o ciclo comercial de uma concessionária, do cadastro do cliente até o dinheiro entrar. | slide |
 | **03** | [`GE-02` A evolução do produto, do R/3 ao SaaS](notas/03-GE-02-evolucao-do-produto.md) | Trinta e cinco anos em cinco marcos, e por que 2027 é a data que move o mercado inteiro. | slide |
-| **04** | [`GE-04` Os quatro mercados, com peso igual](notas/04-GE-04-os-tres-setores.md) | Luz, água, gás e saneamento rodam o mesmo núcleo. A diferença aparece em pontos específicos, e um exercício pode vir de qualquer um deles. | misto |
+| **04** | [`GE-04` Os quatro mercados, com peso igual](notas/04-GE-04-os-quatro-mercados.md) | Luz, água, gás e saneamento rodam o mesmo núcleo. A diferença aparece em pontos específicos, e um exercício pode vir de qualquer um deles. | misto |
 | **05** | [`MD-01` As quatro divisões dos dados mestres](notas/05-MD-01-mapa-dos-dados-mestres.md) | Antes de comparar qualquer coisa, saber o que é cada uma. São quatro divisões, não duas, e a quarta não é dado mestre. | slide |
 | **06** | [`MD-08` Os dois mundos e a validade no tempo](notas/06-MD-08-os-dois-mundos.md) | O desenho que arruma comercial e técnico lado a lado, a ponte entre eles, e a armadilha de achar que a ordem do desenho é a hierarquia. | slide |
 | **07** | [`MD-02` A tradução do prédio](notas/07-MD-02-a-traducao-do-predio.md) | O diagrama que converte o mundo real inteiro em vocabulário SAP, de uma vez. | slide |
@@ -99,7 +99,7 @@ de nada ser colapsado**: quem atende decide para onde o chamado vai.
 | **42** | [`BI-04` A impressão, do spool ao papel na casa do cliente](notas/42-BI-04-impressao.md) | A fatura sai do SAP como spool, vira formulário no SAPscript e atravessa para a empreiteira como arquivo. Imprimir também é fora de casa. | slide |
 <!-- FIM NOTAS -->
 
-Cerca de **185 minutos** no total. A coluna *O que é* é o resumo da própria
+Cerca de **252 minutos** no total. A coluna *O que é* é o resumo da própria
 nota, gerado a partir dela, então nunca diverge.
 
 ---

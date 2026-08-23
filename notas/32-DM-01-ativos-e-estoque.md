@@ -2,9 +2,12 @@
 > O medidor tem uma vida inteira antes e depois de estar na parede. Device
 > Management é quem sabe onde cada um está, e onde esteve.
 
-**Onde entra:** primeira metade do Bloco 2, DM / GAT.
+**Onde entra:** primeira metade do Bloco 2, Device Management, que o material
+chama de "DM / GAT".
 **Antes disto:** [SV-01-servico-de-campo](29-SV-01-servico-de-campo.md)
 **Depois disto:** [DM-02-leituras-e-registradores](33-DM-02-leituras-e-registradores.md)
+**Origem:** **misto.** As listas e os nomes são do material.
+**O raciocínio em volta é meu.**
 
 ---
 
@@ -53,14 +56,11 @@ contesta, é o histórico do número de série que reconstrói a verdade.
 
 Seis movimentos, e eles formam uma linha:
 
-```mermaid
-flowchart LR
-    A["Recebimento<br/>em estoque"] --> B["Transferência"]
-    B --> C["Instalação<br/>em campo"]
-    C --> D["Retirada"]
-    D --> E["Manutenção<br/>e envio"]
-    E --> B
-    D --> F["Sucateamento"]
+```
+Recebimento ──▶ Transferência ──▶ Instalação ──▶ Retirada
+em estoque          ▲             em campo          │
+                    │                               ├──▶ Sucateamento
+                    └───── Manutenção e envio ◀─────┘
 ```
 
 **Repare no laço.** Manutenção devolve o aparelho ao estoque, e ele pode ser

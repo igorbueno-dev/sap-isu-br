@@ -477,6 +477,11 @@ padrão · `BUC0` formas de tratamento · `BUCM` tipos de legitimação ·
 >
 > Continua valendo perguntar ao instrutor o que o projeto chama de Estrutura
 > Postal e quais transações a mantêm. **O que se sabe agora é onde ela mora.**
+>
+> **Esta tabela também está na nota**, em
+> [`05-MD-01`](../notas/05-MD-01-mapa-dos-dados-mestres.md), seção 1, com a
+> leitura de por que a Estrutura Postal abre a lista dos dados mestres. Aqui
+> ela fica como consulta; lá, como argumento.
 
 ## O exercício de navegação que fixa a arquitetura
 

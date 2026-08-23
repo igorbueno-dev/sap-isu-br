@@ -4,6 +4,7 @@
 
 **Onde entra:** entre o Parceiro de Negócios e o Contrato.
 **Antes disto:** [MD-03-parceiro-de-negocios](08-MD-03-parceiro-de-negocios.md)
+**Origem:** **slide.** O material da academia sustenta esta nota inteira.
 
 ---
 
@@ -31,11 +32,10 @@ uma conta. Se quer separar a casa da praia do apartamento, são duas.
 > **Atenção.** Separar por imóvel não é preferência do cliente, é **regra de
 > modelagem**: uma conta contrato por local de consumo.
 
-```mermaid
-flowchart TD
-    BP["Business Partner 1"] --> CA1["Contract Account 1"]
-    BP --> CA2["Contract Account 2"]
-    BP --> CA3["Contract Account 3"]
+```
+                       ┌──▶ Conta Contrato 1
+Parceiro de Negócios ──┼──▶ Conta Contrato 2
+                       └──▶ Conta Contrato 3
 ```
 
 ---

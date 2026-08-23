@@ -6,6 +6,8 @@
 português divergir entre materiais.
 **Onde entra:** a ponta física da cadeia.
 **Antes disto:** [ST-03-instalacao](13-ST-03-instalacao.md)
+**Origem:** **misto.** As listas e os nomes são do material.
+**O raciocínio em volta é meu.**
 
 ---
 
@@ -62,15 +64,10 @@ cadastro está na [DM-03](34-DM-03-cadastro-do-equipamento.md).
 **Os três são objetos separados, e é isso que permite trocar um sem mexer nos
 outros.**
 
-```mermaid
-flowchart TD
-    LIE["LOCAL DE INSTALAÇÃO<br/>o lugar, fixo"]
-    EQ["EQUIPAMENTO<br/>o aparelho, trocável"]
-    R1["REGISTRADOR<br/>energia ativa"]
-    R2["REGISTRADOR<br/>energia reativa"]
-    LIE --> EQ
-    EQ --> R1
-    EQ --> R2
+```
+LOCAL DE INSTALAÇÃO ──▶ EQUIPAMENTO ──┬──▶ REGISTRADOR, energia ativa
+o lugar, fixo           o aparelho,   │
+                        trocável      └──▶ REGISTRADOR, energia reativa
 ```
 
 **Por que três objetos e não um:** trocar o medidor não bagunça nada. Só o
@@ -114,13 +111,13 @@ chamado em cinco minutos de quem escala.**
 
 ## Onde tudo se encaixa
 
-```mermaid
-flowchart TD
-    OL["Objeto de Ligação<br/>o prédio"] --> LC["Local de Consumo<br/>o apartamento"]
-    OL --> LIE["Local de Instalação de Equipamento<br/>a garagem"]
-    LC --> I["Instalação<br/>as regras de faturamento"]
-    I --> EQ["Equipamento<br/>o medidor e o TC"]
-    LIE --> EQ
+```
+Objeto de Ligação ──┬──▶ Local de Consumo ──▶ Instalação ──▶ Equipamento
+o prédio            │    o apartamento        as regras de   o medidor
+                    │                         faturamento    e o TC
+                    │                                            ▲
+                    └──▶ Local de Instalação de Equipamento ──────┘
+                         a garagem
 ```
 
 ---

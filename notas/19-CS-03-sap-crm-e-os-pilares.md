@@ -5,6 +5,7 @@
 **Onde entra:** onde o conceito de CRM vira software.
 **Antes disto:** [CS-02-ciclo-de-vida-do-cliente](18-CS-02-ciclo-de-vida-do-cliente.md)
 **Depois disto:** [CS-04-crm-no-contexto-utilities](20-CS-04-crm-no-contexto-utilities.md)
+**Origem:** **slide.** O material da academia sustenta esta nota inteira.
 
 ---
 

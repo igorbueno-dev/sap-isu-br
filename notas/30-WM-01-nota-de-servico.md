@@ -5,6 +5,8 @@
 **Onde entra:** o objeto central do Bloco 1, WM / SVC.
 **Antes disto:** [SV-01-servico-de-campo](29-SV-01-servico-de-campo.md)
 **Depois disto:** [WM-02-workflow-e-integracoes](31-WM-02-workflow-e-integracoes.md)
+**Origem:** **misto.** As listas e os nomes são do material.
+**O raciocínio em volta é meu.**
 
 ---
 

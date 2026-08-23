@@ -3,7 +3,7 @@
 
 **Onde entra:** é o processo que produz o objeto de [MD-06-contrato](15-MD-06-contrato.md).
 **Antes disto:** [MD-06-contrato](15-MD-06-contrato.md), [ST-03-instalacao](13-ST-03-instalacao.md)
-**Status:** **a maior parte é minha.** O material diz duas coisas sobre
+**Origem:** **a maior parte é minha.** O material diz duas coisas sobre
 Move-In, e só: que *"o Contrato é criado durante o Move In"*, e que o
 atendimento cuida dos *"processos de mudança (Move-in/Out)"*. **Todo o resto
 desta nota é reconstrução minha**, incluindo as etapas e as transações.
@@ -46,12 +46,12 @@ Um imóvel nessa situação é um **imóvel desocupado**, e o sistema monitora
 esses casos. **Se aparecer consumo numa instalação sem contrato ativo, isso é
 forte indício de ligação clandestina.**
 
-```mermaid
-flowchart TD
-    I["INSTALAÇÃO do apto 302<br/>criada em 2019, permanente"]
-    I --> C1["Contrato do morador 1<br/>2019 a 2021"]
-    I --> C2["Contrato do morador 2<br/>2021 a 2024"]
-    I --> C3["Contrato do morador 3<br/>2024 até hoje"]
+```
+INSTALAÇÃO do apto 302, criada em 2019, permanente
+      │
+      ├──▶ Contrato do morador 1     2019 a 2021
+      ├──▶ Contrato do morador 2     2021 a 2024
+      └──▶ Contrato do morador 3     2024 até hoje
 ```
 
 ---

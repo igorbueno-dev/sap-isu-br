@@ -3,6 +3,7 @@
 
 **Onde entra:** detalhe operacional do PN.
 **Antes disto:** [MD-03-parceiro-de-negocios](08-MD-03-parceiro-de-negocios.md)
+**Origem:** **slide.** O material da academia sustenta esta nota inteira.
 
 ---
 

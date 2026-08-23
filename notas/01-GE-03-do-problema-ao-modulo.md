@@ -3,7 +3,7 @@
 > Leia antes de qualquer sigla: é o "por quê" de todas elas.
 
 **Onde entra:** é o "por quê" de tudo. Anterior até ao [GE-01-o-que-e-is-u-ccs](02-GE-01-o-que-e-is-u-ccs.md).
-**Status:** raciocínio meu, e de propósito. **Não afirma nada sobre o SAP**,
+**Origem:** raciocínio meu, e de propósito. **Não afirma nada sobre o SAP**,
 descreve o negócio que o produto atende. A única parte que toca o produto é a
 tabela final, que mapeia cada problema no módulo correspondente.
 

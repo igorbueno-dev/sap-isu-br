@@ -5,6 +5,7 @@
 **Onde entra:** primeira nota de arquitetura. Explica onde cada sistema mora.
 **Antes disto:** [CS-04-crm-no-contexto-utilities](20-CS-04-crm-no-contexto-utilities.md)
 **Depois disto:** [AR-02-middleware-e-replicacao](27-AR-02-middleware-e-replicacao.md)
+**Origem:** **slide.** O material da academia sustenta esta nota inteira.
 
 ---
 

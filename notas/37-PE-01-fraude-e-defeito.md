@@ -5,6 +5,8 @@
 **Onde entra:** o Bloco 3 do SVC. A menos documentada das três.
 **Antes disto:** [SV-01-servico-de-campo](29-SV-01-servico-de-campo.md)
 **Depois disto:** [PE-02-faturado-da-epoca](38-PE-02-faturado-da-epoca.md)
+**Origem:** **misto.** As listas e os nomes são do material.
+**O raciocínio em volta é meu.**
 
 ---
 

@@ -5,6 +5,7 @@
 
 **Onde entra:** o lado operacional do CRM, depois de entender o encaixe.
 **Antes disto:** [CS-04-crm-no-contexto-utilities](20-CS-04-crm-no-contexto-utilities.md)
+**Origem:** **slide.** O material da academia sustenta esta nota inteira.
 
 ---
 
@@ -27,7 +28,8 @@ citando um número e o atendente vê o histórico inteiro.
 
 ## Os processos, ou FOPs
 
-A lista costuma aparecer como **Processos/FOPs**:
+A lista costuma aparecer como **Processos/FOPs**. **`FOP` é sigla, e a expansão
+dela está em aberto neste acervo**, ver a ressalva no fim desta seção.
 
 | Processo | O que o cliente quer |
 |---|---|

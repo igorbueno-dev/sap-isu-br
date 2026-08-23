@@ -4,6 +4,7 @@
 
 **Onde entra:** primeiro objeto do mundo comercial.
 **Antes disto:** [MD-01-mapa-dos-dados-mestres](05-MD-01-mapa-dos-dados-mestres.md)
+**Origem:** **slide.** O material da academia sustenta esta nota inteira.
 
 ---
 

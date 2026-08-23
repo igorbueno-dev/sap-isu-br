@@ -4,6 +4,8 @@
 
 **Onde entra:** completa o Bloco 1, WM / SVC.
 **Antes disto:** [WM-01-nota-de-servico](30-WM-01-nota-de-servico.md)
+**Origem:** **misto.** As listas e os nomes são do material.
+**O raciocínio em volta é meu.**
 
 ---
 

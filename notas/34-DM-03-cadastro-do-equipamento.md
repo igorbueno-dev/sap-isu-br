@@ -4,6 +4,7 @@
 
 **Onde entra:** é a profundidade que a `DM-01` e a `DM-02` não tinham.
 **Antes disto:** [DM-01](32-DM-01-ativos-e-estoque.md), [ST-04](14-ST-04-equipamento.md)
+**Origem:** **slide.** O material da academia sustenta esta nota inteira.
 
 ---
 

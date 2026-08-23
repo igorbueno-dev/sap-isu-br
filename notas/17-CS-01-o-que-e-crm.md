@@ -4,6 +4,7 @@
 
 **Onde entra:** é a moldura de toda a área de atendimento. Comece por aqui.
 **Depois disto:** [CS-02-ciclo-de-vida-do-cliente](18-CS-02-ciclo-de-vida-do-cliente.md)
+**Origem:** **slide.** O material da academia sustenta esta nota inteira.
 
 ---
 

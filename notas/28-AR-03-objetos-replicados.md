@@ -4,6 +4,7 @@
 
 **Onde entra:** fecha a trilha de arquitetura.
 **Antes disto:** [AR-02-middleware-e-replicacao](27-AR-02-middleware-e-replicacao.md)
+**Origem:** **slide.** O material da academia sustenta esta nota inteira.
 
 ---
 
@@ -14,7 +15,7 @@
 | **Parceiro de Negócio** | `BUT000` | `BUT000` |
 | **Conta Contrato** | `FKKVKP` | `CRMM_BUAG` |
 | **Objeto de Ligação** | `EHAUISU` | `COMM_PRODUCT` |
-| **Ponto de Entrega (PoD)** | `EUIHEAD` | `IBASE` / `COMM_PRODUCT` |
+| **Ponto de Entrega**, abreviado **PoD** | `EUIHEAD` | `IBASE` / `COMM_PRODUCT` |
 
 ---
 

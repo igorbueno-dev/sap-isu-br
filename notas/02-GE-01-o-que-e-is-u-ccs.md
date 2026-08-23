@@ -5,6 +5,7 @@
 
 **Onde entra:** é a moldura de tudo. Comece por aqui.
 **Depois disto:** [GE-02-evolucao-do-produto](03-GE-02-evolucao-do-produto.md), [MD-01-mapa-dos-dados-mestres](05-MD-01-mapa-dos-dados-mestres.md)
+**Origem:** **slide.** O material da academia sustenta esta nota inteira.
 
 ---
 
@@ -37,18 +38,16 @@ como a solução aparece no sistema.
 
 **Decore esta lista. É a espinha do módulo e a base das especializações.**
 
-```mermaid
-flowchart LR
-    CS["CS + CRM<br/>Atendimento"] --> WM["WM<br/>Serviço de Campo"]
-    WM --> DM["DM<br/>Equipamento e Leitura"]
-    DM --> BI["BILL<br/>Faturamento e Impressão"]
-    BI --> FI["FI-CA<br/>Arrecadação e Cobrança"]
-    BW["BW, Business Warehouse: informações gerenciais"]
-    CS -.- BW
-    WM -.- BW
-    DM -.- BW
-    BI -.- BW
-    FI -.- BW
+```
+CS + CRM  ──▶  WM  ──▶  DM  ──▶  BILL  ──▶  FI-CA
+Atendimento    Serviço  Equipa-  Fatura-   Arrecadação
+               de Campo mento e  mento e   e Cobrança
+                        Leitura  Impressão
+    │           │        │        │          │
+    └───────────┴────────┴────────┴──────────┘
+                         │
+         BW, Business Warehouse: informações gerenciais
+         atravessa as cinco, e não é uma delas
 ```
 
 

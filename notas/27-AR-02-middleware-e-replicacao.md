@@ -5,6 +5,7 @@
 **Onde entra:** o mecanismo que a nota anterior deixou como caixa preta.
 **Antes disto:** [AR-01-landscape-e-camadas](26-AR-01-landscape-e-camadas.md)
 **Depois disto:** [AR-03-objetos-replicados](28-AR-03-objetos-replicados.md)
+**Origem:** **slide.** O material da academia sustenta esta nota inteira.
 
 ---
 

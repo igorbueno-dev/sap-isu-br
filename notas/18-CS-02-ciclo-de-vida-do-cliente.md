@@ -5,6 +5,7 @@
 **Onde entra:** é a ponte entre o conceito de CRM e o produto SAP CRM.
 **Antes disto:** [CS-01-o-que-e-crm](17-CS-01-o-que-e-crm.md)
 **Depois disto:** [CS-03-sap-crm-e-os-pilares](19-CS-03-sap-crm-e-os-pilares.md)
+**Origem:** **slide.** O material da academia sustenta esta nota inteira.
 
 ---
 

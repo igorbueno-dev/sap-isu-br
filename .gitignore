@@ -20,3 +20,11 @@ podcasts/
 
 # Material que nao pode ser publicado: transcricao de slide, estrategia pessoal
 _privado/
+
+# Caderno: variante derivada para ingestao por maquina, gerada por
+# "python ferramentas/gera.py --caderno". Regerar e mais barato que versionar.
+caderno/
+
+# Python
+__pycache__/
+*.pyc

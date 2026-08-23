@@ -6,6 +6,7 @@
 português divergir entre materiais.
 **Onde entra:** o nível do meio do mundo técnico.
 **Antes disto:** [ST-01-objeto-de-ligacao](11-ST-01-objeto-de-ligacao.md)
+**Origem:** **slide.** O material da academia sustenta esta nota inteira.
 
 ---
 
@@ -33,11 +34,14 @@ Torres de Telefonia · Outdoors · Bancas de Jornal · **IP e Semaforização**
 
 ## A divisão do endereço
 
-```mermaid
-flowchart LR
-    OL["OBJETO DE LIGAÇÃO<br/>Rua das Acácias, 214<br/>o ENDEREÇO"]
-    OL --> LC1["LOCAL DE CONSUMO 1<br/>Apto 101<br/>o COMPLEMENTO"]
-    OL --> LC2["LOCAL DE CONSUMO 2<br/>Apto 102<br/>o COMPLEMENTO"]
+```
+OBJETO DE LIGAÇÃO ──┬──▶ LOCAL DE CONSUMO 1
+Rua das Acácias, 214│    Apto 101
+o ENDEREÇO          │    o COMPLEMENTO
+                    │
+                    └──▶ LOCAL DE CONSUMO 2
+                         Apto 102
+                         o COMPLEMENTO
 ```
 
 **Uma pergunta, duas respostas, dois objetos.** Endereço em cima,

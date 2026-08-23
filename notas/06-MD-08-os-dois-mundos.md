@@ -5,37 +5,37 @@
 **Onde entra:** logo depois da [MD-01](05-MD-01-mapa-dos-dados-mestres.md). É a
 segunda metade do mesmo assunto.
 **Antes disto:** [MD-01-mapa-dos-dados-mestres](05-MD-01-mapa-dos-dados-mestres.md)
+**Origem:** **slide.** O material da academia sustenta esta nota inteira.
 
 ---
 
 ## Os dois mundos
 
-```mermaid
-flowchart TB
-    subgraph COM["DADOS MESTRES COMERCIAIS: quem paga"]
-        direction TB
-        PN["Parceiro de Negócio"] --> CC["Conta Contrato"] --> CT["Contrato"]
-    end
-    subgraph TEC["DADOS MESTRES TÉCNICOS: onde consome"]
-        direction TB
-        INST["Instalação"]
-        LC["Local de Consumo"]
-        OL["Objeto de Ligação"]
-        EQ["Equipamento"]
-        LIE["Local de Instal. Eq."]
-        OL --> LC --> INST
-        INST --- EQ
-        INST --- LIE
-    end
-    CT ==>|"a ponte"| INST
+```
+COMERCIAL, quem paga              TÉCNICO, onde se consome
+────────────────────              ────────────────────────
+Parceiro de Negócio               Objeto de Ligação
+        │                                 │
+        ▼                                 ▼
+Conta Contrato                    Local de Consumo
+        │                                 │
+        ▼                                 ▼
+    CONTRATO ═══════ a ponte ═══════▶ INSTALAÇÃO
+                                          │
+                                          ├──▶ Equipamento
+                                          └──▶ Local de Instalação
+                                               de Equipamento
 ```
 
 **Equipamento e Local de Instalação de Equipamento fazem parte dos dados
 mestres técnicos**, ligados à Instalação.
 
-A seta grossa é o ponto inteiro do diagrama: **os dois mundos só se tocam no
-Contrato indo para a Instalação.** Tudo o mais desce em linha reta dentro do
-seu próprio lado.
+**O Contrato é o único ponto de contato entre os dois mundos, e o sentido é do
+Contrato para a Instalação.** Esse é o ponto inteiro do desenho. Tudo o mais
+desce em linha reta dentro do seu próprio lado: no lado comercial, Parceiro de
+Negócio para Conta Contrato para Contrato; no lado técnico, Objeto de Ligação
+para Local de Consumo para Instalação, com Equipamento e Local de Instalação
+pendurados na Instalação.
 
 ---
 

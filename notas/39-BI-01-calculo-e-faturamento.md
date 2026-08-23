@@ -4,6 +4,7 @@
 
 **Onde entra:** é a porta de Billing, e a pergunta que mais cai do módulo.
 **Antes disto:** [MD-06](15-MD-06-contrato.md), [MD-05](10-MD-05-conta-contrato.md)
+**Origem:** **slide.** O material da academia sustenta esta nota inteira.
 
 ---
 
@@ -20,6 +21,28 @@
 por conta contrato. Um cliente com três contratos na mesma conta tem **três
 cálculos e uma fatura**. É por isso que a Conta Contrato existe, e é o que a
 [MD-05](10-MD-05-conta-contrato.md) chama de agrupamento de fatura.
+
+---
+
+## A palavra Faturamento nomeia duas coisas diferentes
+
+**Esta é a fonte da confusão, e vale fixar antes de seguir.** O mesmo termo
+serve de nome para o módulo inteiro e para o segundo dos dois processos dentro
+dele.
+
+| Como aparece | O que é | Em inglês |
+|---|---|---|
+| **BILL** | O **módulo** inteiro, a quarta área da cadeia | *Billing* |
+| **Cálculo** | O **primeiro processo** do módulo: apura quanto | *Billing* |
+| **Faturamento** | O **segundo processo** do módulo: emite e cria a dívida | *Invoicing* |
+
+**Regra prática:** quando a frase falar da área, use **BILL**. Quando falar do
+processo que emite a conta, use **Faturamento**. **Cálculo nunca é sinônimo de
+Faturamento**, mesmo que os dois apareçam traduzidos como *Billing* em textos
+diferentes.
+
+O erro que isso previne: responder que **o Faturamento produz o documento de
+cálculo**. Ele produz o **documento de impressão** e os **documentos FI-CA**.
 
 ---
 

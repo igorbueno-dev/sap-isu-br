@@ -4,6 +4,8 @@
 
 **Onde entra:** fecha o Bloco 3, e fecha o Serviço de Campo.
 **Antes disto:** [PE-01-fraude-e-defeito](37-PE-01-fraude-e-defeito.md)
+**Origem:** **misto.** As listas e os nomes são do material.
+**O raciocínio em volta é meu.**
 
 ---
 

@@ -3,6 +3,7 @@
 
 **Onde entra:** é a nota mais importante do conjunto.
 **Antes disto:** [MD-01-mapa-dos-dados-mestres](05-MD-01-mapa-dos-dados-mestres.md)
+**Origem:** **slide.** O material da academia sustenta esta nota inteira.
 
 ---
 
@@ -31,24 +32,23 @@ mental e você guarda metade da matéria.**
 
 ## O desenho
 
-```mermaid
-flowchart LR
-    PN["CLIENTE<br/>Parceiro de Negócios"] --> CC["$$$<br/>Conta de Contratos"]
-    CC --> CT1["Contrato 1"]
-    CT1 --> I1["Unidade Consumidora 1<br/>Instalação 1"]
-    I1 --> E1["Medidor 1<br/>Equipamento 1"]
-    CC --> CT2["Contrato 2"]
-    CT2 --> I2["Unidade Consumidora 2<br/>Instalação 2"]
-    I2 --> E2["Medidor 2<br/>Equipamento 2"]
-    subgraph PREDIO["Prédio = Objeto de Ligação"]
-        AP1["Apartamento 1 = Local de Consumo 1"]
-        AP2["Apartamento 2 = Local de Consumo 2"]
-        GAR["Garagem = Local de Instalação de Equipamento"]
-    end
-    I1 -.-> AP1
-    I2 -.-> AP2
-    E1 -.-> GAR
-    E2 -.-> GAR
+```
+QUEM PAGA
+  CLIENTE, Parceiro de Negócios
+        │
+        ▼
+  Conta de Contratos, onde o dinheiro se junta
+        │
+        ├──▶ Contrato 1 ──▶ Instalação 1 ──▶ Equipamento 1
+        │                   Unid. Consum. 1  Medidor 1
+        │
+        └──▶ Contrato 2 ──▶ Instalação 2 ──▶ Equipamento 2
+                            Unid. Consum. 2  Medidor 2
+
+O PRÉDIO, que é o Objeto de Ligação
+  Apartamento 1  = Local de Consumo 1                ◀── Instalação 1
+  Apartamento 2  = Local de Consumo 2                ◀── Instalação 2
+  Garagem        = Local de Instalação de Equipamento ◀── os dois medidores
 ```
 
 ---

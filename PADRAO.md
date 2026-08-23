@@ -2,9 +2,13 @@
 ### O esqueleto, e as regras que impedem ele de derreter
 
 > **Por que este arquivo existe.** As 31 primeiras notas foram escritas sem
-> esqueleto, uma de cada vez. O resultado: **127 títulos de seção distintos, e
-> 119 deles aparecem numa nota só.** Não havia forma comum, então não dava
-> para folhear o acervo, só para ler nota por nota.
+> esqueleto, uma de cada vez. **Medido em 22/08/2026, quando o acervo tinha
+> essas 31 notas, o resultado era 127 títulos de seção distintos, e 119 deles
+> apareciam numa nota só.** Não havia forma comum, então não dava para folhear
+> o acervo, só para ler nota por nota.
+>
+> Os números acima são o diagnóstico que originou o padrão, não o estado
+> atual. **Para o estado atual, rode `python ferramentas/audita.py`.**
 >
 > O padrão abaixo foi extraído da [`GE-01`](notas/02-GE-01-o-que-e-is-u-ccs.md), que é
 > a nota que funciona.

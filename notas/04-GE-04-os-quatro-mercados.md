@@ -4,7 +4,7 @@
 
 **Onde entra:** contexto que muda a resposta de exercícios.
 **Antes disto:** [GE-01-o-que-e-is-u-ccs](02-GE-01-o-que-e-is-u-ccs.md)
-**Status:** **misto.** Os mercados e a descrição de cada um são do material.
+**Origem:** **misto.** Os mercados e a descrição de cada um são do material.
 **A comparação entre eles é minha**, e nenhuma aula entrou nas diferenças.
 
 ---

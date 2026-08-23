@@ -4,6 +4,7 @@
 
 **Onde entra:** o processo por trás dos tipos e motivos da `DM-02`.
 **Antes disto:** [DM-02](33-DM-02-leituras-e-registradores.md), [DM-04](35-DM-04-planejamento-de-datas.md)
+**Origem:** **slide.** O material da academia sustenta esta nota inteira.
 
 ---
 

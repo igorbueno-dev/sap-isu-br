@@ -4,25 +4,27 @@
 
 **Onde entra:** contexto de negócio. Explica por que existe tanto projeto agora.
 **Antes disto:** [GE-01-o-que-e-is-u-ccs](02-GE-01-o-que-e-is-u-ccs.md)
+**Origem:** **slide.** O material da academia sustenta esta nota inteira.
 
 ---
 
 ## A linha do tempo
 
-```mermaid
-timeline
-    title Evolução do SAP IS-U CCS
-    Anos 90 : Origem e integração SAP R-3
-            : Surge o IS-U para faturamento e atendimento
-    Anos 2000 : Consolidação no SAP ERP
-              : Estabilização no ECC via Enhancement Packages
-              : Manutenção garantida até o fim de 2027
-    2015 : Transição para S-4HANA Utilities
-         : Tempo real com HANA, interface Fiori, Machine Learning
-    2021 : Expansão Cloud for Utilities
-         : SaaS coexistindo com on-premise
-    Fevereiro 2026 : Próxima versão técnica
-                   : S-4HANA 2025 FPS01
+```
+Anos 90          Origem e integração no SAP R/3
+                 Surge o IS-U para faturamento e atendimento
+
+Anos 2000        Consolidação no SAP ERP
+                 Estabilização no ECC via Enhancement Packages
+                 Manutenção garantida até o fim de 2027
+
+2015             Transição para S/4HANA Utilities
+                 Tempo real com HANA, Fiori, Machine Learning
+
+2021             Expansão Cloud for Utilities
+                 SaaS coexistindo com on-premise
+
+Fevereiro 2026   Próxima versão técnica: S/4HANA 2025 FPS01
 ```
 
 ---

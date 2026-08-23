@@ -4,6 +4,7 @@
 
 **Onde entra:** o que acontece quando o cálculo ou o faturamento desconfia.
 **Antes disto:** [BI-01](39-BI-01-calculo-e-faturamento.md)
+**Origem:** **slide.** O material da academia sustenta esta nota inteira.
 
 ---
 

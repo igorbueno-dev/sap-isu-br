@@ -23,7 +23,7 @@ exatamente o erro da Estrutura Postal.
 
 | Pergunta | Onde nasceu | Quem fecha |
 |---|---|---|
-| O conteúdo da **Estrutura Postal** e a relação com Estrutura Regional | A01, dados mestres | **SVC.** O material põe estruturas postais e políticas sob WM |
+| ~~O conteúdo da **Estrutura Postal**~~ | A01, dados mestres | **PARCIALMENTE FECHADO em 23/08/2026** pelo pôster de tabelas. As nove tabelas `ADR*` estão na [MD-01](notas/05-MD-01-mapa-dos-dados-mestres.md), seção 1. **Faltam as transações e a fronteira com a Estrutura Regional**, e isso é **SVC**: o material põe estruturas postais e políticas sob WM |
 | A transação de **Move-In** | A01, contrato | **CS + CRM.** Move-In é processo de atendimento (CIC) |
 | Se **Alteração de titularidade** é Move-Out mais Move-In | A02, processos | **CS + CRM** |
 | ~~O que é um **operando**~~ | A03, workflow de campo | **FECHADO pela Aula 04.** É dado mestre de cálculo. Ver [BI-02](notas/40-BI-02-dados-mestres-de-calculo.md) |
@@ -55,8 +55,8 @@ sempre.
 |---|---|---|
 | ~~**Ponto de Entrega (PoD)**~~ | Aparecia no menu de dados mestres técnicos e nunca era desenvolvido | **PARCIALMENTE COBERTO** por [AR-03-objetos-replicados](notas/28-AR-03-objetos-replicados.md): tem posição na arquitetura e tabela `EUIHEAD` ⟨confirmar⟩. **Faltam as transações e a cardinalidade** |
 | **Ligação** | Nó no menu, entre Objeto de Ligação e Local de Consumo | Não explorado |
-| **Estrutura Postal** | Divisão 1 de 4 dos dados mestres (slide `img-05` da A01), e WM "mantém estruturas políticas e postais" (A02) | **Nomeada e nunca desenvolvida.** Conteúdo e transações em aberto |
-| **Estrutura Regional** | Nó no menu | Não desenvolvida |
+| ~~**Estrutura Postal**~~ | Divisão 1 de 4 dos dados mestres (slide `img-05` da A01), e WM "mantém estruturas políticas e postais" (A02) | **PARCIALMENTE COBERTA** pela [MD-01](notas/05-MD-01-mapa-dos-dados-mestres.md): as tabelas `ADR*` estão lá, com `ADRCITYMRU` e `ADRSTRTMRU` ligando endereço a unidade de leitura. **Faltam as transações e o nome que o projeto usa** |
+| **Estrutura Regional** | Nó no menu | **Parcialmente coberta pelo mesmo bloco de tabelas**, que o pôster trata como "estrutura regional e postal". **A fronteira entre as duas continua indefinida** |
 
 ## Próximos temas
 

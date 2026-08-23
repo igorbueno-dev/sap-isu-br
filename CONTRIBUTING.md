@@ -61,9 +61,10 @@ Antes de propor mudança de conteúdo, vale ler o
 teste que decide se uma analogia fica, as cinco formas que uma pergunta de
 recall pode ter, e as regras de figura e de formatação.
 
-Ele foi extraído da nota que funcionava e escrito para impedir a deriva que
-produziu **127 títulos de seção distintos em 31 notas**, 119 deles aparecendo
-uma vez só.
+Ele foi extraído da nota que funcionava e escrito para impedir a deriva que,
+**medida em 22/08/2026, tinha produzido 127 títulos de seção distintos em 31
+notas**, 119 deles aparecendo uma vez só. Esse número é o diagnóstico de
+origem, não o estado atual do acervo.
 
 ---
 
