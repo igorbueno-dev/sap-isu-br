@@ -84,12 +84,32 @@ leitura implausível que passou pela validação. Ver
 
 ---
 
+## No sistema
+
+| Transação ou tabela | O que é |
+|---|---|
+| `EA05` | A única transação de tratamento de anomalia, individual |
+| `ERCHO` | Anomalia do documento de cálculo |
+| `ERDO` | Anomalia da fatura |
+
+---
+
+## Se sobrar uma coisa
+
+Liberar anomalia de faturamento é liberação sem rede: não há nova verificação.
+
+---
+
 ## Recall
 
-1. O que é uma anomalia, e o que ela impede?
-2. Qual a diferença entre o que acontece ao liberar uma anomalia de cálculo e uma de faturamento?
-3. Qual transação trata anomalia, e por que não existe versão em massa?
-4. Que duas saídas o usuário tem diante de um documento retido?
-5. Uma anomalia de faturamento foi liberada por engano. O que o sistema faz em seguida?
+1. Qual transação trata anomalia?
+2. Qual tabela guarda a anomalia do cálculo?
+3. Qual tabela guarda a anomalia da fatura?
+4. Como o SAP chama a retenção de um documento que não passou na consistência?
+5. O que a anomalia impede?
+6. O que separa a liberação de anomalia de cálculo da de faturamento?
+7. Que duas saídas o usuário tem diante de um documento retido?
+8. Mil documentos entraram em anomalia. Cite o que impede resolver isso com um job.
+9. Uma anomalia de faturamento foi liberada por engano. O que o sistema verifica depois?
 
 > **Gabarito:** [`_PISTAS.md`](_PISTAS.md#bi-03)  ·  responda tudo antes de abrir.

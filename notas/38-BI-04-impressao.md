@@ -80,12 +80,33 @@ está no cálculo**: está no formulário.
 
 ---
 
+## No sistema
+
+| Transação | O que faz |
+|---|---|
+| `EA40` | Impressão individual |
+| `EA29` | Impressão em massa |
+| `Z*` | Gera o arquivo TXT para a empreiteira. **É código do projeto**, não standard |
+
+---
+
+## Se sobrar uma coisa
+
+Reimprimir não corrige conta: o spool é cópia de um documento que já existe.
+
+---
+
 ## Recall
 
-1. Qual a diferença entre spool e output request?
-2. O que é o SAPscript, e o que ele produz?
-3. Como a fatura chega à empreiteira que imprime?
-4. Por que a transação que gera o arquivo começa com `Z`?
-5. Uma conta saiu com valor certo e um campo em branco. Onde está o defeito?
+1. Qual transação imprime, uma a uma?
+2. Qual transação imprime em massa?
+3. Como o SAP chama a saída para impressão de um documento?
+4. Como o SAP chama o envio de um spool para um dispositivo específico?
+5. Como o SAP chama o repositório onde os dados do spool ficam guardados?
+6. Como o SAP chama a funcionalidade de construção de formulários de impressão?
+7. O que separa spool de output request?
+8. Como a fatura chega à empreiteira que imprime?
+9. Uma transação do fluxo começa com `Z`. O que isso diz sobre ela?
+10. Uma conta saiu com valor certo e um campo em branco. Cite onde está o defeito.
 
 > **Gabarito:** [`_PISTAS.md`](_PISTAS.md#bi-04)  ·  responda tudo antes de abrir.

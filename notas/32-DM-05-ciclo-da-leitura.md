@@ -110,12 +110,39 @@ validação?** Ver [DM-02](29-DM-02-leituras-e-registradores.md).
 
 ---
 
+## No sistema
+
+Além da tabela de individual e massa acima:
+
+| Transação | O que faz |
+|---|---|
+| `EG75` | Cria a relação entre registradores, pré-requisito da validação dependente |
+
+---
+
+## Se sobrar uma coisa
+
+Quem lê o medidor não é a concessionária, e a fronteira é um arquivo.
+
+---
+
 ## Recall
 
-1. Quais duas etapas do ciclo acontecem fora da concessionária?
-2. Qual a diferença entre ordem de leitura periódica e não periódica?
-3. Os três tipos de validação, e o que distingue a dependente das outras?
-4. Por que a transação de relação entre registradores existe?
-5. Uma leitura voltou do campo e o faturamento não rodou. Quais três perguntas você faz, na ordem?
+1. Qual transação cria a ordem de leitura, uma a uma?
+2. Qual transação cria ordens de leitura em massa?
+3. Qual transação baixa a ordem de leitura?
+4. Qual transação sobe o resultado de leitura?
+5. Qual transação faz entrada de leitura manual?
+6. Qual transação trata a leitura?
+7. Qual transação estima leitura, uma a uma?
+8. Qual transação estima leitura em massa?
+9. Qual transação monitora a leitura?
+10. Qual transação estorna leitura?
+11. Qual transação cria a relação entre registradores?
+12. Quais duas etapas do ciclo acontecem fora da concessionária?
+13. O que separa a ordem de leitura periódica da não periódica?
+14. Nomeie os três tipos de validação de leitura.
+15. O que distingue a validação dependente das independentes?
+16. Uma leitura voltou do campo e o faturamento não rodou. Cite três causas possíveis.
 
 > **Gabarito:** [`_PISTAS.md`](_PISTAS.md#dm-05)  ·  responda tudo antes de abrir.

@@ -237,27 +237,53 @@
 
 **[DM-03: O cadastro do equipamento, do material ao medidor instalado](30-DM-03-cadastro-do-equipamento.md)**
 
-1. Quais são os quatro objetos do cadastro de equipamento, na ordem?
-2. Qual transação cria o Tipo de Equipamento, e qual cria o Equipamento?
-3. O que muda no caminho do transformador em relação ao do medidor?
-4. Um medidor foi criado no `IQ01` e não aparece na instalação. O que faltou?
-5. O que o Grupo de Registradores decide?
+1. Ordene, do primeiro ao último: Equipamento, Grupo de Registradores, Tipo de Equipamento, Material.
+2. Qual transação cria o Grupo de Registradores?
+3. Qual transação cria o Tipo de Equipamento?
+4. Qual transação cria o Equipamento?
+5. Qual transação cria o Grupo de Equipamentos?
+6. Qual transação faz a instalação total?
+7. Qual transação cria o material?
+8. Como o SAP chama o objeto que substitui o Grupo de Registradores no caminho do transformador?
+9. Um medidor foi criado no `IQ01` e não aparece na instalação. O que faltou?
+10. O que o Grupo de Registradores decide?
+11. O que separa Tipo de Equipamento de Equipamento?
 
 **[DM-04: Planejamento de datas, quem carrega o calendário](31-DM-04-planejamento-de-datas.md)**
 
-1. Qual objeto carrega a data de faturamento, e qual carrega a data de leitura?
-2. Por que existem vários Conjuntos de Contratos com datas diferentes?
-3. Como a data da Unidade de Leitura é definida?
-4. Qual transação cria o Conjunto de Contratos, e qual cria a Unidade de Leitura?
-5. Duas casas na mesma rua estão em Unidades de Leitura diferentes. Isso é erro?
+1. Qual objeto carrega a data de faturamento?
+2. Qual objeto carrega a data de leitura?
+3. Qual transação cria o Conjunto de Contratos?
+4. Qual transação cria a Unidade de Leitura?
+5. Qual transação atribui a Instalação ao planejamento?
+6. Qual transação cadastra feriados e calendários?
+7. Qual transação exibe as Unidades de Leitura?
+8. Qual transação modifica a sequência de leitura?
+9. Quais duas transações criam e atualizam o Registro de Datas?
+10. Qual transação define o Grupo de Parâmetros?
+11. Como a data da Unidade de Leitura é definida?
+12. Duas casas na mesma rua estão em Unidades de Leitura diferentes. Isso é erro?
+13. O que separa o Conjunto de Contratos da Unidade de Leitura?
+14. Uma concessionária fatura três milhões de clientes. Cite a razão de existirem vários Conjuntos de Contratos.
 
 **[DM-05: O ciclo da leitura, da ordem à validação](32-DM-05-ciclo-da-leitura.md)**
 
-1. Quais duas etapas do ciclo acontecem fora da concessionária?
-2. Qual a diferença entre ordem de leitura periódica e não periódica?
-3. Os três tipos de validação, e o que distingue a dependente das outras?
-4. Por que a transação de relação entre registradores existe?
-5. Uma leitura voltou do campo e o faturamento não rodou. Quais três perguntas você faz, na ordem?
+1. Qual transação cria a ordem de leitura, uma a uma?
+2. Qual transação cria ordens de leitura em massa?
+3. Qual transação baixa a ordem de leitura?
+4. Qual transação sobe o resultado de leitura?
+5. Qual transação faz entrada de leitura manual?
+6. Qual transação trata a leitura?
+7. Qual transação estima leitura, uma a uma?
+8. Qual transação estima leitura em massa?
+9. Qual transação monitora a leitura?
+10. Qual transação estorna leitura?
+11. Qual transação cria a relação entre registradores?
+12. Quais duas etapas do ciclo acontecem fora da concessionária?
+13. O que separa a ordem de leitura periódica da não periódica?
+14. Nomeie os três tipos de validação de leitura.
+15. O que distingue a validação dependente das independentes?
+16. Uma leitura voltou do campo e o faturamento não rodou. Cite três causas possíveis.
 
 **[PE-01: Gestão de Perdas, fraude e defeito](33-PE-01-fraude-e-defeito.md)**
 
@@ -284,35 +310,64 @@
 
 **[BI-01: Cálculo e Faturamento, a distinção que define o módulo](35-BI-01-calculo-e-faturamento.md)**
 
-1. Cálculo age sobre qual objeto, e faturamento sobre qual?
-2. Qual dos dois cria a dívida, e como se prova isso pela tabela?
-3. Um cliente tem três contratos na mesma conta contrato. Quantos cálculos e quantas faturas?
-4. Qual a entrada do faturamento?
-5. Alguém diz "o faturamento não rodou". Qual sua primeira pergunta?
+1. Qual transação faz o cálculo individual?
+2. Qual transação faz o cálculo em massa?
+3. Qual transação faz o faturamento individual?
+4. Qual transação faz o faturamento em massa?
+5. Qual transação imprime, uma a uma?
+6. Qual transação imprime em massa?
+7. Qual transação trata anomalia, tanto de cálculo quanto de faturamento?
+8. Qual tabela é a entrada do cálculo?
+9. Qual tabela é a dobradiça entre cálculo e faturamento?
+10. Qual tabela prova que o faturamento cria a dívida?
+11. O que separa cálculo de faturamento quanto ao objeto sobre o qual agem?
+12. Qual a entrada do faturamento?
+13. Um cliente tem três contratos na mesma conta contrato. Quantos cálculos saem?
+14. O mesmo cliente recebe quantas faturas?
+15. Alguém diz "o faturamento não rodou". Cite a primeira pergunta a fazer.
 
 **[BI-02: Os dados mestres de cálculo, como o sistema escolhe a tarifa](36-BI-02-dados-mestres-de-calculo.md)**
 
-1. Onde a instalação guarda a informação de tarifa, e o que ela guarda exatamente?
-2. O que produz a determinação de tarifa, e a partir de quais duas entradas?
-3. O que é um operando, e onde ficam armazenados os valores válidos dele?
-4. Por que a categoria de tarifa fica na faixa de tempo?
-5. Um analista abre a instalação e não encontra a tarifa. Ele está diante de um erro?
+1. Qual transação define tipos de tarifa?
+2. Qual tabela guarda as tarifas?
+3. Qual tabela guarda a categoria de tarifa?
+4. Qual tabela guarda a determinação de tarifa?
+5. Qual tabela guarda os operandos?
+6. Qual tabela guarda os tipos de tarifa?
+7. Quais duas tabelas guardam o esquema de cálculo?
+8. O que a instalação guarda, na faixa de tempo, a respeito de tarifa?
+9. Quais são as duas entradas da determinação de tarifa?
+10. O que a determinação de tarifa produz?
+11. Como o SAP chama a variável que o cálculo usa e que o customizing define à parte?
+12. Onde ficam armazenados os valores de operando válidos?
+13. Um analista abre a instalação e não encontra a tarifa. Isso é erro?
+14. Uma tarifa foi reajustada em março. Cite o que impede o recálculo de janeiro de usar o valor novo.
+15. O que separa Tipo de Tarifa de Categoria de Tarifa?
 
 **[BI-03: Anomalias, dois fluxos que parecem iguais e não são](37-BI-03-anomalias.md)**
 
-1. O que é uma anomalia, e o que ela impede?
-2. Qual a diferença entre o que acontece ao liberar uma anomalia de cálculo e uma de faturamento?
-3. Qual transação trata anomalia, e por que não existe versão em massa?
-4. Que duas saídas o usuário tem diante de um documento retido?
-5. Uma anomalia de faturamento foi liberada por engano. O que o sistema faz em seguida?
+1. Qual transação trata anomalia?
+2. Qual tabela guarda a anomalia do cálculo?
+3. Qual tabela guarda a anomalia da fatura?
+4. Como o SAP chama a retenção de um documento que não passou na consistência?
+5. O que a anomalia impede?
+6. O que separa a liberação de anomalia de cálculo da de faturamento?
+7. Que duas saídas o usuário tem diante de um documento retido?
+8. Mil documentos entraram em anomalia. Cite o que impede resolver isso com um job.
+9. Uma anomalia de faturamento foi liberada por engano. O que o sistema verifica depois?
 
 **[BI-04: A impressão, do spool ao papel na casa do cliente](38-BI-04-impressao.md)**
 
-1. Qual a diferença entre spool e output request?
-2. O que é o SAPscript, e o que ele produz?
-3. Como a fatura chega à empreiteira que imprime?
-4. Por que a transação que gera o arquivo começa com `Z`?
-5. Uma conta saiu com valor certo e um campo em branco. Onde está o defeito?
+1. Qual transação imprime, uma a uma?
+2. Qual transação imprime em massa?
+3. Como o SAP chama a saída para impressão de um documento?
+4. Como o SAP chama o envio de um spool para um dispositivo específico?
+5. Como o SAP chama o repositório onde os dados do spool ficam guardados?
+6. Como o SAP chama a funcionalidade de construção de formulários de impressão?
+7. O que separa spool de output request?
+8. Como a fatura chega à empreiteira que imprime?
+9. Uma transação do fluxo começa com `Z`. O que isso diz sobre ela?
+10. Uma conta saiu com valor certo e um campo em branco. Cite onde está o defeito.
 
 <!-- FIM PERGUNTAS -->
 
@@ -743,100 +798,107 @@
 ## DM-03
 **DM-03: O cadastro do equipamento**  ·  [voltar para a nota](30-DM-03-cadastro-do-equipamento.md)
 
-1. **Grupo de Registradores** e **Material** entram no **Tipo de Equipamento**,
-   que gera o **Equipamento**.
-2. Tipo é `EG01`. Equipamento, tanto medidor quanto transformador, é `IQ01`.
-3. No lugar do Grupo de Registradores entra o **Grupo de Enrolamento** (`EGW1`).
-   O resto é idêntico, porque para o SAP os dois são equipamento.
-4. **A instalação.** `IQ01` só cria o aparelho no cadastro; quem o coloca na
+1. Material, Grupo de Registradores, Tipo de Equipamento, Equipamento.
+2. `EG04`  ·  3. `EG01`  ·  4. `IQ01`  ·  5. `EG27`  ·  6. `EG31`  ·  7. `MM01`
+8. **Grupo de Enrolamento**, transação `EGW1`.
+9. **A instalação.** `IQ01` só cria o aparelho no cadastro; quem o coloca na
    instalação é `EG31`.
-5. **Quantos e quais registradores** o tipo de equipamento terá.
+10. Quantos e quais registradores o tipo de equipamento terá.
+11. **Tipo é o modelo, equipamento é o aparelho.** O tipo vale para todos os
+    aparelhos daquele modelo; o equipamento tem número de série.
 
 ---
 
 ## DM-04
 **DM-04: Planejamento de datas**  ·  [voltar para a nota](31-DM-04-planejamento-de-datas.md)
 
-1. O **Conjunto de Contratos** carrega cálculo e faturamento. A **Unidade de
-   Leitura** carrega a data de leitura e a localização.
-2. Para **distribuir a carga ao longo do mês**. Faturar a base inteira no mesmo
-   dia não cabe em nenhuma janela de processamento.
-3. **Relativa à data do conjunto**, no material "2 dias antes do cálculo".
-4. Conjunto é `E41B`, Unidade de Leitura é `E41H`.
-5. **Não.** A Unidade de Leitura é a rota do leiturista, e o corte é físico: um
-   lado da rua pode ser uma unidade e o outro lado, outra.
+1. O **Conjunto de Contratos**.
+2. A **Unidade de Leitura**.
+3. `E41B`  ·  4. `E41H`  ·  5. `ES31` ou `EL59`  ·  6. `SCAL`  ·  7. `EL42`
+8. `EL40`  ·  9. `E1DY` e `E2DY`  ·  10. `EL59P`
+11. **Relativa à data do conjunto**, no material "2 dias antes do cálculo".
+12. **Não.** A Unidade de Leitura é a rota do leiturista, e o corte é físico.
+13. **O conjunto responde quando o dinheiro acontece, a unidade responde quando
+    o técnico anda.**
+14. **Distribuir a carga ao longo do mês.** Faturar a base inteira no mesmo dia
+    não cabe em nenhuma janela de processamento.
 
 ---
 
 ## DM-05
 **DM-05: O ciclo da leitura**  ·  [voltar para a nota](32-DM-05-ciclo-da-leitura.md)
 
-1. A **leitura em campo** e a **coleta do resultado**. Quem lê é a empreiteira,
-   e a fronteira é o par download (`EL16`) e upload (`ELMU`).
-2. **Periódica** nasce do calendário de leitura. **Não periódica** nasce de
-   outro processo do SAP: mudança, troca de medidor, fiscalização.
-3. Independente fixa, independente variável e dependente. **A dependente olha o
-   resultado de outro registrador**, e por isso exige relação entre
-   registradores (`EG75`).
-4. Porque **sem ela a validação dependente não roda**. Não é enfeite de
-   cadastro, é pré-requisito.
-5. **Existe ordem? Voltou resultado? Passou na validação?** Sem resultado
-   válido não há cálculo.
+1. `EL01`  ·  2. `EL09`  ·  3. `EL16`  ·  4. `ELMU`  ·  5. `EL28`  ·  6. `EL27`
+7. `EL30`  ·  8. `EL18`  ·  9. `EL31`  ·  10. `EL37`  ·  11. `EG75`
+12. A **leitura em campo** e a **coleta do resultado**. Quem lê é a empreiteira.
+13. **Periódica** nasce do calendário de leitura. **Não periódica** nasce de
+    outro processo do SAP: mudança, troca de medidor, fiscalização.
+14. Independente fixa, independente variável e dependente.
+15. **A dependente olha o resultado de outro registrador**, e por isso exige
+    relação entre registradores.
+16. Não existe ordem de leitura · o resultado não voltou do campo · a leitura
+    está retida em validação esperando tratamento.
 
 ---
 
 ## BI-01
 **BI-01: Cálculo e Faturamento**  ·  [voltar para a nota](35-BI-01-calculo-e-faturamento.md)
 
-1. Cálculo age sobre o **Contrato**. Faturamento age sobre a **Conta Contrato**.
-2. O **Faturamento**. A prova é `DFKKOP`, a partida em aberto de FI-CA, que só
-   aparece na saída do faturamento.
-3. **Três cálculos e uma fatura.** É exatamente para isso que a Conta Contrato
-   agrupa.
-4. **O documento de cálculo liberado.** Se não foi liberado, não fatura.
-5. **"Saiu documento de cálculo?"** Se saiu, o problema é depois; se não, antes.
+1. `EA00`  ·  2. `EA38`  ·  3. `EA19`  ·  4. `EA26`  ·  5. `EA40`  ·  6. `EA29`
+7. `EA05`, a mesma para os dois tipos de anomalia.
+8. `ETRG`, as ordens de cálculo.
+9. `EITR`: saída do cálculo, entrada do faturamento.
+10. `DFKKOP`, a partida em aberto de FI-CA, que só aparece na saída do
+    faturamento.
+11. **Cálculo age sobre o Contrato, faturamento sobre a Conta Contrato.**
+12. O **documento de cálculo liberado**.
+13. **Três.** Um por contrato.
+14. **Uma.** É para isso que a Conta Contrato agrupa.
+15. **"Saiu documento de cálculo?"** Se saiu, o problema é depois; se não, antes.
 
 ---
 
 ## BI-02
 **BI-02: Os dados mestres de cálculo**  ·  [voltar para a nota](36-BI-02-dados-mestres-de-calculo.md)
 
-1. Ela guarda a **categoria de tarifa**, e guarda **na faixa de tempo**, não na
-   instalação em si.
-2. Produz **quais tarifas entram no cálculo**, a partir da **categoria de
-   tarifa** (da instalação) mais o **tipo de tarifa** (do registrador ou do
-   operando).
-3. É **dado mestre de cálculo**, a variável que o cálculo usa. Os valores
-   válidos ficam armazenados **na categoria de tarifa**.
-4. Porque **tarifa muda e o passado tem que continuar calculável**. Reajuste
-   cria faixa nova; a antiga permanece para recálculo.
-5. **Não.** A tarifa não mora na instalação, é resultado de determinação.
+1. `EA56`  ·  2. `ETRF`  ·  3. `ETTA`  ·  4. `ERTFND`  ·  5. `TE221`  ·  6. `TE069`
+7. `ESCH` (cabeçalho) e `ESCHS` (etapas).
+8. A **categoria de tarifa**.
+9. A **categoria de tarifa** (da instalação) e o **tipo de tarifa** (do
+   registrador ou do operando).
+10. **Quais tarifas entram no cálculo.**
+11. **Operando.**
+12. Na **categoria de tarifa**, válidos para todo o grupo de clientes.
+13. **Não.** A tarifa não mora na instalação, é resultado de determinação.
+14. **A faixa de tempo.** O reajuste cria faixa nova e a antiga permanece, então
+    o recálculo de janeiro acha a regra de janeiro.
+15. **Tipo é o que o registrador ou o operando carrega. Categoria é o que a
+    instalação carrega.** O cruzamento dos dois é que determina a tarifa.
 
 ---
 
 ## BI-03
 **BI-03: Anomalias**  ·  [voltar para a nota](37-BI-03-anomalias.md)
 
-1. É a **retenção** de um documento que passou por consistência e não bateu.
-   Impede a **emissão de conta errada**.
-2. No cálculo, **desmarca e mantém o mesmo documento**. No faturamento, **cria
-   um documento novo**, e depois disso *não há nova verificação*.
-3. `EA05`. **Não existe liberação em massa**: o tratamento é individual, por
-   decisão de produto.
-4. **Cancelar** o documento retido ou **liberá-lo**.
-5. **Nada.** Não há nova verificação de anomalia, então a conta segue para
-   impressão como está.
+1. `EA05`  ·  2. `ERCHO`  ·  3. `ERDO`
+4. **Anomalia.**
+5. **A emissão de conta errada.**
+6. No cálculo, **desmarca e mantém o mesmo documento**. No faturamento, **cria
+   um documento novo**, e depois disso não há nova verificação.
+7. **Cancelar** o documento retido ou **liberá-lo**.
+8. **Não existe ferramenta de liberação em massa.** O tratamento é individual,
+   por decisão de produto.
+9. **Nada.** Não há nova verificação de anomalia depois da liberação.
 
 ---
 
 ## BI-04
 **BI-04: A impressão**  ·  [voltar para a nota](38-BI-04-impressao.md)
 
-1. **Spool é o conteúdo** da saída, **output request é o envio** para um
-   dispositivo específico. Um spool pode gerar vários envios.
-2. Funcionalidade de **construção de formulários** para impressão. Produz o
-   layout da conta que chega na casa do cliente.
-3. Por **arquivo TXT gerado por transação `Z`**, ou seja, código do projeto.
-4. Porque **é desenvolvimento do projeto**, não transação standard SAP.
-5. **No formulário.** Se o valor está certo, o cálculo está certo; o defeito é
-   de layout.
+1. `EA40`  ·  2. `EA29`
+3. **Spool.**  ·  4. **Output request.**  ·  5. **TemSe.**  ·  6. **SAPscript.**
+7. **Spool é o conteúdo, output request é o envio.** Um spool pode gerar vários
+   envios.
+8. Por **arquivo TXT gerado por transação `Z`**, ou seja, código do projeto.
+9. Que **é desenvolvimento do projeto**, não transação standard SAP.
+10. **No formulário.** Se o valor está certo, o cálculo está certo.

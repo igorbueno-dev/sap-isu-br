@@ -84,12 +84,38 @@ A sequência tem quatro paradas, e pular qualquer uma quebra a seguinte:
 
 ---
 
+## No sistema
+
+| Transação | O que cria |
+|---|---|
+| `EG04` | Grupo de Registradores |
+| `EGW1` | Grupo de Enrolamento |
+| `MM01` | Material |
+| `EG01` | Tipo de Equipamento |
+| `IQ01` | Equipamento: medidor ou transformador |
+| `EG27` | Grupo de Equipamentos |
+| `EG31` | Instalação total, que põe o equipamento na instalação |
+
+---
+
+## Se sobrar uma coisa
+
+Criar o equipamento não instala o equipamento.
+
+---
+
 ## Recall
 
-1. Quais são os quatro objetos do cadastro de equipamento, na ordem?
-2. Qual transação cria o Tipo de Equipamento, e qual cria o Equipamento?
-3. O que muda no caminho do transformador em relação ao do medidor?
-4. Um medidor foi criado no `IQ01` e não aparece na instalação. O que faltou?
-5. O que o Grupo de Registradores decide?
+1. Ordene, do primeiro ao último: Equipamento, Grupo de Registradores, Tipo de Equipamento, Material.
+2. Qual transação cria o Grupo de Registradores?
+3. Qual transação cria o Tipo de Equipamento?
+4. Qual transação cria o Equipamento?
+5. Qual transação cria o Grupo de Equipamentos?
+6. Qual transação faz a instalação total?
+7. Qual transação cria o material?
+8. Como o SAP chama o objeto que substitui o Grupo de Registradores no caminho do transformador?
+9. Um medidor foi criado no `IQ01` e não aparece na instalação. O que faltou?
+10. O que o Grupo de Registradores decide?
+11. O que separa Tipo de Equipamento de Equipamento?
 
 > **Gabarito:** [`_PISTAS.md`](_PISTAS.md#dm-03)  ·  responda tudo antes de abrir.

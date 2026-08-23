@@ -111,12 +111,28 @@ Tabelas: `ETRF` tarifas · `ETTA` categoria · `ETTAF` fatos da categoria ·
 
 ---
 
+## Se sobrar uma coisa
+
+A instalação não guarda a tarifa, guarda a categoria. A tarifa é determinada.
+
+---
+
 ## Recall
 
-1. Onde a instalação guarda a informação de tarifa, e o que ela guarda exatamente?
-2. O que produz a determinação de tarifa, e a partir de quais duas entradas?
-3. O que é um operando, e onde ficam armazenados os valores válidos dele?
-4. Por que a categoria de tarifa fica na faixa de tempo?
-5. Um analista abre a instalação e não encontra a tarifa. Ele está diante de um erro?
+1. Qual transação define tipos de tarifa?
+2. Qual tabela guarda as tarifas?
+3. Qual tabela guarda a categoria de tarifa?
+4. Qual tabela guarda a determinação de tarifa?
+5. Qual tabela guarda os operandos?
+6. Qual tabela guarda os tipos de tarifa?
+7. Quais duas tabelas guardam o esquema de cálculo?
+8. O que a instalação guarda, na faixa de tempo, a respeito de tarifa?
+9. Quais são as duas entradas da determinação de tarifa?
+10. O que a determinação de tarifa produz?
+11. Como o SAP chama a variável que o cálculo usa e que o customizing define à parte?
+12. Onde ficam armazenados os valores de operando válidos?
+13. Um analista abre a instalação e não encontra a tarifa. Isso é erro?
+14. Uma tarifa foi reajustada em março. Cite o que impede o recálculo de janeiro de usar o valor novo.
+15. O que separa Tipo de Tarifa de Categoria de Tarifa?
 
 > **Gabarito:** [`_PISTAS.md`](_PISTAS.md#bi-02)  ·  responda tudo antes de abrir.

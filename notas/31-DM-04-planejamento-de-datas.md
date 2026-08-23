@@ -104,12 +104,27 @@ planejamento ao objeto que fatura, e sem ele o resto é cadastro morto.
 
 ---
 
+## Se sobrar uma coisa
+
+O Conjunto de Contratos manda no dinheiro, a Unidade de Leitura manda no técnico.
+
+---
+
 ## Recall
 
-1. Qual objeto carrega a data de faturamento, e qual carrega a data de leitura?
-2. Por que existem vários Conjuntos de Contratos com datas diferentes?
-3. Como a data da Unidade de Leitura é definida?
-4. Qual transação cria o Conjunto de Contratos, e qual cria a Unidade de Leitura?
-5. Duas casas na mesma rua estão em Unidades de Leitura diferentes. Isso é erro?
+1. Qual objeto carrega a data de faturamento?
+2. Qual objeto carrega a data de leitura?
+3. Qual transação cria o Conjunto de Contratos?
+4. Qual transação cria a Unidade de Leitura?
+5. Qual transação atribui a Instalação ao planejamento?
+6. Qual transação cadastra feriados e calendários?
+7. Qual transação exibe as Unidades de Leitura?
+8. Qual transação modifica a sequência de leitura?
+9. Quais duas transações criam e atualizam o Registro de Datas?
+10. Qual transação define o Grupo de Parâmetros?
+11. Como a data da Unidade de Leitura é definida?
+12. Duas casas na mesma rua estão em Unidades de Leitura diferentes. Isso é erro?
+13. O que separa o Conjunto de Contratos da Unidade de Leitura?
+14. Uma concessionária fatura três milhões de clientes. Cite a razão de existirem vários Conjuntos de Contratos.
 
 > **Gabarito:** [`_PISTAS.md`](_PISTAS.md#dm-04)  ·  responda tudo antes de abrir.

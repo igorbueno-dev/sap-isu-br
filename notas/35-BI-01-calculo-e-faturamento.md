@@ -95,12 +95,28 @@ aparece na saída do faturamento. Ver [02-BANCADA](../referencia/02-BANCADA.md).
 
 ---
 
+## Se sobrar uma coisa
+
+Cálculo apura, faturamento cobra. A dívida nasce no segundo.
+
+---
+
 ## Recall
 
-1. Cálculo age sobre qual objeto, e faturamento sobre qual?
-2. Qual dos dois cria a dívida, e como se prova isso pela tabela?
-3. Um cliente tem três contratos na mesma conta contrato. Quantos cálculos e quantas faturas?
-4. Qual a entrada do faturamento?
-5. Alguém diz "o faturamento não rodou". Qual sua primeira pergunta?
+1. Qual transação faz o cálculo individual?
+2. Qual transação faz o cálculo em massa?
+3. Qual transação faz o faturamento individual?
+4. Qual transação faz o faturamento em massa?
+5. Qual transação imprime, uma a uma?
+6. Qual transação imprime em massa?
+7. Qual transação trata anomalia, tanto de cálculo quanto de faturamento?
+8. Qual tabela é a entrada do cálculo?
+9. Qual tabela é a dobradiça entre cálculo e faturamento?
+10. Qual tabela prova que o faturamento cria a dívida?
+11. O que separa cálculo de faturamento quanto ao objeto sobre o qual agem?
+12. Qual a entrada do faturamento?
+13. Um cliente tem três contratos na mesma conta contrato. Quantos cálculos saem?
+14. O mesmo cliente recebe quantas faturas?
+15. Alguém diz "o faturamento não rodou". Cite a primeira pergunta a fazer.
 
 > **Gabarito:** [`_PISTAS.md`](_PISTAS.md#bi-01)  ·  responda tudo antes de abrir.

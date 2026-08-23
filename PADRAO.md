@@ -29,10 +29,10 @@ Sempre presentes, sempre nesta ordem.
 | 1 | **Título** | A pergunta. `XX-NN: <o assunto>` |
 | 2 | **Resumo** | A resposta, em **uma frase**. Objetiva, não provocativa |
 | 3 | **Estrutura** | O elemento central: a figura, a hierarquia, a tabela que organiza |
-| 4 | **Onde quebra** | O erro que se comete. Único lugar da nota com cor |
+| 4 | **O erro que todo mundo comete** | O erro que se comete. Único lugar da nota com cor |
 | 5 | **No sistema** | Transações e tabelas |
 | 6 | **Pistas** | As perguntas de recuperação |
-| 7 | **Se sobrar** | A tese que precisa sobreviver ao esquecimento |
+| 7 | **Se sobrar uma coisa** | Uma linha. A tese que precisa sobreviver ao esquecimento |
 
 ### A regra da seção vazia
 
@@ -55,6 +55,7 @@ Entram **só quando ganham o espaço**. Nunca por simetria.
 | **Vocabulário** | Há nomes ou siglas a fixar | `GE-01`, as duas siglas |
 | **Características** | O objeto tem atributos que valem lista | `MD-03` Parceiro de Negócios, `MD-06` Contrato |
 | **Analogia** | Passa no teste abaixo | `MD-06`, a carteira e a tomada |
+| **Na prática** | Há um chamado, um sintoma ou um hábito de diagnóstico a ensinar | `DM-05`, "a conta não saiu começa aqui" |
 
 ### O teste da analogia
 
@@ -94,7 +95,13 @@ nota em vez de sobre o SAP.
 
 ### A regra de cobertura
 
-**Todo código de transação citado no corpo vira pista da forma _Transação_.**
+**Todo código de transação ou tabela citado no corpo vira pista da forma
+_Transação_.**
+
+Três exceções, e só três: **identificador de exemplo** do slide (`CJ001`,
+`SPBT0101`), **nó de customizing** (`S_KK4_74000825`), e **código dentro de
+bloco marcado como inferência**, porque conteúdo não confirmado não vira
+material de treino.
 
 O acervo tinha 50 códigos citados e **duas** pistas que os cobravam. Para vaga
 de analista funcional, transação é o conteúdo mais provável de ser cobrado, o
