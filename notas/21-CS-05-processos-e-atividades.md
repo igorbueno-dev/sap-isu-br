@@ -78,13 +78,31 @@ vira dado**. "Prospect" não é abstração de marketing, é um valor gravado no
 
 ---
 
+## No sistema
+
+| Tabela | Conteúdo |
+|---|---|
+| `BUT000` | Parceiro de Negócios, onde mora o campo **Status** com o valor *Prospect* |
+
+**Esta nota não tem transação própria.** Protocolo e atividade são objetos do
+CRM, e a academia não apresentou os códigos deles. **Perguntar na semana 2.**
+
+---
+
+## Se sobrar uma coisa
+
+Protocolo é o número que o cliente cobra. Atividade é o que a empresa fez.
+
+---
+
 ## Recall
 
-1. Qual a diferença entre protocolo e atividade, e qual contém qual?
-2. Por que o protocolo importa fora da empresa?
-3. Cite quatro processos da lista de FOPs.
-4. Alteração de titularidade corresponde a que processo no lado dos dados
-   mestres?
-5. Onde o conceito de "prospect" aparece como dado no sistema?
+1. Qual tabela guarda o Parceiro de Negócios, onde mora o status de prospect?
+2. O que separa protocolo de atividade?
+3. Qual dos dois contém o outro?
+4. Cite o que torna o protocolo importante fora da empresa.
+5. Cite quatro processos da lista de FOPs.
+6. A que processo do lado dos dados mestres corresponde a Alteração de titularidade?
+7. Em qual campo do Parceiro de Negócios aparece o conceito de prospect?
 
 > **Gabarito:** [`_PISTAS.md`](_PISTAS.md#cs-05)  ·  responda tudo antes de abrir.

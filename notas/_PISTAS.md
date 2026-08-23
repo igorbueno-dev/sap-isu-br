@@ -177,40 +177,55 @@
 
 **[CS-01: O que é CRM](17-CS-01-o-que-e-crm.md)**
 
-1. CRM é uma tecnologia? Responda usando as três camadas da definição.
-2. Onde começa e onde termina o escopo do CRM?
-3. Qual o verbo central da definição, e por que isso muda o entendimento?
-4. Se o cliente de uma concessionária não pode trocar de fornecedor, o que o CRM gerencia de fato?
+1. O CRM é uma tecnologia?
+2. Nomeie as três camadas da definição de CRM.
+3. Onde começa o escopo do CRM?
+4. Onde termina o escopo do CRM?
+5. Qual o verbo central da definição de CRM?
+6. O cliente de uma concessionária não pode trocar de fornecedor. Cite o que o CRM ainda decide nesse caso.
 
 **[CS-02: Ciclo de vida do cliente](18-CS-02-ciclo-de-vida-do-cliente.md)**
 
-1. Liste as seis etapas na ordem.
-2. Quais duas etapas pertencem a cada pilar?
-3. Por que o ciclo é desenhado como círculo e não como linha?
-4. Em que etapa um cliente de concessionária normalmente entra, e por quê?
+1. Liste as seis etapas do ciclo de vida do cliente, na ordem.
+2. Quais duas etapas pertencem ao pilar Marketing?
+3. Quais duas etapas pertencem ao pilar Vendas?
+4. Quais duas etapas pertencem ao pilar Serviço?
+5. O que faz o ciclo ser um círculo e não uma linha?
+6. Em qual etapa um cliente de concessionária normalmente entra?
+7. O que explica ele entrar por essa etapa?
 
 **[CS-03: SAP CRM e os três pilares](19-CS-03-sap-crm-e-os-pilares.md)**
 
-1. Quais os três pilares, e qual carrega o setor de utilities?
-2. Qual a diferença entre um pilar e uma faixa vertical da matriz?
-3. Cite um módulo de cada pilar.
-4. O que é o S/4 Customer Engagement, e qual sua relação com o CRM clássico?
+1. Nomeie os três pilares do SAP CRM.
+2. Qual dos três pilares carrega o setor de utilities?
+3. O que separa um pilar de uma faixa vertical da matriz?
+4. Nomeie as três faixas verticais da matriz.
+5. Cite um módulo do pilar Marketing.
+6. Cite um módulo do pilar Vendas.
+7. Cite um módulo do pilar Serviço.
+8. Como o SAP chama hoje a versão do CRM embutida no S/4HANA?
+9. O que essa versão entrega no lugar do Interaction Center clássico?
 
 **[CS-04: CRM no contexto Utilities](20-CS-04-crm-no-contexto-utilities.md)**
 
-1. CRM é um módulo dentro do IS-U? Justifique com uma palavra.
-2. Qual a posição do CS + CRM na cadeia das cinco áreas?
-3. Onde uma ligação nova entra no sistema?
-4. Por que BW não conta como área funcional?
-5. O que significa dizer que o SAP CRM integra com Salesforce?
+1. O CRM é um módulo dentro do IS-U?
+2. Qual a palavra que o material usa para descrever a relação entre CRM e IS-U?
+3. Qual a posição do CS + CRM na cadeia das cinco áreas?
+4. Ordene as cinco áreas da cadeia.
+5. Onde uma ligação nova entra no sistema?
+6. O BW conta como área funcional?
+7. Como o BW aparece no desenho da cadeia?
+8. Uma paisagem tem Salesforce e SAP CRM ao mesmo tempo. Isso é erro de arquitetura?
 
 **[CS-05: Processos e atividades no atendimento](21-CS-05-processos-e-atividades.md)**
 
-1. Qual a diferença entre protocolo e atividade, e qual contém qual?
-2. Por que o protocolo importa fora da empresa?
-3. Cite quatro processos da lista de FOPs.
-4. Alteração de titularidade corresponde a que processo no lado dos dados mestres?
-5. Onde o conceito de "prospect" aparece como dado no sistema?
+1. Qual tabela guarda o Parceiro de Negócios, onde mora o status de prospect?
+2. O que separa protocolo de atividade?
+3. Qual dos dois contém o outro?
+4. Cite o que torna o protocolo importante fora da empresa.
+5. Cite quatro processos da lista de FOPs.
+6. A que processo do lado dos dados mestres corresponde a Alteração de titularidade?
+7. Em qual campo do Parceiro de Negócios aparece o conceito de prospect?
 
 
 ---
@@ -625,12 +640,14 @@
 ## CS-01
 **CS-01: O que é CRM**  ·  [voltar para a nota](17-CS-01-o-que-e-crm.md)
 
-1. Não. É **práticas + estratégias de negócio + tecnologias**. A tecnologia
+1. **Não.** É **práticas + estratégias de negócio + tecnologias**. A tecnologia
    é a terceira camada, não a definição.
-2. Da **prospecção** até a **fidelização e retenção**. Ciclo inteiro, não só a venda.
-3. **Conhecer.** Conhecer comportamento e necessidades para antecipar desejos.
+2. **Práticas, estratégias de negócio e tecnologias.**
+3. Na **prospecção**.
+4. Na **fidelização e retenção**. Ciclo inteiro, não só a venda.
+5. **Conhecer.** Conhecer comportamento e necessidades para antecipar desejos.
    Vender é consequência.
-4. **Custo e qualidade do atendimento.** Num monopólio o cliente insatisfeito
+6. **Custo e qualidade do atendimento.** Num monopólio o cliente insatisfeito
    não cancela, ele reclama, e reclamação tem preço com o regulador.
 
 ---
@@ -639,10 +656,12 @@
 **CS-02: Ciclo de vida do cliente**  ·  [voltar para a nota](18-CS-02-ciclo-de-vida-do-cliente.md)
 
 1. Prospecção, Qualificação, Conversão, Venda, Pós-venda, Fidelização.
-2. Marketing: prospecção e qualificação. Vendas: conversão e venda.
-   Serviços: pós-venda e fidelização.
-3. Porque **a fidelização realimenta a prospecção**: cliente fiel indica outro.
-4. Na etapa 5, **pós-venda**. Ele não foi prospectado nem convertido: mudou-se para um imóvel que já
+2. **Prospecção e qualificação.**
+3. **Conversão e venda.**
+4. **Pós-venda e fidelização.**
+5. **A fidelização realimenta a prospecção**: cliente fiel indica outro.
+6. Na etapa 5, **pós-venda**.
+7. Ele **não foi prospectado nem convertido**: mudou-se para um imóvel que já
    tinha ligação. Entrou por Move-In.
 
 ---
@@ -650,28 +669,34 @@
 ## CS-03
 **CS-03: SAP CRM e os três pilares**  ·  [voltar para a nota](19-CS-03-sap-crm-e-os-pilares.md)
 
-1. **Marketing, Vendas (Sales) e Serviço (Service)**. Serviço carrega utilities.
-2. Pilar é **área de negócio** (linha da matriz). Faixa vertical é **canal**
-   (Web Channel, Interaction Center, Partner Channel Management) e atravessa
-   os três pilares.
-3. Exemplos: Marketing → Campaign Management. Sales → Opportunity Management.
-   Service → Customer Service & Support.
-4. Versão **simplificada do SAP CRM embutida no S/4HANA**, que aproveita a
-   tecnologia do CRM Web UI e entrega o **S/4HANA Interaction Center**.
+1. **Marketing, Vendas (Sales) e Serviço (Service).**
+2. **Serviço.**
+3. **Pilar é área de negócio**, linha da matriz. **Faixa vertical é canal**, e
+   atravessa os três pilares.
+4. **Web Channel, Interaction Center e Partner Channel Management.**
+5. Campaign Management.
+6. Opportunity Management.
+7. Customer Service & Support.
+8. **S/4 Customer Engagement**, versão simplificada do SAP CRM embutida no
+   S/4HANA.
+9. O **S/4HANA Interaction Center**, aproveitando a tecnologia do CRM Web UI.
 
 ---
 
 ## CS-04
 **CS-04: CRM no contexto Utilities**  ·  [voltar para a nota](20-CS-04-crm-no-contexto-utilities.md)
 
-1. Não. O material diz **camada** de atendimento **integrada** ao IS-U/CCS. É um
-   sistema por cima, não um módulo dentro.
-2. **A primeira.** `CS + CRM → WM → DM → BILL → FI-CA`.
-3. No **CS + CRM**, que oferece os serviços ao cliente (new connection,
-   reconnection).
-4. Porque aparece como **faixa única atravessando as cinco**, não como caixa
-   na fila. É camada de informação sobre todas.
-5. Que **pode existir mais de um CRM** na paisagem. Salesforce na ponta e SAP
+1. **Não.**
+2. **Camada.** O material diz camada de atendimento **integrada** ao IS-U/CCS:
+   um sistema por cima, não um módulo dentro.
+3. **A primeira.**
+4. `CS + CRM` → `WM` → `DM` → `BILL` → `FI-CA`.
+5. No **CS + CRM**, que oferece os serviços ao cliente (*new connection*,
+   *reconnection*).
+6. **Não.**
+7. Como **faixa única atravessando as cinco**, não como caixa na fila. É camada
+   de informação sobre todas.
+8. **Não.** Pode existir mais de um CRM na paisagem: Salesforce na ponta e SAP
    CRM no meio é arranjo comum.
 
 ---
@@ -679,17 +704,17 @@
 ## CS-05
 **CS-05: Processos e atividades**  ·  [voltar para a nota](21-CS-05-processos-e-atividades.md)
 
-1. **Protocolo** é o número que o cliente recebe e acompanha; **atividade** é
-   o registro do que foi feito. **Um protocolo contém várias atividades.**
-2. Porque ele **prova prazo de atendimento perante o regulador**.
-3. Ligação Nova, Alteração de titularidade, Segundas Vias, Reclamações,
+1. `BUT000`.
+2. **Protocolo é o número que o cliente recebe e acompanha. Atividade é o
+   registro do que foi feito.**
+3. **O protocolo contém as atividades.**
+4. Ele **prova prazo de atendimento perante o regulador**.
+5. Ligação Nova, Alteração de titularidade, Segundas Vias, Reclamações,
    Cadastro, Modificações Contratuais.
-4. O material liga os dois pontos: "Alteração de titularidade" está na lista
-   de processos do CRM, e o Contrato **"é criado quando ocorre uma nova ligação
-   ou troca de titularidade"**. Se é literalmente Move-Out mais Move-In,
-   **está em aberto**.
-5. No campo **Status** do Parceiro de Negócios, com valores Cliente,
-   **Prospect**, Inativo.
+6. Ao processo que **cria o Contrato**: o material diz que ele "é criado quando
+   ocorre uma nova ligação ou troca de titularidade". Se é literalmente
+   Move-Out mais Move-In, **está em aberto**.
+7. No campo **Status**, com valores Cliente, **Prospect** e Inativo.
 
 ---
 

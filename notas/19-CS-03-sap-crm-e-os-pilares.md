@@ -86,11 +86,22 @@ conhecimento de CRM continua valendo no S/4HANA.
 
 ---
 
+## Se sobrar uma coisa
+
+Pilar é área de negócio, faixa vertical é canal. Utilities mora em Serviço.
+
+---
+
 ## Recall
 
-1. Quais os três pilares, e qual carrega o setor de utilities?
-2. Qual a diferença entre um pilar e uma faixa vertical da matriz?
-3. Cite um módulo de cada pilar.
-4. O que é o S/4 Customer Engagement, e qual sua relação com o CRM clássico?
+1. Nomeie os três pilares do SAP CRM.
+2. Qual dos três pilares carrega o setor de utilities?
+3. O que separa um pilar de uma faixa vertical da matriz?
+4. Nomeie as três faixas verticais da matriz.
+5. Cite um módulo do pilar Marketing.
+6. Cite um módulo do pilar Vendas.
+7. Cite um módulo do pilar Serviço.
+8. Como o SAP chama hoje a versão do CRM embutida no S/4HANA?
+9. O que essa versão entrega no lugar do Interaction Center clássico?
 
 > **Gabarito:** [`_PISTAS.md`](_PISTAS.md#cs-03)  ·  responda tudo antes de abrir.

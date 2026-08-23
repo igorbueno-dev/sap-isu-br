@@ -76,12 +76,21 @@ não como sexta caixa na fila.
 
 ---
 
+## Se sobrar uma coisa
+
+O CRM não é módulo do IS-U: é camada de atendimento por cima dele, e é a primeira da cadeia.
+
+---
+
 ## Recall
 
-1. CRM é um módulo dentro do IS-U? Justifique com uma palavra.
-2. Qual a posição do CS + CRM na cadeia das cinco áreas?
-3. Onde uma ligação nova entra no sistema?
-4. Por que BW não conta como área funcional?
-5. O que significa dizer que o SAP CRM integra com Salesforce?
+1. O CRM é um módulo dentro do IS-U?
+2. Qual a palavra que o material usa para descrever a relação entre CRM e IS-U?
+3. Qual a posição do CS + CRM na cadeia das cinco áreas?
+4. Ordene as cinco áreas da cadeia.
+5. Onde uma ligação nova entra no sistema?
+6. O BW conta como área funcional?
+7. Como o BW aparece no desenho da cadeia?
+8. Uma paisagem tem Salesforce e SAP CRM ao mesmo tempo. Isso é erro de arquitetura?
 
 > **Gabarito:** [`_PISTAS.md`](_PISTAS.md#cs-04)  ·  responda tudo antes de abrir.

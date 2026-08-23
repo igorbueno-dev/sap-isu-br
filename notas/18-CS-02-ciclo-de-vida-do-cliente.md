@@ -69,11 +69,20 @@ eficiência energética. Mas o volume está no pós-venda.
 
 ---
 
+## Se sobrar uma coisa
+
+A concessionária vive no pós-venda: o cliente entra pela mudança, não pela venda.
+
+---
+
 ## Recall
 
-1. Liste as seis etapas na ordem.
-2. Quais duas etapas pertencem a cada pilar?
-3. Por que o ciclo é desenhado como círculo e não como linha?
-4. Em que etapa um cliente de concessionária normalmente entra, e por quê?
+1. Liste as seis etapas do ciclo de vida do cliente, na ordem.
+2. Quais duas etapas pertencem ao pilar Marketing?
+3. Quais duas etapas pertencem ao pilar Vendas?
+4. Quais duas etapas pertencem ao pilar Serviço?
+5. O que faz o ciclo ser um círculo e não uma linha?
+6. Em qual etapa um cliente de concessionária normalmente entra?
+7. O que explica ele entrar por essa etapa?
 
 > **Gabarito:** [`_PISTAS.md`](_PISTAS.md#cs-02)  ·  responda tudo antes de abrir.
