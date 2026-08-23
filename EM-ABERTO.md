@@ -26,7 +26,7 @@ exatamente o erro da Estrutura Postal.
 | O conteúdo da **Estrutura Postal** e a relação com Estrutura Regional | A01, dados mestres | **SVC.** O material põe estruturas postais e políticas sob WM |
 | A transação de **Move-In** | A01, contrato | **CS + CRM.** Move-In é processo de atendimento (CIC) |
 | Se **Alteração de titularidade** é Move-Out mais Move-In | A02, processos | **CS + CRM** |
-| O que é um **operando** | A03, workflow de campo | **BILL**, é termo de esquema de cálculo. Pode vir na aula de Faturamento |
+| ~~O que é um **operando**~~ | A03, workflow de campo | **FECHADO pela Aula 04.** É dado mestre de cálculo. Ver [BI-02](notas/36-BI-02-dados-mestres-de-calculo.md) |
 | O que são **TE** e **TUSD** | A03, perdas | **BILL**, são parcelas da tarifa. Pode vir na aula de Faturamento |
 | Se **Perdas é trilha própria** | A03, os três blocos | **Sexta**, quando a lista de trilhas for apresentada |
 
@@ -63,7 +63,7 @@ sempre.
 | Conceito | Onde se encaixa |
 |---|---|
 | **Dados Transacionais** | Divisão 4 de 4, entra com leitura e faturamento |
-| **Planejamento de datas** | MRU e porções |
+| ~~**Planejamento de datas**~~ | **FECHADO pela Aula 04.** Ver [DM-04](notas/31-DM-04-planejamento-de-datas.md) |
 | **CIC** | Interface centralizada de atendimento, área de CS/CRM |
 | **EDM** | Gestão de dados de medição |
 

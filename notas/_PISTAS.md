@@ -32,7 +32,7 @@
 2. Qual interface pertence a cada era?
 3. O que muda e o que não muda do ECC para o S/4HANA?
 
-**[GE-04: Os três setores, com peso igual](04-GE-04-os-tres-setores.md)**
+**[GE-04: Os quatro mercados, com peso igual](04-GE-04-os-tres-setores.md)**
 
 1. O medidor de gás mede o que se cobra?
 2. Um imóvel de saneamento tem quantas instalações, e por quê?
@@ -190,7 +190,7 @@
 
 ---
 
-## Serviço de Campo (SVC)
+## Serviço de Campo e Equipamento (SVC / DM)
 
 **[SV-01: Serviço de Campo (SVC) e os três blocos](25-SV-01-servico-de-campo.md)**
 
@@ -235,7 +235,31 @@
 5. O que é energia injetada, e por que ela existe?
 6. Uma instalação não faturou e o medidor está corretamente instalado. Qual sua primeira hipótese?
 
-**[PE-01: Gestão de Perdas, fraude e defeito](30-PE-01-fraude-e-defeito.md)**
+**[DM-03: O cadastro do equipamento, do material ao medidor instalado](30-DM-03-cadastro-do-equipamento.md)**
+
+1. Quais são os quatro objetos do cadastro de equipamento, na ordem?
+2. Qual transação cria o Tipo de Equipamento, e qual cria o Equipamento?
+3. O que muda no caminho do transformador em relação ao do medidor?
+4. Um medidor foi criado no `IQ01` e não aparece na instalação. O que faltou?
+5. O que o Grupo de Registradores decide?
+
+**[DM-04: Planejamento de datas, quem carrega o calendário](31-DM-04-planejamento-de-datas.md)**
+
+1. Qual objeto carrega a data de faturamento, e qual carrega a data de leitura?
+2. Por que existem vários Conjuntos de Contratos com datas diferentes?
+3. Como a data da Unidade de Leitura é definida?
+4. Qual transação cria o Conjunto de Contratos, e qual cria a Unidade de Leitura?
+5. Duas casas na mesma rua estão em Unidades de Leitura diferentes. Isso é erro?
+
+**[DM-05: O ciclo da leitura, da ordem à validação](32-DM-05-ciclo-da-leitura.md)**
+
+1. Quais duas etapas do ciclo acontecem fora da concessionária?
+2. Qual a diferença entre ordem de leitura periódica e não periódica?
+3. Os três tipos de validação, e o que distingue a dependente das outras?
+4. Por que a transação de relação entre registradores existe?
+5. Uma leitura voltou do campo e o faturamento não rodou. Quais três perguntas você faz, na ordem?
+
+**[PE-01: Gestão de Perdas, fraude e defeito](33-PE-01-fraude-e-defeito.md)**
 
 1. Em uma frase, o que a Gestão de Perdas faz?
 2. Quais dos seis gatilhos escalam, e por quê?
@@ -244,7 +268,7 @@
 5. Por que classificar errado é o erro mais caro desta área, nos dois sentidos?
 6. Como um caso de Perdas nasce dentro de WM e de DM?
 
-**[PE-02: Faturado da época x fatura revista](31-PE-02-faturado-da-epoca.md)**
+**[PE-02: Faturado da época x fatura revista](34-PE-02-faturado-da-epoca.md)**
 
 1. O que é faturado da época, e o que é fatura revista?
 2. A fatura antiga é cancelada no processo de revisão?
@@ -252,6 +276,43 @@
 4. Quais são as três saídas da diferença apurada, e por que a terceira importa?
 5. O que precisa ser verdade sobre a memória de cálculo para a cobrança se sustentar?
 6. Por que o recálculo separa TE e TUSD, e o que o prefixo `ISUBR` indica?
+
+
+---
+
+## Cálculo e Faturamento (BILL)
+
+**[BI-01: Cálculo e Faturamento, a distinção que define o módulo](35-BI-01-calculo-e-faturamento.md)**
+
+1. Cálculo age sobre qual objeto, e faturamento sobre qual?
+2. Qual dos dois cria a dívida, e como se prova isso pela tabela?
+3. Um cliente tem três contratos na mesma conta contrato. Quantos cálculos e quantas faturas?
+4. Qual a entrada do faturamento?
+5. Alguém diz "o faturamento não rodou". Qual sua primeira pergunta?
+
+**[BI-02: Os dados mestres de cálculo, como o sistema escolhe a tarifa](36-BI-02-dados-mestres-de-calculo.md)**
+
+1. Onde a instalação guarda a informação de tarifa, e o que ela guarda exatamente?
+2. O que produz a determinação de tarifa, e a partir de quais duas entradas?
+3. O que é um operando, e onde ficam armazenados os valores válidos dele?
+4. Por que a categoria de tarifa fica na faixa de tempo?
+5. Um analista abre a instalação e não encontra a tarifa. Ele está diante de um erro?
+
+**[BI-03: Anomalias, dois fluxos que parecem iguais e não são](37-BI-03-anomalias.md)**
+
+1. O que é uma anomalia, e o que ela impede?
+2. Qual a diferença entre o que acontece ao liberar uma anomalia de cálculo e uma de faturamento?
+3. Qual transação trata anomalia, e por que não existe versão em massa?
+4. Que duas saídas o usuário tem diante de um documento retido?
+5. Uma anomalia de faturamento foi liberada por engano. O que o sistema faz em seguida?
+
+**[BI-04: A impressão, do spool ao papel na casa do cliente](38-BI-04-impressao.md)**
+
+1. Qual a diferença entre spool e output request?
+2. O que é o SAPscript, e o que ele produz?
+3. Como a fatura chega à empreiteira que imprime?
+4. Por que a transação que gera o arquivo começa com `Z`?
+5. Uma conta saiu com valor certo e um campo em branco. Onde está o defeito?
 
 <!-- FIM PERGUNTAS -->
 
@@ -642,7 +703,7 @@
 ---
 
 ## PE-01
-**PE-01: Gestão de Perdas, fraude e defeito**  ·  [voltar para a nota](30-PE-01-fraude-e-defeito.md)
+**PE-01: Gestão de Perdas, fraude e defeito**  ·  [voltar para a nota](33-PE-01-fraude-e-defeito.md)
 
 1. Descobre que o medidor não contava a verdade, **calcula quanto deveria ter
    sido cobrado** e cobra a diferença.
@@ -662,7 +723,7 @@
 ---
 
 ## PE-02
-**PE-02: Faturado da época x fatura revista**  ·  [voltar para a nota](31-PE-02-faturado-da-epoca.md)
+**PE-02: Faturado da época x fatura revista**  ·  [voltar para a nota](34-PE-02-faturado-da-epoca.md)
 
 1. **Faturado da época** é o que o cliente pagou com o medidor errado.
    **Fatura revista** é o que ele deveria ter pago.
@@ -676,3 +737,106 @@
 5. Que **um terceiro consiga refazer o cálculo e chegar no mesmo número.**
 6. Porque **TE e TUSD têm alíquotas e destinos diferentes**. E `ISUBR` indica
    **localização Brasil**.
+
+---
+
+## DM-03
+**DM-03: O cadastro do equipamento**  ·  [voltar para a nota](30-DM-03-cadastro-do-equipamento.md)
+
+1. **Grupo de Registradores** e **Material** entram no **Tipo de Equipamento**,
+   que gera o **Equipamento**.
+2. Tipo é `EG01`. Equipamento, tanto medidor quanto transformador, é `IQ01`.
+3. No lugar do Grupo de Registradores entra o **Grupo de Enrolamento** (`EGW1`).
+   O resto é idêntico, porque para o SAP os dois são equipamento.
+4. **A instalação.** `IQ01` só cria o aparelho no cadastro; quem o coloca na
+   instalação é `EG31`.
+5. **Quantos e quais registradores** o tipo de equipamento terá.
+
+---
+
+## DM-04
+**DM-04: Planejamento de datas**  ·  [voltar para a nota](31-DM-04-planejamento-de-datas.md)
+
+1. O **Conjunto de Contratos** carrega cálculo e faturamento. A **Unidade de
+   Leitura** carrega a data de leitura e a localização.
+2. Para **distribuir a carga ao longo do mês**. Faturar a base inteira no mesmo
+   dia não cabe em nenhuma janela de processamento.
+3. **Relativa à data do conjunto**, no material "2 dias antes do cálculo".
+4. Conjunto é `E41B`, Unidade de Leitura é `E41H`.
+5. **Não.** A Unidade de Leitura é a rota do leiturista, e o corte é físico: um
+   lado da rua pode ser uma unidade e o outro lado, outra.
+
+---
+
+## DM-05
+**DM-05: O ciclo da leitura**  ·  [voltar para a nota](32-DM-05-ciclo-da-leitura.md)
+
+1. A **leitura em campo** e a **coleta do resultado**. Quem lê é a empreiteira,
+   e a fronteira é o par download (`EL16`) e upload (`ELMU`).
+2. **Periódica** nasce do calendário de leitura. **Não periódica** nasce de
+   outro processo do SAP: mudança, troca de medidor, fiscalização.
+3. Independente fixa, independente variável e dependente. **A dependente olha o
+   resultado de outro registrador**, e por isso exige relação entre
+   registradores (`EG75`).
+4. Porque **sem ela a validação dependente não roda**. Não é enfeite de
+   cadastro, é pré-requisito.
+5. **Existe ordem? Voltou resultado? Passou na validação?** Sem resultado
+   válido não há cálculo.
+
+---
+
+## BI-01
+**BI-01: Cálculo e Faturamento**  ·  [voltar para a nota](35-BI-01-calculo-e-faturamento.md)
+
+1. Cálculo age sobre o **Contrato**. Faturamento age sobre a **Conta Contrato**.
+2. O **Faturamento**. A prova é `DFKKOP`, a partida em aberto de FI-CA, que só
+   aparece na saída do faturamento.
+3. **Três cálculos e uma fatura.** É exatamente para isso que a Conta Contrato
+   agrupa.
+4. **O documento de cálculo liberado.** Se não foi liberado, não fatura.
+5. **"Saiu documento de cálculo?"** Se saiu, o problema é depois; se não, antes.
+
+---
+
+## BI-02
+**BI-02: Os dados mestres de cálculo**  ·  [voltar para a nota](36-BI-02-dados-mestres-de-calculo.md)
+
+1. Ela guarda a **categoria de tarifa**, e guarda **na faixa de tempo**, não na
+   instalação em si.
+2. Produz **quais tarifas entram no cálculo**, a partir da **categoria de
+   tarifa** (da instalação) mais o **tipo de tarifa** (do registrador ou do
+   operando).
+3. É **dado mestre de cálculo**, a variável que o cálculo usa. Os valores
+   válidos ficam armazenados **na categoria de tarifa**.
+4. Porque **tarifa muda e o passado tem que continuar calculável**. Reajuste
+   cria faixa nova; a antiga permanece para recálculo.
+5. **Não.** A tarifa não mora na instalação, é resultado de determinação.
+
+---
+
+## BI-03
+**BI-03: Anomalias**  ·  [voltar para a nota](37-BI-03-anomalias.md)
+
+1. É a **retenção** de um documento que passou por consistência e não bateu.
+   Impede a **emissão de conta errada**.
+2. No cálculo, **desmarca e mantém o mesmo documento**. No faturamento, **cria
+   um documento novo**, e depois disso *não há nova verificação*.
+3. `EA05`. **Não existe liberação em massa**: o tratamento é individual, por
+   decisão de produto.
+4. **Cancelar** o documento retido ou **liberá-lo**.
+5. **Nada.** Não há nova verificação de anomalia, então a conta segue para
+   impressão como está.
+
+---
+
+## BI-04
+**BI-04: A impressão**  ·  [voltar para a nota](38-BI-04-impressao.md)
+
+1. **Spool é o conteúdo** da saída, **output request é o envio** para um
+   dispositivo específico. Um spool pode gerar vários envios.
+2. Funcionalidade de **construção de formulários** para impressão. Produz o
+   layout da conta que chega na casa do cliente.
+3. Por **arquivo TXT gerado por transação `Z`**, ou seja, código do projeto.
+4. Porque **é desenvolvimento do projeto**, não transação standard SAP.
+5. **No formulário.** Se o valor está certo, o cálculo está certo; o defeito é
+   de layout.

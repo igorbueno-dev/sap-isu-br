@@ -4,7 +4,7 @@
 
 **Onde entra:** o Bloco 3 do SVC. A menos documentada das três.
 **Antes disto:** [SV-01-servico-de-campo](25-SV-01-servico-de-campo.md)
-**Depois disto:** [PE-02-faturado-da-epoca](31-PE-02-faturado-da-epoca.md)
+**Depois disto:** [PE-02-faturado-da-epoca](34-PE-02-faturado-da-epoca.md)
 
 ---
 
@@ -85,7 +85,7 @@ A diferença está na evidência física que o técnico encontrou e registrou.
 
 Por isso o processo é pesado de propósito: perícia, laudo, foto, laudo de
 laboratório do medidor. **A memória de cálculo é o que sustenta a cobrança se
-o cliente for à justiça.** Ver [PE-02](31-PE-02-faturado-da-epoca.md).
+o cliente for à justiça.** Ver [PE-02](34-PE-02-faturado-da-epoca.md).
 
 > **O gancho para quem vem de FI-CA:** este é o único lugar do IS-U onde a
 > qualidade da documentação decide se a receita entra ou é devolvida.

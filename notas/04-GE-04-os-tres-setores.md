@@ -1,13 +1,29 @@
-# GE-04: Os três setores, com peso igual
-> Energia, gás e saneamento rodam o mesmo núcleo. A diferença aparece em
+# GE-04: Os quatro mercados, com peso igual
+> Luz, água, gás e saneamento rodam o mesmo núcleo. A diferença aparece em
 > pontos específicos, e um exercício pode vir de qualquer um deles.
 
 **Onde entra:** contexto que muda a resposta de exercícios.
 **Antes disto:** [GE-01-o-que-e-is-u-ccs](02-GE-01-o-que-e-is-u-ccs.md)
-**Status:** **misto.** Os três setores são do material, que abre falando de
-*"Utilities (água, energia, gás e outros)"* e cita Enel, EDP, Neoenergia,
-Celesc, Equatorial, Sabesp e Comgás. **A comparação entre eles é minha**, e
-nenhuma aula até agora entrou nas diferenças.
+**Status:** **misto.** Os mercados e a descrição de cada um são do material.
+**A comparação entre eles é minha**, e nenhuma aula entrou nas diferenças.
+
+---
+
+## Os quatro, na definição do material
+
+| Mercado | O que o SAP IS-U faz |
+|---|---|
+| **Luz** | Gestão completa do ciclo de clientes e medições de energia elétrica |
+| **Água** | Gestão eficiente do fornecimento, medição e faturamento de água |
+| **Gás** | Controle de distribuição, medição e faturamento de gás |
+| **Saneamento** | Gestão de serviços de coleta e tratamento de esgoto e efluentes |
+
+**Repare que água e saneamento são separados.** Não é o mesmo mercado: um é
+fornecer, o outro é coletar e tratar. Na prática costumam ser a mesma
+concessionária, e é por isso que a comparação abaixo trata os dois juntos.
+
+O material cita como exemplos reais Enel, EDP, Neoenergia, Celesc, Equatorial,
+Sabesp e Comgás.
 
 ---
 

@@ -75,12 +75,11 @@ deles, as etapas:
 3. **O responsável é `WF BATCH`**, não uma pessoa. Rodou automático, de
    madrugada. Se travar, ninguém percebe até alguém reclamar
 
-> **Vocabulário em aberto:** *operando* não foi definido em aula. Fica o fato
-> de que uma etapa de workflow **de campo** se chama "Atualização de
-> Operandos": seja o que for um operando, campo e faturamento se tocam nesse
-> ponto. **O termo é de esquema de cálculo, então quem o define é
-> Faturamento.** Se não vier na aula de Faturamento, é aprofundamento de BILL
-> ou de SVC.
+> **Fechado na Aula 04.** *Operando* é **dado mestre de cálculo**, a variável
+> que o cálculo usa, com nó próprio de customizing. Ver
+> [BI-02](36-BI-02-dados-mestres-de-calculo.md). Isso explica a estranheza: um
+> workflow **de campo** atualiza operando porque o que o técnico encontra na
+> rua muda a variável que o **faturamento** usa.
 
 ---
 

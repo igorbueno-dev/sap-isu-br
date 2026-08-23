@@ -3,7 +3,7 @@
 > do mesmo período, e a diferença entre elas é a receita recuperada.
 
 **Onde entra:** fecha o Bloco 3, e fecha o Serviço de Campo.
-**Antes disto:** [PE-01-fraude-e-defeito](30-PE-01-fraude-e-defeito.md)
+**Antes disto:** [PE-01-fraude-e-defeito](33-PE-01-fraude-e-defeito.md)
 
 ---
 

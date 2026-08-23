@@ -35,7 +35,7 @@ Valem para qualquer trilha. **A ordem é a ordem**: cada uma usa a anterior.
 | **01** | [`GE-03` Do problema ao módulo](notas/01-GE-03-do-problema-ao-modulo.md) | Cinco parágrafos de negócio, e o mapa de qual pedaço do CCS resolve cada um. Leia antes de qualquer sigla: é o "por quê" de todas elas. | meu |
 | **02** | [`GE-01` O que é o SAP IS-U CCS](notas/02-GE-01-o-que-e-is-u-ccs.md) | O conjunto de módulos que roda o ciclo comercial de uma concessionária, do cadastro do cliente até o dinheiro entrar. | slide |
 | **03** | [`GE-02` A evolução do produto, do R/3 ao SaaS](notas/03-GE-02-evolucao-do-produto.md) | Trinta e cinco anos em cinco marcos, e por que 2027 é a data que move o mercado inteiro. | slide |
-| **04** | [`GE-04` Os três setores, com peso igual](notas/04-GE-04-os-tres-setores.md) | Energia, gás e saneamento rodam o mesmo núcleo. A diferença aparece em pontos específicos, e um exercício pode vir de qualquer um deles. | misto |
+| **04** | [`GE-04` Os quatro mercados, com peso igual](notas/04-GE-04-os-tres-setores.md) | Luz, água, gás e saneamento rodam o mesmo núcleo. A diferença aparece em pontos específicos, e um exercício pode vir de qualquer um deles. | misto |
 | **05** | [`MD-01` As quatro divisões dos dados mestres](notas/05-MD-01-mapa-dos-dados-mestres.md) | Antes de comparar qualquer coisa, saber o que é cada uma. São quatro divisões, não duas, e a quarta não é dado mestre. | slide |
 | **06** | [`MD-08` Os dois mundos e a validade no tempo](notas/06-MD-08-os-dois-mundos.md) | O desenho que arruma comercial e técnico lado a lado, a ponte entre eles, e a armadilha de achar que a ordem do desenho é a hierarquia. | slide |
 | **07** | [`MD-02` A tradução do prédio](notas/07-MD-02-a-traducao-do-predio.md) | O diagrama que converte o mundo real inteiro em vocabulário SAP, de uma vez. | slide |
@@ -67,7 +67,7 @@ Valem para qualquer trilha. **A ordem é a ordem**: cada uma usa a anterior.
 | **23** | [`AR-02` Middleware e replicação](notas/23-AR-02-middleware-e-replicacao.md) | Como um dado criado no CRM aparece no IS-U. Um caminho de cinco paradas, e as transações para olhar cada uma quando ele trava. | slide |
 | **24** | [`AR-03` Objetos replicados](notas/24-AR-03-objetos-replicados.md) | Quatro objetos existem dos dois lados com nomes e tabelas diferentes. Este de-para é o que você consulta quando alguém diz "o dado está divergente". | slide |
 
-### Serviço de Campo (SVC)
+### Serviço de Campo e Equipamento (SVC / DM)
 
 | # | Nota | O que é | Origem |
 |---|---|---|---|
@@ -76,8 +76,20 @@ Valem para qualquer trilha. **A ordem é a ordem**: cada uma usa a anterior.
 | **27** | [`WM-02` Workflow e as quatro integrações do campo](notas/27-WM-02-workflow-e-integracoes.md) | O campo quase nunca decide sozinho o que fazer. O pedido chega de fora e anda sozinho por dentro. Este é o mapa de quem manda e de quem executa. | misto |
 | **28** | [`DM-01` Ativos, movimentação e estoque](notas/28-DM-01-ativos-e-estoque.md) | O medidor tem uma vida inteira antes e depois de estar na parede. Device Management é quem sabe onde cada um está, e onde esteve. | misto |
 | **29** | [`DM-02` Leituras e registradores](notas/29-DM-02-leituras-e-registradores.md) | Seis tipos de leitura, cinco motivos e seis registradores. Parece lista de decorar, e não é: cada eixo responde uma pergunta diferente da investigação. | misto |
-| **30** | [`PE-01` Gestão de Perdas, fraude e defeito](notas/30-PE-01-fraude-e-defeito.md) | A mesma consequência, dois mundos jurídicos diferentes. Classificar errado aqui é o erro que vira processo. | misto |
-| **31** | [`PE-02` Faturado da época x fatura revista](notas/31-PE-02-faturado-da-epoca.md) | O cálculo que transforma uma irregularidade em valor a cobrar. Duas contas do mesmo período, e a diferença entre elas é a receita recuperada. | misto |
+| **30** | [`DM-03` O cadastro do equipamento, do material ao medidor instalado](notas/30-DM-03-cadastro-do-equipamento.md) | Um medidor não nasce medidor. Ele nasce material, ganha um tipo, vira equipamento, e só então pode ser instalado. | slide |
+| **31** | [`DM-04` Planejamento de datas, quem carrega o calendário](notas/31-DM-04-planejamento-de-datas.md) | O cliente não escolhe quando é faturado. Quem carrega a data é o Conjunto de Contratos, e quem carrega a rota é a Unidade de Leitura. | slide |
+| **32** | [`DM-05` O ciclo da leitura, da ordem à validação](notas/32-DM-05-ciclo-da-leitura.md) | A leitura sai do SAP como ordem, atravessa a fronteira para a empreiteira, volta como resultado e só depois é validada. Quem lê não é a concessionária. | slide |
+| **33** | [`PE-01` Gestão de Perdas, fraude e defeito](notas/33-PE-01-fraude-e-defeito.md) | A mesma consequência, dois mundos jurídicos diferentes. Classificar errado aqui é o erro que vira processo. | misto |
+| **34** | [`PE-02` Faturado da época x fatura revista](notas/34-PE-02-faturado-da-epoca.md) | O cálculo que transforma uma irregularidade em valor a cobrar. Duas contas do mesmo período, e a diferença entre elas é a receita recuperada. | misto |
+
+### Cálculo e Faturamento (BILL)
+
+| # | Nota | O que é | Origem |
+|---|---|---|---|
+| **35** | [`BI-01` Cálculo e Faturamento, a distinção que define o módulo](notas/35-BI-01-calculo-e-faturamento.md) | Cálculo apura quanto. Faturamento acrescenta imposto, emite a conta e **cria a dívida**. São dois processos, dois documentos e dois objetos diferentes. | slide |
+| **36** | [`BI-02` Os dados mestres de cálculo, como o sistema escolhe a tarifa](notas/36-BI-02-dados-mestres-de-calculo.md) | A instalação não guarda a tarifa. Ela guarda uma **categoria**, e a tarifa é **determinada** pelo cruzamento dessa categoria com o tipo que cada registrador carrega. | slide |
+| **37** | [`BI-03` Anomalias, dois fluxos que parecem iguais e não são](notas/37-BI-03-anomalias.md) | Anomalia é a trava que impede conta errada de sair. No cálculo ela só marca o documento; no faturamento ela **cria um documento novo**. | slide |
+| **38** | [`BI-04` A impressão, do spool ao papel na casa do cliente](notas/38-BI-04-impressao.md) | A fatura sai do SAP como spool, vira formulário no SAPscript e atravessa para a empreiteira como arquivo. Imprimir também é fora de casa. | slide |
 <!-- FIM NOTAS -->
 
 Cerca de **185 minutos** no total. A coluna *O que é* é o resumo da própria
@@ -117,7 +129,7 @@ Nada aqui pede confiança cega. A coluna *Origem* diz o grau:
 <!-- INICIO ORIGEM -->
 | Origem | Significa | Quantas |
 |---|---|---|
-| **slide** | O material da academia sustenta a nota inteira | 20 |
+| **slide** | O material da academia sustenta a nota inteira | 27 |
 | **misto** | As listas e os nomes são do material. **O raciocínio em volta é meu** | 9 |
 | **meu** | O material dá o gancho, o desenvolvimento é meu. **Confirme antes de repetir** | 2 |
 | `⟨confirmar⟩` no texto | Código ou nome de tabela de que não tenho certeza | |

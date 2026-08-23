@@ -63,6 +63,13 @@ ORIGEM = {
     'DM-02': 'misto',  # Leituras e registradores
     'PE-01': 'misto',  # Fraude e defeito
     'PE-02': 'misto',  # Faturado da época x fatura revista
+    'DM-03': 'slide',  # O cadastro do equipamento
+    'DM-04': 'slide',  # Planejamento de datas
+    'DM-05': 'slide',  # O ciclo da leitura
+    'BI-01': 'slide',  # Cálculo e Faturamento
+    'BI-02': 'slide',  # Os dados mestres de cálculo
+    'BI-03': 'slide',  # Anomalias
+    'BI-04': 'slide',  # A impressão
 }
 
 FASES = [
@@ -70,7 +77,8 @@ FASES = [
      'Valem para qualquer trilha. **A ordem é a ordem**: cada uma usa a anterior.'),
     (('CS',), 'Atendimento e relacionamento (CRM)', None),
     (('AR',), 'Arquitetura e integração', None),
-    (('SV', 'WM', 'DM', 'PE'), 'Serviço de Campo (SVC)', None),
+    (('SV', 'WM', 'DM', 'PE'), 'Serviço de Campo e Equipamento (SVC / DM)', None),
+    (('BI',), 'Cálculo e Faturamento (BILL)', None),
 ]
 
 

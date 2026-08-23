@@ -67,6 +67,9 @@ ver [MD-07](16-MD-07-move-in-move-out.md).
 ## Os seis registradores
 
 O registrador é a grandeza que o aparelho acumula. Um medidor pode ter vários.
+**A hierarquia que os cria** (Grupo de Registradores → Tipo de Equipamento →
+Equipamento → Registrador) está na
+[DM-03](30-DM-03-cadastro-do-equipamento.md).
 
 | Registrador | O que mede |
 |---|---|

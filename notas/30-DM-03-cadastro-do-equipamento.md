@@ -1,0 +1,95 @@
+# DM-03: O cadastro do equipamento, do material ao medidor instalado
+> Um medidor não nasce medidor. Ele nasce material, ganha um tipo, vira
+> equipamento, e só então pode ser instalado.
+
+**Onde entra:** é a profundidade que a `DM-01` e a `DM-02` não tinham.
+**Antes disto:** [DM-01](28-DM-01-ativos-e-estoque.md), [ST-04](14-ST-04-equipamento.md)
+
+---
+
+## Os quatro objetos, e o que cada um decide
+
+| Objeto | O que é | O que decide |
+|---|---|---|
+| **Grupo de Registradores** | O conjunto de grandezas que o aparelho vai medir | **Quantos e quais registradores** o tipo terá |
+| **Material** | O item de estoque, do lado do `MM` | De onde vem o aparelho fisicamente |
+| **Tipo de Equipamento** | O modelo: fabricante, características técnicas | O que vale para **todos** os aparelhos daquele modelo |
+| **Equipamento** | O aparelho individual, com número de série | O que vale para **aquele** aparelho |
+
+**Registrador** é a grandeza que o aparelho acumula, e um equipamento pode ter
+vários. Os seis tipos estão na [DM-02](29-DM-02-leituras-e-registradores.md).
+
+---
+
+## A corrente do cadastro
+
+O material vem de um lado e o grupo de registradores do outro. Os dois se
+encontram no tipo, o tipo gera o equipamento, e o equipamento entra na
+instalação.
+
+```
+MEDIDOR                             TRANSFORMADOR
+Grupo de Registradores  EG04        Grupo de Enrolamento  EGW1
+Material                MM01        Material              MM01
+        └──────┬──────┘                     └──────┬──────┘
+   Tipo de Equipamento  EG01          Tipo de Equipamento  EG01
+               │                                   │
+        Medidor         IQ01          Transformador        IQ01
+               └───────────────┬───────────────────┘
+                  Grupo de Equipamentos   EG27
+                  Instalação Total        EG31
+                        ▼
+                    INSTALAÇÃO
+```
+
+**Linha cheia é hierarquia, tracejada é sequência do processo.** É a legenda
+do próprio slide, e a distinção importa: o tipo **está acima** do equipamento,
+mas o grupo de equipamentos **vem depois** dele no tempo.
+
+---
+
+## Por que o transformador tem caminho próprio
+
+**A coluna do transformador é igual à do medidor, com uma troca.** No lugar do
+Grupo de Registradores entra o **Grupo de Enrolamento**. Faz sentido: o
+transformador não acumula consumo, ele transforma tensão ou corrente, e o que
+o caracteriza é o enrolamento, não o mostrador.
+
+O resto é idêntico, inclusive a transação: **`IQ01` cria os dois**, porque para
+o SAP os dois são equipamento.
+
+> **Em aberto:** o que exatamente é um Grupo de Enrolamento. O termo apareceu
+> só nesta caixa e não foi explicado. **Perguntar.**
+
+---
+
+## O erro que todo mundo comete
+
+**Achar que criar o equipamento coloca ele em algum lugar.** Não coloca.
+
+`IQ01` cria o aparelho no cadastro. Ele existe, tem número de série, e **não
+está em lugar nenhum**. Quem o coloca na instalação é `EG31`, e mesmo assim só
+se a modalidade for a certa. Ver [DM-04](31-DM-04-planejamento-de-datas.md) e
+[ST-04](14-ST-04-equipamento.md).
+
+---
+
+## Na prática
+
+**Chamado clássico:** "o medidor está no sistema mas não aparece na
+instalação". Quase sempre é isso: alguém rodou `IQ01` e parou ali.
+
+A sequência tem quatro paradas, e pular qualquer uma quebra a seguinte:
+**material → tipo → equipamento → instalação.**
+
+---
+
+## Recall
+
+1. Quais são os quatro objetos do cadastro de equipamento, na ordem?
+2. Qual transação cria o Tipo de Equipamento, e qual cria o Equipamento?
+3. O que muda no caminho do transformador em relação ao do medidor?
+4. Um medidor foi criado no `IQ01` e não aparece na instalação. O que faltou?
+5. O que o Grupo de Registradores decide?
+
+> **Gabarito:** [`_PISTAS.md`](_PISTAS.md#dm-03)  ·  responda tudo antes de abrir.

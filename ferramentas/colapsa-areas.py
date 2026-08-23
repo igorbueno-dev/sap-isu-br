@@ -21,7 +21,8 @@ FUNDO = os.path.join(NOTAS, '_profundidade')
 TRILHAS = {
     'CRM': (['CS'], 'Atendimento e relacionamento'),
     'ARQ': (['AR'], 'Arquitetura e integracao'),
-    'SVC': (['SV', 'WM', 'DM', 'PE'], 'Servico de Campo'),
+    'SVC': (['SV', 'WM', 'DM', 'PE'], 'Servico de Campo e Equipamento'),
+    'BILL': (['BI'], 'Calculo e Faturamento'),
 }
 FUNDACAO = ['GE', 'MD', 'ST']
 
