@@ -3,7 +3,7 @@
 > a empreiteira como arquivo. Imprimir também é fora de casa.
 
 **Onde entra:** a última etapa antes do cliente ver a conta.
-**Antes disto:** [BI-01](35-BI-01-calculo-e-faturamento.md)
+**Antes disto:** [BI-01](39-BI-01-calculo-e-faturamento.md)
 
 ---
 

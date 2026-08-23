@@ -3,15 +3,15 @@
 > Management é quem sabe onde cada um está, e onde esteve.
 
 **Onde entra:** primeira metade do Bloco 2, DM / GAT.
-**Antes disto:** [SV-01-servico-de-campo](25-SV-01-servico-de-campo.md)
-**Depois disto:** [DM-02-leituras-e-registradores](29-DM-02-leituras-e-registradores.md)
+**Antes disto:** [SV-01-servico-de-campo](29-SV-01-servico-de-campo.md)
+**Depois disto:** [DM-02-leituras-e-registradores](33-DM-02-leituras-e-registradores.md)
 
 ---
 
 ## O que o bloco DM cobre
 
 Em uma linha: **a gestão dos ativos e equipamentos de medição.** Seis
-frentes, três nesta nota e três na [DM-02](29-DM-02-leituras-e-registradores.md):
+frentes, três nesta nota e três na [DM-02](33-DM-02-leituras-e-registradores.md):
 
 | Nesta nota | Na DM-02 |
 |---|---|

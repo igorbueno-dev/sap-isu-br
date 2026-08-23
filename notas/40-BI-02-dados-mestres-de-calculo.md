@@ -4,7 +4,7 @@
 > registrador carrega.
 
 **Onde entra:** o mecanismo por trás do cálculo da `BI-01`.
-**Antes disto:** [BI-01](35-BI-01-calculo-e-faturamento.md), [ST-03](13-ST-03-instalacao.md)
+**Antes disto:** [BI-01](39-BI-01-calculo-e-faturamento.md), [ST-03](13-ST-03-instalacao.md)
 
 ---
 
@@ -70,7 +70,7 @@ operandos*), carrega um tipo de tarifa como o registrador carrega, e a
 **categoria de tarifa armazena os valores de operando válidos para o grupo de
 clientes**.
 
-Isso fecha a estranheza da [WM-02](27-WM-02-workflow-e-integracoes.md): um
+Isso fecha a estranheza da [WM-02](31-WM-02-workflow-e-integracoes.md): um
 workflow de **campo** atualiza operando porque o que o técnico encontra na rua
 muda a variável que o **faturamento** usa. Os dois se tocam nesse ponto.
 

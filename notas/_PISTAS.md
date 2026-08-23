@@ -227,12 +227,57 @@
 6. A que processo do lado dos dados mestres corresponde a Alteração de titularidade?
 7. Em qual campo do Parceiro de Negócios aparece o conceito de prospect?
 
+**[CS-06: A esteira do chamado, do protocolo ao fechamento](22-CS-06-a-esteira-do-chamado.md)**
+
+1. Qual objeto encerra a esteira de Ligação Nova?
+2. Em que ponto da esteira de Ligação Nova o Contrato é criado?
+3. Por qual área passa um pedido de Segunda Via?
+4. Quais três áreas uma reclamação de valor pode atravessar?
+5. Quem decide o corte, e quem o executa?
+6. Ordene a esteira de Ligação Nova: Contrato, instalação do equipamento, nota de serviço, protocolo.
+7. Um atendente promete ao cliente o prazo do protocolo para uma ligação nova. Cite a consequência.
+8. Um cliente pede religação depois de pagar. Cite a área que confirma o pagamento.
+
+**[CS-07: Reclamação de conta alta, o roteiro de diagnóstico](23-CS-07-reclamacao-de-conta-alta.md)**
+
+1. Nomeie as cinco causas de conta alta, na ordem de investigação.
+2. Qual o critério que ordena essa lista?
+3. Em qual das saídas o cliente paga mais depois de reclamar?
+4. Qual par de transações, se incompleto, faz a conta usar o medidor antigo?
+5. Onde se verifica se a leitura foi estimada?
+6. O que separa a causa "tarifa errada" da causa "irregularidade" quanto a quem executa a correção?
+7. Um atendente abre fiscalização como primeiro passo. Cite o desperdício.
+8. Um cliente reclama de conta alta e o histórico está estável. Cite as duas causas mais prováveis.
+
+**[CS-08: Corte e religação, o descompasso que gera chamado](24-CS-08-corte-e-religacao.md)**
+
+1. Quem decide o corte?
+2. Quem executa o corte?
+3. Quem confirma o pagamento?
+4. Em qual objeto mora o bloqueio de corte?
+5. Nomeie as quatro verificações do atendimento, na ordem.
+6. O que separa corte de religação quanto a prazo?
+7. Um cliente pagou e foi cortado. Cite a causa estrutural.
+8. Um cliente apresenta o comprovante e pede religação imediata. Cite o que o comprovante não prova.
+
+**[CS-09: O que o atendente vê, e onde mora o resto](25-CS-09-o-que-o-atendente-ve.md)**
+
+1. Nomeie os quatro objetos que existem dos dois lados.
+2. Qual objeto tem o mesmo nome de tabela nos dois sistemas?
+3. Qual o nome da Conta Contrato no CRM?
+4. Em que o Objeto de Ligação se transforma do lado do CRM?
+5. O Contrato replica para o CRM?
+6. Em qual sistema está a resposta para "quanto eu consumi"?
+7. Em qual sistema está a resposta para "estou devendo"?
+8. Um dado não aparece na tela do CRM. Cite a conclusão errada que isso costuma gerar.
+9. Um dado existe nos dois sistemas com valores diferentes. Cite onde está o problema.
+
 
 ---
 
 ## Arquitetura e integração
 
-**[AR-01: O landscape e as cinco camadas](22-AR-01-landscape-e-camadas.md)**
+**[AR-01: O landscape e as cinco camadas](26-AR-01-landscape-e-camadas.md)**
 
 1. No landscape, o IS-U é back end ou front end em relação ao CRM?
 2. Onde o BW aparece, e o que isso confirma?
@@ -240,7 +285,7 @@
 4. O que ITS e CTI conectam, respectivamente?
 5. Por que a existência de um middleware prova que CRM e IS-U são sistemas distintos?
 
-**[AR-02: Middleware e replicação](23-AR-02-middleware-e-replicacao.md)**
+**[AR-02: Middleware e replicação](27-AR-02-middleware-e-replicacao.md)**
 
 1. Por que existe middleware entre CRM e IS-U?
 2. O que significam BDoc e qRFC?
@@ -248,7 +293,7 @@
 4. Um cliente criado no CRM não chegou ao IS-U. Qual sua sequência de investigação, com as transações?
 5. Qual a diferença entre `R3AS` e `R3AR2`?
 
-**[AR-03: Objetos replicados](24-AR-03-objetos-replicados.md)**
+**[AR-03: Objetos replicados](28-AR-03-objetos-replicados.md)**
 
 1. Qual objeto tem o mesmo nome de tabela nos dois sistemas, e por quê?
 2. Por que Objeto de Ligação vira `COMM_PRODUCT` no CRM?
@@ -261,7 +306,7 @@
 
 ## Serviço de Campo e Equipamento (SVC / DM)
 
-**[SV-01: Serviço de Campo (SVC) e os três blocos](25-SV-01-servico-de-campo.md)**
+**[SV-01: Serviço de Campo (SVC) e os três blocos](29-SV-01-servico-de-campo.md)**
 
 1. Quais são os três blocos do SVC, e qual a frase de uma linha de cada?
 2. Por que a sigla `SVC` é ambígua?
@@ -269,7 +314,7 @@
 4. A cadeia das cinco áreas está errada por não ter Perdas?
 5. Qual objeto a esteira de sete etapas cita sem nunca definir?
 
-**[WM-01: A nota de serviço e o ciclo do campo](26-WM-01-nota-de-servico.md)**
+**[WM-01: A nota de serviço e o ciclo do campo](30-WM-01-nota-de-servico.md)**
 
 1. Quais são os quatro campos que a nota carrega ao nascer, e o que cada um decide?
 2. Cite quatro dos sete tipos de nota de serviço.
@@ -277,7 +322,7 @@
 4. Um técnico chega e o imóvel está trancado. O que registrar, e por quê?
 5. Qual tipo de nota é a porta de entrada da Gestão de Perdas?
 
-**[WM-02: Workflow e as quatro integrações do campo](27-WM-02-workflow-e-integracoes.md)**
+**[WM-02: Workflow e as quatro integrações do campo](31-WM-02-workflow-e-integracoes.md)**
 
 1. Quais são as quatro integrações do serviço de campo, e qual delas é o motor?
 2. Dunning corta o cliente? Explique quem faz o quê.
@@ -286,7 +331,7 @@
 5. Você abre o workflow e o responsável da etapa travada é `WF BATCH`. O que isso te diz?
 6. Alguém diz "registrei a solicitação e nada aconteceu". Qual seu primeiro suspeito?
 
-**[DM-01: Ativos, movimentação e estoque](28-DM-01-ativos-e-estoque.md)**
+**[DM-01: Ativos, movimentação e estoque](32-DM-01-ativos-e-estoque.md)**
 
 1. Qual é o corte entre esta nota e a DM-02?
 2. Para que servem TC e TP, e qual o erro caro associado a eles?
@@ -295,7 +340,7 @@
 5. O técnico chegou em campo sem o medidor. Onde você procura a causa?
 6. Por que "histórico completo" é a frente que sustenta perícia?
 
-**[DM-02: Leituras e registradores](29-DM-02-leituras-e-registradores.md)**
+**[DM-02: Leituras e registradores](33-DM-02-leituras-e-registradores.md)**
 
 1. Quais são os três eixos, e que pergunta cada um responde?
 2. Um cliente ligou e passou o número do medidor. Que tipo de leitura é essa?
@@ -304,7 +349,7 @@
 5. O que é energia injetada, e por que ela existe?
 6. Uma instalação não faturou e o medidor está corretamente instalado. Qual sua primeira hipótese?
 
-**[DM-03: O cadastro do equipamento, do material ao medidor instalado](30-DM-03-cadastro-do-equipamento.md)**
+**[DM-03: O cadastro do equipamento, do material ao medidor instalado](34-DM-03-cadastro-do-equipamento.md)**
 
 1. Ordene, do primeiro ao último: Equipamento, Grupo de Registradores, Tipo de Equipamento, Material.
 2. Qual transação cria o Grupo de Registradores?
@@ -318,7 +363,7 @@
 10. O que o Grupo de Registradores decide?
 11. O que separa Tipo de Equipamento de Equipamento?
 
-**[DM-04: Planejamento de datas, quem carrega o calendário](31-DM-04-planejamento-de-datas.md)**
+**[DM-04: Planejamento de datas, quem carrega o calendário](35-DM-04-planejamento-de-datas.md)**
 
 1. Qual objeto carrega a data de faturamento?
 2. Qual objeto carrega a data de leitura?
@@ -335,7 +380,7 @@
 13. O que separa o Conjunto de Contratos da Unidade de Leitura?
 14. Uma concessionária fatura três milhões de clientes. Cite a razão de existirem vários Conjuntos de Contratos.
 
-**[DM-05: O ciclo da leitura, da ordem à validação](32-DM-05-ciclo-da-leitura.md)**
+**[DM-05: O ciclo da leitura, da ordem à validação](36-DM-05-ciclo-da-leitura.md)**
 
 1. Qual transação cria a ordem de leitura, uma a uma?
 2. Qual transação cria ordens de leitura em massa?
@@ -354,7 +399,7 @@
 15. O que distingue a validação dependente das independentes?
 16. Uma leitura voltou do campo e o faturamento não rodou. Cite três causas possíveis.
 
-**[PE-01: Gestão de Perdas, fraude e defeito](33-PE-01-fraude-e-defeito.md)**
+**[PE-01: Gestão de Perdas, fraude e defeito](37-PE-01-fraude-e-defeito.md)**
 
 1. Em uma frase, o que a Gestão de Perdas faz?
 2. Quais dos seis gatilhos escalam, e por quê?
@@ -363,7 +408,7 @@
 5. Por que classificar errado é o erro mais caro desta área, nos dois sentidos?
 6. Como um caso de Perdas nasce dentro de WM e de DM?
 
-**[PE-02: Faturado da época x fatura revista](34-PE-02-faturado-da-epoca.md)**
+**[PE-02: Faturado da época x fatura revista](38-PE-02-faturado-da-epoca.md)**
 
 1. O que é faturado da época, e o que é fatura revista?
 2. A fatura antiga é cancelada no processo de revisão?
@@ -377,7 +422,7 @@
 
 ## Cálculo e Faturamento (BILL)
 
-**[BI-01: Cálculo e Faturamento, a distinção que define o módulo](35-BI-01-calculo-e-faturamento.md)**
+**[BI-01: Cálculo e Faturamento, a distinção que define o módulo](39-BI-01-calculo-e-faturamento.md)**
 
 1. Qual transação faz o cálculo individual?
 2. Qual transação faz o cálculo em massa?
@@ -395,7 +440,7 @@
 14. O mesmo cliente recebe quantas faturas?
 15. Alguém diz "o faturamento não rodou". Cite a primeira pergunta a fazer.
 
-**[BI-02: Os dados mestres de cálculo, como o sistema escolhe a tarifa](36-BI-02-dados-mestres-de-calculo.md)**
+**[BI-02: Os dados mestres de cálculo, como o sistema escolhe a tarifa](40-BI-02-dados-mestres-de-calculo.md)**
 
 1. Qual transação define tipos de tarifa?
 2. Qual tabela guarda as tarifas?
@@ -413,7 +458,7 @@
 14. Uma tarifa foi reajustada em março. Cite o que impede o recálculo de janeiro de usar o valor novo.
 15. O que separa Tipo de Tarifa de Categoria de Tarifa?
 
-**[BI-03: Anomalias, dois fluxos que parecem iguais e não são](37-BI-03-anomalias.md)**
+**[BI-03: Anomalias, dois fluxos que parecem iguais e não são](41-BI-03-anomalias.md)**
 
 1. Qual transação trata anomalia?
 2. Qual tabela guarda a anomalia do cálculo?
@@ -425,7 +470,7 @@
 8. Mil documentos entraram em anomalia. Cite o que impede resolver isso com um job.
 9. Uma anomalia de faturamento foi liberada por engano. O que o sistema verifica depois?
 
-**[BI-04: A impressão, do spool ao papel na casa do cliente](38-BI-04-impressao.md)**
+**[BI-04: A impressão, do spool ao papel na casa do cliente](42-BI-04-impressao.md)**
 
 1. Qual transação imprime, uma a uma?
 2. Qual transação imprime em massa?
@@ -719,7 +764,7 @@
 ---
 
 ## AR-01
-**AR-01: O landscape e as cinco camadas**  ·  [voltar para a nota](22-AR-01-landscape-e-camadas.md)
+**AR-01: O landscape e as cinco camadas**  ·  [voltar para a nota](26-AR-01-landscape-e-camadas.md)
 
 1. **Back end.** O CRM fica no meio, o IS-U atrás dele.
 2. No quadrante **Analyses**, junto do back end. Confirma que BW é camada de
@@ -732,7 +777,7 @@
 ---
 
 ## AR-02
-**AR-02: Middleware e replicação**  ·  [voltar para a nota](23-AR-02-middleware-e-replicacao.md)
+**AR-02: Middleware e replicação**  ·  [voltar para a nota](27-AR-02-middleware-e-replicacao.md)
 
 1. Porque CRM e IS-U são sistemas separados com bases próprias, e o mesmo
    cliente precisa existir nos dois.
@@ -748,7 +793,7 @@
 ---
 
 ## AR-03
-**AR-03: Objetos replicados**  ·  [voltar para a nota](24-AR-03-objetos-replicados.md)
+**AR-03: Objetos replicados**  ·  [voltar para a nota](28-AR-03-objetos-replicados.md)
 
 1. O **Parceiro de Negócios**, `BUT000` dos dois lados. É objeto central
    compartilhado do SAP, e o primeiro a replicar.
@@ -778,7 +823,7 @@
 ---
 
 ## SV-01
-**SV-01: Serviço de Campo (SVC) e os três blocos**  ·  [voltar para a nota](25-SV-01-servico-de-campo.md)
+**SV-01: Serviço de Campo (SVC) e os três blocos**  ·  [voltar para a nota](29-SV-01-servico-de-campo.md)
 
 1. **WM / SVC**, manda gente para a rua. **DM / GAT**, cuida do que fica
    pendurado na parede. **Perdas**, descobre que o número estava errado e
@@ -796,7 +841,7 @@
 ---
 
 ## WM-01
-**WM-01: A nota de serviço e o ciclo do campo**  ·  [voltar para a nota](26-WM-01-nota-de-servico.md)
+**WM-01: A nota de serviço e o ciclo do campo**  ·  [voltar para a nota](30-WM-01-nota-de-servico.md)
 
 1. **Tipo de processo** (que trabalho é), **motivo** (por que foi pedido),
    **prioridade** (ordem na fila) e **prazo** (o relógio regulatório).
@@ -812,7 +857,7 @@
 ---
 
 ## WM-02
-**WM-02: Workflow e as quatro integrações do campo**  ·  [voltar para a nota](27-WM-02-workflow-e-integracoes.md)
+**WM-02: Workflow e as quatro integrações do campo**  ·  [voltar para a nota](31-WM-02-workflow-e-integracoes.md)
 
 1. **CRM, Dunning, Billing/FI-CA e Workflow.** O workflow é o **motor**; os
    outros três são portas.
@@ -830,7 +875,7 @@
 ---
 
 ## DM-01
-**DM-01: Ativos, movimentação e estoque**  ·  [voltar para a nota](28-DM-01-ativos-e-estoque.md)
+**DM-01: Ativos, movimentação e estoque**  ·  [voltar para a nota](32-DM-01-ativos-e-estoque.md)
 
 1. Aqui é o **aparelho como bem patrimonial**; na DM-02, **o número que ele
    produz**.
@@ -849,7 +894,7 @@
 ---
 
 ## DM-02
-**DM-02: Leituras e registradores**  ·  [voltar para a nota](29-DM-02-leituras-e-registradores.md)
+**DM-02: Leituras e registradores**  ·  [voltar para a nota](33-DM-02-leituras-e-registradores.md)
 
 1. **Tipo** (como o número foi obtido), **motivo** (por que foram ler) e
    **registrador** (o que foi medido).
@@ -865,7 +910,7 @@
 ---
 
 ## PE-01
-**PE-01: Gestão de Perdas, fraude e defeito**  ·  [voltar para a nota](33-PE-01-fraude-e-defeito.md)
+**PE-01: Gestão de Perdas, fraude e defeito**  ·  [voltar para a nota](37-PE-01-fraude-e-defeito.md)
 
 1. Descobre que o medidor não contava a verdade, **calcula quanto deveria ter
    sido cobrado** e cobra a diferença.
@@ -885,7 +930,7 @@
 ---
 
 ## PE-02
-**PE-02: Faturado da época x fatura revista**  ·  [voltar para a nota](34-PE-02-faturado-da-epoca.md)
+**PE-02: Faturado da época x fatura revista**  ·  [voltar para a nota](38-PE-02-faturado-da-epoca.md)
 
 1. **Faturado da época** é o que o cliente pagou com o medidor errado.
    **Fatura revista** é o que ele deveria ter pago.
@@ -903,7 +948,7 @@
 ---
 
 ## DM-03
-**DM-03: O cadastro do equipamento**  ·  [voltar para a nota](30-DM-03-cadastro-do-equipamento.md)
+**DM-03: O cadastro do equipamento**  ·  [voltar para a nota](34-DM-03-cadastro-do-equipamento.md)
 
 1. Material, Grupo de Registradores, Tipo de Equipamento, Equipamento.
 2. `EG04`  ·  3. `EG01`  ·  4. `IQ01`  ·  5. `EG27`  ·  6. `EG31`  ·  7. `MM01`
@@ -917,7 +962,7 @@
 ---
 
 ## DM-04
-**DM-04: Planejamento de datas**  ·  [voltar para a nota](31-DM-04-planejamento-de-datas.md)
+**DM-04: Planejamento de datas**  ·  [voltar para a nota](35-DM-04-planejamento-de-datas.md)
 
 1. O **Conjunto de Contratos**.
 2. A **Unidade de Leitura**.
@@ -933,7 +978,7 @@
 ---
 
 ## DM-05
-**DM-05: O ciclo da leitura**  ·  [voltar para a nota](32-DM-05-ciclo-da-leitura.md)
+**DM-05: O ciclo da leitura**  ·  [voltar para a nota](36-DM-05-ciclo-da-leitura.md)
 
 1. `EL01`  ·  2. `EL09`  ·  3. `EL16`  ·  4. `ELMU`  ·  5. `EL28`  ·  6. `EL27`
 7. `EL30`  ·  8. `EL18`  ·  9. `EL31`  ·  10. `EL37`  ·  11. `EG75`
@@ -949,7 +994,7 @@
 ---
 
 ## BI-01
-**BI-01: Cálculo e Faturamento**  ·  [voltar para a nota](35-BI-01-calculo-e-faturamento.md)
+**BI-01: Cálculo e Faturamento**  ·  [voltar para a nota](39-BI-01-calculo-e-faturamento.md)
 
 1. `EA00`  ·  2. `EA38`  ·  3. `EA19`  ·  4. `EA26`  ·  5. `EA40`  ·  6. `EA29`
 7. `EA05`, a mesma para os dois tipos de anomalia.
@@ -966,7 +1011,7 @@
 ---
 
 ## BI-02
-**BI-02: Os dados mestres de cálculo**  ·  [voltar para a nota](36-BI-02-dados-mestres-de-calculo.md)
+**BI-02: Os dados mestres de cálculo**  ·  [voltar para a nota](40-BI-02-dados-mestres-de-calculo.md)
 
 1. `EA56`  ·  2. `ETRF`  ·  3. `ETTA`  ·  4. `ERTFND`  ·  5. `TE221`  ·  6. `TE069`
 7. `ESCH` (cabeçalho) e `ESCHS` (etapas).
@@ -985,7 +1030,7 @@
 ---
 
 ## BI-03
-**BI-03: Anomalias**  ·  [voltar para a nota](37-BI-03-anomalias.md)
+**BI-03: Anomalias**  ·  [voltar para a nota](41-BI-03-anomalias.md)
 
 1. `EA05`  ·  2. `ERCHO`  ·  3. `ERDO`
 4. **Anomalia.**
@@ -1000,7 +1045,7 @@
 ---
 
 ## BI-04
-**BI-04: A impressão**  ·  [voltar para a nota](38-BI-04-impressao.md)
+**BI-04: A impressão**  ·  [voltar para a nota](42-BI-04-impressao.md)
 
 1. `EA40`  ·  2. `EA29`
 3. **Spool.**  ·  4. **Output request.**  ·  5. **TemSe.**  ·  6. **SAPscript.**
@@ -1009,3 +1054,73 @@
 8. Por **arquivo TXT gerado por transação `Z`**, ou seja, código do projeto.
 9. Que **é desenvolvimento do projeto**, não transação standard SAP.
 10. **No formulário.** Se o valor está certo, o cálculo está certo.
+
+---
+
+## CS-06
+**CS-06: A esteira do chamado, do protocolo ao fechamento**  ·  [voltar para a nota](22-CS-06-a-esteira-do-chamado.md)
+
+1. O **Contrato**, criado no Move-In.
+2. **Penúltimo.** Só depois de a estrutura física estar pronta.
+3. Por **BILL**. Segunda via é reemissão do documento de impressão.
+4. **DM** (leitura), **BILL** (cálculo) e **PE**, se houver irregularidade.
+5. **Dunning decide e manda. Quem corta é o WM.**
+6. Protocolo → nota de serviço → instalação do equipamento → Contrato.
+7. Um **segundo chamado**, agora de reclamação de prazo, e esse tem peso com o
+   regulador. O protocolo abre em segundos; a esteira leva semanas.
+8. **FI-CA.** A religação depende da baixa do pagamento, não do comprovante.
+
+---
+
+## CS-07
+**CS-07: Reclamação de conta alta, o roteiro de diagnóstico**  ·  [voltar para a nota](23-CS-07-reclamacao-de-conta-alta.md)
+
+1. Leitura · anomalia liberada · tarifa errada · instalação incompleta ·
+   irregularidade.
+2. **Do mais barato de verificar para o mais caro.**
+3. Na **irregularidade**. É a única em que reclamar sai mais caro que ficar
+   calado, e por isso a classificação entre fraude e defeito é tão delicada.
+4. `EG33` sem `EG34`: instalação técnica feita, sem a parte com efeito no
+   cálculo.
+5. Na **DM**, no ciclo da leitura: o resultado voltou do campo, passou na
+   validação, ou foi estimativa?
+6. **Tarifa errada corrige cadastro e refatura.** Irregularidade **cobra a
+   mais**, com memória de cálculo, e quem executa é `PE`.
+7. **Deslocamento de equipe** para descobrir algo que estava na tela. Se a causa
+   era leitura estimada, gastou-se uma visita à toa.
+8. **Leitura** ou **instalação incompleta.** Salto isolado em histórico estável
+   não é consumo real nem irregularidade antiga.
+
+---
+
+## CS-08
+**CS-08: Corte e religação, o descompasso que gera chamado**  ·  [voltar para a nota](24-CS-08-corte-e-religacao.md)
+
+1. **Dunning.**
+2. **WM.**
+3. **FI-CA.**
+4. Na **Conta Contrato**, não no Contrato.
+5. Pagamento baixado? · bloqueio de corte? · a nota virou ordem executada? ·
+   workflow travado?
+6. A **religação tem prazo regulatório** e curto. O corte segue o prazo da
+   régua.
+7. **Descompasso de ciclos.** A régua roda no ciclo dela, o pagamento entra no
+   ciclo do banco, e a nota de corte já saiu. Cada elo funcionou.
+8. Que o **pagamento entrou no sistema**. Ele prova que o cliente pagou, e a
+   religação depende da baixa em FI-CA.
+
+---
+
+## CS-09
+**CS-09: O que o atendente vê, e onde mora o resto**  ·  [voltar para a nota](25-CS-09-o-que-o-atendente-ve.md)
+
+1. Parceiro de Negócio · Conta Contrato · Objeto de Ligação · Ponto de Entrega.
+2. O **Parceiro de Negócios**, `BUT000` dos dois lados.
+3. `CRMM_BUAG`, de *Business Agreement*.
+4. Em **produto contratado**, `COMM_PRODUCT`. A estrutura física fica no IS-U.
+5. **Não.** O Contrato não está entre os quatro replicados.
+6. No **IS-U**. Leitura não replica.
+7. No **IS-U**. A partida em aberto é de FI-CA.
+8. Que o **dado não existe**, e daí sai chamado de cadastro para um dado que
+   está correto do outro lado.
+9. Na **replicação**, não no cadastro. O caminho é a fila do middleware.

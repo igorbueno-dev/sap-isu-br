@@ -3,7 +3,7 @@
 > anda sozinho por dentro. Este é o mapa de quem manda e de quem executa.
 
 **Onde entra:** completa o Bloco 1, WM / SVC.
-**Antes disto:** [WM-01-nota-de-servico](26-WM-01-nota-de-servico.md)
+**Antes disto:** [WM-01-nota-de-servico](30-WM-01-nota-de-servico.md)
 
 ---
 
@@ -77,7 +77,7 @@ deles, as etapas:
 
 > **Fechado na Aula 04.** *Operando* é **dado mestre de cálculo**, a variável
 > que o cálculo usa, com nó próprio de customizing. Ver
-> [BI-02](36-BI-02-dados-mestres-de-calculo.md). Isso explica a estranheza: um
+> [BI-02](40-BI-02-dados-mestres-de-calculo.md). Isso explica a estranheza: um
 > workflow **de campo** atualiza operando porque o que o técnico encontra na
 > rua muda a variável que o **faturamento** usa.
 

@@ -51,6 +51,9 @@ Valem para qualquer trilha. **A ordem é a ordem**: cada uma usa a anterior.
 
 ### Atendimento e relacionamento (CRM)
 
+As quatro últimas cruzam o CRM com as outras áreas. **Elas são o motivo
+de nada ser colapsado**: quem atende decide para onde o chamado vai.
+
 | # | Nota | O que é | Origem |
 |---|---|---|---|
 | **17** | [`CS-01` O que é CRM](notas/17-CS-01-o-que-e-crm.md) | A disciplina antes do produto. CRM é um jeito de organizar o relacionamento com o cliente, e só depois um sistema da SAP. | slide |
@@ -58,38 +61,42 @@ Valem para qualquer trilha. **A ordem é a ordem**: cada uma usa a anterior.
 | **19** | [`CS-03` SAP CRM e os três pilares](notas/19-CS-03-sap-crm-e-os-pilares.md) | O produto. Marketing, Vendas e Serviço, cada um com sua fileira de módulos. E o nome novo que a SAP deu a tudo isso dentro do S/4HANA. | slide |
 | **20** | [`CS-04` CRM no contexto Utilities](notas/20-CS-04-crm-no-contexto-utilities.md) | Onde exatamente o CRM se encaixa na cadeia que você já conhece. Ele é a primeira área, a porta por onde tudo entra. | slide |
 | **21** | [`CS-05` Processos e atividades no atendimento](notas/21-CS-05-processos-e-atividades.md) | O que o atendente realmente faz o dia inteiro. Protocolo, atividade e a lista de processos que respondem por quase todo o volume de um call center de concessionária. | slide |
+| **22** | [`CS-06` A esteira do chamado, do protocolo ao fechamento](notas/22-CS-06-a-esteira-do-chamado.md) | Todo processo do CRM termina em outra área. O atendimento abre o protocolo e quem fecha é campo, medição, faturamento ou cobrança. | misto |
+| **23** | [`CS-07` Reclamação de conta alta, o roteiro de diagnóstico](notas/23-CS-07-reclamacao-de-conta-alta.md) | O chamado mais comum da concessionária atravessa três áreas, e o atendimento decide qual delas investiga primeiro. | misto |
+| **24** | [`CS-08` Corte e religação, o descompasso que gera chamado](notas/24-CS-08-corte-e-religacao.md) | Dunning decide, WM executa, FI-CA confirma o pagamento. São três relógios diferentes, e o cliente cortado depois de pagar mora entre eles. | misto |
+| **25** | [`CS-09` O que o atendente vê, e onde mora o resto](notas/25-CS-09-o-que-o-atendente-ve.md) | O CRM não guarda a maior parte do que o cliente pergunta. Ele guarda uma cópia de alguns objetos, e o resto vive no IS-U. | misto |
 
 ### Arquitetura e integração
 
 | # | Nota | O que é | Origem |
 |---|---|---|---|
-| **22** | [`AR-01` O landscape e as cinco camadas](notas/22-AR-01-landscape-e-camadas.md) | Dois desenhos da mesma coisa. Um simples, para entender; um detalhado, para se localizar. Comece pelo simples. | slide |
-| **23** | [`AR-02` Middleware e replicação](notas/23-AR-02-middleware-e-replicacao.md) | Como um dado criado no CRM aparece no IS-U. Um caminho de cinco paradas, e as transações para olhar cada uma quando ele trava. | slide |
-| **24** | [`AR-03` Objetos replicados](notas/24-AR-03-objetos-replicados.md) | Quatro objetos existem dos dois lados com nomes e tabelas diferentes. Este de-para é o que você consulta quando alguém diz "o dado está divergente". | slide |
+| **26** | [`AR-01` O landscape e as cinco camadas](notas/26-AR-01-landscape-e-camadas.md) | Dois desenhos da mesma coisa. Um simples, para entender; um detalhado, para se localizar. Comece pelo simples. | slide |
+| **27** | [`AR-02` Middleware e replicação](notas/27-AR-02-middleware-e-replicacao.md) | Como um dado criado no CRM aparece no IS-U. Um caminho de cinco paradas, e as transações para olhar cada uma quando ele trava. | slide |
+| **28** | [`AR-03` Objetos replicados](notas/28-AR-03-objetos-replicados.md) | Quatro objetos existem dos dois lados com nomes e tabelas diferentes. Este de-para é o que você consulta quando alguém diz "o dado está divergente". | slide |
 
 ### Serviço de Campo e Equipamento (SVC / DM)
 
 | # | Nota | O que é | Origem |
 |---|---|---|---|
-| **25** | [`SV-01` Serviço de Campo (SVC) e os três blocos](notas/25-SV-01-servico-de-campo.md) | A área tem quatro nomes circulando e três blocos por dentro. Acertar o vocabulário aqui evita meia hora de conversa errada numa reunião. | misto |
-| **26** | [`WM-01` A nota de serviço e o ciclo do campo](notas/26-WM-01-nota-de-servico.md) | Tudo que o campo faz começa numa nota de serviço. Ela carrega tipo, motivo, prioridade e prazo, e é o prazo que dá multa. | misto |
-| **27** | [`WM-02` Workflow e as quatro integrações do campo](notas/27-WM-02-workflow-e-integracoes.md) | O campo quase nunca decide sozinho o que fazer. O pedido chega de fora e anda sozinho por dentro. Este é o mapa de quem manda e de quem executa. | misto |
-| **28** | [`DM-01` Ativos, movimentação e estoque](notas/28-DM-01-ativos-e-estoque.md) | O medidor tem uma vida inteira antes e depois de estar na parede. Device Management é quem sabe onde cada um está, e onde esteve. | misto |
-| **29** | [`DM-02` Leituras e registradores](notas/29-DM-02-leituras-e-registradores.md) | Seis tipos de leitura, cinco motivos e seis registradores. Parece lista de decorar, e não é: cada eixo responde uma pergunta diferente da investigação. | misto |
-| **30** | [`DM-03` O cadastro do equipamento, do material ao medidor instalado](notas/30-DM-03-cadastro-do-equipamento.md) | Um medidor não nasce medidor. Ele nasce material, ganha um tipo, vira equipamento, e só então pode ser instalado. | slide |
-| **31** | [`DM-04` Planejamento de datas, quem carrega o calendário](notas/31-DM-04-planejamento-de-datas.md) | O cliente não escolhe quando é faturado. Quem carrega a data é o Conjunto de Contratos, e quem carrega a rota é a Unidade de Leitura. | slide |
-| **32** | [`DM-05` O ciclo da leitura, da ordem à validação](notas/32-DM-05-ciclo-da-leitura.md) | A leitura sai do SAP como ordem, atravessa a fronteira para a empreiteira, volta como resultado e só depois é validada. Quem lê não é a concessionária. | slide |
-| **33** | [`PE-01` Gestão de Perdas, fraude e defeito](notas/33-PE-01-fraude-e-defeito.md) | A mesma consequência, dois mundos jurídicos diferentes. Classificar errado aqui é o erro que vira processo. | misto |
-| **34** | [`PE-02` Faturado da época x fatura revista](notas/34-PE-02-faturado-da-epoca.md) | O cálculo que transforma uma irregularidade em valor a cobrar. Duas contas do mesmo período, e a diferença entre elas é a receita recuperada. | misto |
+| **29** | [`SV-01` Serviço de Campo (SVC) e os três blocos](notas/29-SV-01-servico-de-campo.md) | A área tem quatro nomes circulando e três blocos por dentro. Acertar o vocabulário aqui evita meia hora de conversa errada numa reunião. | misto |
+| **30** | [`WM-01` A nota de serviço e o ciclo do campo](notas/30-WM-01-nota-de-servico.md) | Tudo que o campo faz começa numa nota de serviço. Ela carrega tipo, motivo, prioridade e prazo, e é o prazo que dá multa. | misto |
+| **31** | [`WM-02` Workflow e as quatro integrações do campo](notas/31-WM-02-workflow-e-integracoes.md) | O campo quase nunca decide sozinho o que fazer. O pedido chega de fora e anda sozinho por dentro. Este é o mapa de quem manda e de quem executa. | misto |
+| **32** | [`DM-01` Ativos, movimentação e estoque](notas/32-DM-01-ativos-e-estoque.md) | O medidor tem uma vida inteira antes e depois de estar na parede. Device Management é quem sabe onde cada um está, e onde esteve. | misto |
+| **33** | [`DM-02` Leituras e registradores](notas/33-DM-02-leituras-e-registradores.md) | Seis tipos de leitura, cinco motivos e seis registradores. Parece lista de decorar, e não é: cada eixo responde uma pergunta diferente da investigação. | misto |
+| **34** | [`DM-03` O cadastro do equipamento, do material ao medidor instalado](notas/34-DM-03-cadastro-do-equipamento.md) | Um medidor não nasce medidor. Ele nasce material, ganha um tipo, vira equipamento, e só então pode ser instalado. | slide |
+| **35** | [`DM-04` Planejamento de datas, quem carrega o calendário](notas/35-DM-04-planejamento-de-datas.md) | O cliente não escolhe quando é faturado. Quem carrega a data é o Conjunto de Contratos, e quem carrega a rota é a Unidade de Leitura. | slide |
+| **36** | [`DM-05` O ciclo da leitura, da ordem à validação](notas/36-DM-05-ciclo-da-leitura.md) | A leitura sai do SAP como ordem, atravessa a fronteira para a empreiteira, volta como resultado e só depois é validada. Quem lê não é a concessionária. | slide |
+| **37** | [`PE-01` Gestão de Perdas, fraude e defeito](notas/37-PE-01-fraude-e-defeito.md) | A mesma consequência, dois mundos jurídicos diferentes. Classificar errado aqui é o erro que vira processo. | misto |
+| **38** | [`PE-02` Faturado da época x fatura revista](notas/38-PE-02-faturado-da-epoca.md) | O cálculo que transforma uma irregularidade em valor a cobrar. Duas contas do mesmo período, e a diferença entre elas é a receita recuperada. | misto |
 
 ### Cálculo e Faturamento (BILL)
 
 | # | Nota | O que é | Origem |
 |---|---|---|---|
-| **35** | [`BI-01` Cálculo e Faturamento, a distinção que define o módulo](notas/35-BI-01-calculo-e-faturamento.md) | Cálculo apura quanto. Faturamento acrescenta imposto, emite a conta e **cria a dívida**. São dois processos, dois documentos e dois objetos diferentes. | slide |
-| **36** | [`BI-02` Os dados mestres de cálculo, como o sistema escolhe a tarifa](notas/36-BI-02-dados-mestres-de-calculo.md) | A instalação não guarda a tarifa. Ela guarda uma **categoria**, e a tarifa é **determinada** pelo cruzamento dessa categoria com o tipo que cada registrador carrega. | slide |
-| **37** | [`BI-03` Anomalias, dois fluxos que parecem iguais e não são](notas/37-BI-03-anomalias.md) | Anomalia é a trava que impede conta errada de sair. No cálculo ela só marca o documento; no faturamento ela **cria um documento novo**. | slide |
-| **38** | [`BI-04` A impressão, do spool ao papel na casa do cliente](notas/38-BI-04-impressao.md) | A fatura sai do SAP como spool, vira formulário no SAPscript e atravessa para a empreiteira como arquivo. Imprimir também é fora de casa. | slide |
+| **39** | [`BI-01` Cálculo e Faturamento, a distinção que define o módulo](notas/39-BI-01-calculo-e-faturamento.md) | Cálculo apura quanto. Faturamento acrescenta imposto, emite a conta e **cria a dívida**. São dois processos, dois documentos e dois objetos diferentes. | slide |
+| **40** | [`BI-02` Os dados mestres de cálculo, como o sistema escolhe a tarifa](notas/40-BI-02-dados-mestres-de-calculo.md) | A instalação não guarda a tarifa. Ela guarda uma **categoria**, e a tarifa é **determinada** pelo cruzamento dessa categoria com o tipo que cada registrador carrega. | slide |
+| **41** | [`BI-03` Anomalias, dois fluxos que parecem iguais e não são](notas/41-BI-03-anomalias.md) | Anomalia é a trava que impede conta errada de sair. No cálculo ela só marca o documento; no faturamento ela **cria um documento novo**. | slide |
+| **42** | [`BI-04` A impressão, do spool ao papel na casa do cliente](notas/42-BI-04-impressao.md) | A fatura sai do SAP como spool, vira formulário no SAPscript e atravessa para a empreiteira como arquivo. Imprimir também é fora de casa. | slide |
 <!-- FIM NOTAS -->
 
 Cerca de **185 minutos** no total. A coluna *O que é* é o resumo da própria
@@ -117,8 +124,10 @@ COMERCIAL, quem paga        TÉCNICO, onde se consome
 prova: se você o entende de verdade, entende os dados mestres inteiros. Se não,
 o problema está em algum nó acima dele, não nele.
 
-**As áreas, 17 a 31, são independentes entre si.** Depois de escolher uma
-trilha, só uma delas continua valendo leitura profunda.
+**As áreas não são independentes, e nenhuma delas sai do acervo.** Quem atende
+decide para onde o chamado vai, quem fatura depende da leitura, e quem corta
+depende da cobrança. As quatro notas de `CS‑06` a `CS‑09` existem justamente
+para atravessar essas fronteiras.
 
 ---
 
@@ -130,7 +139,7 @@ Nada aqui pede confiança cega. A coluna *Origem* diz o grau:
 | Origem | Significa | Quantas |
 |---|---|---|
 | **slide** | O material da academia sustenta a nota inteira | 27 |
-| **misto** | As listas e os nomes são do material. **O raciocínio em volta é meu** | 9 |
+| **misto** | As listas e os nomes são do material. **O raciocínio em volta é meu** | 13 |
 | **meu** | O material dá o gancho, o desenvolvimento é meu. **Confirme antes de repetir** | 2 |
 | `⟨confirmar⟩` no texto | Código ou nome de tabela de que não tenho certeza | |
 <!-- FIM ORIGEM -->

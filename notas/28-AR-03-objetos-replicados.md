@@ -3,7 +3,7 @@
 > de-para é o que você consulta quando alguém diz "o dado está divergente".
 
 **Onde entra:** fecha a trilha de arquitetura.
-**Antes disto:** [AR-02-middleware-e-replicacao](23-AR-02-middleware-e-replicacao.md)
+**Antes disto:** [AR-02-middleware-e-replicacao](27-AR-02-middleware-e-replicacao.md)
 
 ---
 

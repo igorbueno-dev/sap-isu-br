@@ -3,7 +3,7 @@
 > decorar, e não é: cada eixo responde uma pergunta diferente da investigação.
 
 **Onde entra:** segunda metade do Bloco 2, DM / GAT.
-**Antes disto:** [DM-01-ativos-e-estoque](28-DM-01-ativos-e-estoque.md)
+**Antes disto:** [DM-01-ativos-e-estoque](32-DM-01-ativos-e-estoque.md)
 
 ---
 
@@ -69,7 +69,7 @@ ver [MD-07](16-MD-07-move-in-move-out.md).
 O registrador é a grandeza que o aparelho acumula. Um medidor pode ter vários.
 **A hierarquia que os cria** (Grupo de Registradores → Tipo de Equipamento →
 Equipamento → Registrador) está na
-[DM-03](30-DM-03-cadastro-do-equipamento.md).
+[DM-03](34-DM-03-cadastro-do-equipamento.md).
 
 | Registrador | O que mede |
 |---|---|
@@ -87,7 +87,7 @@ virando crédito. **Consequência:** uma instalação com geração distribuída
 entre eles. Por isso existe o medidor bidirecional.
 
 > Isto conecta com o caso de workflow de micro e minigeração.
-> Ver [WM-02](27-WM-02-workflow-e-integracoes.md).
+> Ver [WM-02](31-WM-02-workflow-e-integracoes.md).
 
 ---
 

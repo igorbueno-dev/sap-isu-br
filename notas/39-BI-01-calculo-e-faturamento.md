@@ -54,7 +54,7 @@ faturamento mexe no contas a receber.**
 
 **"Em um determinado mês com um determinado motivo"** não é enfeite: é o que
 permite recalcular um mês fechado com motivo diferente, que é exatamente o
-mecanismo da [PE-02](34-PE-02-faturado-da-epoca.md).
+mecanismo da [PE-02](38-PE-02-faturado-da-epoca.md).
 
 ---
 

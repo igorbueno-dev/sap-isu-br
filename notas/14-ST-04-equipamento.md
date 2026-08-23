@@ -50,8 +50,8 @@ também é cadastrado como Equipamento.
 
 **O Registrador é a grandeza que o aparelho acumula, e um medidor pode ter
 vários.** Os seis tipos que o material lista estão na
-[DM-02](29-DM-02-leituras-e-registradores.md), e a hierarquia completa do
-cadastro está na [DM-03](30-DM-03-cadastro-do-equipamento.md).
+[DM-02](33-DM-02-leituras-e-registradores.md), e a hierarquia completa do
+cadastro está na [DM-03](34-DM-03-cadastro-do-equipamento.md).
 
 | Objeto | O que é |
 |---|---|
@@ -138,7 +138,7 @@ flowchart TD
 | `EG51` | Estorno da instalação técnica |
 
 A lista completa dos processos de equipamento, incluindo levantamento e
-substituição, está na [DM-03](30-DM-03-cadastro-do-equipamento.md).
+substituição, está na [DM-03](34-DM-03-cadastro-do-equipamento.md).
 
 ---
 

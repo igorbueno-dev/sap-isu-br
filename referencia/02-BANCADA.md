@@ -279,7 +279,7 @@ padrão · `BUC0` formas de tratamento · `BUCM` tipos de legitimação ·
 ## CRM e Middleware
 
 > **Verificado.** Estes códigos foram conferidos. O entendimento do fluxo está
-> em [`notas/AR‑02`](../notas/23-AR-02-middleware-e-replicacao.md).
+> em [`notas/AR‑02`](../notas/27-AR-02-middleware-e-replicacao.md).
 
 ### Replicação e carga
 

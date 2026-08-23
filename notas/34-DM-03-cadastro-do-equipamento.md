@@ -3,7 +3,7 @@
 > equipamento, e só então pode ser instalado.
 
 **Onde entra:** é a profundidade que a `DM-01` e a `DM-02` não tinham.
-**Antes disto:** [DM-01](28-DM-01-ativos-e-estoque.md), [ST-04](14-ST-04-equipamento.md)
+**Antes disto:** [DM-01](32-DM-01-ativos-e-estoque.md), [ST-04](14-ST-04-equipamento.md)
 
 ---
 
@@ -17,7 +17,7 @@
 | **Equipamento** | O aparelho individual, com número de série | O que vale para **aquele** aparelho |
 
 **Registrador** é a grandeza que o aparelho acumula, e um equipamento pode ter
-vários. Os seis tipos estão na [DM-02](29-DM-02-leituras-e-registradores.md).
+vários. Os seis tipos estão na [DM-02](33-DM-02-leituras-e-registradores.md).
 
 ---
 
@@ -69,7 +69,7 @@ o SAP os dois são equipamento.
 
 `IQ01` cria o aparelho no cadastro. Ele existe, tem número de série, e **não
 está em lugar nenhum**. Quem o coloca na instalação é `EG31`, e mesmo assim só
-se a modalidade for a certa. Ver [DM-04](31-DM-04-planejamento-de-datas.md) e
+se a modalidade for a certa. Ver [DM-04](35-DM-04-planejamento-de-datas.md) e
 [ST-04](14-ST-04-equipamento.md).
 
 ---

@@ -70,12 +70,17 @@ ORIGEM = {
     'BI-02': 'slide',  # Os dados mestres de cálculo
     'BI-03': 'slide',  # Anomalias
     'BI-04': 'slide',  # A impressão
+    'CS-06': 'misto',  # A esteira do chamado
+    'CS-07': 'misto',  # Reclamação de conta alta
+    'CS-08': 'misto',  # Corte e religação
+    'CS-09': 'misto',  # O que o atendente vê
 }
 
 FASES = [
     (('GE', 'MD', 'ST'), 'Fundação',
      'Valem para qualquer trilha. **A ordem é a ordem**: cada uma usa a anterior.'),
-    (('CS',), 'Atendimento e relacionamento (CRM)', None),
+    (('CS',), 'Atendimento e relacionamento (CRM)',
+     'As quatro últimas cruzam o CRM com as outras áreas. **Elas são o motivo\nde nada ser colapsado**: quem atende decide para onde o chamado vai.'),
     (('AR',), 'Arquitetura e integração', None),
     (('SV', 'WM', 'DM', 'PE'), 'Serviço de Campo e Equipamento (SVC / DM)', None),
     (('BI',), 'Cálculo e Faturamento (BILL)', None),

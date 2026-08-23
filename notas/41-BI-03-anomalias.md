@@ -3,7 +3,7 @@
 > documento; no faturamento ela **cria um documento novo**.
 
 **Onde entra:** o que acontece quando o cálculo ou o faturamento desconfia.
-**Antes disto:** [BI-01](35-BI-01-calculo-e-faturamento.md)
+**Antes disto:** [BI-01](39-BI-01-calculo-e-faturamento.md)
 
 ---
 
@@ -66,7 +66,7 @@ retido ou **liberá-lo**.
 A anomalia existe justamente porque o número está fora do esperado. Liberar
 sem investigar transforma uma retenção correta em conta errada emitida, e aí o
 caminho de volta passa por estorno, refaturamento e, se for o caso, pelo
-processo da [PE-02](34-PE-02-faturado-da-epoca.md).
+processo da [PE-02](38-PE-02-faturado-da-epoca.md).
 
 **A anomalia de faturamento agrava isso**, porque depois de liberada *não há
 nova verificação*. É liberação sem rede.
@@ -80,7 +80,7 @@ onde chegam os documentos que o sistema não teve coragem de emitir sozinho.
 
 **Antes de liberar, olhe a leitura.** Boa parte das anomalias de cálculo vem de
 leitura implausível que passou pela validação. Ver
-[DM-05](32-DM-05-ciclo-da-leitura.md).
+[DM-05](36-DM-05-ciclo-da-leitura.md).
 
 ---
 

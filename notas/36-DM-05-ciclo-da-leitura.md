@@ -3,7 +3,7 @@
 > volta como resultado e só depois é validada. Quem lê não é a concessionária.
 
 **Onde entra:** o processo por trás dos tipos e motivos da `DM-02`.
-**Antes disto:** [DM-02](29-DM-02-leituras-e-registradores.md), [DM-04](31-DM-04-planejamento-de-datas.md)
+**Antes disto:** [DM-02](33-DM-02-leituras-e-registradores.md), [DM-04](35-DM-04-planejamento-de-datas.md)
 
 ---
 
@@ -56,7 +56,7 @@ decisão de gente.
 
 | Tipo | Nasce de |
 |---|---|
-| **Periódica** | O calendário de leitura, ou seja, da [DM-04](31-DM-04-planejamento-de-datas.md) |
+| **Periódica** | O calendário de leitura, ou seja, da [DM-04](35-DM-04-planejamento-de-datas.md) |
 | **Não periódica** | Outro processo do SAP: uma mudança, uma troca de medidor, uma fiscalização |
 
 E há um detalhe que fecha a corrente: **a ordem e o resultado são por
@@ -106,7 +106,7 @@ existe, o resultado voltou, e a leitura está retida em validação esperando
 tratamento. Sem resultado válido não há cálculo.
 
 O caminho de diagnóstico é curto: **existe ordem? voltou resultado? passou na
-validação?** Ver [DM-02](29-DM-02-leituras-e-registradores.md).
+validação?** Ver [DM-02](33-DM-02-leituras-e-registradores.md).
 
 ---
 
