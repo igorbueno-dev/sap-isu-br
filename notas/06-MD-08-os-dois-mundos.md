@@ -81,7 +81,7 @@ cadastro só, é uma propriedade do modelo.
 
 ## Na prática
 
-Ver [02-BANCADA](../referencia/02-BANCADA.md) para as transações. Regra geral que se
+Ver [`_BANCADA.md`](_BANCADA.md) para as transações. Regra geral que se
 repete: cada objeto tem **uma transação de uso** e **uma de customizing**.
 
 ---

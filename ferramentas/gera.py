@@ -16,7 +16,7 @@ Modo --caderno. Escreve caderno/, que e a versao das mesmas fontes preparada
 para ingestao por maquina, onde o arquivo e a unidade e nada fora dele existe:
 
   cada resposta fica colada na sua pergunta, em vez de morar no _PISTAS
-  a Bancada perde as secoes de meta-estudo e fica so referencia
+  a Bancada entra junto, como _BANCADA.md
 
 caderno/ e derivado e esta no .gitignore. Regerar e sempre mais barato que
 versionar.
@@ -219,7 +219,7 @@ def gerar():
 
 
 CADERNO = os.path.join(BASE, 'caderno')
-BANCADA = os.path.join(BASE, 'referencia', '02-BANCADA.md')
+BANCADA = os.path.join(NOTAS, '_BANCADA.md')
 
 # Secoes da Bancada que falam do estudo, e nao do sistema. Elas nao sobem:
 # misturadas com a referencia, o modelo responde palpite sobre a prova com o
@@ -320,12 +320,12 @@ def caderno():
     b = io.open(BANCADA, encoding='utf-8').read()
     antes = b.count('\n')
     b = poda(b, PODA_BANCADA)
-    io.open(os.path.join(CADERNO, '02-BANCADA.md'), 'w',
+    io.open(os.path.join(CADERNO, '_BANCADA.md'), 'w',
             encoding='utf-8', newline='').write(b)
 
     print('caderno/: %d notas com %d perguntas respondidas no proprio arquivo'
           % (len(arquivos), total - furos))
-    print('caderno/02-BANCADA.md: %d linhas podadas de meta-estudo'
+    print('caderno/_BANCADA.md: %d linhas podadas de meta-estudo'
           % (antes - b.count('\n')))
     if furos:
         print('ATENCAO: %d perguntas sem resposta no gabarito' % furos)

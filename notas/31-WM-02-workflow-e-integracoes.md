@@ -96,7 +96,7 @@ Quando o chamado for "pedi e não aconteceu", percorra nesta ordem:
    está esperando aprovação humana
 
 **Os passos 3 e 4 são o que separa "escalei o chamado" de "escalei com a causa
-isolada".** Ver [`02-BANCADA.md`](../referencia/02-BANCADA.md).
+isolada".** Ver [`_BANCADA.md`](_BANCADA.md).
 
 ---
 

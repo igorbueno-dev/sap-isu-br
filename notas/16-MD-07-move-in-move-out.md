@@ -93,7 +93,7 @@ IS-U.
 **Esta é a lacuna prioritária a fechar**, porque sem Move-In não
 existe Contrato, e sem Contrato não existe faturamento.
 
-Ver [02-BANCADA](../referencia/02-BANCADA.md).
+Ver [`_BANCADA.md`](_BANCADA.md).
 
 ---
 

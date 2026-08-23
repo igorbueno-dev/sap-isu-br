@@ -14,7 +14,7 @@ quem conhece o módulo na prática.
 | **6 min** | [`MD‑02`](notas/07-MD-02-a-traducao-do-predio.md), que traduz um prédio de verdade nos objetos do sistema |
 | **1 sessão** | [`_PISTAS.md`](notas/_PISTAS.md), as 382 perguntas em voz alta. O gabarito fica no fim do mesmo arquivo |
 | **4 horas** | As 43 notas, na ordem da pasta |
-| **Consulta** | [`02-BANCADA.md`](referencia/02-BANCADA.md), transações e tabelas. Use `Ctrl+F` |
+| **Consulta** | [`_BANCADA.md`](notas/_BANCADA.md), transações e tabelas. Use `Ctrl+F` |
 | **Contribuir** | [`_projeto/`](_projeto/), o que falta e como escrever uma nota |
 
 ---
@@ -23,6 +23,11 @@ quem conhece o módulo na prática.
 
 **O número no arquivo é a ordem de estudo.** Abra [`notas/`](notas/) e leia de
 cima para baixo: nenhuma nota depende de uma que venha depois dela.
+
+**A pasta tem tudo, e só ela.** Os dois arquivos que começam com `_` não são
+notas e aparecem antes da sequência: [`_PISTAS.md`](notas/_PISTAS.md) é o
+gabarito de todas as perguntas, [`_BANCADA.md`](notas/_BANCADA.md) é a consulta
+de transações e tabelas. O resto, de `01` a `43`, se lê na ordem.
 
 <!-- INICIO NOTAS -->
 

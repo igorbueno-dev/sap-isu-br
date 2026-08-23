@@ -51,7 +51,7 @@ quem a mantém é WM.** Ver [ST-01](11-ST-01-objeto-de-ligacao.md).
 
 **Estas não vêm da aula.** Vêm do pôster de tabelas IS-U, conferido em
 21/08/2026, e estão reproduzidas na Bancada,
-[`02-BANCADA.md`](../referencia/02-BANCADA.md).
+[`_BANCADA.md`](_BANCADA.md).
 
 | Tabela | Conteúdo |
 |---|---|

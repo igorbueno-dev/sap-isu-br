@@ -114,7 +114,7 @@ documento de cálculo?** Se saiu, o problema está depois; se não, está antes.
 **`EITR` é a dobradiça:** saída do cálculo, entrada do faturamento.
 
 **`DFKKOP` é a prova em dado.** É a partida em aberto de FI-CA, e ela só
-aparece na saída do faturamento. Ver [02-BANCADA](../referencia/02-BANCADA.md).
+aparece na saída do faturamento. Ver [`_BANCADA.md`](_BANCADA.md).
 
 ---
 

@@ -80,7 +80,7 @@ parte do produto, ele lê o produto.
 ## Na prática
 
 Não há transação desta nota. Ela é conceitual.
-Ver [02-BANCADA](../referencia/02-BANCADA.md) para as transações.
+Ver [`_BANCADA.md`](_BANCADA.md) para as transações.
 
 **A pergunta que vale para o projeto inteiro: isso é padrão ou é nosso?**
 
