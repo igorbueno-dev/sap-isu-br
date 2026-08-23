@@ -76,13 +76,20 @@ Este é o ponto que a próxima nota desenvolve.
 
 ---
 
+## Se sobrar uma coisa
+
+Middleware entre dois sistemas é a prova de que eles são dois.
+
+---
+
 ## Recall
 
 1. No landscape, o IS-U é back end ou front end em relação ao CRM?
-2. Onde o BW aparece, e o que isso confirma?
-3. Liste as cinco camadas da arquitetura, de cima para baixo.
-4. O que ITS e CTI conectam, respectivamente?
-5. Por que a existência de um middleware prova que CRM e IS-U são sistemas
-   distintos?
+2. Liste as cinco camadas da arquitetura, de cima para baixo.
+3. Em qual quadrante o BW aparece?
+4. O que a posição do BW confirma sobre ele?
+5. O que o ITS conecta?
+6. O que o CTI conecta?
+7. O que a existência de um middleware prova sobre CRM e IS-U?
 
 > **Gabarito:** [`_PISTAS.md`](_PISTAS.md#ar-01)  ·  responda tudo antes de abrir.

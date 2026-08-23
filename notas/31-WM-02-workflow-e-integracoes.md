@@ -98,13 +98,21 @@ isolada".** Ver [`02-BANCADA.md`](../referencia/02-BANCADA.md).
 
 ---
 
+## Se sobrar uma coisa
+
+O workflow é o motor, e se travar ninguém percebe até o cliente ligar.
+
+---
+
 ## Recall
 
-1. Quais são as quatro integrações do serviço de campo, e qual delas é o motor?
-2. Dunning corta o cliente? Explique quem faz o quê.
-3. Cliente pagou e foi cortado. Qual é o mecanismo por trás?
-4. Uma nota pode ter mais de um workflow?
-5. Você abre o workflow e o responsável da etapa travada é `WF BATCH`. O que isso te diz?
-6. Alguém diz "registrei a solicitação e nada aconteceu". Qual seu primeiro suspeito?
+1. Nomeie as quatro integrações do serviço de campo.
+2. Qual das quatro é o motor?
+3. O Dunning corta o cliente?
+4. Quem executa o corte?
+5. Uma nota de serviço pode ter mais de um workflow?
+6. Um cliente pagou e foi cortado. Cite o mecanismo por trás.
+7. O responsável da etapa travada é `WF BATCH`. Cite o que isso indica.
+8. Alguém diz que registrou a solicitação e nada aconteceu. Cite o primeiro suspeito.
 
 > **Gabarito:** [`_PISTAS.md`](_PISTAS.md#wm-02)  ·  responda tudo antes de abrir.

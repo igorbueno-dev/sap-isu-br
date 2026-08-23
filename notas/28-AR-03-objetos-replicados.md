@@ -79,12 +79,38 @@ Continua faltando:
 
 ---
 
+## No sistema
+
+| Objeto | IS-U | CRM |
+|---|---|---|
+| Parceiro de Negócio | `BUT000` | `BUT000` |
+| Conta Contrato | `FKKVKP` | `CRMM_BUAG` |
+| Objeto de Ligação | `EHAUISU` | `COMM_PRODUCT` |
+| Ponto de Entrega | `EUIHEAD` | `IBASE` / `COMM_PRODUCT` |
+
+**Nenhuma transação é desta nota.** Ela é um de-para de tabelas; quem investiga
+a replicação é a [AR-02](27-AR-02-middleware-e-replicacao.md).
+
+---
+
+## Se sobrar uma coisa
+
+O CRM não copia a estrutura física: para ele, o endereço é um produto.
+
+---
+
 ## Recall
 
-1. Qual objeto tem o mesmo nome de tabela nos dois sistemas, e por quê?
-2. Por que Objeto de Ligação vira `COMM_PRODUCT` no CRM?
-3. O que significa `IBASE`?
-4. Alguém fala em "Business Agreement". Do que está falando?
-5. De onde vêm os nomes de tabela desta nota?
+1. Qual tabela guarda o Parceiro de Negócios no IS-U?
+2. Qual tabela guarda o Parceiro de Negócios no CRM?
+3. Qual tabela guarda a Conta Contrato no IS-U?
+4. Qual tabela guarda a Conta Contrato no CRM?
+5. Qual tabela guarda o Objeto de Ligação no IS-U?
+6. Em que objeto o Objeto de Ligação se transforma no CRM?
+7. Qual tabela guarda o Ponto de Entrega no IS-U?
+8. O que significa `IBASE`?
+9. Qual objeto tem o mesmo nome de tabela nos dois sistemas?
+10. Alguém fala em Business Agreement. Do que está falando?
+11. De onde vêm os nomes de tabela desta nota?
 
 > **Gabarito:** [`_PISTAS.md`](_PISTAS.md#ar-03)  ·  responda tudo antes de abrir.

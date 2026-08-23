@@ -92,13 +92,23 @@ o cliente for à justiça.** Ver [PE-02](38-PE-02-faturado-da-epoca.md).
 
 ---
 
+## Se sobrar uma coisa
+
+Fraude e defeito produzem a mesma leitura baixa. O que separa é a evidência.
+
+---
+
 ## Recall
 
 1. Em uma frase, o que a Gestão de Perdas faz?
-2. Quais dos seis gatilhos escalam, e por quê?
-3. Qual é a diferença entre fraude e defeito, e qual não muda entre as duas?
-4. O que é um by-pass? E uma inversão de ligação?
-5. Por que classificar errado é o erro mais caro desta área, nos dois sentidos?
-6. Como um caso de Perdas nasce dentro de WM e de DM?
+2. Quais dos seis gatilhos escalam para muitos casos de uma vez?
+3. Cite o que torna esses gatilhos indispensáveis.
+4. O que separa fraude de defeito?
+5. O que não muda entre fraude e defeito?
+6. O que é um by-pass?
+7. O que é uma inversão de ligação?
+8. Classificar defeito como fraude produz qual dano?
+9. Classificar fraude como defeito produz qual dano?
+10. Como um caso de Perdas nasce dentro de WM e de DM?
 
 > **Gabarito:** [`_PISTAS.md`](_PISTAS.md#pe-01)  ·  responda tudo antes de abrir.

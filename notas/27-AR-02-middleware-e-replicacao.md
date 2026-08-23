@@ -88,13 +88,43 @@ E duas de sistema, que servem para qualquer problema, não só middleware:
 
 ---
 
+## No sistema
+
+| Transação | O que mostra |
+|---|---|
+| `SMW01` | O envelope: os BDocs, e se algum falhou |
+| `SMQ1` | A fila de entrada, o que está parado chegando |
+| `SMQ2` | A fila de saída, o que está parado saindo |
+| `SM58` | Monitor de RFC, a chamada travada |
+| `SM21` | Log do sistema |
+| `ST22` | Dump, o erro de programa no destino |
+| `R3AS` | Carga inicial, traz tudo na implantação |
+| `R3AR2` | Repetição de carga, para o que não veio |
+
+**A ordem de diagnóstico é a ordem da tabela**: envelope, fila, conexão, dump.
+
+---
+
+## Se sobrar uma coisa
+
+O dado atravessa em envelope e em fila, e o diagnóstico segue essa ordem.
+
+---
+
 ## Recall
 
-1. Por que existe middleware entre CRM e IS-U?
-2. O que significam BDoc e qRFC?
-3. Descreva o caminho de replicação de um BP, do CRM ao IS-U.
-4. Um cliente criado no CRM não chegou ao IS-U. Qual sua sequência de
-   investigação, com as transações?
-5. Qual a diferença entre `R3AS` e `R3AR2`?
+1. Qual transação mostra os BDocs e se algum falhou?
+2. Qual transação mostra a fila de entrada?
+3. Qual transação mostra a fila de saída?
+4. Qual transação monitora a conexão RFC?
+5. Qual transação mostra o log do sistema?
+6. Qual transação mostra o dump de programa?
+7. Qual transação faz a carga inicial?
+8. Qual transação repete a carga do que não veio?
+9. O que significa BDoc?
+10. O que significa qRFC?
+11. Descreva o caminho de replicação de um Parceiro de Negócios, do CRM ao IS-U.
+12. O que separa carga inicial de fluxo do dia?
+13. Um cliente criado no CRM não chegou ao IS-U. Cite as quatro verificações, na ordem.
 
 > **Gabarito:** [`_PISTAS.md`](_PISTAS.md#ar-02)  ·  responda tudo antes de abrir.

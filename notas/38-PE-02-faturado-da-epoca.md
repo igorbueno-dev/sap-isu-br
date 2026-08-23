@@ -103,13 +103,24 @@ pronta em vez de deixar cada projeto construir a sua.
 
 ---
 
+## Se sobrar uma coisa
+
+A memória de cálculo é o que sustenta a cobrança se o cliente for à justiça.
+
+---
+
 ## Recall
 
-1. O que é faturado da época, e o que é fatura revista?
-2. A fatura antiga é cancelada no processo de revisão?
-3. Qual é o insumo mais disputado do cálculo, e o que limita a disputa?
-4. Quais são as três saídas da diferença apurada, e por que a terceira importa?
-5. O que precisa ser verdade sobre a memória de cálculo para a cobrança se sustentar?
-6. Por que o recálculo separa TE e TUSD, e o que o prefixo `ISUBR` indica?
+1. Qual transação gerencia os processos de irregularidade e executa os cálculos?
+2. O que o prefixo `ISUBR` indica sobre uma transação?
+3. O que é faturado da época?
+4. O que é fatura revista?
+5. A fatura antiga é cancelada no processo de revisão?
+6. Qual é o insumo mais disputado do cálculo?
+7. Cite o que limita essa disputa.
+8. Nomeie as três saídas da diferença apurada.
+9. Cite o que a terceira saída revela sobre a calibragem da área.
+10. O que precisa ser verdade sobre a memória de cálculo para a cobrança se sustentar?
+11. Cite o motivo de o recálculo separar `TE` e `TUSD`.
 
 > **Gabarito:** [`_PISTAS.md`](_PISTAS.md#pe-02)  ·  responda tudo antes de abrir.

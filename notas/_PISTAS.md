@@ -280,26 +280,42 @@
 **[AR-01: O landscape e as cinco camadas](26-AR-01-landscape-e-camadas.md)**
 
 1. No landscape, o IS-U é back end ou front end em relação ao CRM?
-2. Onde o BW aparece, e o que isso confirma?
-3. Liste as cinco camadas da arquitetura, de cima para baixo.
-4. O que ITS e CTI conectam, respectivamente?
-5. Por que a existência de um middleware prova que CRM e IS-U são sistemas distintos?
+2. Liste as cinco camadas da arquitetura, de cima para baixo.
+3. Em qual quadrante o BW aparece?
+4. O que a posição do BW confirma sobre ele?
+5. O que o ITS conecta?
+6. O que o CTI conecta?
+7. O que a existência de um middleware prova sobre CRM e IS-U?
 
 **[AR-02: Middleware e replicação](27-AR-02-middleware-e-replicacao.md)**
 
-1. Por que existe middleware entre CRM e IS-U?
-2. O que significam BDoc e qRFC?
-3. Descreva o caminho de replicação de um BP, do CRM ao IS-U.
-4. Um cliente criado no CRM não chegou ao IS-U. Qual sua sequência de investigação, com as transações?
-5. Qual a diferença entre `R3AS` e `R3AR2`?
+1. Qual transação mostra os BDocs e se algum falhou?
+2. Qual transação mostra a fila de entrada?
+3. Qual transação mostra a fila de saída?
+4. Qual transação monitora a conexão RFC?
+5. Qual transação mostra o log do sistema?
+6. Qual transação mostra o dump de programa?
+7. Qual transação faz a carga inicial?
+8. Qual transação repete a carga do que não veio?
+9. O que significa BDoc?
+10. O que significa qRFC?
+11. Descreva o caminho de replicação de um Parceiro de Negócios, do CRM ao IS-U.
+12. O que separa carga inicial de fluxo do dia?
+13. Um cliente criado no CRM não chegou ao IS-U. Cite as quatro verificações, na ordem.
 
 **[AR-03: Objetos replicados](28-AR-03-objetos-replicados.md)**
 
-1. Qual objeto tem o mesmo nome de tabela nos dois sistemas, e por quê?
-2. Por que Objeto de Ligação vira `COMM_PRODUCT` no CRM?
-3. O que significa `IBASE`?
-4. Alguém fala em "Business Agreement". Do que está falando?
-5. De onde vêm os nomes de tabela desta nota?
+1. Qual tabela guarda o Parceiro de Negócios no IS-U?
+2. Qual tabela guarda o Parceiro de Negócios no CRM?
+3. Qual tabela guarda a Conta Contrato no IS-U?
+4. Qual tabela guarda a Conta Contrato no CRM?
+5. Qual tabela guarda o Objeto de Ligação no IS-U?
+6. Em que objeto o Objeto de Ligação se transforma no CRM?
+7. Qual tabela guarda o Ponto de Entrega no IS-U?
+8. O que significa `IBASE`?
+9. Qual objeto tem o mesmo nome de tabela nos dois sistemas?
+10. Alguém fala em Business Agreement. Do que está falando?
+11. De onde vêm os nomes de tabela desta nota?
 
 
 ---
@@ -308,46 +324,62 @@
 
 **[SV-01: Serviço de Campo (SVC) e os três blocos](29-SV-01-servico-de-campo.md)**
 
-1. Quais são os três blocos do SVC, e qual a frase de uma linha de cada?
-2. Por que a sigla `SVC` é ambígua?
-3. Por que Perdas é um bloco separado, e não parte de WM ou de DM?
-4. A cadeia das cinco áreas está errada por não ter Perdas?
-5. Qual objeto a esteira de sete etapas cita sem nunca definir?
+1. Nomeie os três blocos do SVC.
+2. Em uma linha, o que o bloco WM faz?
+3. Em uma linha, o que o bloco DM faz?
+4. Em uma linha, o que o bloco Perdas faz?
+5. O que torna a sigla `SVC` ambígua?
+6. O que justifica Perdas ser um bloco separado, e não parte de WM ou de DM?
+7. A cadeia das cinco áreas está errada por não ter Perdas?
+8. O que separa a cadeia das cinco áreas dos três blocos do SVC?
+9. Qual objeto a esteira de sete etapas cita sem nunca definir?
 
 **[WM-01: A nota de serviço e o ciclo do campo](30-WM-01-nota-de-servico.md)**
 
-1. Quais são os quatro campos que a nota carrega ao nascer, e o que cada um decide?
-2. Cite quatro dos sete tipos de nota de serviço.
-3. O que é uma transgressão, e por que "suspensão" existe?
-4. Um técnico chega e o imóvel está trancado. O que registrar, e por quê?
-5. Qual tipo de nota é a porta de entrada da Gestão de Perdas?
+1. Nomeie os quatro campos que a nota de serviço carrega ao nascer.
+2. O que o campo tipo de processo decide?
+3. O que o campo prazo decide?
+4. Cite quatro dos sete tipos de nota de serviço.
+5. O que é uma transgressão?
+6. Para que serve a suspensão de prazo?
+7. Qual tipo de nota é a porta de entrada da Gestão de Perdas?
+8. Um técnico chega e o imóvel está trancado. Cite o que registrar.
+9. Cite o que acontece se essa paralisação não for registrada.
 
 **[WM-02: Workflow e as quatro integrações do campo](31-WM-02-workflow-e-integracoes.md)**
 
-1. Quais são as quatro integrações do serviço de campo, e qual delas é o motor?
-2. Dunning corta o cliente? Explique quem faz o quê.
-3. Cliente pagou e foi cortado. Qual é o mecanismo por trás?
-4. Uma nota pode ter mais de um workflow?
-5. Você abre o workflow e o responsável da etapa travada é `WF BATCH`. O que isso te diz?
-6. Alguém diz "registrei a solicitação e nada aconteceu". Qual seu primeiro suspeito?
+1. Nomeie as quatro integrações do serviço de campo.
+2. Qual das quatro é o motor?
+3. O Dunning corta o cliente?
+4. Quem executa o corte?
+5. Uma nota de serviço pode ter mais de um workflow?
+6. Um cliente pagou e foi cortado. Cite o mecanismo por trás.
+7. O responsável da etapa travada é `WF BATCH`. Cite o que isso indica.
+8. Alguém diz que registrou a solicitação e nada aconteceu. Cite o primeiro suspeito.
 
 **[DM-01: Ativos, movimentação e estoque](32-DM-01-ativos-e-estoque.md)**
 
-1. Qual é o corte entre esta nota e a DM-02?
-2. Para que servem TC e TP, e qual o erro caro associado a eles?
-3. Descreva o ciclo de vida do equipamento. Onde está o laço, e por quê?
-4. Qual é a única saída definitiva de um equipamento do parque?
-5. O técnico chegou em campo sem o medidor. Onde você procura a causa?
-6. Por que "histórico completo" é a frente que sustenta perícia?
+1. O que separa esta nota da `DM-02`?
+2. Para que servem o TC e o TP?
+3. Cite o erro caro associado ao TC e ao TP.
+4. Descreva o ciclo de vida do equipamento.
+5. Onde está o laço nesse ciclo?
+6. Qual é a única saída definitiva de um equipamento do parque?
+7. O técnico chegou em campo sem o medidor. Cite onde procurar a causa.
+8. Cite o que faz do histórico completo a base de uma perícia.
 
 **[DM-02: Leituras e registradores](33-DM-02-leituras-e-registradores.md)**
 
-1. Quais são os três eixos, e que pergunta cada um responde?
-2. Um cliente ligou e passou o número do medidor. Que tipo de leitura é essa?
-3. Trocaram um medidor. Quantas leituras isso gera, e o que acontece se faltar uma?
-4. Uma instalação teve três leituras num mês. Isso é erro?
-5. O que é energia injetada, e por que ela existe?
-6. Uma instalação não faturou e o medidor está corretamente instalado. Qual sua primeira hipótese?
+1. Nomeie os três eixos da leitura.
+2. Que pergunta o eixo tipo responde?
+3. Que pergunta o eixo motivo responde?
+4. Que pergunta o eixo registrador responde?
+5. Um cliente ligou e passou o número do medidor. Que tipo de leitura é essa?
+6. Trocaram um medidor. Quantas leituras isso gera?
+7. Cite o que acontece se faltar uma dessas leituras.
+8. Uma instalação teve três leituras num mês. Isso é erro?
+9. O que é energia injetada?
+10. Uma instalação não faturou e o medidor está corretamente instalado. Cite a primeira hipótese.
 
 **[DM-03: O cadastro do equipamento, do material ao medidor instalado](34-DM-03-cadastro-do-equipamento.md)**
 
@@ -402,20 +434,29 @@
 **[PE-01: Gestão de Perdas, fraude e defeito](37-PE-01-fraude-e-defeito.md)**
 
 1. Em uma frase, o que a Gestão de Perdas faz?
-2. Quais dos seis gatilhos escalam, e por quê?
-3. Qual é a diferença entre fraude e defeito, e qual não muda entre as duas?
-4. O que é um by-pass? E uma inversão de ligação?
-5. Por que classificar errado é o erro mais caro desta área, nos dois sentidos?
-6. Como um caso de Perdas nasce dentro de WM e de DM?
+2. Quais dos seis gatilhos escalam para muitos casos de uma vez?
+3. Cite o que torna esses gatilhos indispensáveis.
+4. O que separa fraude de defeito?
+5. O que não muda entre fraude e defeito?
+6. O que é um by-pass?
+7. O que é uma inversão de ligação?
+8. Classificar defeito como fraude produz qual dano?
+9. Classificar fraude como defeito produz qual dano?
+10. Como um caso de Perdas nasce dentro de WM e de DM?
 
 **[PE-02: Faturado da época x fatura revista](38-PE-02-faturado-da-epoca.md)**
 
-1. O que é faturado da época, e o que é fatura revista?
-2. A fatura antiga é cancelada no processo de revisão?
-3. Qual é o insumo mais disputado do cálculo, e o que limita a disputa?
-4. Quais são as três saídas da diferença apurada, e por que a terceira importa?
-5. O que precisa ser verdade sobre a memória de cálculo para a cobrança se sustentar?
-6. Por que o recálculo separa TE e TUSD, e o que o prefixo `ISUBR` indica?
+1. Qual transação gerencia os processos de irregularidade e executa os cálculos?
+2. O que o prefixo `ISUBR` indica sobre uma transação?
+3. O que é faturado da época?
+4. O que é fatura revista?
+5. A fatura antiga é cancelada no processo de revisão?
+6. Qual é o insumo mais disputado do cálculo?
+7. Cite o que limita essa disputa.
+8. Nomeie as três saídas da diferença apurada.
+9. Cite o que a terceira saída revela sobre a calibragem da área.
+10. O que precisa ser verdade sobre a memória de cálculo para a cobrança se sustentar?
+11. Cite o motivo de o recálculo separar `TE` e `TUSD`.
 
 
 ---
@@ -767,43 +808,43 @@
 **AR-01: O landscape e as cinco camadas**  ·  [voltar para a nota](26-AR-01-landscape-e-camadas.md)
 
 1. **Back end.** O CRM fica no meio, o IS-U atrás dele.
-2. No quadrante **Analyses**, junto do back end. Confirma que BW é camada de
-   dados, não área funcional.
-3. Canais → Camada CRM → Middleware → Camada IS-U/CCS → Integrações externas.
-4. **ITS** conecta ao **WebClient**; **CTI** conecta ao **Call Center**.
-5. Porque **middleware só existe entre sistemas distintos**. Se fossem o mesmo
-   sistema, com a mesma base, replicar não faria sentido.
+2. Canais → Camada CRM → Middleware → Camada IS-U/CCS → Integrações externas.
+3. No quadrante **Analyses**, junto do back end.
+4. Que ele é **camada de dados, não área funcional**.
+5. O **WebClient**.
+6. O **Call Center**.
+7. Que são **sistemas distintos**. Middleware só existe entre sistemas
+   separados; se fossem o mesmo, com a mesma base, replicar não faria sentido.
 
 ---
 
 ## AR-02
 **AR-02: Middleware e replicação**  ·  [voltar para a nota](27-AR-02-middleware-e-replicacao.md)
 
-1. Porque CRM e IS-U são sistemas separados com bases próprias, e o mesmo
-   cliente precisa existir nos dois.
-2. **BDoc** = Business Document, o envelope do dado. **qRFC** = queued Remote
-   Function Call, a fila que garante ordem.
-3. `CRM cria BP → SMW01 BDoc → SMQ1 fila qRFC → RFC comunicação → IS-U recebe
-   → BUT000 criado`.
-4. `SMW01` (o BDoc saiu?) → `SMQ1` e `SMQ2` (parou na fila?) → `SM58` (a
-   conexão caiu?) → `ST22` (deu dump?).
-5. `R3AS` é **carga inicial**, traz tudo na implantação. `R3AR2` é
-   **repetição de carga**, para o que não veio.
+1. `SMW01`  ·  2. `SMQ1`  ·  3. `SMQ2`  ·  4. `SM58`  ·  5. `SM21`  ·  6. `ST22`
+7. `R3AS`  ·  8. `R3AR2`
+9. **Business Document**, o envelope do dado.
+10. **queued Remote Function Call**, a fila que garante a ordem.
+11. `CRM cria BP` → `SMW01` BDoc → `SMQ1` fila qRFC → RFC → IS-U recebe →
+    `BUT000` criado.
+12. **Carga inicial traz tudo na implantação** (`R3AS`). **Fluxo do dia replica
+    o que muda**, um objeto de cada vez.
+13. `SMW01` o BDoc saiu? → `SMQ1` e `SMQ2` parou na fila? → `SM58` a conexão
+    caiu? → `ST22` deu dump no destino?
 
 ---
 
 ## AR-03
 **AR-03: Objetos replicados**  ·  [voltar para a nota](28-AR-03-objetos-replicados.md)
 
-1. O **Parceiro de Negócios**, `BUT000` dos dois lados. É objeto central
-   compartilhado do SAP, e o primeiro a replicar.
-2. Porque para o CRM o que existe naquele endereço é um **produto
-   contratado**. A estrutura física é problema do IS-U.
-3. **Installed Base**, a base instalada: o que o cliente tem instalado.
-4. De **Conta Contrato**. `CRMM_BUAG`, de Business Agreement, é o nome dela
-   no CRM.
-5. Do **slide de replicação da Aula 02**, que traz o de-para completo. Não
-   são dedução nem memória: estão no material.
+1. `BUT000`  ·  2. `BUT000`, o mesmo  ·  3. `FKKVKP`  ·  4. `CRMM_BUAG`
+5. `EHAUISU`  ·  6. Em **`COMM_PRODUCT`**, um produto contratado  ·  7. `EUIHEAD`
+8. **Installed Base**, a base instalada: o que o cliente tem instalado.
+9. O **Parceiro de Negócios**. É objeto central compartilhado do SAP, e o
+   primeiro a replicar.
+10. Da **Conta Contrato**. `CRMM_BUAG` é o nome dela no CRM.
+11. Do **slide de replicação da Aula 02**, reconferidos no pôster de tabelas
+    IS-U. Não são dedução nem memória.
 
 ---
 
@@ -825,87 +866,91 @@
 ## SV-01
 **SV-01: Serviço de Campo (SVC) e os três blocos**  ·  [voltar para a nota](29-SV-01-servico-de-campo.md)
 
-1. **WM / SVC**, manda gente para a rua. **DM / GAT**, cuida do que fica
-   pendurado na parede. **Perdas**, descobre que o número estava errado e
-   cobra a diferença.
-2. Porque designa **os dois níveis**: é o nome do guarda-chuva, a área
-   inteira, e também o apelido do Bloco 1.
-3. Porque é o que acontece quando WM e DM, **juntos**, descobrem que a medição
-   não representava a realidade. A fiscalização é nota (WM), o medidor
-   adulterado é ativo (DM), mas **o recálculo não é de nenhum dos dois**.
-4. Não. Ela responde **por onde o dado passa**; os três blocos respondem
-   **quem senta junto**. Dois mapas do mesmo território.
-5. A **Ordem**. A etapa 5 diz "equipe recebe a ordem" e o objeto nunca é
-   apresentado.
+1. **WM / SVC**, **DM / GAT** e **Perdas**.
+2. Manda gente para a rua.
+3. Cuida do que fica pendurado na parede.
+4. Descobre que o número estava errado e cobra a diferença.
+5. Ela designa **os dois níveis**: é o nome do guarda-chuva, a área inteira, e
+   também o apelido do Bloco 1.
+6. É o que acontece quando WM e DM, **juntos**, descobrem que a medição não
+   representava a realidade. A fiscalização é nota (WM), o medidor adulterado é
+   ativo (DM), mas **o recálculo não é de nenhum dos dois**.
+7. **Não.** Ela responde por onde o dado passa; os três blocos respondem quem
+   senta junto.
+8. **A cadeia é sequencial e responde por onde o dado passa. Os três blocos são
+   paralelos e respondem quem senta junto.**
+9. A **Ordem**. A etapa 5 diz "recebe a ordem" e o objeto nunca foi apresentado.
 
 ---
 
 ## WM-01
 **WM-01: A nota de serviço e o ciclo do campo**  ·  [voltar para a nota](30-WM-01-nota-de-servico.md)
 
-1. **Tipo de processo** (que trabalho é), **motivo** (por que foi pedido),
-   **prioridade** (ordem na fila) e **prazo** (o relógio regulatório).
-2. Corte, religação, fiscalização, modificação, inspeção, ligação nova,
+1. **Tipo de processo, motivo, prioridade e prazo.**
+2. **Que trabalho é.**
+3. **O relógio regulatório.**
+4. Corte, religação, fiscalização, modificação, inspeção, ligação nova,
    substituição de medidor.
-3. **Transgressão é o prazo regulatório estourado**, e é infração com valor,
-   não atraso administrativo. **Suspensão** existe para parar o relógio quando
-   a culpa não é da concessionária.
-4. O **evento de paralisação** e a **suspensão** do prazo. Sem isso o relógio
-   continua correndo e vira transgressão que não existiu.
-5. **Fiscalização.**
+5. **O prazo regulatório estourado.** É infração com valor, não atraso
+   administrativo.
+6. **Parar o relógio** quando a culpa não é da concessionária.
+7. A nota de **fiscalização**.
+8. O **evento de paralisação** e a **suspensão** do prazo.
+9. O relógio **continua correndo** e vira transgressão que não existiu.
 
 ---
 
 ## WM-02
 **WM-02: Workflow e as quatro integrações do campo**  ·  [voltar para a nota](31-WM-02-workflow-e-integracoes.md)
 
-1. **CRM, Dunning, Billing/FI-CA e Workflow.** O workflow é o **motor**; os
-   outros três são portas.
-2. Não. **Dunning decide e manda; quem corta é o WM**, por nota de serviço.
-3. **Descompasso de relógios.** A régua de cobrança rodou no ciclo dela, o
-   pagamento entrou pelo ciclo do banco depois, e a nota de corte já tinha
-   saído.
-4. **Sim.** O caso real desta nota tinha quatro workflows na mesma nota
-   de serviço.
-5. Que rodou **automático, em job**, sem pessoa envolvida. Se travou, ninguém
+1. **CRM, Dunning, Billing/FI-CA e Workflow.**
+2. O **Workflow**. Os outros três são portas.
+3. **Não.** Dunning decide e manda.
+4. O **WM**, por nota de serviço.
+5. **Sim.** O caso real desta nota tinha quatro workflows na mesma nota.
+6. **Descompasso de relógios.** A régua rodou no ciclo dela, o pagamento entrou
+   pelo ciclo do banco depois, e a nota de corte já tinha saído.
+7. Que rodou **automático, em job**, sem pessoa envolvida. Se travou, ninguém
    percebeu até alguém reclamar.
-6. **O workflow travado, não a nota.** A nota provavelmente existe; o que não
-   andou foi o fluxo.
+8. **O workflow travado, não a nota.**
 
 ---
 
 ## DM-01
 **DM-01: Ativos, movimentação e estoque**  ·  [voltar para a nota](32-DM-01-ativos-e-estoque.md)
 
-1. Aqui é o **aparelho como bem patrimonial**; na DM-02, **o número que ele
+1. Aqui é o **aparelho como bem patrimonial**; na `DM-02`, **o número que ele
    produz**.
 2. Reduzem o sinal de cliente grande a uma escala que o medidor aguenta, e o
-   sistema multiplica de volta por uma **constante**. Constante errada faz a
-   conta errar **por um fator**, não por um pouco.
-3. Recebimento em estoque → transferência → instalação em campo → retirada →
-   manutenção → **volta ao estoque**. O laço está na manutenção: o mesmo
-   número de série é instalado de novo, em outro imóvel.
-4. **Sucateamento.**
-5. No **estoque**: reserva não feita ou não respeitada. É erro de estoque que
-   aparece como falha de campo.
-6. Porque quando o cliente contesta, é o **histórico do número de série** que
-   reconstrói o que aconteceu com aquele aparelho.
+   sistema multiplica de volta por uma **constante**.
+3. **Constante errada faz a conta errar por um fator**, não por um pouco.
+4. Recebimento em estoque → transferência → instalação em campo → retirada →
+   manutenção → volta ao estoque.
+5. Na **manutenção**: o mesmo número de série é instalado de novo, em outro
+   imóvel.
+6. O **sucateamento**.
+7. No **estoque**: reserva não feita ou não respeitada.
+8. Ele prova **onde aquele aparelho esteve e por quanto tempo**, que é o que
+   sustenta o recálculo de um período.
 
 ---
 
 ## DM-02
 **DM-02: Leituras e registradores**  ·  [voltar para a nota](33-DM-02-leituras-e-registradores.md)
 
-1. **Tipo** (como o número foi obtido), **motivo** (por que foram ler) e
-   **registrador** (o que foi medido).
-2. **Leitura informada.**
-3. **Três:** de retirada (o velho), de instalação (o novo) e de troca (amarra
-   o par). Faltando uma, **o consumo do mês fica sem dono**.
-4. Não. **Três dos cinco motivos** são disparados por evento, não pelo ciclo.
-5. É o registrador de quem **gera** energia e manda o excedente para a rede.
+1. **Tipo, motivo e registrador.**
+2. **Como o número foi obtido.**
+3. **Por que foram ler.**
+4. **O que foi medido.**
+5. **Leitura informada.**
+6. **Três**: de retirada (o velho), de instalação (o novo) e de troca (amarra o
+   par).
+7. O **consumo do mês fica sem dono**.
+8. **Não.** Três dos cinco motivos são disparados por evento, não pelo ciclo.
+9. O registrador de quem **gera** energia e manda o excedente para a rede.
    Existe porque o cliente virou gerador.
-6. **Falta a relação registrador/tarifa.** Instalado tecnicamente, não
-   instalado para faturamento.
+10. **Falta a relação registrador e tarifa.** Instalado tecnicamente, não
+    instalado para faturamento.
 
 ---
 
@@ -915,35 +960,39 @@
 1. Descobre que o medidor não contava a verdade, **calcula quanto deveria ter
    sido cobrado** e cobra a diferença.
 2. **Consumo atípico, análises estatísticas e monitoramento de indicadores.**
-   Fiscalizar milhões de imóveis a pé é inviável; achar por padrão e mandar
+3. Fiscalizar milhões de imóveis a pé é inviável. Achar por padrão e mandar
    técnico só onde vale a pena é o que torna a área possível.
-3. **Fraude é ação intencional, defeito é falha técnica.** O que **não** muda:
-   as duas produzem consumo medido menor que o real.
-4. **By-pass** é uma ponte que contorna o medidor. **Inversão de ligação** é a
-   troca de posição dos cabos, e é a mais difícil de achar porque nada parece
-   violado por fora.
-5. Nos dois sentidos: defeito classificado como fraude **acusa um inocente de
-   crime**; fraude classificada como defeito **entrega dinheiro e não pune**.
-6. A fiscalização em campo é uma **nota de serviço** tipo Fiscalização (WM), e
-   a leitura tirada lá tem **motivo** Fiscalização (DM).
+4. **Fraude é ação intencional. Defeito é falha técnica.**
+5. As duas produzem **consumo medido menor que o real**.
+6. Uma **ponte que contorna o medidor**.
+7. A **troca de posição dos cabos**, que faz o medidor girar ao contrário ou
+   registrar menos.
+8. **Acusa de crime um cliente inocente.**
+9. **Entrega dinheiro e não aplica sanção.**
+10. Em **WM** como nota de fiscalização, e em **DM** como ativo adulterado. O
+    recálculo, que é o produto, não é de nenhum dos dois.
 
 ---
 
 ## PE-02
 **PE-02: Faturado da época x fatura revista**  ·  [voltar para a nota](38-PE-02-faturado-da-epoca.md)
 
-1. **Faturado da época** é o que o cliente pagou com o medidor errado.
-   **Fatura revista** é o que ele deveria ter pago.
-2. **Não.** A fatura antiga continua existindo, e a revisão é documento novo
-   ao lado dela. O histórico precisa mostrar as duas versões.
-3. O **período da irregularidade**. Os **critérios regulatórios** limitam até
-   onde se pode voltar no tempo.
-4. **Receita recuperada, débito adicional e crédito ao cliente.** A terceira
-   dá credibilidade: defeito pode fazer o aparelho contar **a mais**, e uma
-   área que só produz débito está calibrada errado.
-5. Que **um terceiro consiga refazer o cálculo e chegar no mesmo número.**
-6. Porque **TE e TUSD têm alíquotas e destinos diferentes**. E `ISUBR` indica
-   **localização Brasil**.
+1. `ISUBR_MANAGE_PROCESS`.
+2. **Localização Brasil.** Os critérios regulatórios de recálculo são
+   nacionais, e o SAP entrega a versão brasileira pronta.
+3. O que o cliente **pagou** com o medidor errado.
+4. O que ele **deveria ter pago**.
+5. **Não.** Ela continua existindo, e a revisão é documento novo ao lado dela.
+   O histórico precisa mostrar as duas versões.
+6. O **período da irregularidade**.
+7. Os **critérios regulatórios**, que limitam até onde se pode voltar no tempo.
+8. **Receita recuperada, débito adicional e crédito ao cliente.**
+9. Que defeito pode fazer o aparelho contar **a mais**. Uma área que só produz
+   débito está calibrada errado.
+10. Ela precisa mostrar **fórmulas, consumos considerados, períodos e
+    memória do cálculo**, de forma que um terceiro refaça a conta.
+11. Porque são **parcelas com alíquotas e destinos diferentes**, e o imposto
+    entra separado por alíquota.
 
 ---
 

@@ -104,13 +104,23 @@ aparece na fila de faturamento, dias depois, num time diferente.
 
 ---
 
+## Se sobrar uma coisa
+
+Tipo, motivo e registrador são três eixos, não uma lista.
+
+---
+
 ## Recall
 
-1. Quais são os três eixos, e que pergunta cada um responde?
-2. Um cliente ligou e passou o número do medidor. Que tipo de leitura é essa?
-3. Trocaram um medidor. Quantas leituras isso gera, e o que acontece se faltar uma?
-4. Uma instalação teve três leituras num mês. Isso é erro?
-5. O que é energia injetada, e por que ela existe?
-6. Uma instalação não faturou e o medidor está corretamente instalado. Qual sua primeira hipótese?
+1. Nomeie os três eixos da leitura.
+2. Que pergunta o eixo tipo responde?
+3. Que pergunta o eixo motivo responde?
+4. Que pergunta o eixo registrador responde?
+5. Um cliente ligou e passou o número do medidor. Que tipo de leitura é essa?
+6. Trocaram um medidor. Quantas leituras isso gera?
+7. Cite o que acontece se faltar uma dessas leituras.
+8. Uma instalação teve três leituras num mês. Isso é erro?
+9. O que é energia injetada?
+10. Uma instalação não faturou e o medidor está corretamente instalado. Cite a primeira hipótese.
 
 > **Gabarito:** [`_PISTAS.md`](_PISTAS.md#dm-02)  ·  responda tudo antes de abrir.

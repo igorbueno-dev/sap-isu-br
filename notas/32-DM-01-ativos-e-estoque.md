@@ -101,13 +101,21 @@ vire dinheiro errado.
 
 ---
 
+## Se sobrar uma coisa
+
+Aqui o medidor é patrimônio, e o erro só aparece longe daqui.
+
+---
+
 ## Recall
 
-1. Qual é o corte entre esta nota e a DM-02?
-2. Para que servem TC e TP, e qual o erro caro associado a eles?
-3. Descreva o ciclo de vida do equipamento. Onde está o laço, e por quê?
-4. Qual é a única saída definitiva de um equipamento do parque?
-5. O técnico chegou em campo sem o medidor. Onde você procura a causa?
-6. Por que "histórico completo" é a frente que sustenta perícia?
+1. O que separa esta nota da `DM-02`?
+2. Para que servem o TC e o TP?
+3. Cite o erro caro associado ao TC e ao TP.
+4. Descreva o ciclo de vida do equipamento.
+5. Onde está o laço nesse ciclo?
+6. Qual é a única saída definitiva de um equipamento do parque?
+7. O técnico chegou em campo sem o medidor. Cite onde procurar a causa.
+8. Cite o que faz do histórico completo a base de uma perícia.
 
 > **Gabarito:** [`_PISTAS.md`](_PISTAS.md#dm-01)  ·  responda tudo antes de abrir.

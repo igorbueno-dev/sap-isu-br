@@ -99,12 +99,22 @@ citado de passagem que segura um processo inteiro.
 
 ---
 
+## Se sobrar uma coisa
+
+WM manda gente à rua, DM cuida do aparelho, Perdas cobra a diferença.
+
+---
+
 ## Recall
 
-1. Quais são os três blocos do SVC, e qual a frase de uma linha de cada?
-2. Por que a sigla `SVC` é ambígua?
-3. Por que Perdas é um bloco separado, e não parte de WM ou de DM?
-4. A cadeia das cinco áreas está errada por não ter Perdas?
-5. Qual objeto a esteira de sete etapas cita sem nunca definir?
+1. Nomeie os três blocos do SVC.
+2. Em uma linha, o que o bloco WM faz?
+3. Em uma linha, o que o bloco DM faz?
+4. Em uma linha, o que o bloco Perdas faz?
+5. O que torna a sigla `SVC` ambígua?
+6. O que justifica Perdas ser um bloco separado, e não parte de WM ou de DM?
+7. A cadeia das cinco áreas está errada por não ter Perdas?
+8. O que separa a cadeia das cinco áreas dos três blocos do SVC?
+9. Qual objeto a esteira de sete etapas cita sem nunca definir?
 
 > **Gabarito:** [`_PISTAS.md`](_PISTAS.md#sv-01)  ·  responda tudo antes de abrir.

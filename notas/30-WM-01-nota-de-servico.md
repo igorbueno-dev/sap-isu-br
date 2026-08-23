@@ -102,12 +102,22 @@ divisão 1 dos dados mestres. Ver [MD-01](05-MD-01-mapa-dos-dados-mestres.md).
 
 ---
 
+## Se sobrar uma coisa
+
+A nota nasce com prazo, e prazo estourado é multa, não atraso.
+
+---
+
 ## Recall
 
-1. Quais são os quatro campos que a nota carrega ao nascer, e o que cada um decide?
-2. Cite quatro dos sete tipos de nota de serviço.
-3. O que é uma transgressão, e por que "suspensão" existe?
-4. Um técnico chega e o imóvel está trancado. O que registrar, e por quê?
-5. Qual tipo de nota é a porta de entrada da Gestão de Perdas?
+1. Nomeie os quatro campos que a nota de serviço carrega ao nascer.
+2. O que o campo tipo de processo decide?
+3. O que o campo prazo decide?
+4. Cite quatro dos sete tipos de nota de serviço.
+5. O que é uma transgressão?
+6. Para que serve a suspensão de prazo?
+7. Qual tipo de nota é a porta de entrada da Gestão de Perdas?
+8. Um técnico chega e o imóvel está trancado. Cite o que registrar.
+9. Cite o que acontece se essa paralisação não for registrada.
 
 > **Gabarito:** [`_PISTAS.md`](_PISTAS.md#wm-01)  ·  responda tudo antes de abrir.
